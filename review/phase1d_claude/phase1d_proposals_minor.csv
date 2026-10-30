@@ -1,0 +1,162 @@
+pair_no,proposal,keep_copy,confidence,reason
+1,QUARANTINE,,low,boxes on worn/ravelled surface near the bonnet; not clearly cavities
+2,KEEP,A,medium,copies agree; A box tighter or equal
+3,KEEP,A,medium,copies agree; A box tighter or equal
+4,KEEP,A,medium,copies agree; A box tighter or equal
+5,KEEP,A,medium,copies agree; A box tighter or equal
+6,KEEP,A,medium,copies agree; A box tighter or equal
+7,KEEP,A,medium,copies agree; A box tighter or equal
+8,KEEP,A,medium,copies agree; A box tighter or equal
+9,KEEP,A,medium,copies agree; A box tighter or equal
+10,KEEP,A,medium,copies agree; A box tighter or equal
+11,KEEP,A,medium,copies agree; A box tighter or equal
+12,KEEP,A,medium,copies agree; A box tighter or equal
+13,KEEP,A,medium,copies agree; A box tighter or equal
+14,KEEP,A,medium,copies agree; A box tighter or equal
+15,KEEP,A,medium,copies agree; A box tighter or equal
+16,KEEP,A,medium,copies agree; A box tighter or equal
+17,KEEP,A,medium,copies agree; A box tighter or equal
+18,KEEP,A,medium,copies agree; A box tighter or equal
+19,KEEP,A,medium,copies agree; A box tighter or equal
+20,KEEP,A,medium,copies agree; A box tighter or equal
+21,KEEP,A,medium,copies agree; A box tighter or equal
+22,KEEP,A,medium,copies agree; A box tighter or equal
+23,KEEP,A,medium,copies agree; A box tighter or equal
+24,KEEP,A,medium,copies agree; A box tighter or equal
+25,KEEP,A,medium,copies agree; A box tighter or equal
+26,KEEP,A,medium,copies agree; A box tighter or equal
+27,KEEP,A,medium,copies agree; A box tighter or equal
+28,KEEP,A,low,far small dark spots in shadow; both copies agree
+29,KEEP,A,medium,copies agree; A box tighter or equal
+30,KEEP,A,medium,copies agree; A box tighter or equal
+31,KEEP,A,medium,copies agree; A box tighter or equal
+32,KEEP,A,medium,copies agree; A box tighter or equal
+33,KEEP,A,medium,copies agree; A box tighter or equal
+34,KEEP,A,medium,copies agree; A box tighter or equal
+35,KEEP,A,medium,copies agree; A box tighter or equal
+36,KEEP,A,medium,copies agree; A box tighter or equal
+37,KEEP,A,medium,copies agree; A box tighter or equal
+38,KEEP,A,medium,copies agree; A box tighter or equal
+39,KEEP,A,medium,copies agree; A box tighter or equal
+40,KEEP,A,medium,copies agree; A box tighter or equal
+41,KEEP,A,medium,copies agree; A box tighter or equal
+42,KEEP,A,medium,copies agree; A box tighter or equal
+43,KEEP,A,medium,copies agree; A box tighter or equal
+44,KEEP,A,medium,copies agree; A box tighter or equal
+45,KEEP,A,medium,copies agree; A box tighter or equal
+46,KEEP,A,medium,copies agree; A box tighter or equal
+47,KEEP,A,medium,copies agree; A box tighter or equal
+48,KEEP,A,medium,copies agree; A box tighter or equal
+49,KEEP,A,medium,copies agree; A box tighter or equal
+50,KEEP,A,medium,copies agree; A box tighter or equal
+51,KEEP,A,medium,copies agree; A box tighter or equal
+52,KEEP,A,medium,copies agree; A box tighter or equal
+53,QUARANTINE,,low,box on a faint reddish stain; not clearly a cavity
+54,KEEP,A,medium,copies agree; A box tighter or equal
+55,KEEP,A,medium,copies agree; A box tighter or equal
+56,KEEP,A,low,FAR_TINY-like far mark but visible as a dark cavity; both agree
+57,KEEP,A,medium,copies agree; A box tighter or equal
+58,KEEP,A,medium,copies agree; A box tighter or equal
+59,KEEP,A,medium,copies agree; A box tighter or equal
+60,KEEP,A,medium,copies agree; A box tighter or equal
+61,KEEP,A,medium,copies agree; A box tighter or equal
+62,KEEP,A,medium,copies agree; A box tighter or equal
+63,KEEP,A,medium,copies agree; A box tighter or equal
+64,KEEP,A,medium,copies agree; A box tighter or equal
+65,KEEP,A,medium,copies agree; A box tighter or equal
+66,KEEP,A,medium,copies agree; A box tighter or equal
+67,KEEP,A,medium,copies agree; A box tighter or equal
+68,KEEP,A,medium,copies agree; A box tighter or equal
+69,KEEP,A,medium,copies agree; A box tighter or equal
+70,KEEP,A,medium,copies agree; A box tighter or equal
+71,KEEP,A,medium,copies agree; A box tighter or equal
+72,KEEP,A,medium,copies agree; A box tighter or equal
+73,KEEP,A,medium,copies agree; A box tighter or equal
+74,KEEP,A,medium,copies agree; A box tighter or equal
+75,KEEP,A,low,windshield glare but cavity visible; both agree
+76,KEEP,A,medium,copies agree; A box tighter or equal
+77,KEEP,A,medium,copies agree; A box tighter or equal
+78,KEEP,A,medium,copies agree; A box tighter or equal
+79,KEEP,A,medium,copies agree; A box tighter or equal
+80,FIX,A,medium,MISSING_BUMP: raised yellow-black speed hump (D2) left of the pothole is unlabelled in both copies - add a speed_bump box
+81,KEEP,A,medium,copies agree; A box tighter or equal
+82,KEEP,A,medium,copies agree; A box tighter or equal
+83,KEEP,A,medium,copies agree; A box tighter or equal
+84,KEEP,A,medium,copies agree; A box tighter or equal
+85,KEEP,A,medium,copies agree; A box tighter or equal
+86,KEEP,A,low,leaf-covered gravel road; copies agree on the subset
+87,KEEP,A,low,leaf-covered gravel road; copies agree on the subset
+88,KEEP,A,medium,copies agree; A box tighter or equal
+89,KEEP,A,medium,copies agree; A box tighter or equal
+90,KEEP,A,medium,copies agree; A box tighter or equal
+91,KEEP,A,medium,copies agree; A box tighter or equal
+92,KEEP,A,medium,copies agree; A box tighter or equal
+93,KEEP,A,medium,copies agree; A box tighter or equal
+94,KEEP,A,medium,copies agree; A box tighter or equal
+95,KEEP,A,medium,copies agree; A box tighter or equal
+96,KEEP,A,medium,copies agree; A box tighter or equal
+97,KEEP,A,medium,copies agree; A box tighter or equal
+98,KEEP,A,medium,copies agree; A box tighter or equal
+99,KEEP,A,medium,copies agree; A box tighter or equal
+100,KEEP,A,medium,copies agree; A box tighter or equal
+101,KEEP,A,medium,copies agree; A box tighter or equal
+102,KEEP,A,low,shallow reddish depression on unpaved/gravel surface; both agree
+103,KEEP,A,low,shallow reddish depression on unpaved/gravel surface; both agree
+104,KEEP,A,medium,copies agree; A box tighter or equal
+105,KEEP,A,medium,copies agree; A box tighter or equal
+106,KEEP,A,medium,copies agree; A box tighter or equal
+107,KEEP,A,medium,copies agree; A box tighter or equal
+108,KEEP,A,medium,copies agree; A box tighter or equal
+109,KEEP,A,medium,copies agree; A box tighter or equal
+110,KEEP,A,medium,copies agree; A box tighter or equal
+111,KEEP,A,medium,copies agree; A box tighter or equal
+112,KEEP,A,medium,copies agree; A box tighter or equal
+113,KEEP,A,medium,copies agree; A box tighter or equal
+114,KEEP,A,medium,copies agree; A box tighter or equal
+115,KEEP,A,low,BUMP: painted striped band; raised profile not certain (could be flat crossing D1)
+116,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+117,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+118,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+119,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+120,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+121,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+122,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+123,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+124,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+125,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+126,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+127,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+128,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+129,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+130,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+131,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+132,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+133,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+134,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+135,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+136,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+137,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+138,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+139,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+140,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+141,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree
+142,KEEP,A,medium,BUMP: unpainted raised asphalt hump (D2); copies agree
+143,KEEP,A,medium,BUMP: unpainted raised asphalt hump (D2); copies agree
+144,KEEP,A,medium,BUMP: unpainted raised asphalt hump (D2); copies agree
+145,KEEP,A,low,BUMP: low-res far/faint unpainted hump; both copies agree but hard to verify
+146,KEEP,A,medium,BUMP: unpainted raised asphalt hump (D2); copies agree
+147,KEEP,A,medium,BUMP: unpainted raised asphalt hump (D2); copies agree
+148,KEEP,A,medium,BUMP: unpainted raised asphalt hump (D2); copies agree
+149,KEEP,A,medium,BUMP: unpainted raised asphalt hump (D2); copies agree
+150,KEEP,A,medium,BUMP: unpainted raised asphalt hump (D2); copies agree
+151,KEEP,A,low,BUMP: low-res far/faint unpainted hump; both copies agree but hard to verify
+152,KEEP,A,medium,BUMP: unpainted raised asphalt hump (D2); copies agree
+153,KEEP,A,low,BUMP: low-res far/faint unpainted hump; both copies agree but hard to verify
+154,KEEP,A,low,BUMP: low-res far/faint unpainted hump; both copies agree but hard to verify
+155,KEEP,A,medium,BUMP: unpainted raised asphalt hump (D2); copies agree
+156,KEEP,A,medium,BUMP: unpainted raised asphalt hump (D2); copies agree
+157,KEEP,A,medium,BUMP: unpainted raised asphalt hump (D2); copies agree
+158,KEEP,A,medium,copies agree; A box tighter or equal
+159,KEEP,A,medium,copies agree; A box tighter or equal
+160,KEEP,A,medium,copies agree; A box tighter or equal
+161,KEEP,A,medium,BUMP: painted raised speed breaker (D2); copies agree

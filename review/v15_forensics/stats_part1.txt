@@ -1,0 +1,24 @@
+per split class counts (0=Rumble Strip,1=Speed-Bump): {'train': {0: 536, 1: 522}, 'valid': {0: 103, 1: 238}, 'test': {1: 316, 0: 52}}
+empty label imgs 0 polygon/bad lines 0 boxes 1767 boxes <6px side at 640 0
+exact dup groups 0 cross-split 0
+source stems 1451 stems with >1 copy 210 cross-split 61
+example stems ['frame0-00-00-00_jpg', 'frame0-00-00-10_jpg', 'frame0-00-00-20_jpg', 'frame0-00-00-33_jpg', 'frame0-00-00-40_jpg', 'frame0-00-00-43_jpg', 'frame0-00-00-50_jpg', 'frame0-00-00-63_jpg', 'frame0-00-00-73_jpg', 'frame0-00-00-80_jpg', 'frame0-00-00-90_jpg', 'frame0-00-01-00_jpg']
+class 0 median w 0.31 median h 0.067
+class 1 median w 0.231 median h 0.045
+<stdin>:6: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+
+name prefixes (video/source groups):
+  'frame' 1692 {'train': 1014, 'valid': 339, 'test': 339}
+valid images with a near-duplicate (dHash<=4) in train: 6 / 339
+test images with a near-duplicate (dHash<=4) in train: 10 / 339
+
+video ids (frameN prefix + suffix): 7
+  0 {'train': 492, 'valid': 169, 'test': 190}
+  0-2- {'train': 269, 'valid': 97, 'test': 63}
+  0-3- {'train': 138, 'valid': 54, 'test': 57}
+  0-4- {'train': 68, 'valid': 17, 'test': 27}
+  0-5- {'train': 36, 'valid': 2, 'test': 2}
+  0-6- {'train': 10}
+  0-7- {'train': 1}
+unparsed names: 0 []
+adjacent frames (<=2s, same video) that sit in different splits: 250

@@ -1,0 +1,37 @@
+# Environment
+venv/
+__pycache__/
+*.pyc
+*.whl
+
+# Datasets and caches (tracked by SHA-256 manifests in manifests/, not by git)
+road_hazards/
+road_hazards_v2/
+road_hazards_v3*/
+*.npy
+*.cache
+
+# Model weights (tracked by manifests)
+*.pt
+*.onnx
+*.engine
+
+# Large run artefacts: keep args.yaml, results.csv and curves; drop batch mosaics
+runs/**/train_batch*.jpg
+runs/**/val_batch*.jpg
+
+# Generated review material (regenerable from tools/)
+review/**/*.jpg
+
+# Office lock files
+~$*
+
+# Logs
+*.log
+
+# Added 2026-10-30 (baseline commit): generated archives and bulky run images
+*.zip
+runs/**/*.png
+runs/**/*.jpg
+*.bak_*
+review/**/*.zip

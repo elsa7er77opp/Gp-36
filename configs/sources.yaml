@@ -1,0 +1,67 @@
+# GP36 raw data sources. Paths are relative to this file's folder.
+# class_map maps a SOURCE class id to a TARGET class NAME. A source id that is neither mapped nor in
+# `ignore` is a hard error. Nothing is remapped by numeric id alone.
+target_names: [pothole, speed_bump]
+
+sources:
+  rf8:
+    title: "Roboflow Humps/Bumps & Potholes Detection v8 (2023-05-25 export)"
+    url: https://universe.roboflow.com/detection-system/humps-bumps-potholes-detection/dataset/8
+    license: CC BY 4.0 (per README.roboflow.txt)
+    source_names: {0: Pothole, 1: Speed Bump}
+    class_map: {0: pothole, 1: speed_bump}
+    ignore: []
+    # Roboflow names are <original>_<ext>.rf.<hash>.<ext>; copies of one upload share <original>_<ext>
+    group_rule: roboflow_stem
+    splits:
+      train: {images: ../../GP36_Dataset/roboflow/train/images, labels: ../../GP36_Dataset/roboflow/train/labels}
+      valid: {images: ../../GP36_Dataset/roboflow/valid/images, labels: ../../GP36_Dataset/roboflow/valid/labels}
+      test:  {images: ../../GP36_Dataset/roboflow/test/images,  labels: ../../GP36_Dataset/roboflow/test/labels}
+
+  ghsb:
+    title: "Androidest Speed_Bump_Detection (one dash-cam video, frames lin001-lin370)"
+    url: https://github.com/Androidest/Speed_Bump_Detection
+    license: NOT VERIFIED
+    source_names: {0: speed bump}
+    class_map: {0: speed_bump}
+    ignore: []
+    group_rule: single_sequence   # whole video = one leakage group
+    splits:
+      all: {images: ../../GP36_Dataset/speed_bumps/images, labels: ../../GP36_Dataset/speed_bumps/labels}
+
+  ghpot:
+    title: "biodatlab learnai-potholes-detection (crowd-sourced labels)"
+    url: https://github.com/biodatlab/learnai-potholes-detection
+    license: NOT VERIFIED
+    source_names: {0: pothole}
+    class_map: {0: pothole}
+    ignore: []
+    group_rule: none
+    splits:
+      all: {images: ../../GP36_Dataset/potholes/images, labels: ../../GP36_Dataset/potholes/labels}
+
+  sb15:
+    title: "Roboflow Speed Bump Detection v15 'Proporsi 60-20-20' (exported 2025-02-14; ~7 short dash-cam videos, Indonesia)"
+    url: https://universe.roboflow.com/speed-bump-detection/speed-bump-detection-se0eh/dataset/15
+    license: CC BY 4.0 (per README.roboflow.txt)
+    note: "images were resized 640x640 with Stretch (aspect ratio lost). Original Roboflow split has frame leakage: never use it."
+    source_names: {0: Rumble Strip, 1: Speed-Bump}
+    class_map: {1: speed_bump}
+    ignore: [0]           # D6 (2026-10-30): rumble strips are NOT speed bumps
+    group_rule: "video_timeblock:10"   # each video is ~2 min at ~4 frames/s; near-dup links also merge blocks
+    splits:
+      train: {images: ../../GP36_Dataset/raw_v3/roboflow_speedbump_v15/train/images, labels: ../../GP36_Dataset/raw_v3/roboflow_speedbump_v15/train/labels}
+      valid: {images: ../../GP36_Dataset/raw_v3/roboflow_speedbump_v15/valid/images, labels: ../../GP36_Dataset/raw_v3/roboflow_speedbump_v15/valid/labels}
+      test:  {images: ../../GP36_Dataset/raw_v3/roboflow_speedbump_v15/test/images,  labels: ../../GP36_Dataset/raw_v3/roboflow_speedbump_v15/test/labels}
+
+  rdd22:
+    title: "RDD2022 (CRDDC 2022, Figshare 21431547) - only train images that contain D40, Japan + India (+ Czech kept aside as an unseen-country test)"
+    url: https://figshare.com/articles/dataset/RDD2022_-_The_multi-national_Road_Damage_Dataset_released_through_CRDDC_2022/21431547
+    license: CC BY-SA 4.0 (images, per sekilab/RoadDamageDetector)
+    note: "converted by tools/convert_voc.py; source ids = order of names.txt. Cracks/blur/manhole/repair are NOT potholes (D5) -> ignore."
+    source_names: {0: D00, 1: D10, 2: D20, 3: D40, 4: D01, 5: D11, 6: D43, 7: D44, 8: D50, 9: D0w0, 10: Repair}
+    class_map: {3: pothole}
+    ignore: [0, 1, 2, 4, 5, 6, 7, 8, 9, 10]
+    group_rule: none
+    splits:
+      japan: {images: ../../GP36_Dataset/raw_v3/RDD2022_D40/Japan/images, labels: ../../GP36_Dataset/raw_v3/RDD2022_D40_yolo/Japan_part1/labels}

@@ -1,0 +1,226 @@
+pair_no,proposal,keep_copy,fix_note,confidence,reason
+1,KEEP,B,,medium,same pothole; B box covers whole defect
+2,QUARANTINE,,,low,middle pothole agreed; bottom strip is crumbled edge along road studs (crack-like?) and A splits it in 2 boxes vs B 1 long box; needs owner decision
+3,KEEP,B,,medium,same 3 potholes; B boxes cover defects fully
+4,FIX,B,drop B box 3 (blue crosswalk = D1 background); keep B potholes 1 and 2,medium,painted flat zebra crossing labelled speed_bump; far pothole only in B
+5,FIX,A,keep only A box 2; drop A box 1 (on white line above pothole),medium,B box sits on the white line above the pothole (localisation offset)
+6,KEEP,B,,high,A box is above the pothole on the road marking (localisation offset); B covers the pothole
+7,KEEP,B,,medium,B marks the large near pothole that A misses; both mark the far one
+8,KEEP,A,,medium,B boxes 2 and 3 sit on shadow / dark patch (D5 background); pothole 1 agreed
+9,KEEP,A,,low,far pothole agreed; A box 2 is a small dark spot inside tree shadow - plausible but not certain
+10,QUARANTINE,,,low,glare-washed image; tiny thin boxes at road edges cannot be confirmed
+11,KEEP,B,,medium,B adds two real small potholes on the left that A misses
+12,QUARANTINE,,,low,whole road surface broken; both copies box different subsets (box-style ambiguity D4)
+13,QUARANTINE,,,low,copies box different dark spots; several look like shadow/patch rather than potholes
+14,KEEP,B,,medium,B uses one box per defect (D4) for the near damaged area; same far pothole
+15,KEEP,B,,low,B adds a small dark cavity right of the agreed pothole
+16,KEEP,B,,medium,A boxes the whole dark repair patch (D5 background); B boxes the actual cavity inside it
+17,KEEP,A,,low,FAR_TINY: near pothole agreed; A adds a small far pothole (policy decision)
+18,KEEP,A,,medium,same two potholes; B box 2 is offset from the cavity
+19,KEEP,B,,medium,same pothole; B box tighter on the cavity
+20,KEEP,A,,low,A adds one small cavity on the left; other 4 agreed
+21,KEEP,A,,low,heavily distressed road; A marks more of the visible small cavities (some uncertain)
+22,QUARANTINE,,,low,boxes disagree on extent of a dark depression area; unclear which part is a pothole
+23,KEEP,A,,medium,A boxes the two defects cleanly; B overlapping boxes duplicate the same area
+24,KEEP,B,,low,A boxes 2 and 3 are thin far dark marks (likely patch/stain); real pothole agreed
+25,KEEP,B,,low,same distressed area; B slightly more complete
+26,KEEP,B,,low,A box 6 is a large reddish patch/dirt area (D5); rest similar
+27,KEEP,B,,medium,A box is a MANHOLE COVER ring (D5 background); B marks two small cavities
+28,FIX,B,drop the B box on the manhole ring; keep the B pothole on the left,medium,A labels only the MANHOLE (D5); B adds the real pothole
+29,KEEP,A,,high,B box 1 is a MANHOLE COVER (D5); pothole agreed
+30,KEEP,A,,medium,single cavity; A one box covers it; B splits it into thin slivers
+31,KEEP,A,,medium,same two potholes; A boxes tighter
+32,KEEP,A,,medium,B adds a tiny box that is part of pothole 1 (D4 one box per defect)
+33,KEEP,B,,low,FAR_TINY: A adds 4 barely visible far spots; near pothole agreed (policy decision)
+34,KEEP,A,,medium,B box 2 is a thin far dark strip (crack/shadow-like)
+35,KEEP,A,,medium,A marks the near visible cavity that B misses
+36,KEEP,B,,medium,B adds a second visible cavity on the left
+37,KEEP,A,,low,B box 3 extends the same far defect as box 2 (D4)
+38,KEEP,B,,medium,B adds the larger near-left broken area that A misses
+39,KEEP,A,,low,B box 2 is a dark spot inside tree shadow - not clearly a cavity
+40,KEEP,A,,low,FAR_TINY: B adds two barely visible far boxes; near potholes agreed
+41,KEEP,A,,medium,same pothole; A box covers the whole cavity
+42,KEEP,B,,low,A box 2 is a small dark spot (stone/stain?) on intact asphalt
+43,KEEP,A,,medium,same 2 defects; A box 2 covers the whole elongated cavity
+44,KEEP,B,,medium,same 2 defects; B box 2 covers the whole elongated cavity
+45,KEEP,B,,medium,B adds a visible cavity on the right
+46,KEEP,A,,low,FAR_TINY: B adds one barely visible far box; rest agreed
+47,KEEP,A,,low,heavily distressed road; A marks more visible cavities (box 8 far tiny)
+48,QUARANTINE,,,low,copies mark mostly different cavities; B adds far tiny boxes; needs owner check
+49,QUARANTINE,,,low,DENSE_DISTRESS: road with many cavities; copies box different subsets; needs re-annotation or exclusion
+50,QUARANTINE,,,low,DENSE_DISTRESS: A 9 vs B 17 boxes on the same broken road; neither complete/consistent
+51,QUARANTINE,,,low,DENSE_DISTRESS: A 8 vs B 12 boxes; different subsets
+52,QUARANTINE,,,low,DENSE_DISTRESS: A 11 vs B 10 boxes; different subsets and box styles
+53,QUARANTINE,,,low,DENSE_DISTRESS: A 8 vs B 11 boxes; different subsets
+54,QUARANTINE,,,low,DENSE_DISTRESS: A box 6 is a water puddle area; near cavities agreed; split vs merged boxes
+55,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets / puddles
+56,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets / puddles
+57,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets / puddles
+58,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets / puddles
+59,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets / puddles
+60,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets / puddles
+61,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets
+62,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets
+63,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets
+64,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets
+65,KEEP,A,,low,same 3 defects on broken road; A boxes cover each whole defect (D4)
+66,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets
+67,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets
+68,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets
+69,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets
+70,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets
+71,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets
+72,QUARANTINE,,,low,DENSE_DISTRESS: same broken-road sequence (G00665xx); copies box different subsets
+73,KEEP,B,,low,unpaved road (D3); B adds one visible cavity on the left
+74,QUARANTINE,,,low,unpaved road; boxes offset between copies near a cable shadow line
+75,KEEP,B,,medium,B box sits on the visible hole; A box 1 offset and box 2 unclear
+76,KEEP,B,,medium,A box 1 is on white LITTER (paper/plastic), not a pothole
+77,QUARANTINE,,,low,DENSE_DISTRESS on unpaved road; A 5 vs B 2 boxes; several unclear
+78,QUARANTINE,,,low,DENSE_DISTRESS on unpaved road; A box 7 near litter; different subsets
+79,QUARANTINE,,,low,DENSE_DISTRESS on unpaved road; 7 vs 9 boxes, different subsets
+80,QUARANTINE,,,low,DENSE_DISTRESS on unpaved road; 11 vs 8 boxes, different subsets
+81,QUARANTINE,,,low,DENSE_DISTRESS on unpaved road; B adds far small boxes; near reddish dirt area boxed in both
+82,KEEP,A,,medium,B box 1 is on the wiper/bonnet edge (invalid) and B adds FAR_TINY boxes
+83,QUARANTINE,,,low,FAR_TINY: B adds 5 far tiny boxes and one near; A misses some visible cavities
+84,KEEP,A,,low,same cluster; A adds one visible near cavity
+85,QUARANTINE,,,low,DENSE_DISTRESS on unpaved/broken road (G00666xx); copies box different subsets incl. FAR_TINY
+86,QUARANTINE,,,low,DENSE_DISTRESS on unpaved/broken road (G00666xx); copies box different subsets incl. FAR_TINY
+87,QUARANTINE,,,low,DENSE_DISTRESS on unpaved/broken road (G00666xx); copies box different subsets incl. FAR_TINY
+88,QUARANTINE,,,low,DENSE_DISTRESS on unpaved/broken road (G00666xx); copies box different subsets incl. FAR_TINY
+89,QUARANTINE,,,low,DENSE_DISTRESS on unpaved/broken road (G00666xx); copies box different subsets incl. FAR_TINY
+90,QUARANTINE,,,low,DENSE_DISTRESS on unpaved/broken road (G00666xx); copies box different subsets incl. FAR_TINY
+91,QUARANTINE,,,low,DENSE_DISTRESS on broken road (G00666xx); copies box different subsets incl. FAR_TINY
+92,QUARANTINE,,,low,DENSE_DISTRESS on broken road (G00666xx); copies box different subsets incl. FAR_TINY
+93,QUARANTINE,,,low,DENSE_DISTRESS on broken road (G00666xx); copies box different subsets incl. FAR_TINY
+94,QUARANTINE,,,low,DENSE_DISTRESS on broken road (G00666xx); copies box different subsets incl. FAR_TINY
+96,QUARANTINE,,,low,DENSE_DISTRESS on broken road (G00666xx); copies box different subsets incl. FAR_TINY
+95,KEEP,A,,low,broken road but copies mostly agree; B adds one far small box (FAR_TINY)
+97,QUARANTINE,,,low,DENSE_DISTRESS on broken road; different subsets and box extents
+98,KEEP,A,,low,broken road but copies mostly agree on the 6 defects; A boxes tighter
+99,QUARANTINE,,,low,DENSE_DISTRESS on broken road; different subsets incl. FAR_TINY
+100,KEEP,B,,high,same pothole; A box much larger than the cavity; B tight
+101,QUARANTINE,,,low,heavy windshield glare; copies split the same defect cluster differently
+102,QUARANTINE,,,low,A box 5 covers a WINDSHIELD ARTIFACT (sticker/reflection); B boxes look shifted from A
+103,KEEP,B,,low,A boxes 2-3 are on a small stain and a patched strip; main pothole agreed
+104,KEEP,B,,medium,A box 3 is a lighter patched area above the pothole (D5)
+105,KEEP,B,,low,same defects; B boxes tighter; both avoid the windshield sticker
+106,KEEP,B,,medium,FAR_TINY: A splits a far defect into two tiny boxes; B one box
+107,KEEP,B,,medium,A box 3 is on a bright streak/litter on the right
+108,KEEP,B,,low,same two defects; B box 2 tighter
+109,KEEP,B,,medium,same pothole; A box much larger than the cavity; B tight
+110,KEEP,A,,low,B adds a barely visible small box on the right
+111,KEEP,A,,low,same two defects; B adds a small unclear spot and stretches box 1
+112,KEEP,B,,medium,FAR_TINY: A adds a tiny far box at the curb; other 4 agreed
+113,KEEP,A,,medium,A marks the near-right pothole that B misses
+114,KEEP,A,,low,same 4 defects; minor box-size differences
+115,KEEP,A,,medium,FAR_TINY: B adds a far thin box near the curb; main pothole agreed
+116,QUARANTINE,,,low,faint reddish stains on asphalt; unclear if any are real cavities
+117,KEEP,A,,low,A marks the near-left defect that B misses; far small ones uncertain
+118,KEEP,A,,medium,A one box per defect (4); B merges two separate cavities into one box
+119,KEEP,A,,low,same 3 defects; minor size differences; far box 1 tiny in both
+120,KEEP,A,,low,FAR_TINY: B adds a second tiny far box; both mark the same far spot
+121,KEEP,A,,low,FAR_TINY: B adds a far tiny box; both mark the same far spot
+122,KEEP,A,,low,same 2 far defects; similar boxes
+123,KEEP,A,,low,FAR_TINY: B adds two far tiny boxes; near ones agreed
+124,KEEP,A,,low,A marks one more visible defect on the left
+125,KEEP,A,,low,A adds a near cavity at the lower right that B misses
+126,KEEP,B,,low,B adds the third visible defect on the left
+127,KEEP,B,,low,A box 1 is on loose gravel, not a clear cavity; far defect agreed
+128,QUARANTINE,,,low,gravel-covered surface; boxes on gravel patches differ between copies
+129,KEEP,B,,medium,A box 2 is on a windshield-reflection / bright debris area
+130,QUARANTINE,,,low,broken edge area covered with gravel; A box 1 on debris; unclear
+131,KEEP,B,,low,B adds the visible far-left cavity; others agreed
+132,KEEP,A,,low,FAR_TINY on glare-heavy image; B adds tiny boxes
+133,KEEP,A,,low,FAR_TINY on glare-heavy wide road; copies mostly agree; B adds one small box
+134,QUARANTINE,,,low,DENSE_DISTRESS + FAR_TINY on glare-heavy wide road; boxes at image edge
+135,QUARANTINE,,,low,DENSE_DISTRESS on wide broken road; different subsets
+136,KEEP,A,,low,same 6 defects; A adds a near-left one visible at the bonnet edge
+137,KEEP,A,,low,same defects; minor differences in far tiny boxes
+138,KEEP,A,,medium,A marks the large visible pothole on the left that B misses
+139,KEEP,A,,low,FAR_TINY: B adds a far tiny box; other 4 agreed
+140,KEEP,B,,medium,FAR_TINY: A adds 7 far tiny boxes; B keeps the 3 visible near ones (A box 4 bottom-left also visible - consider adding)
+141,KEEP,A,,medium,A marks the second visible cavity nearer the camera
+142,KEEP,A,,medium,A marks the second visible cavity nearer the camera
+143,KEEP,A,,medium,FAR_TINY: B adds a tiny box on a far dark spot
+144,QUARANTINE,,,low,A box 1 is a large milled/patched strip (D5 patch?); far tiny boxes disagree
+145,QUARANTINE,,,low,B box 4 is a large patched/milled area (D5?); far tiny boxes differ
+146,KEEP,B,,low,A boxes 3-4 near the bonnet edge are unclear; far pair agreed
+147,KEEP,A,,low,B box 3 is a faint area above the cavities; 2 agreed
+148,KEEP,A,,low,same cluster; B splits it into 4 boxes (D4 prefers fewer)
+149,KEEP,A,,medium,same 4 cavities; B adds a box at the bonnet edge
+150,KEEP,A,,low,FAR_TINY: B adds a far tiny box and a thin strip at the bonnet
+151,QUARANTINE,,,low,reddish loose-gravel strip near the bonnet; unclear if cavity or dirt
+152,KEEP,A,,low,same defects in tree shadow; B adds one far tiny box (FAR_TINY)
+153,KEEP,A,,low,same defects; B adds one small box near another (D4)
+154,KEEP,A,,low,FAR_TINY: B adds a small spot left of the agreed cavity strip
+155,KEEP,A,,medium,A marks the left visible cavity that B misses
+156,KEEP,A,,low,FAR_TINY: B adds a tiny far-right box
+157,KEEP,B,,medium,B adds the visible middle cavity between the two agreed ones
+158,KEEP,A,,low,FAR_TINY: B adds small far boxes; main gravel-filled pothole agreed
+159,QUARANTINE,,,low,copies disagree on which faint areas are cavities
+160,QUARANTINE,,,low,copies box different parts of a faint broken area
+161,KEEP,A,,low,B adds a faint left box; right defect agreed
+162,KEEP,A,,low,B box 2 is a faint dirt patch on the left
+163,KEEP,A,,low,FAR_TINY: B splits into more small boxes on cracks; 3 defects agreed
+164,KEEP,A,,medium,BUMP: A labels the yellow-black raised speed hump (D2) that B misses
+165,KEEP,B,,medium,BUMP: B labels the yellow-black raised speed hump (D2) that A misses
+166,QUARANTINE,,,low,B boxes 1-2 are alligator-cracked areas (crack = D5 background?); A boxes small; needs owner check
+167,QUARANTINE,,,low,DENSE_DISTRESS on gravelly road; different subsets
+168,QUARANTINE,,,low,DENSE_DISTRESS on gravelly road; different subsets
+169,QUARANTINE,,,low,DENSE_DISTRESS gravelly road sequence G00898xx; different subsets
+170,QUARANTINE,,,low,DENSE_DISTRESS gravelly road sequence; different subsets
+171,QUARANTINE,,,low,both copies box a dark SHADOW blob (A4/B2) as pothole; different subsets
+172,KEEP,A,,low,B adds two faint far boxes; right defect agreed
+173,QUARANTINE,,,low,leaf-covered gravel; copies box different faint spots
+174,QUARANTINE,,,low,FAR_TINY: B adds 3 far tiny boxes; faint defects
+175,QUARANTINE,,,low,leaf-covered gravel; FAR_TINY; partly different subsets
+176,QUARANTINE,,,low,leaf-covered gravel; FAR_TINY; partly different subsets
+177,KEEP,B,,low,same 4 defects; B box 1 covers the left defect better
+178,KEEP,B,,low,B adds a visible near-left defect; others agreed
+179,KEEP,A,,medium,same far pothole; B box loose
+180,KEEP,A,,low,FAR_TINY: B adds 5 small far boxes on glare-washed road
+181,KEEP,A,,low,FAR_TINY: B adds 3 far tiny boxes; main pothole agreed
+182,KEEP,A,,low,same defects; small box differences
+183,QUARANTINE,,,low,copies box different small defects on a worn surface
+184,KEEP,A,,medium,A marks two more visible near cavities that B misses
+185,KEEP,B,,low,B adds a visible cavity right of centre; left agreed
+186,QUARANTINE,,,low,DENSE_DISTRESS: A 9 vs B 3 boxes; B box 1 is under the windshield sticker area
+187,QUARANTINE,,,low,DENSE_DISTRESS parking-lot surface (G00902xx): A 10 vs B 4 boxes
+188,QUARANTINE,,,low,DENSE_DISTRESS parking-lot surface: different subsets
+189,QUARANTINE,,,low,DENSE_DISTRESS parking-lot surface: different subsets incl. FAR_TINY
+190,QUARANTINE,,,low,DENSE_DISTRESS parking-lot surface: different subsets
+191,QUARANTINE,,,low,DENSE_DISTRESS parking-lot surface: mostly agree; FAR_TINY differences
+192,KEEP,B,,low,B adds two visible near broken areas that A misses (far tiny B4/B5 to drop)
+193,QUARANTINE,,,low,DENSE_DISTRESS parking-lot surface: different subsets
+194,KEEP,A,,low,A marks two more visible cavities (A2, A1); far boxes agreed
+195,KEEP,A,,medium,A marks 3 more visible potholes that B misses
+196,QUARANTINE,,,low,DENSE_DISTRESS parking-lot surface: different subsets
+197,KEEP,A,,low,same defects; A one more near-right strip
+198,QUARANTINE,,,low,copies mostly disagree; B box 2 near a bright reflection
+199,QUARANTINE,,,low,DENSE_DISTRESS parking-lot surface: different subsets
+200,KEEP,A,,low,A separates the defects (D4); B merges two into one wide box
+201,QUARANTINE,,,low,B box 1 at the bonnet edge overlaps B2; different subsets
+202,KEEP,A,,low,A marks one more near-left cavity
+203,KEEP,B,,medium,B marks the middle visible pothole that A misses
+204,KEEP,A,,low,same 2 defects on unpaved surface; A boxes tighter
+205,KEEP,A,,low,A adds a third visible shallow cavity on the left
+206,KEEP,A,,medium,same cavity; B box looser
+207,KEEP,B,,medium,B marks the large gravel-filled pothole left of the agreed one
+208,KEEP,A,,low,FAR_TINY: B adds 2 far tiny boxes
+209,KEEP,A,,low,same 3 defects; minor size differences
+210,KEEP,A,,low,FAR_TINY: B adds 5 far tiny boxes
+211,KEEP,A,,medium,B box 3 is on the windshield green sticker / road edge (invalid)
+212,KEEP,A,,low,A adds a near-right visible cavity; B adds a far tiny one
+213,KEEP,A,,low,FAR_TINY: B adds a far thin box
+214,KEEP,B,,low,A box 2 is a tiny unclear spot; agreed box sits on a patch edge
+215,QUARANTINE,,,low,dark shadowed road; boxes on dark seams (crack/joint?) not clear potholes
+216,QUARANTINE,,,low,sandy courtyard in shadow; copies box different small spots
+217,REJECT,,,medium,CLASS_CONFLICT: same box labelled pothole in A and speed_bump in B; low-res image; nothing clearly visible -> exclude both copies
+218,QUARANTINE,,,low,box 2 in both is an alligator-crack area (crack = D5 background?); potholes 1/4 agreed
+219,KEEP,A,,low,A adds a cavity at the curb edge; far box agreed
+220,QUARANTINE,,,low,copies box mostly different cavities on the same broken intersection
+221,QUARANTINE,,,low,image dominated by bonnet/glare; boxes at the bonnet edge
+222,QUARANTINE,,,low,DENSE_DISTRESS on unpaved road; different subsets
+223,QUARANTINE,,,low,reddish stained area; B box 1 near the bonnet is loose gravel; unclear extents
+224,KEEP,A,,low,same 2 defects; A box 1 covers the cavity better
+225,QUARANTINE,,,low,DENSE_DISTRESS parking-lot surface: different subsets

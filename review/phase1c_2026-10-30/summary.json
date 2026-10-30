@@ -1,0 +1,103 @@
+{
+ "n_samples": 3804,
+ "pairing_problems": 0,
+ "thresholds": {
+  "dhash_max": 4,
+  "phash_max": 10,
+  "tiny_px_at960": 6.0
+ },
+ "links_by_reason": {
+  "exact": 395,
+  "metadata": 803,
+  "near": 12635
+ },
+ "n_groups": 2355,
+ "group_size_hist": {
+  "1": 1838,
+  "2": 374,
+  "3": 53,
+  "4": 33,
+  "5": 10,
+  "6": 12,
+  "7": 5,
+  "8": 7,
+  "9": 6,
+  "10": 2,
+  "11": 1,
+  "12": 1,
+  "13": 2,
+  "14": 2,
+  "15": 1,
+  "16": 1,
+  "19": 1,
+  "20": 1,
+  "22": 1,
+  "23": 1,
+  "31": 1,
+  "47": 1,
+  "370": 1
+ },
+ "largest_groups": [
+  370,
+  47,
+  31,
+  23,
+  22,
+  20,
+  19,
+  16,
+  15,
+  14
+ ],
+ "exact_dup_sets": 395,
+ "exact_dup_label_status": {
+  "minor": 161,
+  "conflict": 225,
+  "same": 9
+ },
+ "flag_counts": {
+  "NEAR_DUP": 1475,
+  "GROUP_SPANS_ORIG_SPLITS": 898,
+  "LABEL_WARNING": 77,
+  "CROSS_SOURCE_GROUP": 12,
+  "POLYGON_LABEL": 1,
+  "TINY_BOX": 383,
+  "EXACT_DUP_LABEL_MINOR_DIFF": 322,
+  "EXACT_DUP_LABEL_CONFLICT": 450,
+  "REGRESSION_CASE": 6,
+  "EXACT_DUP": 18,
+  "EMPTY_LABEL": 15,
+  "EXT_FORMAT_MISMATCH": 36
+ },
+ "auto_status": {
+  "AUTO_CHECKS_PASSED": 1842,
+  "NEEDS_REVIEW": 1962
+ },
+ "per_source": {
+  "rf8": {
+   "images": 3243,
+   "pothole": 6025,
+   "speed_bump": 997
+  },
+  "ghsb": {
+   "images": 370,
+   "pothole": 0,
+   "speed_bump": 355
+  },
+  "ghpot": {
+   "images": 191,
+   "pothole": 516,
+   "speed_bump": 0
+  }
+ },
+ "sheets": {
+  "exact_duplicates": 99,
+  "near_dup_cross_split": 136,
+  "ghpot_all": 16,
+  "ghsb_all": 24,
+  "rf8_random_speed_bump": 4,
+  "rf8_random_pothole": 4,
+  "regression_cases": 1,
+  "label_problems": 7
+ }
+}
