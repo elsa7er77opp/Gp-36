@@ -1,0 +1,13 @@
+rf8 GoPro-named images in v3a: 1075 Counter({'train': 640, 'val': 291, 'test': 144})
+  gap<= 1: cross-split pairs  129 | images involved: test 42, train 106, val 86
+  gap<= 2: cross-split pairs  239 | images involved: test 57, train 155, val 117
+  gap<= 3: cross-split pairs  324 | images involved: test 68, train 194, val 132
+  gap<= 5: cross-split pairs  434 | images involved: test 78, train 231, val 145
+  gap<=10: cross-split pairs  646 | images involved: test 85, train 294, val 168
+  sequences (gap>3 breaks): 408
+sb15 videos: {'1': 851, '4': 112, '3': 249, '2': 429, '5': 40, '6': 10, '7': 1}
+  dt<=1s: cross-split pairs   0 | images involved: 
+  dt<=2s: cross-split pairs   3 | images involved: train 2, val 2
+  dt<=3s: cross-split pairs  41 | images involved: test 5, train 8, val 11
+  dt<=5s: cross-split pairs 244 | images involved: test 8, train 37, val 31
+examples written: 129

@@ -1,0 +1,7 @@
+checksum records 8706 | malformed/outside/dup 0 | listed-but-missing 0
+files on disk 12626 | derived Ultralytics caches 3918 | other unlisted 0 []
+train images 3046 labels 3046
+val images 870 labels 870
+test images 436 labels 436
+manifest rows 4352 | manifest == images on disk: True | split matches folder: True
+NOTE: file contents were NOT re-hashed here.

@@ -1,0 +1,14 @@
+baseline built dataset                                  -> PASS  []
+ISSUE1 missing split 'train' (images+labels)            -> FAIL  ['train: required split directory missing: images/train, labels/train', 'checksum: missing file images/train/fx__987cece9f09ce230.jpg']
+ISSUE1 missing split 'val' (images+labels)              -> FAIL  ['val: required split directory missing: images/val, labels/val', 'checksum: missing file images/val/fx__63b25423434b63a6.jpg']
+ISSUE1 missing split 'test' (images+labels)             -> FAIL  ['test: required split directory missing: images/test, labels/test', 'checksum: missing file images/test/fx__14f5f810cd0d4210.jpg']
+ISSUE1 labels/val dir missing                           -> FAIL  ['val: required split directory missing: labels/val', 'checksum: missing file labels/val/fx__63b25423434b63a6.txt']
+ISSUE2 checksums.sha256 deleted                         -> FAIL  ['checksums.sha256 missing: file integrity NOT verified']
+ISSUE2 malformed checksum line                          -> FAIL  ["checksum line 1: malformed record 'garbage-line'", 'checksums.sha256 has no records']
+ISSUE2 checksum entry outside root (../)                -> FAIL  ['checksum line 11: path outside dataset root or not a plain relative path: ../outside.txt']
+ISSUE2 unlisted extra image+label added                 -> FAIL  ['checksum: file not covered by checksums.sha256: images/train/extra.jpg', 'checksum: file not covered by checksums.sha256: labels/train/extra.txt']
+ISSUE2 duplicate checksum record                        -> FAIL  ['checksum line 11: duplicate record for data.yaml']
+ISSUE1 missing 'test' AND no checksums [strict]         -> FAIL  ['test: required split directory missing: images/test, labels/test', 'checksums.sha256 missing: file integrity NOT verified']
+ISSUE1 missing 'test' AND no checksums [legacy]         -> FAIL  ['test: required split directory missing: images/test, labels/test', 'manifest.csv line 5: listed image not in dataset: images/test/fx__14f5f810cd0d4210.jpg']
+ISSUE4 -> BuildError 3 problem(s); first: /sessions/rcw-016y9xos33wnpxkeaqqrkqah/tmp/tmpg9rcrsnx/.ds2.building exists and cannot be proven to be a disposable builder temp folder; nothing was deleted. Inspect and remove it manually.
+ISSUE4 foreign file still exists after build: True

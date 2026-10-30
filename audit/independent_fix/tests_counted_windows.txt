@@ -1,0 +1,8 @@
+# Owner's Windows venv run, 30 Oct 2026 ~22:13 Cairo, GP36_REQUIRE_REAL_DATA=1, training running in parallel
+ran 79 | passed 78 | failed 0 | errors 0 | skipped 1 | expected-failures 0
+SKIPPED test_audit_fixes.TestIssue4TempSafety.test_symlink_inside_temp_refused_and_target_untouched - creating symlinks needs admin rights on Windows
+
+# venv\Scripts\python tools\verify_dataset.py road_hazards_v3a   (strict, near-duplicate check ON)
+train 3046 images (2700 pothole / 1412 speed_bump boxes, 687 empty-label images); val 870 (771/404, 0 empty); test 436 (385/202, 0 empty)
+WARN  3918 derived training-cache file(s) ignored (Ultralytics *.npy / labels/<split>.cache)
+mode=strict: 0 errors, 1 warnings -> PASS

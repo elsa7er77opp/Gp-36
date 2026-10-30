@@ -1,0 +1,18 @@
+rule                                        adjacent_rf8_gopro_gap1   adjacent_sb15_dt<=0.5s         brightness_x0.75         brightness_x1.25               exact_copy                 jpeg_q30     neg_different_source neg_rf8_gopro_far(>=300)               resize_0.5
+AND d<=4 & p<=10 (verifier, current)                    157/ 519 TP              422/1629 TP              115/ 120 TP              116/ 120 TP              120/ 120 TP              119/ 120 TP                0/3000 FP                0/2000 FP              120/ 120 TP
+AND d<=7 & p<=14 (split grouping margin)                267/ 519 TP              684/1629 TP              120/ 120 TP              120/ 120 TP              120/ 120 TP              120/ 120 TP                0/3000 FP                2/2000 FP              120/ 120 TP
+OR  d<=4 | p<=10                                        300/ 519 TP              716/1629 TP              120/ 120 TP              120/ 120 TP              120/ 120 TP              120/ 120 TP                1/3000 FP                6/2000 FP              120/ 120 TP
+OR  d<=7 | p<=14                                        403/ 519 TP              792/1629 TP              120/ 120 TP              120/ 120 TP              120/ 120 TP              120/ 120 TP                4/3000 FP               32/2000 FP              120/ 120 TP
+d<=10 alone                                             380/ 519 TP              788/1629 TP              120/ 120 TP              120/ 120 TP              120/ 120 TP              120/ 120 TP               11/3000 FP               16/2000 FP              120/ 120 TP
+p<=16 alone                                             427/ 519 TP              797/1629 TP              120/ 120 TP              120/ 120 TP              120/ 120 TP              120/ 120 TP                1/3000 FP               59/2000 FP              120/ 120 TP
+SUM d+p<=20                                             310/ 519 TP              743/1629 TP              120/ 120 TP              120/ 120 TP              120/ 120 TP              120/ 120 TP                0/3000 FP                4/2000 FP              120/ 120 TP
+SUM d+p<=28                                             418/ 519 TP              798/1629 TP              120/ 120 TP              120/ 120 TP              120/ 120 TP              120/ 120 TP                0/3000 FP               26/2000 FP              120/ 120 TP
+adjacent_rf8_gopro_gap1      n= 519 dhash median   7.0 p05   1 p95  19 | phash median  10.0 p05   2 p95  22
+adjacent_sb15_dt<=0.5s       n=1629 dhash median  12.0 p05   1 p95  32 | phash median  20.0 p05   2 p95  34
+brightness_x0.75             n= 120 dhash median   1.0 p05   0 p95   4 | phash median   0.0 p05   0 p95   2
+brightness_x1.25             n= 120 dhash median   1.0 p05   0 p95   4 | phash median   2.0 p05   0 p95   6
+exact_copy                   n= 120 dhash median   0.0 p05   0 p95   0 | phash median   0.0 p05   0 p95   0
+jpeg_q30                     n= 120 dhash median   0.0 p05   0 p95   2 | phash median   0.0 p05   0 p95   2
+neg_different_source         n=3000 dhash median  30.0 p05  18 p95  41 | phash median  32.0 p05  24 p95  38
+neg_rf8_gopro_far(>=300)     n=2000 dhash median  31.0 p05  16 p95  44 | phash median  28.0 p05  18 p95  36
+resize_0.5                   n= 120 dhash median   0.0 p05   0 p95   1 | phash median   0.0 p05   0 p95   0

@@ -1,0 +1,701 @@
+diff --git a/gp36data/build.py b/gp36data/build.py
+index ed73972..71ec7fd 100644
+--- a/gp36data/build.py
++++ b/gp36data/build.py
+@@ -23,9 +23,57 @@ from . import __version__
+ from .io_utils import inspect_image, output_name
+ from .labels import format_label, has_errors, map_classes, parse_label_file
+ from .manifest import iter_files, sha256_file
++from .io_utils import IMG_EXT
+ from .verify import verify_dataset
+ 
+ MARKER = ".gp36_build_in_progress"
++MARKER_OWNER = "gp36data.build"
++_TOP_LEVEL = {MARKER, "images", "labels", "data.yaml", "manifest.csv", "checksums.sha256", "build_info.json"}
++_SPLITS = ("train", "val", "test")
++
++
++def _write_marker(tmp, target_name):
++    (tmp / MARKER).write_text(json.dumps({"owner": MARKER_OWNER, "target": target_name,
++                                          "created": datetime.datetime.now().isoformat()}), encoding="utf-8")
++
++
++def stale_temp_problems(tmp, target_name):
++    """Return the reasons why ``tmp`` may NOT be deleted (empty list = provably our own stale build folder).
++
++    A leftover temp folder is deleted only when ALL of these hold (independent-audit fix, issue 4):
++    it is a real directory (not a symlink); its marker is a JSON ownership record written by this builder
++    for this same target; and it contains nothing but the builder's own layout (images/<split>/*.<img>,
++    labels/<split>/*.txt and the builder's top-level files), with no symlinks anywhere. Anything else is
++    treated as possible user data and the build refuses instead of guessing.
++    """
++    problems = []
++    if tmp.is_symlink() or not tmp.is_dir():
++        return [f"{tmp} is not a plain directory"]
++    try:
++        m = json.loads((tmp / MARKER).read_text(encoding="utf-8"))
++        if m.get("owner") != MARKER_OWNER or m.get("target") != target_name:
++            problems.append(f"marker does not prove ownership for target {target_name!r}: {m}")
++    except FileNotFoundError:
++        return [f"{tmp} has no builder marker"]
++    except Exception as e:
++        problems.append(f"marker is not a valid ownership record ({e})")
++    for p in sorted(tmp.rglob("*")):
++        rel = p.relative_to(tmp).parts
++        if p.is_symlink():
++            problems.append(f"symlink inside temp folder: {p.relative_to(tmp).as_posix()}")
++        elif len(rel) == 1:
++            if rel[0] not in _TOP_LEVEL or (rel[0] in ("images", "labels")) != p.is_dir():
++                problems.append(f"unexpected entry: {rel[0]}")
++        elif len(rel) == 2:
++            if rel[0] not in ("images", "labels") or rel[1] not in _SPLITS or not p.is_dir():
++                problems.append(f"unexpected entry: {'/'.join(rel)}")
++        elif len(rel) == 3 and rel[0] in ("images", "labels") and p.is_file():
++            ok = p.suffix.lower() in IMG_EXT if rel[0] == "images" else p.suffix.lower() == ".txt"
++            if not ok:
++                problems.append(f"unexpected file: {'/'.join(rel)}")
++        else:
++            problems.append(f"unexpected entry: {'/'.join(rel)}")
++    return problems
+ 
+ 
+ class BuildError(Exception):
+@@ -111,10 +159,12 @@ def build_dataset(records, out_dir, target_names=("pothole", "speed_bump"), max_
+     if out_dir.exists():
+         raise BuildError(f"target {out_dir} already exists; dataset versions are never overwritten")
+     tmp = out_dir.parent / f".{out_dir.name}.building"
+-    if tmp.exists():
+-        if not (tmp / MARKER).exists():
+-            raise BuildError(f"{tmp} exists and is not a builder temp folder; remove it manually")
+-        shutil.rmtree(tmp)  # leftover of an interrupted build of this same target
++    if tmp.exists() or tmp.is_symlink():
++        problems = stale_temp_problems(tmp, out_dir.name)
++        if problems:
++            raise BuildError([f"{tmp} exists and cannot be proven to be a disposable builder temp folder; "
++                              f"nothing was deleted. Inspect and remove it manually."] + problems)
++        shutil.rmtree(tmp)  # proven: our own leftover of an interrupted build of this same target
+     for r in records:
+         if r["split"] not in ("train", "val", "test"):
+             raise BuildError(f"{r['sample_id']}: unknown split {r['split']!r}")
+@@ -122,7 +172,7 @@ def build_dataset(records, out_dir, target_names=("pothole", "speed_bump"), max_
+     items = _prepare(records, target_names)
+ 
+     tmp.mkdir(parents=True)
+-    (tmp / MARKER).write_text(datetime.datetime.now().isoformat())
++    _write_marker(tmp, out_dir.name)
+     for s in ("train", "val", "test"):
+         (tmp / "images" / s).mkdir(parents=True)
+         (tmp / "labels" / s).mkdir(parents=True)
+@@ -156,9 +206,11 @@ def build_dataset(records, out_dir, target_names=("pothole", "speed_bump"), max_
+         "fingerprint_sha256": fingerprint, "n_samples": len(rows), "max_side": max_side,
+         "jpeg_quality": jpeg_quality, "target_names": list(target_names), **(info or {})}, indent=1), encoding="utf-8")
+ 
+-    report = verify_dataset(tmp, check_near_dups=check_near_dups)
++    report = verify_dataset(tmp, check_near_dups=check_near_dups, mode="strict", allow_unlisted=(MARKER,))
+     if report["errors"]:
+         raise BuildError(["verification failed"] + report["errors"])
++    if out_dir.exists() or out_dir.is_symlink():  # appeared while we were building: never replace it
++        raise BuildError(f"target {out_dir} appeared during the build; it was not touched. Built copy left in {tmp}")
+     (tmp / MARKER).unlink()
+     os.rename(tmp, out_dir)
+     report["fingerprint_sha256"] = fingerprint
+diff --git a/gp36data/verify.py b/gp36data/verify.py
+index 6e34787..bb3bea3 100644
+--- a/gp36data/verify.py
++++ b/gp36data/verify.py
+@@ -1,46 +1,131 @@
+-"""Final integrity verification of a built YOLO dataset folder."""
++"""Final integrity verification of a built YOLO dataset folder.
++
++Two modes (independent-audit fix 2026-10-30, issues 1 and 2):
++
++* ``strict`` (default) - required for an integrity PASS. data.yaml must point at images/<split> for
++  train/val/test; every split must have an images and a labels directory with at least one image;
++  ``checksums.sha256`` and ``manifest.csv`` are required; every checksum record must be well formed,
++  unique, inside the dataset root and match; every file in the folder must be covered by the checksum
++  manifest (the only exceptions are listed in DERIVED_CACHE_RULES and are reported as warnings);
++  manifest.csv must list exactly the images on disk, in the right split, with the right SHA-256.
++* ``legacy`` - for historical datasets built before checksums/manifest existed. Missing checksum or
++  manifest files and unlisted files become warnings, and the report says LEGACY so the result can
++  never be mistaken for a strict PASS. Missing splits, malformed / duplicate / outside-root checksum
++  records and hash mismatches are still errors in legacy mode.
++"""
++import csv
++import re
+ from collections import defaultdict
+-from pathlib import Path
++from pathlib import Path, PurePosixPath
+ 
+ import numpy as np
+ import yaml
+ from PIL import Image
+ 
+ from .hashing import dhash, hamming_to_all, phash
+-from .io_utils import inspect_image, pair_images_labels, PairingError
++from .io_utils import IMG_EXT, inspect_image, pair_images_labels, PairingError
+ from .labels import parse_label_file
+ from .manifest import sha256_file
+ 
+ SPLITS = ("train", "val", "test")
++MODES = ("strict", "legacy")
++CHECKSUM_LINE = re.compile(r"^([0-9a-f]{64})  (\S.*)$")
++# Files that may exist in a dataset without being in checksums.sha256:
++#   - checksums.sha256 itself and build_info.json (written after the checksum list by build.py);
++#   - Ultralytics training caches, which Ultralytics writes into the dataset folder during training:
++#     images/<split>/<stem>.npy next to a listed image (cache=disk) and labels/<split>.cache.
++NOT_CHECKSUMMED = {"checksums.sha256", "build_info.json"}
++
++
++def _is_derived_cache(rel, listed):
++    parts = PurePosixPath(rel).parts
++    if len(parts) == 2 and parts[0] == "labels" and parts[1] in {f"{s}.cache" for s in SPLITS}:
++        return True
++    if len(parts) == 3 and parts[0] == "images" and parts[1] in SPLITS and rel.endswith(".npy"):
++        stem = rel[:-4]
++        return any(f"{stem}{e}" in listed for e in IMG_EXT)
++    return False
++
++
++def _inside(root, rel):
++    """True when rel is a plain relative path that stays inside root (no absolute path, drive or '..')."""
++    if rel.startswith(("/", "\\")) or re.match(r"^[A-Za-z]:", rel) or "\\" in rel:
++        return False
++    if any(part in ("..", "") for part in rel.split("/")):
++        return False
++    try:
++        (root / rel).resolve().relative_to(root.resolve())
++    except ValueError:
++        return False
++    return True
++
+ 
++def verify_dataset(root, check_near_dups=True, dhash_max=4, phash_max=10, mode="strict", allow_unlisted=()):
++    """Return {"mode", "errors", "warnings", "counts"}. An empty error list means PASS in that mode.
+ 
+-def verify_dataset(root, check_near_dups=True, dhash_max=4, phash_max=10):
+-    """Return {"errors": [...], "warnings": [...], "counts": {...}}. An empty error list means PASS."""
++    allow_unlisted: extra top-level file names that may be absent from checksums.sha256 (used only by
++    build.py for its own in-progress marker while it verifies the temporary folder).
++    """
++    if mode not in MODES:
++        raise ValueError(f"mode must be one of {MODES}, got {mode!r}")
++    strict = mode == "strict"
+     root = Path(root)
+     errors, warnings = [], []
+     counts = {}
++    soft = errors if strict else warnings  # checks that are errors in strict mode, warnings in legacy mode
++    if not strict:
++        warnings.append("LEGACY MODE: checksum/manifest completeness not enforced; this is not a strict integrity PASS")
++
++    def result():
++        return {"mode": mode, "errors": errors, "warnings": warnings, "counts": counts}
++
++    if not root.is_dir():
++        errors.append(f"dataset root {root} is not a directory")
++        return result()
+     try:
+         data = yaml.safe_load((root / "data.yaml").read_text(encoding="utf-8"))
+         names = data["names"]
+         nc = len(names)
+     except Exception as e:
+-        return {"errors": [f"data.yaml unreadable: {e}"], "warnings": [], "counts": {}}
++        errors.append(f"data.yaml unreadable: {e}")
++        return result()
++    base = root / str(data.get("path") or ".")
++    for split in SPLITS:
++        if split not in data or not data[split]:
++            soft.append(f"data.yaml: no '{split}' entry")
++        elif not isinstance(data[split], str) or (base / data[split]).resolve() != (root / "images" / split).resolve():
++            soft.append(f"data.yaml: '{split}' is {data[split]!r}, expected images/{split}")
++
++    sha_of = {}  # relative posix path -> sha256 (each file hashed once)
++
++    def sha(p):
++        rel = p.relative_to(root).as_posix()
++        if rel not in sha_of:
++            sha_of[rel] = sha256_file(p)
++        return sha_of[rel]
+ 
+     sha_split = defaultdict(set)
+     hashes = []  # (split, file, dhash, phash)
++    disk_images = {}  # rel path -> split
+     for split in SPLITS:
+         img_dir, lbl_dir = root / "images" / split, root / "labels" / split
+-        if not img_dir.exists():
++        missing = [str(d.relative_to(root).as_posix()) for d in (img_dir, lbl_dir) if not d.is_dir()]
++        if missing:
++            errors.append(f"{split}: required split directory missing: {', '.join(missing)}")
+             continue
+         try:
+             pairs, no_label, orphans = pair_images_labels(img_dir, lbl_dir)
+         except PairingError as e:
+             errors.append(f"{split}: {e}")
+             continue
++        if not pairs and not no_label:
++            errors.append(f"{split}: split has no images")
+         errors += [f"{split}: image without label {p.name}" for p in no_label]
+         errors += [f"{split}: label without image {p.name}" for p in orphans]
+         n_obj = defaultdict(int)
++        n_empty = 0
+         for img, lbl in pairs:
++            disk_images[img.relative_to(root).as_posix()] = split
+             info = inspect_image(img)
+             if not info["ok"]:
+                 errors.append(f"{split}: unreadable image {img.name}: {info['error']}")
+@@ -48,22 +133,24 @@ def verify_dataset(root, check_near_dups=True, dhash_max=4, phash_max=10):
+             boxes, issues = parse_label_file(lbl)
+             for i in issues:
+                 (errors if i.severity == "error" else warnings).append(f"{split}/{lbl.name}:{i.line} {i.code} {i.detail}")
++            if not boxes and not issues:
++                n_empty += 1  # explicitly supported: empty label file = verified negative image
+             for b in boxes:
+                 if b.cls >= nc:
+                     errors.append(f"{split}/{lbl.name}: class {b.cls} >= nc {nc}")
+                 n_obj[b.cls] += 1
+-            sha = sha256_file(img)
+-            if split in sha_split[sha]:
++            h = sha(img)
++            if split in sha_split[h]:
+                 errors.append(f"{split}: duplicate image content {img.name}")
+-            sha_split[sha].add(split)
++            sha_split[h].add(split)
+             if check_near_dups:
+                 with Image.open(img) as im:
+                     hashes.append((split, img.name, dhash(im), phash(im)))
+-        counts[split] = {"images": len(pairs), "objects": dict(n_obj)}
++        counts[split] = {"images": len(pairs), "objects": dict(n_obj), "empty_label_images": n_empty}
+ 
+-    for sha, splits in sha_split.items():
++    for h, splits in sha_split.items():
+         if len(splits) > 1:
+-            errors.append(f"identical image in splits {sorted(splits)} (sha {sha[:12]})")
++            errors.append(f"identical image in splits {sorted(splits)} (sha {h[:12]})")
+ 
+     if check_near_dups and hashes:
+         D = np.array([h[2] for h in hashes], dtype=np.uint64)
+@@ -76,13 +163,81 @@ def verify_dataset(root, check_near_dups=True, dhash_max=4, phash_max=10):
+                 if a[0] != b[0]:
+                     errors.append(f"near-duplicate across splits: {a[0]}/{a[1]} ~ {b[0]}/{b[1]}")
+ 
++    # ---- checksum manifest ----
+     ck = root / "checksums.sha256"
+-    if ck.exists():
+-        for line in ck.read_text(encoding="utf-8").splitlines():
+-            digest, rel = line.split("  ", 1)
++    listed = {}
++    if not ck.is_file():
++        soft.append("checksums.sha256 missing: file integrity NOT verified")
++    else:
++        try:
++            lines = ck.read_text(encoding="utf-8").splitlines()
++        except Exception as e:
++            lines = []
++            errors.append(f"checksums.sha256 unreadable: {e}")
++        for n, line in enumerate(lines, 1):
++            if not line.strip():
++                continue
++            m = CHECKSUM_LINE.match(line)
++            if not m:
++                errors.append(f"checksum line {n}: malformed record {line[:80]!r}")
++                continue
++            digest, rel = m.groups()
++            if not _inside(root, rel):
++                errors.append(f"checksum line {n}: path outside dataset root or not a plain relative path: {rel}")
++                continue
++            if rel in listed:
++                errors.append(f"checksum line {n}: duplicate record for {rel}")
++                continue
++            listed[rel] = digest
+             p = root / rel
+-            if not p.exists():
++            if not p.is_file():
+                 errors.append(f"checksum: missing file {rel}")
+-            elif sha256_file(p) != digest:
++            elif sha(p) != digest:
+                 errors.append(f"checksum: modified file {rel}")
+-    return {"errors": errors, "warnings": warnings, "counts": counts}
++        if not listed and not any("unreadable" in e for e in errors):
++            errors.append("checksums.sha256 has no records")
++        n_cache = 0
++        for p in sorted(root.rglob("*")):
++            if not p.is_file():
++                continue
++            rel = p.relative_to(root).as_posix()
++            if rel in listed or rel in NOT_CHECKSUMMED or rel in set(allow_unlisted):
++                continue
++            if _is_derived_cache(rel, listed):
++                n_cache += 1
++                continue
++            soft.append(f"checksum: file not covered by checksums.sha256: {rel}")
++        if n_cache:
++            warnings.append(f"{n_cache} derived training-cache file(s) ignored (Ultralytics *.npy / labels/<split>.cache)")
++
++    # ---- dataset manifest ----
++    mf = root / "manifest.csv"
++    if not mf.is_file():
++        soft.append("manifest.csv missing: image provenance NOT verified")
++    else:
++        try:
++            with open(mf, encoding="utf-8", newline="") as fh:  # closed before build.py renames the folder
++                rows = list(csv.DictReader(fh))
++        except Exception as e:
++            rows = None
++            errors.append(f"manifest.csv unreadable: {e}")
++        if rows is not None:
++            if rows and not {"split", "out_image"} <= set(rows[0]):
++                errors.append("manifest.csv lacks the 'split'/'out_image' columns")
++            else:
++                seen = set()
++                for k, r in enumerate(rows, 2):
++                    rel, sp = r["out_image"], r["split"]
++                    if rel in seen:
++                        errors.append(f"manifest.csv line {k}: duplicate entry {rel}")
++                        continue
++                    seen.add(rel)
++                    if rel not in disk_images:
++                        errors.append(f"manifest.csv line {k}: listed image not in dataset: {rel}")
++                    elif disk_images[rel] != sp or not rel.startswith(f"images/{sp}/"):
++                        errors.append(f"manifest.csv line {k}: split {sp!r} does not match location {rel}")
++                    elif r.get("out_sha256") and sha(root / rel) != r["out_sha256"]:
++                        errors.append(f"manifest.csv line {k}: out_sha256 mismatch for {rel}")
++                for rel in sorted(set(disk_images) - seen):
++                    errors.append(f"manifest.csv: image on disk not listed: {rel}")
++    return result()
+diff --git a/tests/test_real_data_regressions.py b/tests/test_real_data_regressions.py
+index b19a733..5213855 100644
+--- a/tests/test_real_data_regressions.py
++++ b/tests/test_real_data_regressions.py
+@@ -1,4 +1,9 @@
+-"""Regression cases on the real raw data. Skipped when GP36_Dataset is not present."""
++"""Regression cases on the real raw data. Skipped when GP36_Dataset is not present.
++
++Set GP36_REQUIRE_REAL_DATA=1 to turn the skip into a failure (use this on the project laptop, so a
++missing dataset can never be reported as a clean run).
++"""
++import os
+ import unittest
+ from pathlib import Path
+ 
+@@ -9,6 +14,8 @@ from gp36data.manifest import sha256_file
+ 
+ DS = ROOT.parent / "GP36_Dataset"
+ RF = DS / "roboflow"
++if os.environ.get("GP36_REQUIRE_REAL_DATA") == "1" and not DS.exists():
++    raise RuntimeError(f"GP36_REQUIRE_REAL_DATA=1 but {DS} does not exist")
+ 
+ 
+ @unittest.skipUnless(DS.exists(), "GP36_Dataset not available")
+diff --git a/tools/verify_dataset.py b/tools/verify_dataset.py
+index dbeee71..328a0fe 100644
+--- a/tools/verify_dataset.py
++++ b/tools/verify_dataset.py
+@@ -1,7 +1,9 @@
+ """Verify a built dataset folder (pairing, labels, class range, cross-split duplicates, checksums).
+ 
+-    python tools/verify_dataset.py road_hazards_v3_clean
+-Exit code 0 = PASS, 1 = FAIL.
++    python tools/verify_dataset.py road_hazards_v3_clean            # strict (default)
++    python tools/verify_dataset.py old_dataset --legacy              # historical datasets only
++Exit code 0 = PASS, 1 = FAIL. Strict mode requires checksums.sha256 and manifest.csv; legacy mode
++is printed as "LEGACY PASS" so it is never mistaken for a strict integrity PASS.
+ """
+ import argparse
+ import json
+@@ -16,12 +18,21 @@ def main():
+     ap = argparse.ArgumentParser()
+     ap.add_argument("root")
+     ap.add_argument("--no-near-dups", action="store_true")
++    ap.add_argument("--legacy", action="store_true",
++                    help="historical datasets without checksums/manifest; result is labelled LEGACY")
+     args = ap.parse_args()
+-    rep = verify_dataset(args.root, check_near_dups=not args.no_near_dups)
++    mode = "legacy" if args.legacy else "strict"
++    rep = verify_dataset(args.root, check_near_dups=not args.no_near_dups, mode=mode)
+     print(json.dumps(rep["counts"], indent=1))
+     for e in rep["errors"][:100]:
+         print("ERROR", e)
+-    print(f"{len(rep['errors'])} errors, {len(rep['warnings'])} warnings ->", "PASS" if not rep["errors"] else "FAIL")
++    for w in rep["warnings"][:20]:
++        print("WARN ", w)
++    verdict = "PASS" if not rep["errors"] else "FAIL"
++    if mode == "legacy":
++        verdict = f"LEGACY {verdict} (not a strict integrity result)"
++    near = "" if not args.no_near_dups else " [near-duplicate check SKIPPED]"
++    print(f"mode={mode}: {len(rep['errors'])} errors, {len(rep['warnings'])} warnings -> {verdict}{near}")
+     sys.exit(1 if rep["errors"] else 0)
+ 
+ 
+diff --git a/tests/test_audit_fixes.py b/tests/test_audit_fixes.py
+new file mode 100755
+index 0000000..86ed601
+--- /dev/null
++++ b/tests/test_audit_fixes.py
+@@ -0,0 +1,268 @@
++"""Regression tests for the independent-audit findings of 2026-10-30 (issues 1, 2 and 4).
++
++Each test builds a small synthetic dataset in a temp dir; no project data is touched."""
++import json
++import os
++import shutil
++import subprocess
++import sys
++import unittest
++from pathlib import Path
++
++from test_build_verify import BuildCase
++
++from gp36data.build import MARKER, BuildError, build_dataset, stale_temp_problems
++from gp36data.verify import verify_dataset
++
++TOOLS = Path(__file__).resolve().parents[1] / "tools"
++
++
++def errs(ds, **kw):
++    return "\n".join(verify_dataset(ds, check_near_dups=False, **kw)["errors"])
++
++
++class AuditCase(BuildCase):
++    def setUp(self):
++        super().setUp()
++        build_dataset(self.records, self.out(), check_near_dups=False)
++        self.ds = self.out()
++
++    def copy(self, name):
++        dst = self.tmp / name
++        shutil.copytree(self.ds, dst)
++        return dst
++
++
++class TestIssue1MissingSplits(AuditCase):
++    def test_baseline_passes_strict(self):
++        rep = verify_dataset(self.ds, check_near_dups=False)
++        self.assertEqual(rep["mode"], "strict")
++        self.assertEqual(rep["errors"], [])
++
++    def test_missing_split_never_passes_in_any_mode_even_without_checksums(self):
++        for split in ("train", "val", "test"):
++            for mode in ("strict", "legacy"):
++                with self.subTest(split=split, mode=mode):
++                    ds = self.copy(f"miss_{split}_{mode}")
++                    shutil.rmtree(ds / "images" / split)
++                    shutil.rmtree(ds / "labels" / split)
++                    (ds / "checksums.sha256").unlink()
++                    (ds / "manifest.csv").unlink()
++                    self.assertIn(f"{split}: required split directory missing", errs(ds, mode=mode))
++
++    def test_missing_labels_dir_only(self):
++        ds = self.copy("nolabels")
++        shutil.rmtree(ds / "labels" / "val")
++        self.assertIn("val: required split directory missing: labels/val", errs(ds))
++
++    def test_empty_split_rejected(self):
++        ds = self.copy("empty")
++        for p in (ds / "images" / "test").iterdir():
++            p.unlink()
++        for p in (ds / "labels" / "test").iterdir():
++            p.unlink()
++        self.assertIn("test: split has no images", errs(ds, mode="legacy"))
++
++    def test_data_yaml_pointing_elsewhere_rejected(self):
++        ds = self.copy("yaml")
++        (ds / "data.yaml").write_text("train: images/train\nval: images/train\nnames: {0: pothole, 1: speed_bump}\n")
++        e = errs(ds)
++        self.assertIn("'val' is 'images/train', expected images/val", e)
++        self.assertIn("no 'test' entry", e)
++
++    def test_empty_label_negative_is_supported(self):
++        lbl = next((self.ds / "labels" / "train").iterdir())
++        ds = self.copy("neg")
++        (ds / "labels" / "train" / lbl.name).write_text("")
++        rep = verify_dataset(ds, check_near_dups=False)
++        self.assertEqual(rep["counts"]["train"]["empty_label_images"], 1)
++        self.assertEqual([e for e in rep["errors"] if "checksum" not in e], [])  # only the hash change is reported
++
++
++class TestIssue2StrictChecksums(AuditCase):
++    def test_missing_checksum_file(self):
++        ds = self.copy("nock")
++        (ds / "checksums.sha256").unlink()
++        self.assertIn("checksums.sha256 missing", errs(ds))
++        rep = verify_dataset(ds, check_near_dups=False, mode="legacy")
++        self.assertEqual(rep["errors"], [])  # legacy: allowed, but labelled
++        self.assertTrue(any("LEGACY MODE" in w for w in rep["warnings"]))
++        self.assertTrue(any("checksums.sha256 missing" in w for w in rep["warnings"]))
++
++    def test_mismatch(self):
++        ds = self.copy("mm")
++        next((ds / "labels" / "train").iterdir()).write_text("0 0.5 0.5 0.3 0.3\n")
++        for mode in ("strict", "legacy"):
++            self.assertIn("checksum: modified file", errs(ds, mode=mode))
++
++    def test_malformed_line_is_an_error_not_a_crash(self):
++        ds = self.copy("mal")
++        with open(ds / "checksums.sha256", "a", encoding="utf-8") as f:
++            f.write("this is not a checksum line\n")
++        for mode in ("strict", "legacy"):
++            self.assertIn("malformed record", errs(ds, mode=mode))
++
++    def test_duplicate_record(self):
++        ds = self.copy("dup")
++        first = (ds / "checksums.sha256").read_text(encoding="utf-8").splitlines()[0]
++        with open(ds / "checksums.sha256", "a", encoding="utf-8") as f:
++            f.write(first + "\n")
++        self.assertIn("duplicate record", errs(ds))
++
++    def test_outside_root_entries_rejected_and_not_read(self):
++        (self.tmp / "outside.txt").write_text("secret")
++        for rel in ("../outside.txt", "/etc/hostname", "C:/Windows/win.ini", "images\\..\\..\\outside.txt"):
++            with self.subTest(rel=rel):
++                ds = self.copy("out_" + str(abs(hash(rel))))
++                with open(ds / "checksums.sha256", "a", encoding="utf-8") as f:
++                    f.write("0" * 64 + "  " + rel + "\n")
++                e = errs(ds)
++                self.assertIn("outside dataset root", e)
++                self.assertNotIn("modified file " + rel, e)
++
++    def test_unlisted_files_rejected_in_strict(self):
++        ds = self.copy("extra")
++        img = next((ds / "images" / "train").iterdir())
++        shutil.copy(img, ds / "images" / "train" / "extra_img.jpg")
++        (ds / "labels" / "train" / "extra_img.txt").write_text("")
++        (ds / "notes.txt").write_text("x")
++        e = errs(ds)
++        self.assertIn("not covered by checksums.sha256: images/train/extra_img.jpg", e)
++        self.assertIn("not covered by checksums.sha256: notes.txt", e)
++        self.assertIn("image on disk not listed: images/train/extra_img.jpg", e)  # manifest check
++
++    def test_ultralytics_caches_are_tolerated_but_reported(self):
++        ds = self.copy("cache")
++        img = next((ds / "images" / "train").glob("*.jpg"))
++        img.with_suffix(".npy").write_bytes(b"x")
++        (ds / "labels" / "train.cache").write_bytes(b"x")
++        (ds / "images" / "train" / "orphan.npy").write_bytes(b"x")  # no matching image -> not a cache
++        rep = verify_dataset(ds, check_near_dups=False)
++        self.assertEqual(rep["errors"], ["checksum: file not covered by checksums.sha256: images/train/orphan.npy"])
++        self.assertTrue(any("2 derived training-cache" in w for w in rep["warnings"]))
++
++    def test_manifest_required_and_consistent(self):
++        ds = self.copy("man")
++        txt = (ds / "manifest.csv").read_text(encoding="utf-8")
++        (ds / "manifest.csv").unlink()
++        self.assertIn("manifest.csv missing", errs(ds))
++        ds2 = self.copy("man2")
++        (ds2 / "manifest.csv").write_text(txt.replace(",train,", ",val,", 1), encoding="utf-8")
++        e = errs(ds2)
++        self.assertIn("does not match location", e)
++
++    def test_invalid_mode_rejected(self):
++        with self.assertRaises(ValueError):
++            verify_dataset(self.ds, mode="lenient")
++
++    def test_cli_exit_codes(self):
++        ok = subprocess.run([sys.executable, str(TOOLS / "verify_dataset.py"), str(self.ds), "--no-near-dups"],
++                            capture_output=True, text=True)
++        self.assertEqual(ok.returncode, 0, ok.stdout + ok.stderr)
++        self.assertIn("mode=strict", ok.stdout)
++        ds = self.copy("cli")
++        shutil.rmtree(ds / "images" / "test")
++        bad = subprocess.run([sys.executable, str(TOOLS / "verify_dataset.py"), str(ds), "--no-near-dups"],
++                             capture_output=True, text=True)
++        self.assertEqual(bad.returncode, 1)
++        (ds / "checksums.sha256").unlink()
++        leg = subprocess.run([sys.executable, str(TOOLS / "verify_dataset.py"), str(self.ds), "--legacy", "--no-near-dups"],
++                             capture_output=True, text=True)
++        self.assertIn("LEGACY PASS", leg.stdout)
++
++
++class TestIssue4TempSafety(BuildCase):
++    def tmpdir(self):
++        return self.tmp / ".ds.building"
++
++    def make_stale(self, marker=None):
++        t = self.tmpdir()
++        (t / "images" / "train").mkdir(parents=True)
++        (t / "labels" / "train").mkdir(parents=True)
++        (t / "images" / "train" / "a.jpg").write_bytes(b"x")
++        (t / "labels" / "train" / "a.txt").write_text("")
++        (t / MARKER).write_text(marker if marker is not None else
++                                json.dumps({"owner": "gp36data.build", "target": "ds", "created": "x"}))
++        return t
++
++    def test_own_stale_temp_is_cleaned(self):
++        self.make_stale()
++        build_dataset(self.records, self.out(), check_near_dups=False)
++        self.assertTrue(self.out().exists())
++        self.assertFalse(self.tmpdir().exists())
++
++    def test_marked_temp_with_foreign_file_is_not_deleted(self):  # the reproduced defect
++        t = self.make_stale()
++        (t / "USER_NOTES.docx").write_text("precious")
++        with self.assertRaises(BuildError) as cm:
++            build_dataset(self.records, self.out(), check_near_dups=False)
++        self.assertIn("unexpected entry: USER_NOTES.docx", str(cm.exception.problems))
++        self.assertEqual((t / "USER_NOTES.docx").read_text(), "precious")
++        self.assertFalse(self.out().exists())
++
++    def test_unexpected_nested_content_refused(self):
++        for rel in ("images/train/notes.docx", "images/holdout/x.jpg", "labels/train/sub/x.txt"):
++            with self.subTest(rel=rel):
++                shutil.rmtree(self.tmpdir(), ignore_errors=True)
++                t = self.make_stale()
++                p = t / rel
++                p.parent.mkdir(parents=True, exist_ok=True)
++                p.write_text("x")
++                self.assertTrue(stale_temp_problems(t, "ds"))
++                with self.assertRaises(BuildError):
++                    build_dataset(self.records, self.out(), check_near_dups=False)
++                self.assertTrue(p.exists())
++
++    def test_marker_for_another_target_or_old_format_refused(self):
++        for marker in (json.dumps({"owner": "gp36data.build", "target": "other", "created": "x"}),
++                       "2026-10-30T10:00:00", json.dumps({"owner": "someone", "target": "ds"})):
++            with self.subTest(marker=marker):
++                shutil.rmtree(self.tmpdir(), ignore_errors=True)
++                t = self.make_stale(marker)
++                with self.assertRaises(BuildError):
++                    build_dataset(self.records, self.out(), check_near_dups=False)
++                self.assertTrue((t / "images" / "train" / "a.jpg").exists())
++
++    @unittest.skipIf(os.name == "nt", "creating symlinks needs admin rights on Windows")
++    def test_symlink_inside_temp_refused_and_target_untouched(self):
++        victim = self.tmp / "victim"
++        victim.mkdir()
++        (victim / "data.jpg").write_text("keep")
++        t = self.make_stale()
++        (t / "images" / "val").symlink_to(victim, target_is_directory=True)
++        with self.assertRaises(BuildError):
++            build_dataset(self.records, self.out(), check_near_dups=False)
++        self.assertEqual((victim / "data.jpg").read_text(), "keep")
++
++    def test_existing_output_untouched_and_failed_build_keeps_it(self):
++        build_dataset(self.records, self.out("approved"), check_near_dups=False)
++        before = {p.relative_to(self.out("approved")).as_posix(): p.read_bytes() for p in self.out("approved").rglob("*") if p.is_file()}
++        with self.assertRaises(BuildError):
++            build_dataset(self.records, self.out("approved"), check_near_dups=False)
++        recs = [dict(r) for r in self.records]
++        recs.append({**recs[0], "sample_id": "copy", "split": "test"})  # invalid build of another version
++        with self.assertRaises(BuildError):
++            build_dataset(recs, self.out("v_next"), check_near_dups=False)
++        after = {p.relative_to(self.out("approved")).as_posix(): p.read_bytes() for p in self.out("approved").rglob("*") if p.is_file()}
++        self.assertEqual(before, after)
++        self.assertFalse(self.out("v_next").exists())
++
++    def test_target_appearing_during_build_is_not_replaced(self):
++        from unittest import mock
++        from gp36data import build as build_mod
++        real = build_mod.verify_dataset
++
++        def verify_then_squat(*a, **k):
++            rep = real(*a, **k)
++            self.out().mkdir()
++            (self.out() / "someone_else.txt").write_text("x")
++            return rep
++
++        with mock.patch.object(build_mod, "verify_dataset", verify_then_squat):
++            with self.assertRaises(BuildError):
++                build_dataset(self.records, self.out(), check_near_dups=False)
++        self.assertEqual(sorted(p.name for p in self.out().iterdir()), ["someone_else.txt"])
++
++
++if __name__ == "__main__":
++    unittest.main()

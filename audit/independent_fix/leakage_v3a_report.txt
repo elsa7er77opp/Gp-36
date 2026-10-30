@@ -1,0 +1,13 @@
+v3a rows 4352 Counter({'train': 3046, 'val': 870, 'test': 436})
+[exact] orig_sha256: shas in >1 split = 0 | same sha twice = 0
+[exact] out_sha256: shas in >1 split = 0 | same sha twice = 0
+hashes found 4352 / 4352
+[near] AND d<=4&p<=10 (verifier)    cross-split pairs: 0 []
+[near] AND d<=7&p<=14 (grouping)    cross-split pairs: 0 []
+[near] OR d<=4|p<=10                cross-split pairs: 1306 [('ghpot/all/pothole_003.jpg', 'ghpot/all/pothole_133.jpg', 22, 10), ('ghpot/all/pothole_035.jpg', 'rf8/valid/96_jpg.rf.857df8d9bc075ab901b8574bbc0740a9.jpg', 11, 10), ('ghpot/all/pothole_148.jpg', 'sb15/train/frame0-00-07-43-3-_jpg.rf.1bb482dd25cb5d5100c03e58822e3db5.jpg', 4, 28)]
+[near] d<=6 alone                   cross-split pairs: 4002 [('ghpot/all/pothole_148.jpg', 'rf8/train/1472_jpg.rf.3e823119a65b5512491032f40c839f87.jpg', 5, 16), ('ghpot/all/pothole_148.jpg', 'sb15/train/frame0-00-07-43-3-_jpg.rf.1bb482dd25cb5d5100c03e58822e3db5.jpg', 4, 28), ('ghpot/all/pothole_148.jpg', 'sb15/train/frame0-00-07-63-3-_jpg.rf.1e3dbdf9ddb62fe9f9c59d92c51f5b72.jpg', 4, 30)]
+[near] p<=12 alone                  cross-split pairs: 1334 [('ghpot/all/pothole_003.jpg', 'ghpot/all/pothole_133.jpg', 22, 10), ('ghpot/all/pothole_020.jpg', 'rf8/train/image76_jpg.rf.89431645d6e3e4008a4e9abe1c681725.jpg', 33, 12), ('ghpot/all/pothole_035.jpg', 'rf8/valid/96_jpg.rf.857df8d9bc075ab901b8574bbc0740a9.jpg', 11, 10)]
+[temporal] {'sb15 <=3s cross-split': 41, 'rf8 GoPro frame# within 3, cross-split': 324}
+[v3a vs v3b_full_split_manifest.csv] val/test identical: True (1306 vs 1306)
+[v3a vs v3b_capped_split_manifest.csv] val/test identical: True (1306 vs 1306)
+[manifest] built v3a matches split manifest: True

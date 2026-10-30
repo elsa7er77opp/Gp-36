@@ -1,4 +1,9 @@
-"""Regression cases on the real raw data. Skipped when GP36_Dataset is not present."""
+"""Regression cases on the real raw data. Skipped when GP36_Dataset is not present.
+
+Set GP36_REQUIRE_REAL_DATA=1 to turn the skip into a failure (use this on the project laptop, so a
+missing dataset can never be reported as a clean run).
+"""
+import os
 import unittest
 from pathlib import Path
 
@@ -9,6 +14,8 @@ from gp36data.manifest import sha256_file
 
 DS = ROOT.parent / "GP36_Dataset"
 RF = DS / "roboflow"
+if os.environ.get("GP36_REQUIRE_REAL_DATA") == "1" and not DS.exists():
+    raise RuntimeError(f"GP36_REQUIRE_REAL_DATA=1 but {DS} does not exist")
 
 
 @unittest.skipUnless(DS.exists(), "GP36_Dataset not available")

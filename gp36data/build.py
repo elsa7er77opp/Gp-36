@@ -23,9 +23,57 @@ from . import __version__
 from .io_utils import inspect_image, output_name
 from .labels import format_label, has_errors, map_classes, parse_label_file
 from .manifest import iter_files, sha256_file
+from .io_utils import IMG_EXT
 from .verify import verify_dataset
 
 MARKER = ".gp36_build_in_progress"
+MARKER_OWNER = "gp36data.build"
+_TOP_LEVEL = {MARKER, "images", "labels", "data.yaml", "manifest.csv", "checksums.sha256", "build_info.json"}
+_SPLITS = ("train", "val", "test")
+
+
+def _write_marker(tmp, target_name):
+    (tmp / MARKER).write_text(json.dumps({"owner": MARKER_OWNER, "target": target_name,
+                                          "created": datetime.datetime.now().isoformat()}), encoding="utf-8")
+
+
+def stale_temp_problems(tmp, target_name):
+    """Return the reasons why ``tmp`` may NOT be deleted (empty list = provably our own stale build folder).
+
+    A leftover temp folder is deleted only when ALL of these hold (independent-audit fix, issue 4):
+    it is a real directory (not a symlink); its marker is a JSON ownership record written by this builder
+    for this same target; and it contains nothing but the builder's own layout (images/<split>/*.<img>,
+    labels/<split>/*.txt and the builder's top-level files), with no symlinks anywhere. Anything else is
+    treated as possible user data and the build refuses instead of guessing.
+    """
+    problems = []
+    if tmp.is_symlink() or not tmp.is_dir():
+        return [f"{tmp} is not a plain directory"]
+    try:
+        m = json.loads((tmp / MARKER).read_text(encoding="utf-8"))
+        if m.get("owner") != MARKER_OWNER or m.get("target") != target_name:
+            problems.append(f"marker does not prove ownership for target {target_name!r}: {m}")
+    except FileNotFoundError:
+        return [f"{tmp} has no builder marker"]
+    except Exception as e:
+        problems.append(f"marker is not a valid ownership record ({e})")
+    for p in sorted(tmp.rglob("*")):
+        rel = p.relative_to(tmp).parts
+        if p.is_symlink():
+            problems.append(f"symlink inside temp folder: {p.relative_to(tmp).as_posix()}")
+        elif len(rel) == 1:
+            if rel[0] not in _TOP_LEVEL or (rel[0] in ("images", "labels")) != p.is_dir():
+                problems.append(f"unexpected entry: {rel[0]}")
+        elif len(rel) == 2:
+            if rel[0] not in ("images", "labels") or rel[1] not in _SPLITS or not p.is_dir():
+                problems.append(f"unexpected entry: {'/'.join(rel)}")
+        elif len(rel) == 3 and rel[0] in ("images", "labels") and p.is_file():
+            ok = p.suffix.lower() in IMG_EXT if rel[0] == "images" else p.suffix.lower() == ".txt"
+            if not ok:
+                problems.append(f"unexpected file: {'/'.join(rel)}")
+        else:
+            problems.append(f"unexpected entry: {'/'.join(rel)}")
+    return problems
 
 
 class BuildError(Exception):
@@ -111,10 +159,12 @@ def build_dataset(records, out_dir, target_names=("pothole", "speed_bump"), max_
     if out_dir.exists():
         raise BuildError(f"target {out_dir} already exists; dataset versions are never overwritten")
     tmp = out_dir.parent / f".{out_dir.name}.building"
-    if tmp.exists():
-        if not (tmp / MARKER).exists():
-            raise BuildError(f"{tmp} exists and is not a builder temp folder; remove it manually")
-        shutil.rmtree(tmp)  # leftover of an interrupted build of this same target
+    if tmp.exists() or tmp.is_symlink():
+        problems = stale_temp_problems(tmp, out_dir.name)
+        if problems:
+            raise BuildError([f"{tmp} exists and cannot be proven to be a disposable builder temp folder; "
+                              f"nothing was deleted. Inspect and remove it manually."] + problems)
+        shutil.rmtree(tmp)  # proven: our own leftover of an interrupted build of this same target
     for r in records:
         if r["split"] not in ("train", "val", "test"):
             raise BuildError(f"{r['sample_id']}: unknown split {r['split']!r}")
@@ -122,7 +172,7 @@ def build_dataset(records, out_dir, target_names=("pothole", "speed_bump"), max_
     items = _prepare(records, target_names)
 
     tmp.mkdir(parents=True)
-    (tmp / MARKER).write_text(datetime.datetime.now().isoformat())
+    _write_marker(tmp, out_dir.name)
     for s in ("train", "val", "test"):
         (tmp / "images" / s).mkdir(parents=True)
         (tmp / "labels" / s).mkdir(parents=True)
@@ -156,9 +206,11 @@ def build_dataset(records, out_dir, target_names=("pothole", "speed_bump"), max_
         "fingerprint_sha256": fingerprint, "n_samples": len(rows), "max_side": max_side,
         "jpeg_quality": jpeg_quality, "target_names": list(target_names), **(info or {})}, indent=1), encoding="utf-8")
 
-    report = verify_dataset(tmp, check_near_dups=check_near_dups)
+    report = verify_dataset(tmp, check_near_dups=check_near_dups, mode="strict", allow_unlisted=(MARKER,))
     if report["errors"]:
         raise BuildError(["verification failed"] + report["errors"])
+    if out_dir.exists() or out_dir.is_symlink():  # appeared while we were building: never replace it
+        raise BuildError(f"target {out_dir} appeared during the build; it was not touched. Built copy left in {tmp}")
     (tmp / MARKER).unlink()
     os.rename(tmp, out_dir)
     report["fingerprint_sha256"] = fingerprint
