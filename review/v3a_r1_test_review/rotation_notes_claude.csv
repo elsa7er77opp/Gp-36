@@ -1,0 +1,46 @@
+cell,verdict,note
+VA01-03,ROTATE_CW,sideways; box on pothole after 90 CW
+VA01-04,UNSURE,close-up; both orientations plausible
+VA02-05,ROTATE_CW,sideways
+VA02-09,ROTATE_CW,sideways
+VA03-05,ROTATE_CW,sideways
+VA03-09,ROTATE_CW,sideways
+VA03-10,ROTATE_CW,sideways
+VA04-02,ROTATE_CW,sideways
+VA04-03,ROTATE_CW,sideways
+VA04-04,ROTATE_CW,sideways
+VA04-05,ROTATE_CW,sideways
+VA04-06,ROTATE_CW,sideways
+VA04-07,ROTATE_CW,sideways
+VA04-08,ROTATE_CW,sideways
+VA04-12,UNSURE,close-up; orientation unclear
+VA05-05,ROTATE_CW,sideways
+VA05-06,ROTATE_CW,sideways
+VA05-07,ROTATE_CW,sideways
+TR07-11,OK_ORIENT,note: crosswalk labelled speed_bump (D1 flat vs D2 raised? needs check)
+TR08-01,OK_ORIENT,note: crosswalk labelled speed_bump (D1/D2?)
+TR08-02,OK_ORIENT,note: crosswalk labelled speed_bump (D1/D2?)
+TR11-07,ROTATE_CW,sideways
+TR11-08,ROTATE_CW,sideways
+TR11-09,ROTATE_CW,sideways
+TR11-10,UNSURE,orientation unclear
+TR11-11,ROTATE_CW,sideways
+TR11-12,ROTATE_CW,sideways
+TR12-02,ROTATE_CW,sideways
+TR12-03,ROTATE_CW,sideways
+TR13-02,ROTATE_CW,sideways
+TR13-03,ROTATE_CW,sideways
+TR13-04,OK_ORIENT,note: pothole box on a manhole cover (D5)
+TR13-05,ROTATE_CW,sideways
+TR13-06,ROTATE_CW,sideways
+TR13-09,ROTATE_CW,sideways
+TR13-10,ROTATE_CW,sideways
+TR13-11,ROTATE_CW,sideways; note: after rotation the big box is on a manhole cover (D5)
+TR14-10,ROTATE_CW,sideways (same scene as test IMG_4581)
+TR16-04,OK_ORIENT,note: large box on a manhole cover (D5)
+TR17-05,OK_ORIENT,note: crosswalk labelled speed_bump (D1/D2?)
+TR17-09,ROTATE_CW,sideways
+TR17-12,ROTATE_CW,sideways
+TR18-01,ROTATE_CW,sideways
+TR18-02,UNSURE,orientation unclear
+TR18-08,ROTATE_CW,sideways

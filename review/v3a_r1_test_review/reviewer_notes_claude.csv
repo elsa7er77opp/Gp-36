@@ -1,0 +1,124 @@
+cell,decision,codes,note
+T01-09,OK,GEOM_MINOR,box covers the water part of a larger broken area
+T02-01,UNSURE,NOT_ROAD?,collapse next to a footpath railing with a bucket; unclear if carriageway
+T02-05,UNSURE,D5_PATCH,tiny box inside a large patched area
+T02-07,FIX,MISSING,water-filled potholes in the background not boxed
+T03-02,UNSURE,D5_CRACK,widened crack with water along the centre line
+T03-04,FIX,MISSING,two water-filled potholes above the boxed one not boxed
+T03-08,UNSURE,AMBIGUOUS,greenish shallow depression; unclear if pothole
+R01-1,UNSURE,FAR_BUMP_NOT_VISIBLE,dark frame; bump band not discernible
+R01-7,UNSURE,FAR_BUMP_NOT_VISIBLE,wide box; no hump visible in zoom
+R01-8,UNSURE,FAR_BUMP_NOT_VISIBLE,wide box; no hump visible in zoom
+R02-6,UNSURE,FAR_BUMP_NOT_VISIBLE,faint
+R02-7,FIX,MISSING,several clearly visible water-filled potholes further up the road not boxed
+R02-8,UNSURE,FAR_BUMP_NOT_VISIBLE,far line only
+R03-1,UNSURE,FAR_BUMP_NOT_VISIBLE,far wide box
+R03-2,UNSURE,FAR_BUMP_NOT_VISIBLE,far wide box
+R03-4,UNSURE,FAR_BUMP_NOT_VISIBLE,far wide box
+R03-5,UNSURE,FAR_BUMP_NOT_VISIBLE,wide box; hump not visible
+R03-8,UNSURE,D5_STAIN?,centre pothole clear; two small side boxes look like stains/patches
+R04-8,UNSURE,D5_CRACK,elongated crack-like depression
+R05-1,UNSURE,NOT_ROAD?,night; eroded unpaved footpath with people
+R05-4,UNSURE,FAR_BUMP_NOT_VISIBLE,dark; bump not discernible
+R09-5,UNSURE,FAR_BUMP_NOT_VISIBLE,far wide box
+R11-3,UNSURE,FAR_BUMP_NOT_VISIBLE,same street as R01-7/8; hump not visible
+INFO-R06..R10,OK,REPEATED_SCENE,about 40 near-consecutive frames of two parking-gate bumps and one highway bump (1625-1704); valid labels but low diversity
+INFO-R13..R15,OK,REPEATED_SCENE,about 30 consecutive glare frames approaching one bump (1743-1773)
+R17-7,UNSURE,FAR_BUMP_NOT_VISIBLE,far busy street
+R19-6,UNSURE,FAR_BUMP_NOT_VISIBLE,far wide box
+R19-8,UNSURE,FAR_BUMP_NOT_VISIBLE,far wide box
+R21-1,UNSURE,AMBIGUOUS,heaved pavement mound with rubble rather than a hole
+R21-2,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R21-3,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R21-4,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R21-7,FIX,MISSING,several more water-filled potholes visible (top right, bottom) not boxed
+R21-8,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R22-1,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R22-3,FIX,D5_MANHOLE;FAR_BUMP_NOT_VISIBLE,pothole box is on a light rectangular object (manhole/patch) - remove; bump far
+R22-4,FIX,D5_MANHOLE,same rectangular light object boxed as pothole - remove box (image becomes negative)
+R22-5,FIX,MISSING,road full of broken areas; several clear potholes right/centre not boxed
+R22-6,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R22-7,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R23-1,UNSURE,FAR_BUMP_NOT_VISIBLE,faint
+R23-5,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R23-6,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R23-7,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R24-3,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R25-1,FIX,FAR_TINY;D5_CRACK?,tiny far box at the top is not visibly a pothole (drop it); middle box sits on crack network
+R25-3,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R25-7,FIX,MISSING,water-filled potholes further up the road not boxed
+R25-8,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R26-4,UNSURE,D5_MANHOLE,bottom-right box sits on the edge of a drain grate
+R26-7,UNSURE,FAR_TINY,small dark smudge; not clearly a pothole
+R26-8,UNSURE,FAR_BUMP_NOT_VISIBLE,faint
+R27-4,UNSURE,D5_CRACK,boxes on long cracks rather than holes
+R28-2,UNSURE,AMBIGUOUS_RAVELLING,shallow ravelled surface rather than a hole
+R28-3,UNSURE,AMBIGUOUS_RAVELLING,same scene as R28-2
+R28-4,UNSURE,FAR_TINY;MISSING?,tiny box at the right edge while a larger ravelled patch in the centre is not boxed
+R28-5,UNSURE,D5_PATCH/CRACK,large box over a cracked/patched area
+R28-6,UNSURE,D5_PATCH/CRACK,same scene as R28-5
+R28-7,UNSURE,D5_PATCH/CRACK,same scene as R28-5
+R28-8,UNSURE,AMBIGUOUS_RAVELLING,same scene as R28-2
+R29-1,UNSURE,D5_PATCH,box on a light oval that looks like a repaired patch
+R29-3,FIX,D5_SHADOW;FAR_TINY,lower box is on a tree shadow (remove); upper far box not clearly a pothole
+R30-1,FIX,FAR_TINY,no visible damage inside the box even zoomed (drop box)
+R30-3,UNSURE,FAR_TINY,faint mark
+R30-4,UNSURE,FAR_TINY,faint mark
+R30-7,UNSURE,AMBIGUOUS,orange soil stains; may be shallow filled potholes
+R30-8,UNSURE,AMBIGUOUS,same as R30-7
+R31-1,UNSURE,D5_SHADOW?,top-left box on a dark band that may be a shadow
+R33-2,UNSURE,FAR_TINY,faint
+R33-4,UNSURE,D5_PATCH,box inside a dark patched area
+R33-8,UNSURE,D5_CRACK,thin dark line
+R34-4,UNSURE,FAR_TINY,middle small box shows little
+R34-8,FIX,FAR_TINY,nothing visible in the box even zoomed (drop box)
+R36-1,UNSURE,D5_SHADOW?,dark L-shaped mark looks like a shadow
+R36-2,UNSURE,D5_SHADOW?,same mark closer; crisp dark L-shape
+R36-7,UNSURE,AMBIGUOUS,faint depression on unpaved lot
+R36-8,UNSURE,AMBIGUOUS,same as R36-7
+R37-2,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R37-7,UNSURE,AMBIGUOUS_RAVELLING,surface flaking rather than a hole
+R37-8,UNSURE,WRONG_CLASS?,full-width box labelled pothole on what looks like a ridge/bump across the road
+R38-2,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R38-3,FIX,ROTATION_MISMATCH,sideways photo; box lands on a pothole after rotating 90 CW (verified)
+R38-4,UNSURE,AMBIGUOUS,nothing clear in either orientation
+R38-5,UNSURE,FAR_BUMP_NOT_VISIBLE,bump not discernible
+R38-6,UNSURE,D5_MANHOLE/PATCH,smooth oval looks like a cover or round patch
+R38-7,FIX,ROTATION_MISMATCH,sideways photo; box lands on a pothole in the cracked area after rotating 90 CW (verified)
+R38-8,FIX,ROTATION_MISMATCH,sideways photo; box lands on the pothole only after rotating 90 CW (verified)
+R39-1,FIX,ROTATION_MISMATCH,portrait phone photo stored sideways; boxes are in upright coordinates (verified by rotating 90 CW)
+R39-2,FIX,ROTATION_MISMATCH,same defect (verified)
+R39-3,FIX,ROTATION_MISMATCH,same defect (verified)
+R39-8,UNSURE,AMBIGUOUS,night; dark wet patch
+R40-1,UNSURE,UNREADABLE,night; almost nothing visible
+R40-3,UNSURE,D5_STAIN?,wet dark patch
+R40-4,UNSURE,AMBIGUOUS_EROSION,long eroded channel
+R40-5,UNSURE,AMBIGUOUS_EROSION,same scene as R40-4
+R40-6,UNSURE,AMBIGUOUS_EROSION,same scene as R40-4
+R40-7,UNSURE,AMBIGUOUS_EROSION,long eroded channel on a path with people
+R40-8,UNSURE,AMBIGUOUS_EROSION,same as R40-7
+R41-1,UNSURE,D5_PATCH?,dark rectangular area
+R41-2,UNSURE,D5_PATCH?,dark band; may be a filled/patched trench
+R41-3,UNSURE,AMBIGUOUS_EROSION,eroded channel at night
+R41-4,UNSURE,D5_CRACK,alligator-cracked area
+R41-5,UNSURE,D5_CRACK,alligator-cracked area
+R41-7,UNSURE,UNREADABLE,barely visible
+R42-2,UNSURE,FAR_BUMP_NOT_VISIBLE,dark frame; same scene as R01-1
+R42-8,OK,GEOM_MINOR,box shifted right of the bump
+R43-7,UNSURE,FAR_BUMP_NOT_VISIBLE,same street as R01-7/8
+R45-1,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R45-3,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R46-1,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R46-2,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R46-3,UNSURE,FAR_BUMP_NOT_VISIBLE,far
+R46-7,UNSURE,AMBIGUOUS,same scene as R30-7 (soil stains)
+R47-1,UNSURE,FAR_TINY,faint
+R47-7,UNSURE,FAR_TINY,faint
+R47-8,UNSURE,FAR_TINY,faint; unpaved
+R48-1,UNSURE,FAR_BUMP_NOT_VISIBLE,night
+R48-3,UNSURE,D5_MANHOLE/PATCH,smooth oval patch (same place as R38-6)
+R48-4,UNSURE,D5_SHADOW?,dark curved line looks like a shadow edge
+R48-6,UNSURE,AMBIGUOUS_EROSION,same scene as R40-4
+R48-7,UNSURE,AMBIGUOUS_EROSION,same scene as R40-7
+R48-2,FIX,ROTATION_MISMATCH,sideways photo (verified)
+R48-5,FIX,ROTATION_MISMATCH,sideways photo (verified)

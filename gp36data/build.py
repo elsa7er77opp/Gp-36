@@ -100,6 +100,10 @@ def _prepare(records, target_names):
         if info["exif_orientation"] not in (1,):
             problems.append(f"{sid}: EXIF orientation {info['exif_orientation']} needs explicit handling")
             continue
+        rot = int(r.get("rotate_cw") or 0)
+        if rot not in (0, 90, 180, 270):
+            problems.append(f"{sid}: rotate_cw must be 0/90/180/270, got {rot}")
+            continue
         sha = sha256_file(img)
         if sha in seen:
             problems.append(f"{sid}: same content as {seen[sha]} (deduplicate first)")
@@ -124,7 +128,7 @@ def _prepare(records, target_names):
             # e.g. an RDD2022 image with cracks only: it is NOT a clean negative (the cracks are still there)
             problems.append(f"{sid}: only ignored-class objects {ignored}; not a verified negative")
             continue
-        items.append({**r, "sha256": sha, "info": info, "boxes": mapped, "ignored": ignored,
+        items.append({**r, "rotate_cw": rot, "sha256": sha, "info": info, "boxes": mapped, "ignored": ignored,
                       "warnings": [f"{i.line}:{i.code}" for i in issues if i.severity == "warning"]})
     if problems:
         raise BuildError(problems)
@@ -132,14 +136,21 @@ def _prepare(records, target_names):
 
 
 def _write_image(item, dst_stem, max_side, quality):
+    """Write the output image. ``rotate_cw`` (owner-approved per image) turns the PIXELS clockwise so they
+    match labels that were drawn on the upright photo (found 2026-10-30: rf8 IMG_4421-IMG_4582 stored sideways
+    without an EXIF tag). Labels are never changed by this."""
     src, info = Path(item["image"]), item["info"]
     w, h = info["width"], info["height"]
+    rot = int(item.get("rotate_cw") or 0)
     dst = dst_stem.with_name(dst_stem.name + ".jpg")
-    if info["format"] == "JPEG" and (max_side is None or max(w, h) <= max_side):
+    if rot == 0 and info["format"] == "JPEG" and (max_side is None or max(w, h) <= max_side):
         shutil.copyfile(src, dst)  # keep original bytes
         return dst, w, h
     with Image.open(src) as im:
         im = im.convert("RGB")
+        if rot:
+            im = im.rotate(-rot, expand=True)  # PIL rotates counter-clockwise
+            w, h = im.size
         if max_side is not None and max(w, h) > max_side:
             s = max_side / max(w, h)
             im = im.resize((max(1, round(w * s)), max(1, round(h * s))), Image.LANCZOS)
@@ -188,7 +199,7 @@ def build_dataset(records, out_dir, target_names=("pothole", "speed_bump"), max_
                      "out_sha256": sha256_file(dst), "out_w": w, "out_h": h,
                      **{f"n_{n}": k for n, k in zip(target_names, per_class)},
                      "ignored": json.dumps(it["ignored"]), "label_warnings": ";".join(it["warnings"]),
-                     "group_id": it.get("group_id", "")})
+                     "group_id": it.get("group_id", ""), "rotate_cw": it.get("rotate_cw", 0)})
 
     (tmp / "data.yaml").write_text(yaml.safe_dump(
         {"train": "images/train", "val": "images/val", "test": "images/test",

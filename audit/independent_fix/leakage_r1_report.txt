@@ -1,0 +1,5 @@
+[exact] sha in >1 split: 0
+[near] cross-split: 0
+[temporal rf8] cross-split pairs within 10 numbers: 0
+[sb15] splits: Counter({'train': 1692})
+[selection] same rows as v3a: True

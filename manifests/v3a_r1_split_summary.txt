@@ -1,0 +1,5 @@
+links added: {'numeric': 854, 'gopro': 779, 'sb15': 37150} | groups: 777 | largest: [1833, 357, 168, 133, 132]
+train {'images': 3045, 'pothole': 2700, 'speed_bump': 1413, 'ghpot': 85, 'negative': 687, 'rf8': 1268, 'sb15': 1692}
+val {'images': 872, 'pothole': 771, 'speed_bump': 403, 'ghpot': 49, 'negative': 0, 'rf8': 823}
+test {'images': 435, 'pothole': 385, 'speed_bump': 202, 'ghpot': 52, 'negative': 0, 'rf8': 383}
+written /sessions/rcw-016y9xos33wnpxkeaqqrkqah/mnt/Desktop/GP36_AI/manifests/v3a_r1_split_manifest.csv

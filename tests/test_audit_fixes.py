@@ -264,5 +264,37 @@ class TestIssue4TempSafety(BuildCase):
         self.assertEqual(sorted(p.name for p in self.out().iterdir()), ["someone_else.txt"])
 
 
+class TestRotateCw(BuildCase):
+    """Owner-approved fix 2026-10-30: phone photos stored sideways while labels match the upright view."""
+
+    def test_rotate_cw_turns_pixels_only(self):
+        from PIL import Image
+        src = Image.new("RGB", (40, 20), "white")
+        src.paste((255, 0, 0), (0, 0, 10, 20))  # red strip on the LEFT edge of the stored image
+        img = self.src / "sideways.jpg"
+        src.save(img, "JPEG", quality=100)
+        lbl = self.src / "sideways.txt"
+        lbl.write_text("0 0.5 0.1 0.2 0.1\n")  # label drawn on the upright image (red strip at the TOP)
+        recs = [dict(r) for r in self.records] + [{"sample_id": "t/sideways", "source": "fx", "split": "train", "image": img,
+                                                   "label": lbl, "class_map": {0: "pothole", 1: "speed_bump"}, "rotate_cw": 90}]
+        build_dataset(recs, self.out(), check_near_dups=False)
+        import csv as _csv
+        row = next(r for r in _csv.DictReader(open(self.out() / "manifest.csv", encoding="utf-8")) if r["sample_id"] == "t/sideways")
+        self.assertEqual((row["out_w"], row["out_h"], row["rotate_cw"]), ("20", "40", "90"))
+        with Image.open(self.out() / row["out_image"]) as out:
+            top = out.getpixel((10, 2)); bottom = out.getpixel((10, 37))
+        self.assertGreater(top[0] - top[1], 100)       # red is now at the top
+        self.assertLess(abs(bottom[0] - bottom[1]), 40)  # bottom stays white
+        lbl_out = (self.out() / row["out_image"].replace("images/", "labels/", 1)).with_suffix(".txt").read_text()
+        self.assertEqual(lbl_out.split()[1:3], ["0.500000", "0.100000"])  # label coordinates unchanged
+
+    def test_invalid_rotation_rejected(self):
+        recs = [dict(r) for r in self.records]
+        recs[0]["rotate_cw"] = 45
+        with self.assertRaises(BuildError):
+            build_dataset(recs, self.out(), check_near_dups=False)
+        self.assertFalse(self.out().exists())
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -4,6 +4,7 @@
 
 The split manifest has one row per APPROVED sample with columns:
     sample_id, source, split, image, label, negative (0/1), group_id
+    optional: allow_ignored_only (0/1), rotate_cw (0/90/180/270; pixels only, owner-approved)
 `label` may point to a reviewed/corrected label file instead of the raw one. Class maps come from
 configs/sources.yaml. The build is atomic and refuses to overwrite an existing version.
 """
@@ -36,7 +37,8 @@ def main():
                             "image": row["image"], "label": row.get("label") or None,
                             "negative": row.get("negative", "0") == "1", "group_id": row.get("group_id", ""),
                             "class_map": src["class_map"], "ignore": src["ignore"],
-                            "allow_ignored_only": row.get("allow_ignored_only", "0") == "1"})
+                            "allow_ignored_only": row.get("allow_ignored_only", "0") == "1",
+                            "rotate_cw": int(row.get("rotate_cw") or 0)})
     try:
         report = build_dataset(records, args.out, cfg["target_names"], max_side=args.max_side,
                                info={"version": args.version, "split_manifest": args.split_manifest,
