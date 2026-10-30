@@ -3,7 +3,7 @@
 **Date:** 30 Oct 2026
 **Branch:** `audit-fixes-2026-10-30`
 **Baseline:** commit `baef271` on master, tag `baseline-2026-10-30`
-**Fixes:** not committed. View them with `git diff baseline-2026-10-30`; the same diff is in `audit/independent_fix/fixes.patch`.
+**Fixes:** approved by the owner (22:20) and committed on the branch as `016ff3f`. Not merged into master. Diff: `git diff baseline-2026-10-30 016ff3f`, also in `audit/independent_fix/fixes.patch`.
 **Status:** STOPPED, waiting for owner approval. Nothing was retrained or rebuilt, and the running training was not touched.
 
 ## 0. How this was run (read first)
@@ -328,7 +328,7 @@ Expected:
 
 ## 13. Needs owner approval
 
-1. Accept or reject the fixes for issues 1, 2 and 4, then commit them on the branch and merge.
+1. ~~Accept the fixes for issues 1, 2 and 4~~ (approved and committed as `016ff3f`). Still open: merge into master.
 2. Issue 7: option (a), (b) or (c).
 3. Issue 3: keep the rules (recommended), or switch the verifier to 7/14.
 4. Issue 6: start the 100% test-set review, and choose who is the second reviewer.
