@@ -1,0 +1,16 @@
+{
+ "kind": "external_test",
+ "src": "..\\GP36_Dataset\\raw_v3\\roboflow_bd_speedbreaker_v2",
+ "splits": [
+  "valid",
+  "test"
+ ],
+ "class_map": {
+  "0": "speed_bump"
+ },
+ "n_images": 87,
+ "n_speed_bump": 88,
+ "n_pothole": 0,
+ "leakage_guard": "0 exact / 0 near (dihedral dHash<=4 & pHash<=10) vs road_hazards_v3a_r2 (4188 images)",
+ "min_dhash_to_internal_overall": 5
+}

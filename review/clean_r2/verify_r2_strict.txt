@@ -1,0 +1,28 @@
+﻿{
+ "train": {
+  "images": 3035,
+  "objects": {
+   "0": 2570,
+   "1": 1404
+  },
+  "empty_label_images": 703
+ },
+ "val": {
+  "images": 830,
+  "objects": {
+   "0": 691,
+   "1": 378
+  },
+  "empty_label_images": 10
+ },
+ "test": {
+  "images": 323,
+  "objects": {
+   "0": 285,
+   "1": 160
+  },
+  "empty_label_images": 0
+ }
+}
+WARN  3867 derived training-cache file(s) ignored (Ultralytics *.npy / labels/<split>.cache)
+mode=strict: 0 errors, 1 warnings -> PASS [near-duplicate check SKIPPED]

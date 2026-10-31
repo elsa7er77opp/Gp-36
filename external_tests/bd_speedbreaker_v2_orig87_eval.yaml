@@ -1,0 +1,9 @@
+﻿# Eval-only wrapper for the external BD test (dataset folder left untouched; its checksums stay valid).
+# 'train' is required by Ultralytics' YAML check only; this file is never used for training.
+path: C:/Users/ahmed/Desktop/GP36_AI/external_tests/bd_speedbreaker_v2_orig87
+train: images/test
+val: images/test
+test: images/test
+names:
+  0: pothole
+  1: speed_bump

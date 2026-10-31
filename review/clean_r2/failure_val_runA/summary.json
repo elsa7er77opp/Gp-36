@@ -1,0 +1,208 @@
+{
+ "pred": "runs\\detect\\v3a_r2_11n_VAL_json\\predictions.json",
+ "data": "road_hazards_v3a_r2",
+ "split": "val",
+ "conf": 0.35,
+ "iou": 0.5,
+ "images": 830,
+ "by_class": {
+  "pothole": {
+   "tp": 364,
+   "fn": 327,
+   "fp": 154,
+   "recall": 0.527,
+   "precision": 0.703
+  },
+  "speed_bump": {
+   "tp": 210,
+   "fn": 168,
+   "fp": 24,
+   "recall": 0.556,
+   "precision": 0.897
+  }
+ },
+ "by_size": {
+  "pothole/large": {
+   "tp": 39,
+   "fn": 36,
+   "fp": 0,
+   "recall": 0.52,
+   "precision": 1.0
+  },
+  "pothole/medium": {
+   "tp": 33,
+   "fn": 34,
+   "fp": 0,
+   "recall": 0.493,
+   "precision": 1.0
+  },
+  "pothole/small": {
+   "tp": 45,
+   "fn": 59,
+   "fp": 0,
+   "recall": 0.433,
+   "precision": 1.0
+  },
+  "pothole/tiny": {
+   "tp": 247,
+   "fn": 198,
+   "fp": 0,
+   "recall": 0.555,
+   "precision": 1.0
+  },
+  "speed_bump/large": {
+   "tp": 32,
+   "fn": 46,
+   "fp": 0,
+   "recall": 0.41,
+   "precision": 1.0
+  },
+  "speed_bump/medium": {
+   "tp": 146,
+   "fn": 77,
+   "fp": 0,
+   "recall": 0.655,
+   "precision": 1.0
+  },
+  "speed_bump/small": {
+   "tp": 32,
+   "fn": 42,
+   "fp": 0,
+   "recall": 0.432,
+   "precision": 1.0
+  },
+  "speed_bump/tiny": {
+   "tp": 0,
+   "fn": 3,
+   "fp": 0,
+   "recall": 0.0,
+   "precision": null
+  }
+ },
+ "by_source": {
+  "pothole/ghpot": {
+   "tp": 32,
+   "fn": 26,
+   "fp": 18,
+   "recall": 0.552,
+   "precision": 0.64
+  },
+  "pothole/rf8": {
+   "tp": 332,
+   "fn": 301,
+   "fp": 136,
+   "recall": 0.524,
+   "precision": 0.709
+  },
+  "speed_bump/rf8": {
+   "tp": 210,
+   "fn": 168,
+   "fp": 24,
+   "recall": 0.556,
+   "precision": 0.897
+  }
+ },
+ "fp_types": {
+  "pothole/background": 67,
+  "pothole/duplicate": 19,
+  "pothole/localization": 68,
+  "speed_bump/background": 3,
+  "speed_bump/duplicate": 10,
+  "speed_bump/localization": 11
+ },
+ "top_fn_groups": [
+  {
+   "source": "rf8",
+   "group_id": "r1g1132",
+   "fn": 125
+  },
+  {
+   "source": "rf8",
+   "group_id": "r1g2418",
+   "fn": 79
+  },
+  {
+   "source": "rf8",
+   "group_id": "r1g589",
+   "fn": 64
+  },
+  {
+   "source": "rf8",
+   "group_id": "r1g939",
+   "fn": 26
+  },
+  {
+   "source": "rf8",
+   "group_id": "r1g897",
+   "fn": 12
+  },
+  {
+   "source": "rf8",
+   "group_id": "r1g2131",
+   "fn": 11
+  },
+  {
+   "source": "rf8",
+   "group_id": "r1g375",
+   "fn": 9
+  },
+  {
+   "source": "rf8",
+   "group_id": "r1g255",
+   "fn": 9
+  },
+  {
+   "source": "rf8",
+   "group_id": "r1g2252",
+   "fn": 6
+  },
+  {
+   "source": "rf8",
+   "group_id": "r1g2148",
+   "fn": 4
+  },
+  {
+   "source": "rf8",
+   "group_id": "r1g804",
+   "fn": 4
+  },
+  {
+   "source": "rf8",
+   "group_id": "r1g304",
+   "fn": 4
+  },
+  {
+   "source": "ghpot",
+   "group_id": "r1g162",
+   "fn": 3
+  },
+  {
+   "source": "rf8",
+   "group_id": "r1g2175",
+   "fn": 3
+  },
+  {
+   "source": "rf8",
+   "group_id": "r1g2172",
+   "fn": 3
+  }
+ ],
+ "size_buckets_sqrt_area": {
+  "tiny": [
+   0.0,
+   0.05
+  ],
+  "small": [
+   0.05,
+   0.15
+  ],
+  "medium": [
+   0.15,
+   0.35
+  ],
+  "large": [
+   0.35,
+   9.0
+  ]
+ }
+}

@@ -1,0 +1,169 @@
+{
+ "thresholds": {
+  "dh": 4,
+  "ph": 10,
+  "dh_loose_vs_r2": 8,
+  "note": "dHash = min over 8 flip/rotation variants of the new image; owned refs have no pHash"
+ },
+ "r2_images": 4188,
+ "owned_hashes": 10017,
+ "sets": {
+  "sub5": {
+   "images": 2249,
+   "readable": 2249,
+   "problems": {},
+   "label_error_images": 0,
+   "bad_class_boxes": 0,
+   "boxes_by_class": {
+    "Manhole": 14,
+    "Open Manhole": 1,
+    "Pothole": 14,
+    "Speed Bump": 1358,
+    "Unmarked Bump": 1177
+   },
+   "images_with_class": {
+    "Manhole": 14,
+    "Open Manhole": 1,
+    "Pothole": 8,
+    "Speed Bump": 1154,
+    "Unmarked Bump": 1095
+   },
+   "empty_label_images": 0,
+   "sizes": [
+    [
+     "640x640",
+     2249
+    ]
+   ],
+   "exact_dup_r2": 0,
+   "exact_dup_owned": {},
+   "near_r2_train": 89,
+   "near_r2_val": 140,
+   "near_r2_test": 8,
+   "loose_r2_valtest": 1455,
+   "near_owned_any": 8,
+   "near_owned_by_set": {
+    "rf8": 8
+   },
+   "within_new_groups": 708,
+   "groups_shared_with_other_new_sets": 158,
+   "max_box_area_gt_0.5": 33
+  },
+  "qub1": {
+   "images": 1183,
+   "readable": 1183,
+   "problems": {},
+   "label_error_images": 0,
+   "bad_class_boxes": 0,
+   "boxes_by_class": {
+    "Manhole": 14,
+    "Pothole": 153,
+    "Unmarked Bump": 1552
+   },
+   "images_with_class": {
+    "Manhole": 14,
+    "Pothole": 105,
+    "Unmarked Bump": 1182
+   },
+   "empty_label_images": 1,
+   "sizes": [
+    [
+     "640x640",
+     1183
+    ]
+   ],
+   "exact_dup_r2": 0,
+   "exact_dup_owned": {},
+   "near_r2_train": 5,
+   "near_r2_val": 1,
+   "near_r2_test": 1,
+   "loose_r2_valtest": 460,
+   "near_owned_any": 8,
+   "near_owned_by_set": {
+    "hump": 1,
+    "rf8": 7
+   },
+   "within_new_groups": 355,
+   "groups_shared_with_other_new_sets": 252,
+   "max_box_area_gt_0.5": 19
+  },
+  "qub2": {
+   "images": 820,
+   "readable": 820,
+   "problems": {},
+   "label_error_images": 0,
+   "bad_class_boxes": 0,
+   "boxes_by_class": {
+    "Manhole": 12,
+    "Pothole": 117,
+    "Unmarked Bump": 1133
+   },
+   "images_with_class": {
+    "Manhole": 12,
+    "Pothole": 79,
+    "Unmarked Bump": 820
+   },
+   "empty_label_images": 0,
+   "sizes": [
+    [
+     "640x640",
+     820
+    ]
+   ],
+   "exact_dup_r2": 0,
+   "exact_dup_owned": {},
+   "near_r2_train": 3,
+   "near_r2_val": 1,
+   "near_r2_test": 1,
+   "loose_r2_valtest": 352,
+   "near_owned_any": 4,
+   "near_owned_by_set": {
+    "rf8": 4
+   },
+   "within_new_groups": 241,
+   "groups_shared_with_other_new_sets": 241,
+   "max_box_area_gt_0.5": 19
+  },
+  "qubo": {
+   "images": 300,
+   "readable": 300,
+   "problems": {},
+   "label_error_images": 77,
+   "bad_class_boxes": 0,
+   "boxes_by_class": {
+    "Manhole": 18,
+    "Pothole": 7,
+    "Speed Bump": 133,
+    "Unmarked Bump": 159
+   },
+   "images_with_class": {
+    "Manhole": 15,
+    "Pothole": 7,
+    "Speed Bump": 112,
+    "Unmarked Bump": 130
+   },
+   "empty_label_images": 66,
+   "sizes": [
+    [
+     "640x640",
+     300
+    ]
+   ],
+   "exact_dup_r2": 0,
+   "exact_dup_owned": {},
+   "near_r2_train": 0,
+   "near_r2_val": 0,
+   "near_r2_test": 0,
+   "loose_r2_valtest": 40,
+   "near_owned_any": 3,
+   "near_owned_by_set": {
+    "rf8": 3,
+    "hump": 2,
+    "kiz": 1
+   },
+   "within_new_groups": 298,
+   "groups_shared_with_other_new_sets": 1,
+   "max_box_area_gt_0.5": 18
+  }
+ }
+}

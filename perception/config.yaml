@@ -1,0 +1,37 @@
+# GP36 live perception config. Paths are relative to the GP36_AI folder.
+# Every fsm threshold below is a PLACEHOLDER (not calibrated). It must be tuned
+# on pod footage or other footage that is NOT in train/val/test or the held-out
+# unseen-road / unseen-country lists.
+
+hazard:
+  weights: runs/detect/v3a_r1_11n_960_s0/weights/best.pt   # frozen baseline v1
+  imgsz: 960            # same as training
+  conf: 0.25
+  iou: 0.5
+  expect_names: {0: pothole, 1: speed_bump}
+
+coco:
+  weights: yolo11n.pt   # pretrained COCO, never retrained
+  imgsz: 640
+  conf: 0.35
+  iou: 0.5
+  classes: [person, bicycle, car, motorcycle, bus, truck, dog]
+
+fsm:
+  corridor_x: [0.25, 0.75]       # driving corridor, normalised x
+  obstacle_labels: [coco:person, coco:bicycle, coco:car, coco:motorcycle, coco:bus, coco:truck, coco:dog]
+  obstacle_min_conf: 0.40
+  obstacle_warn_bottom: 0.55     # box bottom below 55% of frame height -> WARNING
+  obstacle_stop_bottom: 0.85     # box bottom below 85% -> STOP
+  obstacle_stop_height: 0.45     # or box taller than 45% of frame -> STOP
+  hazard_labels: [hazard:pothole, hazard:speed_bump]
+  hazard_min_conf: 0.35
+  hazard_warn_bottom: 0.50
+  range_warn_m: 2.0              # Strasser et al. (2024)
+  range_stop_m: 0.5              # Strasser et al. (2024)
+  escalate_frames: 2
+  release_frames: 10
+  stale_timeout_s: 1.0
+
+stream:
+  warmup_frames: 10              # excluded from latency statistics (CUDA warm-up)

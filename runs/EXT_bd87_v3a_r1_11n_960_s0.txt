@@ -1,0 +1,29 @@
+﻿Ultralytics 8.4.192  Python-3.12.10 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5050 Laptop GPU, 8123MiB)
+YOLO11n summary (fused): 101 layers, 2,597,294 parameters, 0 gradients, 6.4 GFLOPs
+yolo.exe : Traceback (most recent call last):
+At line:1 char:663
++ ... d HH:mm')"; & venv\Scripts\yolo val model="runs\detect\$($j[0])\weigh ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\ahmed\Desktop\GP36_AI\venv\Scripts\yolo.exe\__main__.py", line 7, in <module>
+  File "C:\Users\ahmed\Desktop\GP36_AI\venv\Lib\site-packages\ultralytics\cfg\__init__.py", line 1188, in entrypoint
+    getattr(model, mode)(**overrides)  # default args from model
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmed\Desktop\GP36_AI\venv\Lib\site-packages\ultralytics\engine\model.py", line 645, in val
+    validator(model=self.model)
+  File "C:\Users\ahmed\Desktop\GP36_AI\venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in 
+decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmed\Desktop\GP36_AI\venv\Lib\site-packages\ultralytics\engine\validator.py", line 226, in __call__
+    self.data = check_det_dataset(self.args.data, split=self.args.split)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ahmed\Desktop\GP36_AI\venv\Lib\site-packages\ultralytics\data\utils.py", line 759, in 
+check_det_dataset
+    raise SyntaxError(
+SyntaxError: external_tests\bd_speedbreaker_v2_orig87\data.yaml 'train:' key missing .
+'train' and 'val' are required in all data YAMLs.
