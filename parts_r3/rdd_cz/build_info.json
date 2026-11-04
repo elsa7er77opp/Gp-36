@@ -1,0 +1,34 @@
+{
+ "part": "rdd_cz",
+ "items": "review/new_data_r3/items/items_rdd_cz.csv",
+ "n_items": 154,
+ "kept": 154,
+ "drops": {},
+ "far_tiny_boxes_removed": 0,
+ "ignored_boxes_removed": 153,
+ "far_tiny_threshold": 0.02,
+ "leakage_guard": "exact + dihedral dHash<=4 & pHash<=10 vs road_hazards_v3a_r2 (all splits)",
+ "splits": {
+  "train": {
+   "images": 0,
+   "negatives": 0,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 0,
+   "groups": 0
+  },
+  "val": {
+   "images": 0,
+   "negatives": 0,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 0,
+   "groups": 0
+  },
+  "test": {
+   "images": 154,
+   "negatives": 0,
+   "pothole_boxes": 197,
+   "speed_bump_boxes": 0,
+   "groups": 154
+  }
+ }
+}

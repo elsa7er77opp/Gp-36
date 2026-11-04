@@ -1,0 +1,36 @@
+{
+ "part": "bucko",
+ "items": "review/new_data_r3/items/items_bucko_v2.csv",
+ "n_items": 531,
+ "kept": 527,
+ "drops": {
+  "only_far_tiny": 4
+ },
+ "far_tiny_boxes_removed": 27,
+ "ignored_boxes_removed": 109,
+ "far_tiny_threshold": 0.02,
+ "leakage_guard": "exact + dihedral dHash<=4 & pHash<=10 vs road_hazards_v3a_r2 (all splits)",
+ "splits": {
+  "train": {
+   "images": 282,
+   "negatives": 103,
+   "pothole_boxes": 357,
+   "speed_bump_boxes": 0,
+   "groups": 2
+  },
+  "val": {
+   "images": 125,
+   "negatives": 42,
+   "pothole_boxes": 186,
+   "speed_bump_boxes": 0,
+   "groups": 1
+  },
+  "test": {
+   "images": 120,
+   "negatives": 23,
+   "pothole_boxes": 232,
+   "speed_bump_boxes": 0,
+   "groups": 1
+  }
+ }
+}

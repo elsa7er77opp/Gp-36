@@ -35,3 +35,16 @@ runs/**/*.png
 runs/**/*.jpg
 *.bak_*
 review/**/*.zip
+
+# Added 2026-11-04 (before the first push to a private GitHub repo): data never goes to git
+parts_r3/**/images/
+parts_r3/**/labels/
+external_tests/**/images/
+external_tests/**/labels/
+runs/detect/runs/
+runs/**/predictions.json
+*.npz
+# project rule "never upload project images": photo sheets and Word files that may embed photos stay local
+supervisor_*/**/*.jpg
+supervisor_*/**/*.docx
+*.jpg
