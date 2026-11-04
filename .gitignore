@@ -48,3 +48,6 @@ runs/**/predictions.json
 supervisor_*/**/*.jpg
 supervisor_*/**/*.docx
 *.jpg
+
+# hashes only (no pixels): lets cloud sessions run the leakage guard
+!review/new_data_r3/protected_hashes.npz
