@@ -492,3 +492,25 @@ Setup: 1,451 BDD100k road images (yolo-automotive-dataset); yolo11n COCO with th
   - `review/metrics_r3/val_r2_all_2026-11-04/report.md`
   - `review/metrics_r3/partval_rsid_all_2026-11-04/report.md`
   - `review/metrics_r3/partval_bucko_all_2026-11-04/report.md`
+
+## Stage 18 — Kaggle data (token added by Ahmed 2026-11-04), part `sr`, v3b_B, D2 hypothesis
+- **Kaggle access works.** `tools/kaggle_dl.py` reads `%USERPROFILE%\.kaggle\access_token` and never prints it. Triage of 13 Kaggle sets: `review/new_data_r3/CANDIDATES.md` §D.
+- **Owner update (Ahmed, 2026-11-04):** the supervisor says EGY_PDD is not needed and that much more data exists online. EGY_PDD is removed from the plan.
+- **Part `sr`** (Kaggle speedregulator, CC BY-SA 4.0, a merged set; `tools/make_items_sr.py`, `parts_r3/sr/build_info.json`):
+
+| family | what it is | used? |
+|---|---|---|
+| `kg_` | Italian dashcam (shop signs `Onoranze Funebri`, `Hertz`): potholes, cracks, manholes | yes; group = recording date |
+| `dz_` | Algerian phone dash videos: speed bumps + potholes | yes; group = video |
+| `rad_` | Indian dashcam (RAD) | **built but kept OUT of training (PROVISIONAL)**: sheet `review/new_data_r3/sr_bump_check.jpg` shows many "speed bump" boxes on sand or dirt road edges with no visible hump (`sr__e445eed…`, `sr__86d385e…`, `sr__850dd86…`) |
+| `rdd_`, `rf_`, `night_` (= Bučko frames), `aug_` | duplicates of data we hold, rejected families, augmented copies | excluded |
+
+  - Part counts: train 2,436 (1,488 negatives = crack/manhole-only hard negatives; 1,125 pothole, 247 bump boxes); val 164; test 183. 37 / 8 / 8 groups.
+  - **Leakage guard extended:** r2 (all splits) **+ BD87 + rsid/bucko val,test + rdd_cz test** → **0 hits**. Drops: 11 only_far_tiny, 3 label errors, 5 exact duplicates inside the part.
+  - Spot check `review/new_data_r3/sr_pothole_check.jpg`: pothole boxes are plausible.
+- **`road_hazards_v3b_B`** = v3b_A + sr (kg + dz) (`road_hazards_v3b_B/build_info.json`, strict PASS, fingerprint `f927a9df…aeb6`):
+  - train 6,893 images; 5,055 pothole / 1,925 bump boxes (2.6 : 1); 2,612 negatives;
+  - val/test = r2.
+- **Run D2 `v3b_B_11n_960_s0`** (same settings as D1, data v3b_B):
+  - **H-D2:** r2-val mAP50 ≥ D1 − 0.02, AND sr part-val pothole AP50 ≥ D1's + 0.10 (new country, Italy), AND r2-val pothole precision at the F1-opt threshold does not drop by more than 0.03 (the hard negatives should, if anything, raise it).
+  - Queued after queue 2: `run_r3_queue3.bat`, log `runs/r3_queue3.log`.

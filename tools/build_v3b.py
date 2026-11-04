@@ -40,7 +40,10 @@ def main():
     ap.add_argument("--base", default="road_hazards_v3a_r2")
     ap.add_argument("--parts", nargs="*", default=[])
     ap.add_argument("--out", required=True)
+    ap.add_argument("--drop-meta", nargs="*", default=[],
+                    help="part=substring: leave out that part's train rows whose meta contains substring (e.g. sr=family=rad)")
     args = ap.parse_args()
+    drop = [tuple(s.split("=", 1)) for s in args.drop_meta]
     base, out = Path(args.base), Path(args.out)
     if out.exists():
         sys.exit(f"{out} exists; refusing to overwrite")
@@ -60,7 +63,8 @@ def main():
     for spec in args.parts:
         pdir, _, cap = spec.partition(":")
         pdir = Path(pdir)
-        prow = [r for r in csv.DictReader(open(pdir / "manifest.csv", newline="", encoding="utf-8")) if r["split"] == "train"]
+        prow = [r for r in csv.DictReader(open(pdir / "manifest.csv", newline="", encoding="utf-8")) if r["split"] == "train"
+                and not any(pdir.name == p and sub in r.get("meta", "") for p, sub in drop)]
         if cap:
             random.Random(0).shuffle(prow)
             prow = sorted(prow[:int(cap)], key=lambda r: r["out_image"])
@@ -71,7 +75,8 @@ def main():
             link(pdir / r["out_image"], tmp / r["out_image"])
             link(pdir / "labels" / "train" / f"{stem}.txt", tmp / "labels" / "train" / f"{stem}.txt")
             rows.append(r)
-        used[str(pdir)] = {"cap": int(cap) if cap else None, "train_images": len(prow),
+        used[str(pdir)] = {"cap": int(cap) if cap else None, "dropped_meta": [s for p, s in drop if p == pdir.name],
+                           "train_images": len(prow),
                            "pothole_boxes": sum(int(r["n_pothole"]) for r in prow),
                            "speed_bump_boxes": sum(int(r["n_speed_bump"]) for r in prow),
                            "negatives": sum(int(r["n_pothole"]) + int(r["n_speed_bump"]) == 0 for r in prow),

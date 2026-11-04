@@ -1,0 +1,38 @@
+{
+ "part": "sr",
+ "items": "review/new_data_r3/items/items_sr.csv",
+ "n_items": 2802,
+ "kept": 2783,
+ "drops": {
+  "only_far_tiny": 11,
+  "label_error": 3,
+  "exact_dup_in_part": 5
+ },
+ "far_tiny_boxes_removed": 4,
+ "ignored_boxes_removed": 3675,
+ "far_tiny_threshold": 0.02,
+ "leakage_guard": "exact + dihedral dHash<=4 & pHash<=10 vs road_hazards_v3a_r2 (all splits) + ['external_tests/bd_speedbreaker_v2_orig87', 'parts_r3/rsid:val,test', 'parts_r3/bucko:val,test', 'parts_r3/rdd_cz:test']",
+ "splits": {
+  "train": {
+   "images": 2436,
+   "negatives": 1488,
+   "pothole_boxes": 1125,
+   "speed_bump_boxes": 247,
+   "groups": 37
+  },
+  "val": {
+   "images": 164,
+   "negatives": 96,
+   "pothole_boxes": 108,
+   "speed_bump_boxes": 35,
+   "groups": 8
+  },
+  "test": {
+   "images": 183,
+   "negatives": 119,
+   "pothole_boxes": 65,
+   "speed_bump_boxes": 27,
+   "groups": 8
+  }
+ }
+}
