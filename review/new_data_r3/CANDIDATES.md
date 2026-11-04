@@ -76,3 +76,55 @@ Tool: `tools/kaggle_dl.py`. It reads `%USERPROFILE%\.kaggle\access_token` and ne
 | `youssefhany100/road-damage-detection` | an RDD2022 re-pack + model files | **REJECT** (we have RDD2022) |
 | `hosen42/pothole-data` | classification folders (`Plain/`) | **REJECT** |
 | `rohitsuresh15/radroad-anomaly-detection` (7.8 GB, MIT) | dashcam video frames `01_10072023_mp4-31…`; data.yaml not readable by single-file request | later, if time allows |
+
+## E. Cloud session search (2026-11-04, no GPU, no project data)
+Full write-up and laptop steps: `review/new_data_r3/CLOUD_REPORT.md`.
+
+**Access in the cloud VM (VERIFIED by request results, 2026-11-04):** the environment's network policy returns
+HTTP 403 (proxy CONNECT refused) for kaggle.com, zenodo.org, figshare.com, huggingface.co, roboflow.com,
+data.mendeley.com, ieee-dataport.org, arxiv.org and mdpi.com. `KAGGLE_API_TOKEN` and `ROBOFLOW_API_KEY` are not
+set. Only GitHub (git clone, API, release assets) and PyPI are reachable. So only GitHub-hosted data could be
+downloaded and leak-checked here; every other candidate below is **LAPTOP-VET** (download + `tools/vet_source.py`
+on the laptop).
+
+**Leak rule change found by the new tests (VERIFIED, `tests/test_leak_check.py`):** the old rule compared the
+pHash of the *unrotated* candidate only, so a horizontally flipped copy of a protected image had dHash 2 but
+pHash 32 and was **not** a hit. `tools/leak_check.py` and `tools/build_part.py` now compare both hashes under
+the same flip/rotation (rule v2). On the rejected E1.2 set, rule v2 finds 328 eval hits where rule v1 found 229
+(VERIFIED, cloud leak runs). Parts built before this change must be re-checked (CLOUD_REPORT §3, step 0).
+
+### E1. Downloaded and checked in the cloud VM (GitHub)
+| # | Source | What it is | Leak check (rule) | Verdict |
+|---|---|---|---|---|
+| E1.1 | [dm-druid/SpeedBumps-Detection](https://github.com/dm-druid/SpeedBumps-Detection) (MIT, 2018) | YOLO txt, id 0 = speed bump (yellow/black rubber bumps, Chinese campus, phone at windscreen height, one day "0620"), id 1 = person (mostly Pascal-VOC web photos). **Augmented:** every original appears 10× as brightness/contrast copies (index period 279), spread over its own train AND val. 5,983 images → 2,770 road images → **277 originals, 319 bump boxes** (34 pedestrian boxes → ignore) | 0 eval hits, 0 r2-train hits on all 5,983 images (rule v1) and on the 277 originals (rule v2) | **ACCEPT** (train only, originals only): `tools/make_items_dmdruid.py`. Visual check of 20 random originals below |
+| E1.2 | [sanapala-krishnakanth/pothole-speedbeaker-detection-system](https://github.com/sanapala-krishnakanth/pothole-speedbeaker-detection-system) = README "Speed_breakers&Pothole v8", Roboflow `akash-kumbar/speed_breakers-pothole` (CC BY 4.0) = CANDIDATES A13 | 6,045 Roboflow images, 1,395 bases with 2–8 rf. copies; families `Image-N-`, numeric, `potholesN` | rule v1: **229 eval hits** (val rf8 140, test rf8 58, ghpot val/test 31) + 158 r2-train hits; rule v2: **328 eval hits** + 258 r2-train hits (the 99 extra eval hits are flipped copies the old rule missed) | **REJECT** (leak into r2 val/test; augmented). Same files in `RitheeshReddy078/…` and `DineshReddyNarra/…-master` (same tree, 12,485 files) → REJECT |
+| E1.3 | [Mohamed20384/Speed-Bump-Detection-marked-unmarked](https://github.com/Mohamed20384/Speed-Bump-Detection-marked-unmarked) (no licence) | graduation project, **unmarked bumps on Egyptian streets**, own collection: 6 raw input videos (`bump1-6.mp4`, `bump_challenge.mp4`, day + night) + a YOLOv8 `best.pt`. **No labels published** | not run (no labelled images) | **REQUEST** (highest value for our main failure): ask the author for permission and the labelled frames. Without labels, the videos could be hand-labelled into an *Egyptian part-val* (never train on our only Egyptian eval). No licence → no use without written permission |
+| E1.4 | [eid-abdelrihem/Unmarked-Bump-Detection-by-Hybrid-Architecture](https://github.com/eid-abdelrihem/Unmarked-Bump-Detection-by-Hybrid-Architecture) | notebooks only; data = Roboflow `ensam-wyp9x/total-jcwvt` v5, classes marked / non-marked speed bump, 628 / 181 / 75 images; README: only 39 non-marked vs 666 marked train boxes | — | **LAPTOP-VET** with Ahmed's own Roboflow key (the notebook contains someone else's key; it was **not** used and is not recorded) |
+| E1.5 | `li-peiyun/Detection-and-Distance-Measurement-of-Speedbumps`, `MinmusLin/…`, `359jxf/…` (Tongji campus course projects) | 857 frames + drawn result images, no label files (5 xml are calibration) | — | REJECT (no boxes) |
+| E1.6 | `Santhanalakshmimano/SpeedBump_detection_usingCV` | 463 VOC xml, names `Image00xxx` | family Image000xx | REJECT (known re-upload family) |
+| E1.7 | `Dip556/AI-Road-Shield`, `MK-DEV369/AEGIS-RS`, `rautshreya1610/pothole-road-hump-detection`, `Benadict-Git/speed` (SBP-YOLO clone) | Roboflow re-exports (`N_jpg.rf.`, `potholesN`, `pic-N-`, `img-N`); SBP-YOLO clone has results only | not run | REJECT (known families / augmented / no data) |
+| E1.8 | `AGV-IIT-KGP/SpeedBumpDetection`, `VaradSalunke2808/…`, `DivyasreeN31/Speed-breaker-` | classification folders / frames without boxes | — | REJECT (no boxes) |
+| E1.9 | `lonlonago/…speed-bump…974-images`, `the-chet/…`, `jeetgoyal80/…`, `Kbsurendra/…`, `PrasadCodesML/…`, `YashGang/…`, `a-b-h-a-y…`, `lkampoli/…`, `Rahulp-24/…`, `ImagingLab-HCL/Hump_Detection`, `ArunaK-netizen/…`, `maarhmaa/…`, `rajeshkumarswain1976/…` | preview images, results plots, code or videos only | — | REJECT (no dataset in the repo) |
+| E1.10 | `Androidest/Speed_Bump_Detection` | = our `ghsb` source | — | already used |
+
+Visual check E1.1 (20 random originals, seed 0, sheet kept outside git): all 20 are road scenes; boxes are on
+yellow/black (and one black/yellow striped) rubber speed bumps, tight around the bump; 16 forward views at low
+height with near and far bumps (thin far boxes, e.g. ≈ 0.8 × 0.03 of the frame, none below FAR_TINY), 3 close
+views pointing down at the bump (`xqq062000200`, `…218`, `…261`), 1 oblique (`…157`); zebra crossings are visible in
+`xqq062000076` and `…160` and are **not** labelled (consistent with D1); one pedestrian
+box (id 1 → ignore); no rumble strips, manholes or potholes labelled. These are *marked* bumps, not the unmarked
+Egyptian kind, so the expected gain is for bumps in general, not the main failure mode.
+
+### E2. Found by web search, not downloadable from the cloud VM (LAPTOP-VET or REQUEST)
+| # | Source | What is known (search results, not verified) | Next step |
+|---|---|---|---|
+| E2.1 | **DriveIndia** (arXiv 2507.19912; IEEE 11423478), TiHAN IIT Hyderabad | 66,986 images, YOLO txt, 24 classes incl. **unmarked speed bump, marked speed bump, rumble strips, zebra crossing**; India; academic non-commercial; "will be released via tihan.iith.ac.in/tiand-datasets" | **REQUEST** (Ahmed): check the TiHAN portal / email. If granted: rumble strip → ignore (D6), zebra → ignore (D1), both bump classes → speed_bump; group by drive/sequence id |
+| E2.2 | Roboflow `qassim-university-rgdar/unmarked-bumps` (Saudi Arabia) | unmarked bumps | LAPTOP-VET (Roboflow key) |
+| E2.3 | Roboflow `qu-j2rlc/speed-unmarked-bumps` | classes Manhole Pothole, Speed Bump, Unmarked Bump | LAPTOP-VET; "Manhole Pothole" needs a visual check (D5) |
+| E2.4 | Roboflow `alia-khalifa/unmarked-speed-bumps`, `alia-khalifa/speed-bumps`, `alia-khalifa/detecting-speed-bumps` (v4, marked) | listed in A13 as BLOCKED, never vetted | LAPTOP-VET |
+| E2.5 | Roboflow `emirhan-ilhan/speed-bump-hump-unmarked`, `…-marked` (443 img, speedbump + pothole, CC BY 4.0) | 2021 | LAPTOP-VET |
+| E2.6 | Roboflow `speedbumps-detection-using-yolov8/speedbumps-detection` (≈2,200–2,650 img, CC BY 4.0), `speed-bumps-8qvol/speed-bump-low-light`, `uthm-vequj/speed-bump-detection` (Malaysia) | — | LAPTOP-VET (likely partly re-uploads: run `vet_source.py` first) |
+| E2.7 | Roboflow `ensam-wyp9x/total-jcwvt` v5 (E1.4) | marked + non-marked bumps | LAPTOP-VET |
+| E2.8 | Giordani et al. 2026, *Sci. Rep.* 16:15318 (doi 10.1038/s41598-026-46679-4), Italy, GoPro + phone | > 2,000 images: potholes, 2,519 cracks, 957 maintenance holes | REQUEST/LAPTOP-VET: potholes + crack/manhole **hard negatives**; check overlap with part `sr` family `kg_` (also Italian) |
+| E2.9 | Mendeley `ypm4h4z25c` RoadDamageVision, Mendeley `c43y93xswd` multi-class road surface | unknown viewpoint / boxes | LAPTOP-VET (low priority) |
+| E2.10 | Peralta-López 2023 (A11), Point-cloud bump paper (490 marked/unmarked images, segmentation) | not public | UNRESOLVED (email authors) |

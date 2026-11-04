@@ -1,0 +1,6 @@
+source,rule,images,eval_hits,r2_train_hits,eval_hits_by_protected_set,csv_note
+"dm-druid all 5,983 (augmented)",v1,5983,0,0,{},per-image CSV not committed (local paths)
+dm-druid 277 originals,v2,277,0,0,{},per-image CSV not committed (local paths)
+"dm-druid all 5,983 (augmented)",v2,5983,0,0,{},per-image CSV not committed (local paths)
+akash-kumbar v8 (sanapala GitHub copy),v1,6045,229,158,"{'test:rf8': 58, 'test:ghpot': 18, 'val:ghpot': 13, 'val:rf8': 140}",per-image CSV not committed (local paths)
+akash-kumbar v8 (sanapala GitHub copy),v2,6045,328,258,"{'test:rf8': 83, 'test:ghpot': 31, 'val:ghpot': 25, 'val:rf8': 189}",per-image CSV not committed (local paths)

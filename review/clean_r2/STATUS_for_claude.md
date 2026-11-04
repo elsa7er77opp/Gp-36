@@ -514,3 +514,54 @@ Setup: 1,451 BDD100k road images (yolo-automotive-dataset); yolo11n COCO with th
 - **Run D2 `v3b_B_11n_960_s0`** (same settings as D1, data v3b_B):
   - **H-D2:** r2-val mAP50 ≥ D1 − 0.02, AND sr part-val pothole AP50 ≥ D1's + 0.10 (new country, Italy), AND r2-val pothole precision at the F1-opt threshold does not drop by more than 0.03 (the hard negatives should, if anything, raise it).
   - Queued after queue 2: `run_r3_queue3.bat`, log `runs/r3_queue3.log`.
+
+## Stage 19 — runs moved to a visible window (2026-11-04 ~15:10, Ahmed's request)
+- Ahmed asked that the next trainings run in a visible window, with full per-class results (P, R, mAP50, Accuracy), not only plots.
+- The background scripts `run_r3_queue2.bat` and `run_r3_queue3.bat` were stopped (their cmd.exe only). The running D1-seed-1 training (yolo PID 44792) kept running.
+- New `run_r3_visible.bat` runs in a console window titled "GP36 training". In order:
+  1. it waits for D1 seed 1 to finish, then runs its val-only evals;
+  2. D1 s0 and Run A on the sr part-val (baselines for H-D2);
+  3. **D2** (v3b_B);
+  4. **imgsz 1280** (v3b_A).
+- Order change: D2 now runs before 1280 (data first). The hypotheses of Stages 17–18 are unchanged.
+- After each run the window prints the Ultralytics per-class P/R/mAP50/mAP50-95 lines. `tools/metrics_report.py` adds BoxAcc, ImgAcc, F1, NearR and P@R50 per class (`review/metrics_r3/val_r2_D1_seeds`, `val_r2_D2`, `partval_*_D2`, `val_r2_1280`).
+
+## Stage 20 — owner: "we must get higher numbers" (2026-11-04 ~15:20). Plan of LEGITIMATE levers (written before any of them is run)
+Nothing below uses test data for a choice, drops hard images, or splits by random frame.
+
+| # | Lever | Why it is legitimate | Evidence / expected effect (PROVISIONAL) | Cost |
+|---|---|---|---|---|
+| L1 | **Longer training**: 150 epochs, patience 30, on the best data version | Same protocol as Run A; only D1 was capped at 70 | D1 mAP50 still rising at the end: 0.621 (ep 40) → 0.637 (50) → 0.654 (60) → 0.658 (70) (`runs/detect/v3b_A_11n_960_s0/results.csv`). Expected **+0.01–0.03** | ≈ 5 h for 11n on v3b_B |
+| L2 | **YOLO11s with L1** | Larger model; pothole was +0.03 in Stage 16 (1 seed) | potholes +0.02–0.04; bumps uncertain | ≈ 7 h |
+| L3 | **Val/test label audit → benchmark version r3** (missing pothole boxes, D4 one-box-per-defect, D1/D5 errors), as a corrections file + new folder; r2 stays frozen; **all** models re-scored on r3; test audited by the same rules **before** any r3 test use | Measurement correction, applied equally to every model. It changes the benchmark, not the model | Stage 9/11: many "background FPs" in `fp_background.jpg` are real unlabelled potholes. Expected measured pothole AP50 **+0.03–0.08** for all models | review work, no GPU |
+| L4 | **Test-time augmentation** (`augment=True`: flips + scales) at evaluation | Standard inference option; reported as a separate row with its latency cost | Typical **+0.01–0.03** AP50, about 2–3× slower inference | minutes |
+| L5 | **Pod-range metric** (pre-registered A1, Stage 7.2): hazards in the lower 40 % of the frame and sqrt(area) ≥ 0.05, which is what the FSM acts on (≤ 2 m) | Defined on 2026-11-02, before its values were seen; reported **next to**, never instead of, full mAP50 | — | CPU |
+| L6 | **More bump data** (cloud session, Task 1) | Data was the only lever that worked (Stage 13) | unknown until the PR arrives | laptop builds parts |
+
+**Order:**
+1. The visible window keeps running D1 s1 → D2 → 1280.
+2. L3 is done on the CPU in parallel (no heavy RAM: sheets only).
+3. After D2: the best data version gets L1 (11n, 150 epochs), then L2 if time allows.
+4. L4 and L5 are applied to the final candidates on val.
+5. Final candidates: one test use per benchmark version.
+
+## Stage 21 — cloud PR #1 reviewed and applied locally (2026-11-04 ~16:00)
+- PR: branch `claude/tender-faraday-43rjjv` in github.com/Darkdesert070/Gp-36. Report: `review/new_data_r3/CLOUD_REPORT.md`.
+- The cloud VM could reach only GitHub and PyPI; Kaggle, Zenodo, HF, Roboflow, Figshare and Mendeley were blocked by its network policy.
+- **Real bug found by the cloud session (VERIFIED by its tests and by my reading of the code): leak rule v1 compared pHash unrotated only.**
+  - A flipped re-encoded copy could have dHash 2 under the flip but pHash 32 unrotated, and so pass.
+  - On a rejected Roboflow re-export, rule v1 found 229 eval hits and rule v2 found 328 (`review/new_data_r3/vet/cloud_leak_summary.csv`).
+  - Rule v2 compares both hashes under the same one of the 8 transforms (`tools/leak_check.py`, `tools/build_part.py` `near8`).
+- **Two further fixes made by me while reviewing:**
+  1. `leak_check.check_image` reported the FIRST near hit. If an r2-train duplicate came first, an eval hit on the same image was not counted. It now reports an eval hit when one exists.
+  2. `build_part.guard_hashes` split `C:\…` at the drive colon. It was found by the PR's `test_guard_protects_extra_eval_set`. My earlier calls all used relative `dir:val,test` paths, so no built part was affected.
+- Tests after both fixes: **139 run, OK, 1 skipped** (symlink) (`venv\Scripts\python -I -m unittest discover -s tests`).
+- **Re-check of everything used in training with rule v2: RUNNING.**
+  - Scope: all parts (train/val/test) vs the protected eval sets, and r2 train vs r2 val/test.
+  - Output: `review/new_data_r3/recheck_rule_v2_all.csv`.
+  - Until it finishes, D1/D2 numbers are **PROVISIONAL with respect to flipped-copy leakage**.
+- New from the PR (not yet used):
+  - part `dmd` (dm-druid China campus bumps, 277 images / 319 boxes, train only);
+  - `models/yolo11n-p2.yaml`;
+  - `tools/calibrate_thresholds.py`, `vet_source.py`, `make_items_yolo_export.py`;
+  - supervisor drafts `supervisor_2026-11-08/README.md`, `METRICS.md`.

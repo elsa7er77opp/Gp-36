@@ -1,0 +1,89 @@
+{
+ "ultralytics": "8.4.202",
+ "device": "cpu",
+ "model": {
+  "yaml": "models/yolo11n-p2.yaml",
+  "nc": 2,
+  "params": 2666952,
+  "gflops": {
+   "640": 10.453,
+   "960": 23.693,
+   "1280": 42.55
+  },
+  "strides": [
+   4,
+   8,
+   16,
+   32
+  ],
+  "n_detect_layers": 4,
+  "forward_feature_shapes": [
+   [
+    1,
+    32,
+    320,
+    320
+   ],
+   [
+    1,
+    64,
+    160,
+    160
+   ],
+   [
+    1,
+    128,
+    80,
+    80
+   ],
+   [
+    1,
+    256,
+    40,
+    40
+   ]
+  ]
+ },
+ "reference": {
+  "yaml": "yolo11n.yaml",
+  "nc": 2,
+  "params": 2590230,
+  "gflops": {
+   "640": 6.501,
+   "960": 14.799,
+   "1280": 26.74
+  },
+  "strides": [
+   8,
+   16,
+   32
+  ],
+  "n_detect_layers": 3,
+  "forward_feature_shapes": [
+   [
+    1,
+    64,
+    160,
+    160
+   ],
+   [
+    1,
+    128,
+    80,
+    80
+   ],
+   [
+    1,
+    256,
+    40,
+    40
+   ]
+  ]
+ },
+ "transfer": {
+  "weights": "/home/user/weights/yolo11n.pt",
+  "src_tensors": 499,
+  "dst_tensors": 593,
+  "transferred": 297
+ }
+}

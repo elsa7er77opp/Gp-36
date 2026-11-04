@@ -1,0 +1,21 @@
+# Vet report — dmd
+
+Tool: `tools/vet_source.py`; root `<clone>/images/dataset/xqqds-0620-train (originals 00001-00279, linked)`.
+
+| item | value |
+|---|---|
+| images | 277 |
+| labelled | 277 |
+| class_id_counts | {"0": 319, "1": 34} |
+| data_yaml_names | {} |
+| licence_lines | [] |
+| roboflow_bases | 277 |
+| images_per_base | {"1": 277} |
+| near_dup_clusters | 267 |
+| images_per_cluster | {"1": 257, "2": 10} |
+| known_families | {} |
+| leak_hits_eval | 0 |
+| leak_hits_r2_train | 0 |
+| leak_eval_by_protected_set | {} |
+| leak_eval_by_family | {} |
+| hint | "mechanically clean; do the visual D1-D6 check" |

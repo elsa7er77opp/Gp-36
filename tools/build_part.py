@@ -12,7 +12,7 @@ Per image:
 3. FAR_TINY: hazard boxes with sqrt(w*h) < --far-tiny (normalised) are removed. An image whose hazard boxes
    were ALL removed this way is dropped (it is neither a clean positive nor a clean negative);
 4. leakage guard vs the frozen internal dataset (--internal, default road_hazards_v3a_r2, ALL splits):
-   exact SHA-256, or dihedral dHash <= 4 and pHash <= 10 -> image dropped and logged;
+   exact SHA-256, or dHash <= 4 and pHash <= 10 under the same flip/rotation -> image dropped and logged;
 5. inside the part: a train image that is a near-duplicate of a val/test image of the part is dropped.
 Output: <out>/images/<split>, labels/<split>, data.yaml, manifest.csv (r2-compatible columns + part, meta,
 group_id), checksums.sha256, build_info.json, drop_log.csv. Built in <out>.building, renamed at the end.
@@ -60,7 +60,9 @@ def guard_hashes(specs):
     """Extra evaluation sets to protect: 'dir' (all images under dir/images) or 'dir:val,test' (those splits)."""
     D, P, S, sid = [], [], set(), []
     for spec in specs:
-        d, _, sp = spec.partition(":")
+        d, _, sp = spec.rpartition(":")
+        if not d or not all(s in ("train", "val", "test") for s in sp.split(",")):
+            d, sp = spec, ""  # no split suffix (a Windows drive colon, e.g. C:\..., is not one)
         roots = [Path(d) / "images" / s for s in sp.split(",")] if sp else [Path(d) / "images"]
         for r in roots:
             for f in sorted(r.rglob("*")):
@@ -77,7 +79,16 @@ def hashes8(path):
     with Image.open(path) as im:
         im.draft("RGB", (512, 512))
         im = im.convert("RGB")
-        return np.array([dhash(im if t is None else im.transpose(t)) for t in DIHEDRAL], dtype=np.uint64), np.uint64(phash(im))
+        tr = [im if t is None else im.transpose(t) for t in DIHEDRAL]
+        return (np.array([dhash(x) for x in tr], dtype=np.uint64), np.array([phash(x) for x in tr], dtype=np.uint64))
+
+
+def near8(d8, p8, D, P):
+    """Bool per reference image: dHash <= 4 AND pHash <= 10 under the SAME one of the 8 flips/rotations.
+    (Before 2026-11-04 the pHash was compared unrotated only, which missed flipped copies.)"""
+    dd = np.stack([np.bitwise_count(np.bitwise_xor(D, v)) for v in d8])
+    pp = np.stack([np.bitwise_count(np.bitwise_xor(P, v)) for v in p8])
+    return ((dd <= 4) & (pp <= 10)).any(axis=0)
 
 
 def main():
@@ -135,14 +146,12 @@ def main():
         if sha in RS:
             drops.append((it["image"], "exact_dup_internal", ""))
             continue
-        d8, ph = hashes8(img)
-        dd = np.min(np.stack([np.bitwise_count(np.bitwise_xor(RD, v)) for v in d8]), axis=0)
-        pp = np.bitwise_count(np.bitwise_xor(RP, ph))
-        hit = np.nonzero((dd <= 4) & (pp <= 10))[0]
+        d8, p8 = hashes8(img)
+        hit = np.nonzero(near8(d8, p8, RD, RP))[0]
         if len(hit):
             drops.append((it["image"], "near_dup_internal", rsid[hit[0]]))
             continue
-        keep.append({**it, "W": W, "H": H, "sha": sha, "boxes": kept, "d8": d8, "ph": ph})
+        keep.append({**it, "W": W, "H": H, "sha": sha, "boxes": kept, "d8": d8, "p8": p8, "ph": p8[0]})
 
     # within-part: train vs held-out near-duplicates -> drop the train copy
     held = [k for k in keep if k["part_split"] != "train"]
@@ -152,9 +161,7 @@ def main():
         k2 = []
         for k in keep:
             if k["part_split"] == "train":
-                dd = np.min(np.stack([np.bitwise_count(np.bitwise_xor(HD, v)) for v in k["d8"]]), axis=0)
-                pp = np.bitwise_count(np.bitwise_xor(HP, k["ph"]))
-                if np.any((dd <= 4) & (pp <= 10)):
+                if np.any(near8(k["d8"], k["p8"], HD, HP)):
                     drops.append((k["image"], "near_dup_part_heldout", ""))
                     continue
             k2.append(k)
@@ -193,8 +200,10 @@ def main():
         (tmp / "labels" / sp).mkdir(parents=True, exist_ok=True)
     (tmp / "data.yaml").write_text("train: images/train\nval: images/val\ntest: images/test\nnames:\n  0: pothole\n  1: speed_bump\n",
                                    encoding="utf-8")
+    fields = ["sample_id", "source", "split", "orig_image", "orig_label", "orig_sha256", "out_image", "out_sha256",
+              "out_w", "out_h", "n_pothole", "n_speed_bump", "group_id", "part", "meta"]
     with open(tmp / "manifest.csv", "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0]))
+        w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
         w.writerows(rows)
     with open(tmp / "drop_log.csv", "w", newline="", encoding="utf-8") as f:
@@ -210,7 +219,7 @@ def main():
                  "groups": len({r["group_id"] for r in rows if r["split"] == sp})} for sp in ("train", "val", "test")}
     info = {"part": args.part, "items": args.items, "n_items": len(items), "kept": len(rows),
             "drops": dict(Counter(d[1] for d in drops)), **stats, "far_tiny_threshold": args.far_tiny,
-            "leakage_guard": f"exact + dihedral dHash<=4 & pHash<=10 vs {args.internal} (all splits)"
+            "leakage_guard": f"exact + dHash<=4 & pHash<=10 under the same one of 8 flips/rotations (rule v2, 2026-11-04) vs {args.internal} (all splits)"
                              + (f" + {args.guard}" if args.guard else ""), "splits": summ}
     (tmp / "build_info.json").write_text(json.dumps(info, indent=1), encoding="utf-8")
     os.rename(tmp, out)
