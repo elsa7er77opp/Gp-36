@@ -1,0 +1,33 @@
+Ultralytics 8.4.192  Python-3.12.10 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5050 Laptop GPU, 8123MiB)
+YOLO11n summary (fused): 101 layers, 2,597,294 parameters, 0 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.9±0.1 ms, read: 356.2±62.8 MB/s, size: 841.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\ahmed\Desktop\GP36_AI\parts_r3\red_v2\labels\val.cache... 69 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 69/69  0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 11% ━─────────── 1/9 26.5s/it 7.9s<3:32[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 22% ━━╸───────── 2/9 1.3s/it 8.4s<9.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 3/9 1.3it/s 8.8s<4.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 44% ━━━━━─────── 4/9 1.7it/s 9.1s<2.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 55% ━━━━━━╸───── 5/9 2.0it/s 9.5s<2.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━━──── 6/9 2.3it/s 9.8s<1.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 77% ━━━━━━━━━─── 7/9 2.6it/s 10.1s<0.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 88% ━━━━━━━━━━╸─ 8/9 2.9it/s 10.4s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 9/9 1.2s/it 10.9s
+                   all         69         68      0.981          1      0.991      0.904
+            speed_bump         68         68      0.981          1      0.991      0.904
+Speed: 5.1ms preprocess, 20.9ms inference, 0.0ms loss, 7.8ms postprocess per image
+Saving C:\Users\ahmed\Desktop\GP36_AI\runs\detect\PARTVAL_red_v2_v3b_C3_11n_960_s0\predictions.json...
+
+Evaluating faster-coco-eval mAP...
+Evaluate annotation type *bbox*
+COCOeval_opt.evaluate() finished...
+DONE (t=0.01s).
+Accumulating evaluation results...
+COCOeval_opt.accumulate() finished...
+DONE (t=0.00s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.918
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.996
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.994
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.918
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.922
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.937
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.937
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.937
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 1.000
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets=100 ] = 1.000
+Results saved to [1mC:\Users\ahmed\Desktop\GP36_AI\runs\detect\PARTVAL_red_v2_v3b_C3_11n_960_s0[0m
+ Learn more at https://docs.ultralytics.com/modes/val

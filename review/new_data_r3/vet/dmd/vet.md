@@ -1,6 +1,6 @@
 # Vet report — dmd
 
-Tool: `tools/vet_source.py`; root `<clone>/images/dataset/xqqds-0620-train (originals 00001-00279, linked)`.
+Tool: `tools/vet_source.py`; root `<dm-druid originals 00001-00279>`.
 
 | item | value |
 |---|---|

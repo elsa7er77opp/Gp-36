@@ -1,0 +1,18 @@
+{
+ "inputs": [
+  "runs\\detect\\v3b_C_11n_960_s0_r2_TEST_r2_json\\predictions.json",
+  "runs\\detect\\v3a_r1_11n_960_s0_TEST_r2_WBFinput\\predictions.json"
+ ],
+ "weights": [
+  1.0,
+  1.0
+ ],
+ "iou": 0.55,
+ "skip": 0.001,
+ "boxes_in": [
+  12189,
+  10812
+ ],
+ "boxes_out": 11392,
+ "images": 323
+}

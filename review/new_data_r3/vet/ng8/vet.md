@@ -1,0 +1,21 @@
+# Vet report — ng8
+
+Tool: `tools/vet_source.py`; root `<rf_ng8ne export root>`.
+
+| item | value |
+|---|---|
+| images | 710 |
+| labelled | 710 |
+| class_id_counts | {"0": 501} |
+| data_yaml_names | {"data.yaml": ["Hump"]} |
+| licence_lines | [] |
+| roboflow_bases | 709 |
+| images_per_base | {"1": 708, "2": 1} |
+| near_dup_clusters | 627 |
+| images_per_cluster | {"2": 26, "4": 4, "1": 583, "3": 10, "7": 1, "12": 1, "5": 2} |
+| known_families | {"newonetrwww (sub5 family)": 3, "speedbreakerrefinedone (rejected family)": 26, "MVI_15xx (rf8 video family)": 1} |
+| leak_hits_eval | 113 |
+| leak_hits_r2_train | 35 |
+| leak_eval_by_protected_set | {"val:rf8": 113} |
+| leak_eval_by_family | {"speedbreaker": 113} |
+| hint | "REJECT or exclude the hit families (eval leak)" |

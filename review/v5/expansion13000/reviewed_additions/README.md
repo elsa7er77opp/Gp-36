@@ -1,0 +1,3 @@
+# Visually reviewed additions — staging only
+
+4 reviewed image/label pairs, 5 pothole boxes, all 960x720, YOLO class 0. Candidate 39 is REJECTED after visual confirmation of the same road/worker/defect already in current train (Japan_011077); its files are retained as evidence, not an eligible addition. Only candidates 17, 31 and 33 remain provisionally eligible (4 boxes); final scene-family checks are still required. Read manifest status per image. Raw pixels, YOLO .txt labels and annotated previews are separate. AI labels with medium confidence, not zero-error certification. No image has been merged into the training release.

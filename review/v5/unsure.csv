@@ -1,0 +1,1126 @@
+image,sheet,cell,reason
+images/train/bpo__05ed5262bcac378d.jpg,0001,4,dusk; cannot confirm the two boxes
+images/train/bpo__06f840455f295435.jpg,0001,5,dirt road; small boxes cannot be told from dirt patches
+images/train/bpo__078aaa02f2d7c8c5.jpg,0001,6,two small dark marks; pothole or patch not clear
+images/train/bpo__095468fd990cc4e8.jpg,0002,5,dusk; cannot confirm
+images/train/bpo__09c88212ac57ef25.jpg,0002,6,marks or debris on the road; not clear
+images/train/bpo__0a337f8d1ba7bbc8.jpg,0003,1,puddle at the road edge; pothole or shoulder not clear
+images/train/bpo__0a3d508f70882cb1.jpg,0003,2,three tiny boxes at the road edge; not clear
+images/train/bpo__0c0a2379f8629fe4.jpg,0003,5,dusk; wet smears
+images/train/bpo__0c427fed66352b82.jpg,0003,6,wet road; tiny boxes
+images/train/bpo__0f7dcb63b4a05f0d.jpg,0004,3,puddle at the road edge; not clear
+images/train/bpo__0fe1249ebc2ecf4b.jpg,0004,4,tiny box at the bottom edge; not clear
+images/train/bpo__109d339aab1e4081.jpg,0004,5,blurred wet road
+images/train/bpo__152ecd609e7d9811.jpg,0005,1,puddles on the road shoulders; not clear
+images/train/bpo__15771f4c418add40.jpg,0005,2,one small mark mid road
+images/train/bpo__15903eba793b7540.jpg,0005,3,tiny boxes on the wet road edge
+images/train/bpo__15a2dffc57bb2c3c.jpg,0005,4,wet highway; water or reflections
+images/train/bpo__15a6ac6c1897c2ea.jpg,0005,5,dark strip at the bottom edge
+images/train/bpo__16ea33a6fb8d9d1d.jpg,0006,1,tiny boxes near the truck
+images/train/bpo__1752499973a56ab0.jpg,0006,4,road-edge break; not clear
+images/train/bpo__176c7a2abfdcc930.jpg,0006,5,tiny box and a roadside box
+images/train/bpo__187e791c24307a5b.jpg,0007,1,tiny boxes on marks or debris
+images/train/bpo__1ac08c918cca653d.jpg,0007,3,puddles on the dirt strip beside the road
+images/train/bpo__1c56882f5d5303ef.jpg,0007,4,tiny box; nothing clear
+images/train/bpo__1e6940cf9d868aff.jpg,0007,5,muddy puddles at the road sides
+images/train/bpo__2114aec8d4a5c247.jpg,0007,6,puddle at the right side
+images/train/bpo__22d780a567ec4708.jpg,0008,2,small patch at the junction
+images/train/bpo__2307b1e1b559eb85.jpg,0008,3,dusk and blurred; many boxes
+images/train/bpo__24ff25396baa2620.jpg,0008,5,tiny box on a concrete road joint or mark
+images/train/bpo__2573c04cce240a2a.jpg,0008,6,night and motion blur
+images/train/bpo__258418caea02e7df.jpg,0009,1,small patch mid road
+images/train/bpo__2721d3f9033fbe3d.jpg,0009,3,night; box on a dark area at the bottom
+images/train/bpo__27760c3498684b2d.jpg,0009,4,small wet patches along the road edge
+images/train/bpo__28478c09f19fff7b.jpg,0009,5,blurred wet road
+images/train/bpo__2893231660fa2a7c.jpg,0009,6,tiny far box
+images/train/bpo__292d804f223f5a3e.jpg,0010,1,patch at the bottom and a line at the right edge
+images/train/bpo__29cea52d4893d02f.jpg,0010,2,debris at the roadside
+images/train/bpo__2b58aa961a6f3925.jpg,0010,4,puddles at the right road edge
+images/train/bpo__2b684d95456460bf.jpg,0010,5,tiny mark at the road edge
+images/train/bpo__2dce5689b5e1bbd2.jpg,0010,6,night and blurred; dark shape may be an animal
+images/train/bpo__315e6edffd90486c.jpg,0011,2,dusk; dark roadside and kerb reflections
+images/train/bpo__3255fdddefb01012.jpg,0012,1,dusk; puddles in a dark roadside area
+images/train/bpo__33aa0064ad37923f.jpg,0012,2,small mark mid road
+images/train/bpo__3449ade884988d40.jpg,0012,3,small boxes in tree shadow on a dirt lane
+images/train/bpo__3652b4efe2ca996f.jpg,0012,4,wet patch mid road
+images/train/bpo__365a4155b3381a23.jpg,0012,5,rain on the windscreen; wet broken road
+images/train/bpo__37011b6941cc969a.jpg,0012,6,tiny box
+images/train/bpo__3777b0a31b801070.jpg,0013,2,dark patch on the road and broken pavement edge
+images/train/bpo__380dbda51bb32005.jpg,0013,4,puddle at the road edge or shoulder; not clear
+images/train/bpo__3882f362d4d31169.jpg,0013,5,wet road edge and roadside
+images/train/bpo__39ddb525c2db10ae.jpg,0013,6,marks on a gravel road
+images/train/bpo__3aeb29a862c2b31e.jpg,0014,1,small far box near vehicles
+images/train/bpo__3ddd0be9f0f4fe84.jpg,0014,4,dusk
+images/train/bpo__3fb12465be740e9b.jpg,0014,5,puddles at the road edges or shoulders; not clear
+images/train/bpo__40d6e23e4436ea71.jpg,0014,6,blurred wet road; many boxes
+images/train/bpo__4181c6fb479999d2.jpg,0015,1,rubble or stones on the road
+images/train/bpo__41cfe137f76cddea.jpg,0015,2,tiny box
+images/train/bpo__437428e61658c801.jpg,0015,4,tiny box on a dirt lane
+images/train/bpo__44e0b003ddcd104f.jpg,0015,5,dark patches on the highway; patch or pothole
+images/train/bpo__44e26e9e9b9cc8d2.jpg,0015,6,box at the bottom; nothing clear
+images/train/bpo__44ee36d62237ac1d.jpg,0016,1,blurred wet road
+images/train/bpo__4667f384d77a86c3.jpg,0016,2,boxes near a lane line; nothing clear
+images/train/bpo__4684674324bb39e2.jpg,0016,3,small box at the road edge
+images/train/bpo__4716f101de20ea89.jpg,0016,4,wet road with reflections
+images/train/bpo__473dbe9d9af32271.jpg,0016,5,debris at the kerb
+images/train/bpo__474691bf02b865c7.jpg,0016,6,kerb or slab at the road edge
+images/train/bpo__47c6993606af828e.jpg,0017,1,small box on the road
+images/train/bpo__47f2dfbd0271fb82.jpg,0017,2,crack-like lines in tree shadow
+images/train/bpo__480c0c5c593c6a2a.jpg,0017,3,small boxes on debris
+images/train/bpo__4a35e11fb7ec61fd.jpg,0017,5,tiny boxes on a bridge
+images/train/bpo__4a9abfc54aaafb76.jpg,0017,6,wet strip at the verge and a roadside puddle
+images/train/bpo__4bef317d49936c4f.jpg,0018,1,dirt or mud patches on the road
+images/train/bpo__4c1169e5ebde018d.jpg,0018,2,dark area at the road edge
+images/train/bpo__4c58688be97bd534.jpg,0018,3,patch on the highway
+images/train/bpo__4fc19b4b1c372abe.jpg,0018,6,dusk; large box
+images/train/bpo__516ed8c92785cd32.jpg,0019,1,standing water or reflections on a smooth road
+images/train/bpo__521e9e51f8279a39.jpg,0019,2,dusk; box at the bottom
+images/train/bpo__525ac83cd477a9c8.jpg,0019,4,dusk
+images/train/bpo__54d06108a4e65bae.jpg,0019,5,"edge strip, small centre boxes and a shoulder puddle"
+images/train/bpo__552525effb1ae3b6.jpg,0019,6,small boxes at the left edge
+images/train/bpo__55a27bf1aed821d7.jpg,0020,1,box near the kerb at the bottom
+images/train/bpo__566cfa34d4a64cfc.jpg,0020,2,dusk; puddles on the dirt roadside
+images/train/bpo__57c7c2c17984d428.jpg,0020,5,mark at the bottom of the road
+images/train/bpo__580b3329825cc124.jpg,0020,6,round shape and a mark on a dirt-covered road
+images/train/bpo__580ee9f8cbe43ac9.jpg,0021,1,small box at the road edge
+images/train/bpo__587b5a04ff7bbdd5.jpg,0021,2,dark strips along the road centre
+images/train/bpo__599334e111ab37f0.jpg,0021,4,small boxes on a broken concrete lane
+images/train/bpo__59f8645e7972a2e2.jpg,0021,5,box at the bottom; litter
+images/train/bpo__5a2b43be88584acc.jpg,0021,6,wet road; nothing clear
+images/train/bpo__5a8f2c57ed478950.jpg,0022,1,dusk
+images/train/bpo__5cb840bd524eaba5.jpg,0022,3,patch on the road
+images/train/bpo__6014c50696810b5b.jpg,0022,4,small boxes on a wet road
+images/train/bpo__6152e69b3dfe63b4.jpg,0022,6,tiny box
+images/train/bpo__63a8bb6dafb917a6.jpg,0023,2,three small boxes
+images/train/bpo__64449c3f5f52f466.jpg,0023,3,dusk; wet road
+images/train/bpo__64638cc988ea1a1e.jpg,0023,4,small dark spot
+images/train/bpo__65c180c4c545132d.jpg,0023,5,thin box on a dirt strip
+images/train/bpo__661b3905cad76d04.jpg,0023,6,crack or patch at the bottom
+images/train/bpo__66748f14b3e82fe6.jpg,0024,1,long rough repair strip
+images/train/bpo__67307275f95637d4.jpg,0024,3,dusk and blurred
+images/train/bpo__676a8d7bc5785c21.jpg,0024,4,tiny box
+images/train/bpo__682dede34e2c6c52.jpg,0024,5,dusk
+images/train/bpo__68e2eabea4996314.jpg,0024,6,boxes on the dirt area beside the highway; not clear
+images/train/bpo__68e77992299ebf57.jpg,0025,1,small box
+images/train/bpo__6a98361d71ec3a77.jpg,0025,2,dusk
+images/train/bpo__6b320ca8b8892773.jpg,0025,3,dusk; dark roadside
+images/train/bpo__6c3395f8da37c2b9.jpg,0025,4,wet highway; small box
+images/train/bpo__6cbd213996dd9fe4.jpg,0025,5,small boxes near the kerb
+images/train/bpo__6d791468000bb263.jpg,0025,6,dusk
+images/train/bpo__6dc53540c68e7889.jpg,0026,1,small box
+images/train/bpo__6ebba55a100b581e.jpg,0026,2,wet dirt-covered road
+images/train/bpo__6ec90c723b4d3278.jpg,0026,3,wet road; white reflections
+images/train/bpo__6ed50962c9df6551.jpg,0026,4,puddles along the road edge; not clear
+images/train/bpo__6fb5bcd1d9592d8c.jpg,0026,5,blurred; rough patch
+images/train/bpo__702e70566ebea7d8.jpg,0027,1,puddle at the junction side
+images/train/bpo__725a23bc62c41105.jpg,0027,3,wet muddy shoulder and small edge boxes
+images/train/bpo__7273e85a348fafce.jpg,0027,4,narrow wet streaks
+images/train/bpo__738eb13eeebc6519.jpg,0027,5,rough cracked patch on the highway
+images/train/bpo__73e8384d66b051e2.jpg,0027,6,dusk and blurred
+images/train/bpo__746a252ad0df50f4.jpg,0028,1,dark patches on the road
+images/train/bpo__75cc089dfaa97771.jpg,0028,2,puddle on the dirt beside the car
+images/train/bpo__761da17b7d7c562f.jpg,0028,3,puddles at the grass verge
+images/train/bpo__77abb3992cd9d942.jpg,0028,4,roadside dirt box and small wet-road boxes
+images/train/bpo__78744e01a177dda5.jpg,0028,5,tiny box
+images/train/bpo__78f69546cc39d7ef.jpg,0029,1,small box
+images/train/bpo__7a2f5ba1d2108487.jpg,0029,2,cracks and patches; one may be a pothole
+images/train/bpo__7a769f691c537c07.jpg,0029,3,small box
+images/train/bpo__7ab4696279a58b3e.jpg,0029,4,rough gravel strip
+images/train/bpo__7af909bbbffb885b.jpg,0029,5,white debris at the road edge
+images/train/bpo__7b49d421cf4e4300.jpg,0029,6,small boxes on roadside dirt
+images/train/bpo__7c35b4925d9052d8.jpg,0030,2,box at the dirt edge of the road
+images/train/bpo__7ce10210e6015b30.jpg,0030,3,debris or shadow in a lane
+images/train/bpo__7d386fb36f6b1a21.jpg,0030,4,cracked concrete area
+images/train/bpo__7d961bc23ae95239.jpg,0030,5,small box
+images/train/bpo__7df9c374ca1d2cdf.jpg,0030,6,small box in tree shadow
+images/train/bpo__7e3cb1686391d9df.jpg,0031,1,five small boxes
+images/train/bpo__7e615f9d629e90a1.jpg,0031,2,dark patch at the bottom
+images/train/bpo__7f0dae24c0d3f47f.jpg,0031,4,small box
+images/train/bpo__7f3a1e7f868d07ed.jpg,0031,5,small box on a bridge
+images/train/bpo__7fd7ce8d9f4480ab.jpg,0031,6,blurred wet road; many boxes
+images/train/bpo__80189ba969a56269.jpg,0032,1,broken pavement edge near the kerb
+images/train/bpo__804c9e91e2788d35.jpg,0032,2,small box at the left edge
+images/train/bpo__814bdd81f2c1ce39.jpg,0032,4,dusk
+images/train/bpo__81eb8c737cbb963f.jpg,0032,5,blurred wet road
+images/train/bpo__81ebbdec404ffbb3.jpg,0032,6,wet highway; small boxes on water
+images/train/bpo__82c80428d769d2ac.jpg,0033,1,kerb-side dirt and a puddle near the truck
+images/train/bpo__83839052aa83457c.jpg,0033,2,puddles at the asphalt edges
+images/train/bpo__8453e089d864ce76.jpg,0033,3,blurred; crack
+images/train/bpo__85ed485722f3e9e0.jpg,0033,4,small box at the roadside
+images/train/bpo__862582226258fb15.jpg,0033,5,two small boxes
+images/train/bpo__8673cb983a2134fc.jpg,0033,6,blurred close view of muddy water
+images/train/bpo__86ca0a2886ce2800.jpg,0034,1,small box
+images/train/bpo__86f883b5b06a4d7c.jpg,0034,2,small box below a manhole cover
+images/train/bpo__88ba945669a9b815.jpg,0034,5,small box at the junction edge
+images/train/bpo__899bab436213c435.jpg,0034,6,wet reflections
+images/train/bpo__8a23e6efbe2a405b.jpg,0035,3,long narrow wet streak
+images/train/bpo__8ada0be895165da3.jpg,0035,5,"verge puddle, shoulder puddle and small road boxes"
+images/train/bpo__8b038a98b91b4c94.jpg,0035,6,small box
+images/train/bpo__8bbb1a5e8bcb03df.jpg,0036,1,small box
+images/train/bpo__8c1545b52d877344.jpg,0036,2,dusk
+images/train/bpo__8c1dd98e75501682.jpg,0036,3,rough patch on the highway
+images/train/bpo__8c2c2edf8948a42d.jpg,0036,4,grate or patch at the bottom
+images/train/bpo__8ca84b4d14d00bc9.jpg,0036,6,small box on roadside rubble
+images/train/bpo__8dd33edf548a2e9a.jpg,0037,1,dusk and blurred
+images/train/bpo__90fbe34c9b3f7951.jpg,0037,2,dusk; many boxes
+images/train/bpo__93ca5ca0691ab72a.jpg,0037,4,small patch on the highway
+images/train/bpo__947ce305c6ddeaa1.jpg,0037,5,dusk
+images/train/bpo__9484c01de49756af.jpg,0037,6,small box
+images/train/bpo__952c56e02b62ba8c.jpg,0038,1,small box
+images/train/bpo__965123719a706d7e.jpg,0038,2,rough spots on a dirt lane
+images/train/bpo__96ac337ff2a0e68e.jpg,0038,3,kerb or drain slab by the roadside
+images/train/bpo__96cb51bdbdd13b2a.jpg,0038,4,debris at the road edge
+images/train/bpo__9827a6b6ec9d8807.jpg,0038,5,small box
+images/train/bpo__99413af873ce40ca.jpg,0038,6,small box
+images/train/bpo__9948cd4a617af5b0.jpg,0039,1,dusk and blurred
+images/train/bpo__9979704f7686d0d4.jpg,0039,2,kerb-side box and a small box
+images/train/bpo__99953c7d0de401e1.jpg,0039,3,night
+images/train/bpo__9d175a7298336c3f.jpg,0039,5,patch strips on the highway
+images/train/bpo__9f00ec1693344c49.jpg,0040,1,puddle at the road edge by the guardrail
+images/train/bpo__9f639d1dd0bdec24.jpg,0040,2,boxes along the left edge line
+images/train/bpo__a04f212e4d25ddc5.jpg,0040,3,small box
+images/train/bpo__a066d92a6527f95b.jpg,0040,4,blurred; puddle at the left edge
+images/train/bpo__a272fba9a0f3683f.jpg,0040,6,small box
+images/train/bpo__a2f0850383667940.jpg,0041,1,blurred; shallow depression
+images/train/bpo__a46d7591b134c5d0.jpg,0041,3,narrow dark strip
+images/train/bpo__a55dee15817bb4ef.jpg,0041,4,small box on a bridge
+images/train/bpo__a6706d8485caf872.jpg,0041,5,lighter patch on the road
+images/train/bpo__a68a6c9ff188d51b.jpg,0041,6,dusk; large box
+images/train/bpo__a800fbd88f7caeb7.jpg,0042,1,dusk
+images/train/bpo__a8125960cc25c2a7.jpg,0042,2,two small boxes
+images/train/bpo__abfbb5c34bbb72af.jpg,0042,4,boxes near a lane line; nothing clear
+images/train/bpo__ac9b0bd81c24e37d.jpg,0042,5,dirt road; small boxes
+images/train/bpo__ad742268be12143a.jpg,0043,1,wet road; two boxes
+images/train/bpo__af7c3ffc44969935.jpg,0043,3,white debris at the roadside
+images/train/bpo__af917f61e5951041.jpg,0043,4,gravelly ravelled patch on the highway
+images/train/bpo__b00d25f83eb52260.jpg,0043,5,small box near the kerb
+images/train/bpo__b05740f7a7a2487a.jpg,0043,6,dusk
+images/train/bpo__b05da74f593bc40f.jpg,0044,1,kerb-side strip
+images/train/bpo__b11597ced39dcc2a.jpg,0044,3,cracks and patches; six boxes
+images/train/bpo__b19d39772ba6ee22.jpg,0044,4,dirt shoulder box and a dark road patch
+images/train/bpo__b1e69575051557f6.jpg,0044,5,mark at the bottom
+images/train/bpo__b1f8aba664666454.jpg,0044,6,wet patch mid road
+images/train/bpo__b1f95c30e8d5ed69.jpg,0045,1,small boxes near a stall
+images/train/bpo__b351fa0c9f422d92.jpg,0045,2,small box
+images/train/bpo__b3cfdd3727e7ab20.jpg,0045,3,small box on the highway
+images/train/bpo__b3e6fd4471412f33.jpg,0045,4,wet patch at the bottom
+images/train/bpo__b3e83d69f954815d.jpg,0045,5,thin box at the roundabout
+images/train/bpo__b4f5c05fe26244a5.jpg,0045,6,five small boxes
+images/train/bpo__b5920d5304e37dc3.jpg,0046,1,large wet area along the road edge and reflections
+images/train/bpo__b5b75ecf9a020be0.jpg,0046,2,dusk and blurred
+images/train/bpo__b697a66675064e88.jpg,0046,3,small box
+images/train/bpo__b6e68974e1e1055a.jpg,0046,4,small box
+images/train/bpo__b74514607f4491cd.jpg,0046,5,boxes along the verge edge
+images/train/bpo__b8b01f4bc351b039.jpg,0046,6,dusk
+images/train/bpo__b8bd078ed890d4d4.jpg,0047,1,dusk
+images/train/bpo__b920a06a99b4cbeb.jpg,0047,3,box at the bottom
+images/train/bpo__b9395f60ecc2a672.jpg,0047,4,narrow wet streaks
+images/train/bpo__b991d595d3db9618.jpg,0047,5,debris at the bottom
+images/train/bpo__bac0b561bfee535d.jpg,0047,6,small boxes on a dirt lane
+images/train/bpo__bb81ff4b6da384ab.jpg,0048,1,faint patches; nothing clear
+images/train/bpo__bbb05c322c7e3485.jpg,0048,2,cracked concrete with debris
+images/train/bpo__bcee299803f5b2f3.jpg,0048,3,puddle at the road edge
+images/train/bpo__bda096d0d8e8e8f2.jpg,0048,5,wet verge and wet road edge
+images/train/bpo__be9dca124ad5a622.jpg,0048,6,long thin line across the road
+images/train/bpo__bea4c35322c4485a.jpg,0049,1,debris at the bottom of the road
+images/train/bpo__bebd2b1ad5e5bf1f.jpg,0049,2,two small boxes
+images/train/bpo__bec5610ce5319824.jpg,0049,3,box at the roadside by a stall
+images/train/bpo__c01f9800a74e2f1e.jpg,0049,5,two small boxes
+images/train/bpo__c1ba069ef0c57e2b.jpg,0049,6,dusk and blurred
+images/train/bpo__c2233af88e26642d.jpg,0050,1,small boxes on the dirt beside a truck
+images/train/bpo__c3d7c94f771a9d67.jpg,0050,2,small box
+images/train/bpo__c4a6273602696f98.jpg,0050,5,blurred; dark strip
+images/train/bpo__c51166aefe70f577.jpg,0050,6,small box at the bottom
+images/train/bpo__c6437f22ea44dbf5.jpg,0051,1,patches on the road
+images/train/bpo__c92f1dd427a39419.jpg,0051,3,small boxes near vehicles
+images/train/bpo__c95fd57562afc16d.jpg,0051,4,dusk
+images/train/bpo__cb02f5f597690732.jpg,0051,5,many wet patches in shade
+images/train/bpo__cb9f7b7a5afbc5bd.jpg,0051,6,pavement edge at the bottom right
+images/train/bpo__ccfdc5017530f830.jpg,0052,1,two small boxes on a wet highway
+images/train/bpo__cdd0e38fb7f3dffe.jpg,0052,3,small box
+images/train/bpo__ceb409a13e4732c8.jpg,0052,4,box at the bottom edge
+images/train/bpo__ceeea2c9bb0b0226.jpg,0052,5,small dark spot
+images/train/bpo__d061ec0705be6c0e.jpg,0052,6,two small boxes
+images/train/bpo__d11df0b6ddfe6c22.jpg,0053,1,two small boxes
+images/train/bpo__d27b9065e0dea446.jpg,0053,2,small spot on the road
+images/train/bpo__d2a7751e9a7c8d96.jpg,0053,3,dusk
+images/train/bpo__d32bae430ad1b766.jpg,0053,5,dusk; large box
+images/train/bpo__d38ab1539dadf986.jpg,0053,6,roadside rubble at the kerb
+images/train/bpo__d4c0ba270ccc164a.jpg,0054,1,four small boxes
+images/train/bpo__d63769aff2419be9.jpg,0054,2,two small boxes
+images/train/bpo__d75aa9607b121e3c.jpg,0054,3,dusk and blurred
+images/train/bpo__d7bd8973b5207d70.jpg,0054,5,small box
+images/train/bpo__d856d4c4dc79bfa9.jpg,0054,6,dusk and blurred
+images/train/bpo__d8765cf2b64fb6c6.jpg,0055,1,wet patch near the kerb
+images/train/bpo__d8b6029878d4d35a.jpg,0055,2,dusk and blurred; many boxes
+images/train/bpo__d9e3c473213dc2cd.jpg,0055,3,small box
+images/train/bpo__d9ef0e444882b6e8.jpg,0055,4,wet broken edge at the left
+images/train/bpo__db1cc60f5c0ab9b6.jpg,0055,6,small box
+images/train/bpo__db6c1e7c07fa093b.jpg,0056,1,dusk; large box
+images/train/bpo__dc7bed5e5d9c75fd.jpg,0056,2,dusk; roadside puddle
+images/train/bpo__dd01c979795bdac6.jpg,0056,3,two small boxes at the left edge
+images/train/bpo__ddd130738ae85fc5.jpg,0056,4,small box at the bottom
+images/train/bpo__dea8f5e4e4549565.jpg,0056,5,small box on a bridge
+images/train/bpo__df7a7ddd5bf1ce4c.jpg,0056,6,strip at the road edge
+images/train/bpo__df7b7b0df9ef5947.jpg,0057,1,row of small marks on the road
+images/train/bpo__e1261c6c95d50ab4.jpg,0057,2,kerb-side dirt and a small box
+images/train/bpo__e35ed2034a8103a3.jpg,0057,5,small box
+images/train/bpo__e38cf7962d8bb53a.jpg,0057,6,dusk
+images/train/bpo__e3f59fbb0bcc7db1.jpg,0058,1,wet reflections
+images/train/bpo__e5fff6c06f1dacd7.jpg,0058,3,puddles on a wet marked area
+images/train/bpo__e689b2b9163853c5.jpg,0058,4,two small boxes
+images/train/bpo__e701b8ee4d277ba3.jpg,0058,5,small box
+images/train/bpo__e747a12274061399.jpg,0058,6,roadside rubble and small boxes
+images/train/bpo__e8871b14c40848b4.jpg,0059,1,two small boxes
+images/train/bpo__e9712638b3a48ae0.jpg,0059,2,small box
+images/train/bpo__eb290469b1d7a60a.jpg,0059,3,box near parked bicycles
+images/train/bpo__eb9a79b58d573198.jpg,0059,5,dusk
+images/train/bpo__ee6f021f86812d9b.jpg,0060,1,wet highway; small box
+images/train/bpo__eec609824d5b71a1.jpg,0060,2,small debris
+images/train/bpo__f30db1a26bd0976e.jpg,0060,3,narrow wet streak
+images/train/bpo__f3280a8b403dc903.jpg,0060,4,strip along the left edge
+images/train/bpo__f456eb10db70e5d4.jpg,0060,5,dusk; puddles on the dirt side
+images/train/bpo__f50165a31c56441e.jpg,0060,6,marks or patch on the road
+images/train/bpo__f5536e61e5bc904c.jpg,0061,2,blurred
+images/train/bpo__f5ed7b0e7490284b.jpg,0061,3,three small boxes
+images/train/bpo__f6ce18b05066f52c.jpg,0061,4,cracked patch on the highway
+images/train/bpo__f7387052f92789e7.jpg,0061,5,dusk
+images/train/bpo__f8a5391ffaaf0d10.jpg,0061,6,small box
+images/train/bpo__f8b7d5f61458081a.jpg,0062,1,small box in tree shadow
+images/train/bpo__f934a3735dd4a2bf.jpg,0062,2,small box
+images/train/bpo__f97fca1ba6f1b2f6.jpg,0062,3,small box beside a patch
+images/train/bpo__f9e457fb6da94db7.jpg,0062,4,debris at the kerb
+images/train/bpo__fb06c50c03f07be1.jpg,0062,5,small box
+images/train/bpo__fb4330f36e55faa8.jpg,0062,6,small box
+images/train/bpo__fc85b22f5a6dcf7c.jpg,0063,1,dusk
+images/train/bpo__fc8d85bf2785580c.jpg,0063,2,boxes in a tree-shadow pattern
+images/train/bpo__fcc8723460d2da8c.jpg,0063,3,dusk; many boxes
+images/train/bpo__fcf0e22c9e720039.jpg,0063,4,small boxes in shade
+images/train/bpo__fcfe2ca7c5d36fb5.jpg,0063,5,marks at the kerb side
+images/train/bpo__fe4113ef40668aa8.jpg,0063,6,dusk; wet road
+images/train/bpo__fee201228de38fbc.jpg,0064,1,box at the roadside near a bike
+images/train/bpo__ff1294fe1df5d9f8.jpg,0064,2,two boxes on a wet lane
+images/train/bpo__ff6f9bf90be05203.jpg,0064,3,tiny box at the bottom
+images/train/bpo__ff951d32624d5698.jpg,0064,4,"roadside dirt, edge puddle and dirt-side puddle"
+images/train/bpo__02ce19c231283f02.jpg,0064,5,dusk and blurred; wet road edge
+images/train/bpo__19118b2923c228a1.jpg,0066,1,dusk; wet road; many boxes
+images/train/bpo__29a19ba4bca61e50.jpg,0066,3,puddles at the grass edge of a dirt road
+images/train/bpo__345ebb7d8b0f55d2.jpg,0066,5,dusk; one very large box over a flooded area
+images/train/bpo__43301b634bba1c40.jpg,0067,1,blurred; dirt patch at the left
+images/train/bpo__48133d42a3acffcb.jpg,0067,4,some boxes on cracks and edge breaks
+images/train/bpo__5621d70f7cfa0ee9.jpg,0067,5,dusk
+images/train/bpo__74be738ce532526d.jpg,0069,3,box on the dirt at the kerb beside a car
+images/train/bpo__807e3fe4deb6616c.jpg,0069,6,large puddle at the road side
+images/train/bpo__a97e2951f683bf66.jpg,0071,3,dusk; many boxes
+images/train/bucko__0239d5bc17859688.jpg,0074,5,night; headlight glare
+images/train/bucko__06e19cde2e71dc12.jpg,0074,6,night; headlight glare
+images/train/bucko__071a171bc0a34bce.jpg,0075,1,night; headlight glare
+images/train/bucko__13665f14360df70b.jpg,0075,2,night; no box; too dark to check
+images/train/bucko__1a64eb7b6be2ea6b.jpg,0075,3,night; no box; too dark to check
+images/train/bucko__25c43d1216aaa037.jpg,0075,4,night; no box; too dark to check
+images/train/bucko__26095122e29e8563.jpg,0075,5,night; no box; too dark to check
+images/train/bucko__31a84d6ce2760cd5.jpg,0076,1,night; headlight glare
+images/train/bucko__44e137808013c28d.jpg,0076,2,night; headlight glare
+images/train/bucko__46b8676f0488249f.jpg,0076,3,night; no box; too dark to check
+images/train/bucko__53fb09e7ac419f49.jpg,0076,4,night; headlight glare
+images/train/bucko__6a889876149bbaf5.jpg,0076,5,night; headlight glare
+images/train/bucko__779c87168fb6eb15.jpg,0076,6,night; no box; too dark to check
+images/train/bucko__798504c7f53f2986.jpg,0077,1,night; headlight glare; too dark to check
+images/train/bucko__7a750f2a0d0b7c53.jpg,0077,2,night; headlight glare; too dark to check
+images/train/bucko__7e3b896568154c82.jpg,0077,3,night; headlight glare; too dark to check
+images/train/bucko__98d72c8cf017b712.jpg,0077,4,night; headlight glare; too dark to check
+images/train/bucko__9b946c52e55f7257.jpg,0077,5,night; headlight glare; too dark to check
+images/train/bucko__9e94868b637a55e1.jpg,0077,6,night; headlight glare; too dark to check
+images/train/bucko__a282f5e206efe34b.jpg,0078,1,night; headlight glare; too dark to check
+images/train/bucko__b39e7528db327cf4.jpg,0078,2,night; headlight glare; too dark to check
+images/train/bucko__bc054364dad19e31.jpg,0078,3,night; headlight glare; too dark to check
+images/train/bucko__bead074ebf08cf60.jpg,0078,4,night; headlight glare; too dark to check
+images/train/bucko__bf1771bf7bf78ca5.jpg,0078,5,night; headlight glare; too dark to check
+images/train/bucko__c112f5754c607978.jpg,0078,6,night; headlight glare; too dark to check
+images/train/bucko__c7c9feee673184f5.jpg,0079,1,night; headlight glare; too dark to check
+images/train/bucko__d0bf68130a2dd884.jpg,0079,3,night; headlight glare; too dark to check
+images/train/bucko__d4891f66fc39bb57.jpg,0079,4,night; headlight glare; too dark to check
+images/train/bucko__e6789d5d3ba979b1.jpg,0079,5,night; headlight glare; too dark to check
+images/train/bucko__ecc0c7fd002af28d.jpg,0079,6,night; headlight glare; too dark to check
+images/train/bucko__f4441d336c520baf.jpg,0080,2,night; headlight glare; too dark to check
+images/train/bucko__f9cbaba50f9cf73f.jpg,0080,3,night; headlight glare; too dark to check
+images/train/bucko__19ba88ad94c64ecd.jpg,0080,6,night; headlight glare; too dark to check
+images/train/bucko__f1518d3ece9082c9.jpg,0080,1,wiper across the view; wet patch
+images/train/bucko__8edca241e9257a52.jpg,0081,5,"one box on a pothole-like spot, one on a square patch"
+images/train/bucko__8f7b33ca66473848.jpg,0081,6,night; no box; too dark to check
+images/train/bucko__a019d789d3efafd3.jpg,0082,1,night; no box; too dark to check
+images/train/bucko__af6eb48eaaa73c29.jpg,0082,2,night; no box; too dark to check
+images/train/bucko__d096963f79a5dfd8.jpg,0082,4,night; headlight glare
+images/train/egy__06e375f3a96369c6.jpg,0107,2,shallow patch area; pothole not clear
+images/train/egy__076b321ab21aca87.jpg,0107,4,long broken trench strip; box covers only its left part
+images/train/egy__0c5f2139d014221d.jpg,0108,2,"no box; cracked sunken area, pothole not clear"
+images/train/egy__0cace9476b413a79.jpg,0108,3,roadside rubble and a broken area
+images/train/egy__0d3e286c0d772ca0.jpg,0108,6,wide box over a sandy area
+images/train/egy__0d85ee9723872c40.jpg,0109,1,"no box; broken edge under a car shadow, not clear"
+images/train/egy__0fd387ab55dec200.jpg,0109,2,blurred sandy area
+images/train/egy__115c3fd559275543.jpg,0109,3,"no box; broken sandy area beside a manhole, not clear"
+images/train/egy__117f9bbf8a856458.jpg,0109,5,row of stones or rubble
+images/train/egy__120951d418062c01.jpg,0110,1,"no box; rough strip at the bottom, not clear"
+images/train/egy__13478cf56013622f.jpg,0110,4,close view of a sandy ridge
+images/train/egy__1587ec9c22ef5fa1.jpg,0110,6,faint round shape through windscreen glare
+images/train/egy__16771e1b1eb63b6a.jpg,0111,2,"no box; debris or broken surface, not clear"
+images/train/egy__17badab8893ef511.jpg,0111,4,small box at the kerb
+images/train/egy__1ba53877e25d20bf.jpg,0111,5,sunken round shape; manhole or pothole not clear
+images/train/egy__1cc80448e47c3a4a.jpg,0111,6,blurred; no road detail
+images/train/egy__1fdea928d9c9826a.jpg,0112,5,small box in tree shadow
+images/train/egy__209ae5e43a42be3c.jpg,0112,6,shallow sandy depression
+images/train/egy__2a2f985e4ebd58ee.jpg,0113,4,faint patch
+images/train/egy__2cd8215f31b5e042.jpg,0113,6,small dark spot
+images/train/egy__2cf97bca47d763c8.jpg,0114,1,blurred
+images/train/egy__39881a023f113411.jpg,0116,1,"no box; round sunken patch with a dark rim, pothole or patch not clear"
+images/train/egy__3b542567aba27363.jpg,0116,4,"no box; small rubble spot at the right, not clear"
+images/train/egy__3c7bfbb6fc5e51e7.jpg,0116,6,blurred close view of dirt
+images/train/egy__4095de139191c6a3.jpg,0117,1,box lies over the dashboard-vent reflection; road under it not clear
+images/train/egy__439f0045248dbd6b.jpg,0117,4,square hatched patch or cover
+images/train/egy__4a76e7067c9027c1.jpg,0118,3,line or crack near the kerb
+images/train/egy__4b9678d33161b9aa.jpg,0118,5,windscreen glare
+images/train/egy__4e0a0aa4b0242794.jpg,0119,3,windscreen glare and shadow
+images/train/egy__60caf00090f83c5e.jpg,0123,3,shallow cracked depression
+images/train/egy__66c3dbd13d3fb449.jpg,0124,5,"no box; shallow broken strip, not clear"
+images/train/egy__6727829746fcf694.jpg,0124,6,tiny far box
+images/train/egy__6cc07770d162b141.jpg,0125,5,small box beside a manhole cover
+images/train/egy__742141fb9d64e640.jpg,0126,3,faint mark at the roadside
+images/train/egy__7aef9ec5364aa39e.jpg,0127,3,line or crack near the kerb
+images/train/egy__7bc6ee6457060baf.jpg,0127,4,dirt and rubble slope
+images/train/egy__86309457f09dc125.jpg,0128,5,blurred; glare
+images/train/egy__8c709f8f55cb6ad0.jpg,0129,6,"no box; cracked sunken area with a small hole, not clear"
+images/train/egy__8dceed4dc6cf7bbe.jpg,0130,1,box on a faint mark seen through windscreen glare
+images/train/egy__8f2cad280e2c0ece.jpg,0130,3,"no box; debris on broken surface, not clear"
+images/train/egy__9133d422e0275354.jpg,0130,6,raised cracked slab; pothole not clear
+images/train/egy__92461d0c6feba72f.jpg,0131,1,"no box; torn surface beside a manhole cover, not clear"
+images/train/egy__932eb15a91bb1fd2.jpg,0131,4,dark; shallow depression
+images/train/egy__943abde7f6459cdb.jpg,0131,6,box beside a manhole cover behind a pedestrian
+images/train/egy__94d57ff251e07f17.jpg,0132,2,windscreen glare
+images/train/egy__999d89b9ec9eaf2e.jpg,0132,5,two faint boxes in a letterboxed frame
+images/train/egy__9ad0a602d73f7633.jpg,0132,6,"no box; rough worn area, not clear"
+images/train/egy__9c7d2f731db20047.jpg,0133,3,box covers a manhole cover and the broken sandy area around it
+images/train/egy__a4e3300286df7e44.jpg,0134,4,patch-shaped area in shadow
+images/train/egy__a8cea4257811375e.jpg,0135,2,faint shape at the shadow line
+images/train/egy__ae67dcea856e62c4.jpg,0136,2,shape at the bonnet edge
+images/train/egy__b1ef000abc1c1ce6.jpg,0137,3,"no box; sand patch and a dark spot, not clear"
+images/train/egy__b25e44dac9d89445.jpg,0137,4,left box on a sand strip at the kerb; right box on a broken area
+images/train/egy__b4dafe9558354fae.jpg,0137,6,blurred; glare
+images/train/egy__b95facae2d64e47c.jpg,0138,2,dirt slope with rubble
+images/train/egy__c1f8e20a8b697309.jpg,0139,3,wide sandy patch; depth not clear
+images/train/egy__ca5e72aecb33ef21.jpg,0139,5,faint mark at the dashboard edge
+images/train/egy__d61735818b276634.jpg,0141,3,blurred close view; sand-filled worn area
+images/train/egy__dda8c20e3f665fd9.jpg,0142,5,wide box over a sandy broken area
+images/train/egy__e23a2b0918d819f8.jpg,0143,1,sandy rubble areas
+images/train/egy__e559f2b834d27efd.jpg,0143,5,close view of a dirt hole; not a road view
+images/train/egy__ec57ae1eddd0e1f4.jpg,0144,6,hatched cover or broken spot
+images/train/egy__ee3f40469919f61e.jpg,0145,3,sand and litter at the kerb beside a grate
+images/train/egy__f5d6034f5a94d41b.jpg,0147,3,"no box; sunken sand-filled area beside a manhole cover, not clear"
+images/train/egy__f9b84a08f38fd047.jpg,0148,2,close view of a sandy ridge
+images/train/egy__fc58f92eb2a786f1.jpg,0148,3,"no box; rough strip, not clear"
+images/train/egy__fef5ae4ca33c060e.jpg,0149,1,tiny far box
+images/train/egy__01bba34d04f1c0d8.jpg,0149,6,blurred through the windscreen edge
+images/train/egy__030fb23c435c942b.jpg,0150,2,blurred
+images/train/egy__059ed423df69661e.jpg,0150,5,small box in a letterboxed portrait frame
+images/train/egy__0d48e0f6180e7f29.jpg,0152,1,faint patch in a letterboxed portrait frame
+images/train/egy__0effe0a45e91756a.jpg,0152,2,one large box over two broken spots; close view
+images/train/egy__0fbf66d403b7258a.jpg,0152,4,"no box; small spots near a lane line, not clear"
+images/train/egy__0fc30852d9db9d6c.jpg,0152,5,tiny box at the bonnet
+images/train/egy__172d5519b93c2aa4.jpg,0153,4,small box at the top edge of a close view
+images/train/egy__1a075560d07d4f1b.jpg,0153,6,close view of a worn surface
+images/train/egy__20ed4d4ea40d0c7a.jpg,0154,5,sand strips seen across the bonnet
+images/train/egy__230128eead91add7.jpg,0155,4,wet gutter line at the kerb
+images/train/egy__25cf85ee8da4c576.jpg,0156,2,shallow dips in tree shadow
+images/train/egy__2ac1d8fc207f3fd1.jpg,0156,6,sandy ground at a gate; portrait frame
+images/train/egy__2b230608db325e06.jpg,0157,1,blurred and dark
+images/train/egy__2d3b3b36aeb581f2.jpg,0157,2,box on a raised asphalt slab with broken edges
+images/train/egy__302f998b7d154aa6.jpg,0157,6,"no box; dark hole at the kerb, blurred"
+images/train/egy__33085ba17ab0bd55.jpg,0158,4,blurred close view
+images/train/egy__33e8d337b76d545c.jpg,0158,6,box on a sand strip; the broken area around the grate has no box
+images/train/egy__3549ae29386dcf3e.jpg,0159,3,blurred close view of rubble; no box
+images/train/egy__359594c2a51d724b.jpg,0159,4,small box in a letterboxed portrait frame
+images/train/egy__378f9506551eefce.jpg,0159,6,blurred; no box
+images/train/egy__3987ab9457d4292e.jpg,0160,2,blurred close view
+images/train/egy__3c1e8e54bafdbe13.jpg,0161,1,tiny box in a letterboxed portrait frame
+images/train/egy__3d0f52285bd0f957.jpg,0161,3,seen through the windscreen at an angle; sandy rough area
+images/train/egy__3d6445a088d90557.jpg,0161,4,blurred; no box; small hole near a grate
+images/train/egy__419973557028a955.jpg,0162,5,dark; no box; worn patches
+images/train/egy__436763cd90fec6e6.jpg,0162,6,blurred; no box; round sunken shape
+images/train/egy__448454601e54e4c9.jpg,0163,1,"no box; long worn strip, depth not clear"
+images/train/egy__4c21c70a344035d3.jpg,0164,3,box at the kerb above a grate; dirt or broken area not clear
+images/train/egy__4c996bb88ce6b4bd.jpg,0164,4,tiny box at the frame edge of a portrait frame
+images/train/egy__4da7c46f6243e974.jpg,0165,1,tiny box at the bonnet in a portrait frame
+images/train/egy__545ca2494b444882.jpg,0166,1,dark dirt at the kerb
+images/train/egy__56eba2b191f403e0.jpg,0166,4,seen through the windscreen at an angle
+images/train/egy__58f2217a91424016.jpg,0166,6,blurred sandy area
+images/train/egy__5c39e922a0d2747e.jpg,0167,2,blurred; no box; dirt lane
+images/train/egy__5c59ee69b3595757.jpg,0167,4,blurred; no box
+images/train/egy__5ee867608d481783.jpg,0167,6,left box on a dark blurred area; right box on a hole with rubble
+images/train/egy__60511adacc50e6d6.jpg,0168,1,tiny box in a letterboxed portrait frame
+images/train/egy__60f0c08f7e75e10d.jpg,0168,3,two shallow marks seen at an angle
+images/train/egy__614dbbc474ea7d0a.jpg,0168,4,rubbish and rubble strip at the kerb
+images/train/egy__65256f71651458c9.jpg,0169,4,faint depression behind glare
+images/train/egy__689fd22649936824.jpg,0170,1,faint gravel area
+images/train/egy__6a2ba88d90dd533e.jpg,0170,4,wide sandy worn area
+images/train/egy__6d863dbece07f373.jpg,0170,6,no box; broken strip in a letterboxed frame
+images/train/egy__709f1bf81ecd0cad.jpg,0171,6,broken area beside a square cover
+images/train/egy__715e652ca5459f70.jpg,0172,2,boxes at the bonnet edge; puddle partly hidden
+images/train/egy__72b2fc3c9a5e6e9c.jpg,0172,4,blurred dark strip at the kerb
+images/train/egy__73e0b05b2a8a36db.jpg,0172,5,blurred; no box; kerb gutter
+images/train/egy__75e924bdd8530918.jpg,0173,3,blurred; no box; round patch
+images/train/egy__79303800eaf72c0a.jpg,0174,2,blurred; one box over almost the whole frame
+images/train/egy__7d0a035e48508770.jpg,0174,6,two small boxes in a letterboxed portrait frame
+images/train/egy__7fe8e8284448024b.jpg,0175,2,no box; shallow sandy depression at the kerb
+images/train/egy__7fec03f4aa6c9622.jpg,0175,3,blurred; two overlapping boxes
+images/train/egy__812706cb775c3b41.jpg,0175,5,tiny box in a letterboxed portrait frame
+images/train/egy__834405b448bae9f8.jpg,0176,2,tiny box in a letterboxed portrait frame
+images/train/egy__874cc9bb58e56b70.jpg,0176,6,blurred through the windscreen edge
+images/train/egy__87a7edba667c3b60.jpg,0177,1,long worn strip; depth not clear
+images/train/egy__886542f62f2eb3d2.jpg,0177,3,blurred through the windscreen edge
+images/train/egy__8973d10f16375318.jpg,0177,4,tiny box in a letterboxed portrait frame
+images/train/egy__8b1ae829e633ae74.jpg,0177,5,blurred; no box; sunken cover with a sand ring
+images/train/egy__8b9e9a31ec92abe7.jpg,0177,6,small box in a letterboxed portrait frame
+images/train/egy__8c0f9afbcc37516d.jpg,0178,1,windscreen glare; rough area by barriers
+images/train/egy__8cf7ad7b7778f7fe.jpg,0178,2,blurred; no box; grate at the kerb
+images/train/egy__911090860be6c38f.jpg,0179,2,blurred; no box
+images/train/egy__93a3df5c8c19d696.jpg,0179,6,blurred; worn strip with litter
+images/train/egy__98f93bbc203f72b4.jpg,0180,5,glare and shadow; rough area
+images/train/egy__9955bf320c718a08.jpg,0180,6,two small boxes in a letterboxed portrait frame
+images/train/egy__9a16897014ab7404.jpg,0181,1,worn concrete beside a kerb gutter
+images/train/egy__9fbbfd382693a56e.jpg,0181,5,sandy broken edge in a letterboxed portrait frame
+images/train/egy__a10b6da64e591bcc.jpg,0181,6,blurred
+images/train/egy__a3177afdcaf0c27a.jpg,0182,2,blurred; no box; cracked slabs
+images/train/egy__a471654dfcc1cbd3.jpg,0182,6,seen through the windscreen at an angle; rubble at the roadside
+images/train/egy__a66a3e01759c0c31.jpg,0183,1,small box in a letterboxed portrait frame
+images/train/egy__a96e8bfd67ece4af.jpg,0183,5,tiny box in a letterboxed portrait frame
+images/train/egy__a9ba76c0b1fce578.jpg,0183,6,no box; sandy worn area in a letterboxed frame
+images/train/egy__a9d2ac0c2a59bc66.jpg,0184,1,round dark shape near the kerb; grate or pothole not clear
+images/train/egy__ad8a4b6196b6dd5e.jpg,0184,5,blurred; no box; shallow sandy spot
+images/train/egy__af3716c77b29c8ca.jpg,0185,3,small box in a letterboxed portrait frame
+images/train/egy__b19581c3e561c9a8.jpg,0185,5,blurred; no box
+images/train/egy__b2e1c61ea1422700.jpg,0185,6,blurred; no box; round sunken shape
+images/train/egy__b48673cbb6a6641b.jpg,0186,2,blurred; no box
+images/train/egy__b5c18873c4a852f3.jpg,0186,3,box at the left edge; the broken spot by the manhole cover has no box
+images/train/egy__b6b849b9a81ac442.jpg,0186,4,blurred; shallow worn patch
+images/train/egy__b7015ee02f62a13b.jpg,0186,5,blurred; no box; wide shallow worn patch
+images/train/egy__b94605ab461c75d6.jpg,0187,2,"no box; rough pitted surface, close view"
+images/train/egy__baeef61fe8550582.jpg,0187,4,shallow dips in tree shadow
+images/train/egy__bbea65a350dc7f43.jpg,0187,5,two tiny boxes in a letterboxed portrait frame
+images/train/egy__bdd57f8ba46acd2b.jpg,0188,1,small box in a letterboxed portrait frame
+images/train/egy__bee68309bfa2b120.jpg,0188,2,"no box; broken edge at a tram rail, portrait frame"
+images/train/egy__c1a03c9a8df0f836.jpg,0188,6,blurred; long worn strip at the kerb
+images/train/egy__c378772b7b7006ee.jpg,0189,1,blurred; no box
+images/train/egy__c48a73508dd204b4.jpg,0189,3,tiny box in a letterboxed portrait frame
+images/train/egy__c511bd0d994f7fab.jpg,0189,4,blurred; no box
+images/train/egy__c61b4142b112f26a.jpg,0189,5,gravel area; no clear pothole edge
+images/train/egy__c7384e6a1a2ea3ec.jpg,0189,6,sandy patch in a letterboxed portrait frame
+images/train/egy__c775dab24e0b82e0.jpg,0190,1,blurred through the windscreen edge
+images/train/egy__c92494c2569251b1.jpg,0190,2,"no box; rough pitted surface, close view"
+images/train/egy__c935c0fa63798320.jpg,0190,3,blurred; no box
+images/train/egy__ccc8f77c89f44767.jpg,0191,2,box at the dashboard edge; sand strip
+images/train/egy__cfecb02a0ab2efda.jpg,0191,6,blurred through the windscreen edge
+images/train/egy__d1e9c6b0c7c0534c.jpg,0192,1,box in a letterboxed portrait frame
+images/train/egy__d3c6514a5b6d1335.jpg,0192,2,blurred; no box; cracked slabs
+images/train/egy__d924467cca47a14e.jpg,0192,6,blurred; no box
+images/train/egy__da75e90df57a2677.jpg,0193,3,no box; broken spot far ahead in a portrait frame
+images/train/egy__daed4f34fff2550f.jpg,0193,4,wet debris strip at the kerb in a portrait frame
+images/train/egy__de3d50089f01cb8f.jpg,0194,2,wide sandy area in a portrait frame
+images/train/egy__df6a2fdd936fb909.jpg,0194,3,small box in a letterboxed portrait frame
+images/train/egy__e6330484796c8cd5.jpg,0196,2,blurred; no box; grate at the kerb
+images/train/egy__e7057b123c102936.jpg,0196,4,blurred; no box; broken edge at a grate
+images/train/egy__e7f2bf9850f1cd94.jpg,0196,5,two faint boxes in a letterboxed frame
+images/train/egy__e814b0a8d60ed49f.jpg,0196,6,faint rough spot near the bonnet
+images/train/egy__e98b58842bf5cc42.jpg,0197,3,small box in a letterboxed portrait frame
+images/train/egy__ecda7b07d89ec83b.jpg,0198,1,small box at the frame edge of a portrait frame
+images/train/egy__eef6b745d55c9b2a.jpg,0198,4,tiny box in a letterboxed portrait frame
+images/train/egy__f2c36415483e0dc3.jpg,0198,6,dark and blurred
+images/train/egy__f577f8eddf08ffe9.jpg,0199,3,blurred; no box
+images/train/egy__f58ebb6ada98d610.jpg,0199,4,blurred; no box; sunken area at a small cover
+images/train/egy__f62b323ce122deb1.jpg,0199,5,shallow round mark beside a manhole cover
+images/train/egy__f752d48cef816788.jpg,0200,2,no box; broken strip in a letterboxed frame
+images/train/egy__f7db7a15ee14782f.jpg,0200,3,blurred; no box
+images/train/egy__f83a280962045d5b.jpg,0200,4,blurred; debris strip at the kerb
+images/train/egy__fcf6c5f38a1d5bb3.jpg,0200,6,blurred; no box; cracked slabs
+images/train/egy__fe6756406b6d4dc6.jpg,0201,1,"no box; water-filled hole at the top left, partly behind a car, not clear"
+images/train/egy__ff46bac4318116b5.jpg,0201,2,tiny box in a letterboxed portrait frame
+images/train/ghpot__1e437b281ffd7c27.jpg,0271,1,Repair work and fill conceal the original pothole edges.
+images/train/ghpot__21b2a0fa12bb8f88.jpg,0271,3,Large shoulder pool lacks a resolved broken rim.
+images/train/ghpot__47c66e41a839e442.jpg,0272,1,Numerous small distant targets require closer boundary assessment.
+images/train/ghpot__4c0c7c1b496d6b5a.jpg,0272,3,Fresh concrete or road fill obscures whether the boxed area is a cavity.
+images/train/ghpot__6e5ca78eae29e2ca.jpg,0272,6,Road-edge targets are distant and indistinct.
+images/train/ghpot__719faa6fc73404df.jpg,0273,1,Multiple boxes may split a connected cavity; surface depth is uncertain.
+images/train/ghpot__ab92d8278028f5f3.jpg,0274,4,Photographic artwork and multiple small distant boxes require assessment.
+images/train/ghpot__be18906014bf2588.jpg,0275,6,Numerous small wet marks lack clear rims.
+images/train/ghpot__c70774892353b135.jpg,0276,1,Sand fill obscures the remaining cavity depth.
+images/train/ghpot__0dc25c423d66bcdf.jpg,0277,2,Unpaved-road depressions require clarification of the target class.
+images/train/ghpot__2d8db9ac79b976ae.jpg,0278,2,Loose rocks obscure whether there is missing pavement underneath.
+images/train/ghpot__43131e19ab6df95b.jpg,0278,5,Many small targets are too distant to resolve their edges.
+images/train/ghpot__56a771d19a7317f5.jpg,0279,1,Alligator cracking and possible spalling have unclear depression boundaries.
+images/train/ghpot__899a7306f2305675.jpg,0280,4,Person and props occlude the boxed surface.
+images/train/ghpot__9a5f55a2541bd880.jpg,0280,6,Barrier base occludes the cavity; two distant targets remain indistinct.
+images/train/ghpot__a07389146f57e744.jpg,0281,1,Flowers and fill conceal the original cavity.
+images/train/ghpot__b62b5c2c6453d2fc.jpg,0281,6,Distant boxes lack enough surface detail.
+images/train/ghpot__c7113fbedf8848c6.jpg,0282,3,Planted soil obscures whether the original cavity remains.
+images/train/hmpt__062e06f122c593a4.jpg,0284,4,Night glare obscures the labelled transverse strip.
+images/train/hmpt__7ae431df630b7b46.jpg,0294,6,Possible second raised strip behind the labelled bump is indistinct.
+images/train/hmpt__e55894ac92dfd83a.jpg,0303,3,Occlusion and night lighting obscure the labelled strip.
+images/train/hmpt__33a36079c420f59e.jpg,0287,6,Multiple raised strips need separate extent or missing-instance assessment.
+images/train/hmpt__515ba47b1619e3d9.jpg,0290,3,Multiple raised strips need separate extent or missing-instance assessment.
+images/train/hmpt__6218407653c43e45.jpg,0292,1,Multiple raised strips need separate extent or missing-instance assessment.
+images/train/hmpt__74745977232714d6.jpg,0294,1,Multiple raised strips need separate extent or missing-instance assessment.
+images/train/hmpt__9d390d9a7bfd9327.jpg,0297,2,Multiple raised strips need separate extent or missing-instance assessment.
+images/train/hmpt__e188159703150821.jpg,0303,1,Multiple raised strips need separate extent or missing-instance assessment.
+images/train/hmpt__633439eec9ed50a6.jpg,0316,1,Multiple raised strips need separate extent or missing-instance assessment.
+images/train/pol__6d9b6e2b73938eff.jpg,0392,1,Wet or distant damage needs assessment for missing pothole boxes.
+images/train/pol__76be2e84b6cea8f9.jpg,0393,3,Wet or distant damage needs assessment for missing pothole boxes.
+images/train/pol__7cd7851a7e260eb5.jpg,0393,6,Wet or distant damage needs assessment for missing pothole boxes.
+images/train/pol__a57b3e395430d596.jpg,0397,6,Wet or distant damage needs assessment for missing pothole boxes.
+images/train/pol__c22e1679c1ef59bb.jpg,0402,1,Wet or distant damage needs assessment for missing pothole boxes.
+images/train/pol__ce2ca639e2856031.jpg,0402,6,Wet or distant damage needs assessment for missing pothole boxes.
+images/train/pol__d155a194d46a9f04.jpg,0403,2,Wet or distant damage needs assessment for missing pothole boxes.
+images/train/pol__df6d8046e2c58893.jpg,0405,2,Wet or distant damage needs assessment for missing pothole boxes.
+images/train/pol__e33a10c9e210ddc5.jpg,0405,6,Wet or distant damage needs assessment for missing pothole boxes.
+images/train/pol__eacd47c16d2fed71.jpg,0407,1,Wet or distant damage needs assessment for missing pothole boxes.
+images/train/pol__efef0a561bfaf70e.jpg,0407,5,Wet or distant damage needs assessment for missing pothole boxes.
+images/train/rdd_ji__00371ca286c9f478.jpg,0409,6,Wet or distant damage needs assessment for missing pothole boxes.
+images/train/rdd_ji__01787e7143b536fa.jpg,0410,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__017aa8c49c918a96.jpg,0410,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__01b5e78d663aa04a.jpg,0410,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__05c8041d7bbcb054.jpg,0410,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__06d338d3ebb1d0b5.jpg,0411,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__07953dc19aa4968c.jpg,0411,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__08f7f052f926e8f1.jpg,0411,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__095b83fc22dc8129.jpg,0411,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__0ad11856f90291fb.jpg,0412,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__0b0bc7599877108d.jpg,0412,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__0b1fb26b788ec2c9.jpg,0412,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__0ba03e6e7c4a923d.jpg,0412,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__0e9330882e5a78cb.jpg,0413,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__1006a1f15488820c.jpg,0413,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__1102fec4f111c580.jpg,0413,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__114bf4508ed51c27.jpg,0414,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__1169796d38e34406.jpg,0414,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__123c5ecff3ae5b68.jpg,0414,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__12465e98d817ffe0.jpg,0414,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__12740bd96d53e440.jpg,0414,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__127561b1e7ec5310.jpg,0415,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__131b6bc88ccc6964.jpg,0415,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__134ac28c73f800d3.jpg,0415,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__13b40f1f381e7f56.jpg,0415,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__13f6facd8fe736d9.jpg,0416,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__15d5615ff5eea81e.jpg,0416,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__16f91eab536cb366.jpg,0416,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__1768f490a98b38c7.jpg,0416,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__178de5fc777d2ce8.jpg,0416,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__17995de9de8c913f.jpg,0416,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__1a8e29deb40815bc.jpg,0417,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__1b9ea4efb943295b.jpg,0417,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__1ba100bab2a0ece0.jpg,0418,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__1c877b5d4100a733.jpg,0418,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__1daaca00a494b6ec.jpg,0418,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__1fec9ef8560982b3.jpg,0418,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__20040c712b65afe5.jpg,0418,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__204a8d452e3de49b.jpg,0419,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__21946608fcc7432f.jpg,0419,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__224bf590ade80e69.jpg,0419,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__22ff2961ff4cca25.jpg,0419,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__2357187bd2b4c179.jpg,0420,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__24cbfd8047d959fb.jpg,0420,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__260b4fc1aca614c0.jpg,0420,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__26d598c22ab762aa.jpg,0421,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__26e6b3606371bdd8.jpg,0421,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__272232200f3c8e5b.jpg,0421,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__275b6979099b5bb4.jpg,0421,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__282305c5d85a7555.jpg,0421,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__28fb1b8d7e277da1.jpg,0422,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__298828e80c34e462.jpg,0422,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__2bf1da51acce2a4a.jpg,0422,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__2c80ca1dd79d8de4.jpg,0422,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__2dcd2874d6515b0a.jpg,0423,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__2f16a89fd7844bbb.jpg,0423,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__3128ffc2381cf8a3.jpg,0423,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__31bc2104109c6516.jpg,0424,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__324525a4accbde89.jpg,0424,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__327053d00f8f86eb.jpg,0424,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__32ef64f6217f872a.jpg,0424,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__344747ffb9e21ad0.jpg,0425,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__34e2caa2e4561579.jpg,0426,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__35328c6cfa4b816d.jpg,0426,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__362d06d468f87b7d.jpg,0426,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__36b5e8cdab5ee8de.jpg,0427,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__373764d00dfe3f19.jpg,0427,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__37ba336bbd50ac64.jpg,0427,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__391b0a938b093133.jpg,0428,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__39cc8c0cf506ee59.jpg,0428,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__39ed79ef28774d66.jpg,0428,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__3c2a034658264aaa.jpg,0428,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__3c6ed46b78bde46c.jpg,0429,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__3d6d6bdbb95fc776.jpg,0429,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__3d8637c0208b905f.jpg,0429,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__3e9a167bbbc73a61.jpg,0429,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__3fa4976a9083367f.jpg,0430,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__3fb1660a30324fe7.jpg,0430,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__3fd15f020a0ab971.jpg,0430,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__3fd5394ce651295d.jpg,0430,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__40c43ec9b038c83c.jpg,0431,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__42f3f757d74bdc69.jpg,0431,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__43a82a2593e781f5.jpg,0431,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__451878248ef8fd60.jpg,0431,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__451c39052562bf01.jpg,0432,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__462927208291401a.jpg,0432,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__47f77407328a5d51.jpg,0432,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__481f43f99de00f1b.jpg,0432,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__4870d2e75914aec1.jpg,0432,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__48ea7ca1940f48aa.jpg,0433,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__491f1c9acad3746d.jpg,0433,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__49a8e7dbfed71c18.jpg,0433,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__4a6f0bf9c38d87db.jpg,0433,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__4a80433b172a451c.jpg,0434,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__4b9f7f1c2540373f.jpg,0434,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__4bb4d0836171ec86.jpg,0434,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__4bf426d0b7efd80e.jpg,0434,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__4c4ae06c546c4f52.jpg,0434,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__4c4eeacdb7486815.jpg,0435,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__4fd0f2efc2edbfea.jpg,0435,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__50763d91cdca5f4e.jpg,0435,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__51f0fa9f4dc2fb10.jpg,0436,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__53d05f1c57de27a3.jpg,0436,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__5502fb0aecf8c014.jpg,0437,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__5638aa7d97cce889.jpg,0437,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__56f596880668c090.jpg,0437,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__57becba415834d59.jpg,0438,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__57db7da9da4f6515.jpg,0438,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__581c296a0a2e5a55.jpg,0438,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__5897068b45bb3358.jpg,0438,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__59a99af11dc36ea5.jpg,0438,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__59ab246942f46eef.jpg,0438,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__5d468f1ce65a93fb.jpg,0439,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__5d6ba2c1c055485c.jpg,0439,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__5e17b5d3d16baa54.jpg,0440,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__5f554e9fd0adaaf9.jpg,0440,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__5f7ea9da9472c18e.jpg,0440,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__620d7bafcdb210af.jpg,0440,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__626934cb3723d477.jpg,0440,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__65acab010216c700.jpg,0441,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__663cbf71121cb391.jpg,0441,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__668f70101edfe0f6.jpg,0441,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__66c346cc44c730a4.jpg,0441,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__66f13357846ddd66.jpg,0442,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__676deaaaffc6506e.jpg,0442,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__68474982d8b355a2.jpg,0442,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__688794f310df1158.jpg,0442,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__6994c61cf0af74b2.jpg,0442,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__6a5754048eae7be9.jpg,0443,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__6a8999428bc6a60c.jpg,0443,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__6c4275d39bacf5a0.jpg,0443,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__6dc23ebaa99cec7c.jpg,0444,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__6dd2bc1869770064.jpg,0444,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__6e3c77fbb188cc92.jpg,0444,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__7161ad37b5cd0f67.jpg,0445,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__719ac3382f474694.jpg,0445,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__71cbc79c25e51079.jpg,0445,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__72db3ed7fa9de3cf.jpg,0445,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__73756d1ea39d45e9.jpg,0445,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__73911b4e0325a743.jpg,0446,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__739779cb42d15f39.jpg,0446,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__744f8d22804c2ba0.jpg,0446,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__75317bbcd8803e3f.jpg,0446,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__7543f81d25f1951f.jpg,0447,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__769b1cad83d57c06.jpg,0447,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__7957f8e41a67a8aa.jpg,0447,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__79b1df02ce2f50a5.jpg,0447,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__7c841d7250000810.jpg,0448,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__7d1b1fcfe7a3cc5f.jpg,0448,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__7d329d557be5a942.jpg,0448,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__7d91efb71eb2b1ce.jpg,0448,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__80959f780d06bf6b.jpg,0449,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__859b7750a8fb586e.jpg,0449,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__85e8e53443895fc9.jpg,0450,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__866e54f572b4ebac.jpg,0450,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__867099720b8521e7.jpg,0450,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__873e7de1463494a1.jpg,0450,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__87fcb03c31064b38.jpg,0450,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__89ab636b9c748dcf.jpg,0451,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__8aa7531ba308d053.jpg,0451,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__8b571f8d4345ab41.jpg,0451,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__8d2669e8446aef6a.jpg,0451,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__8d5138a761c03067.jpg,0452,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__8d94b00ea86836b2.jpg,0452,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__8dae10eaa450e8ee.jpg,0452,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__8e608690b4672566.jpg,0452,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__8fc9e73f37e9eba7.jpg,0453,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__9029991fcac876b7.jpg,0453,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__9060882069f9765f.jpg,0453,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__907d091edc4b6b65.jpg,0453,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__91f754674821fb07.jpg,0453,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__92763b71df7c0407.jpg,0453,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__930b9e7cc7ba5259.jpg,0454,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__941edf1d363ff8cb.jpg,0454,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__94929a9d966eabae.jpg,0454,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__9716bda216563f9b.jpg,0454,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__99659386e0aa6c56.jpg,0455,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__99bd755112d25bb6.jpg,0455,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__9ab2d7e1af7892e7.jpg,0456,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__9b4a96ec7a364796.jpg,0456,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__9cba1ecf9a8bce21.jpg,0456,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__9daa526ed0efd7bc.jpg,0457,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__9ddfc0421c5c117c.jpg,0457,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__a05fdd10fe3c3b35.jpg,0457,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__a13635548888b4b9.jpg,0457,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__a170a1a68db39c11.jpg,0457,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__a380f09f4972d454.jpg,0458,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__a66b5e05cbb7d75f.jpg,0459,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__a6d7b2722e570a28.jpg,0459,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__a813df06130b71f2.jpg,0459,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__a858bb4539ecbb09.jpg,0459,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__a8ce407c9dfae3c3.jpg,0460,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__aa27cf7e3584928c.jpg,0460,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__aadf070f1145c410.jpg,0460,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__ac7478470487f97a.jpg,0460,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__ad594a58a10a7cac.jpg,0461,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__adb7f9cc83a4f91f.jpg,0461,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__ae286239de6aa1ca.jpg,0461,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__aec08eb012dc29ae.jpg,0461,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__b05b0c9fa8a56dc4.jpg,0461,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__b1980f5f91fb9408.jpg,0462,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__b35099d5ba5440f8.jpg,0462,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__b3b33afa744a2ca0.jpg,0462,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__b3ffc71e7f2810d3.jpg,0462,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__b52c351f590f4370.jpg,0463,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__b5ba3a4313bf577a.jpg,0463,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__b73d0d96bc2bc9c6.jpg,0464,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__b7a0bba820833cb1.jpg,0464,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__b8431f1ae89b946a.jpg,0464,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__b85c94642423a320.jpg,0465,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__b96dc241046fb571.jpg,0465,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__b976354c17e00ca2.jpg,0465,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__c11951747726352d.jpg,0467,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__c19edf43f1567afa.jpg,0467,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__c285f2646a0cee22.jpg,0467,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__c2c7b363e30c2a62.jpg,0468,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__c2fd06cfa087588b.jpg,0468,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__c33425dea08f92fc.jpg,0468,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__c3952a720ac45d08.jpg,0468,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__c64f95706b8fb724.jpg,0469,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__c726c263011f0a6e.jpg,0469,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__c79c055acbff5796.jpg,0469,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__c9b56e1cff0e6973.jpg,0470,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__ca85ff46735c6904.jpg,0470,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__ca97617795f1b469.jpg,0470,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__cb6f311f2e5c69fd.jpg,0471,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__cb9a068505436b65.jpg,0471,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__cc03d4bd48ad4fd4.jpg,0471,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__ccdeb2bdbe6b939b.jpg,0471,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__cce3fcf5d12fa677.jpg,0471,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__cd57f6a3df3a43d6.jpg,0472,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__d2ff0dfcd989d35f.jpg,0473,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__d3583ee762cd8ecb.jpg,0473,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__d54409b7578481e1.jpg,0474,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__d588c8a82ed349dc.jpg,0474,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__d62abb531d183eff.jpg,0474,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__d6ed05bc46b338eb.jpg,0474,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__d90424047907620b.jpg,0475,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__d9166eeac67cd437.jpg,0475,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__d9c3273062594ed1.jpg,0475,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__db4e41cd1bcde417.jpg,0476,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__dcb57b8afe24cf9c.jpg,0476,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__de678651f2724f26.jpg,0476,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__dea8b83a031b93da.jpg,0477,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__df8ef57186b5c812.jpg,0477,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__dfbe96a6067da755.jpg,0477,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__e03578b91368beb6.jpg,0478,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__e1eed80e4605fca5.jpg,0478,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__e2b22c3de2b6002a.jpg,0478,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__e2cc04e4d878c01f.jpg,0478,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__e2ccef1f3f14abe7.jpg,0478,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__e356b34053c88e9f.jpg,0479,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__e3cc37f58f3d3bd9.jpg,0479,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__e85b7a0d82623768.jpg,0479,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__e8ad338cbd7f2cff.jpg,0480,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__e91e81152935037a.jpg,0480,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__e928a43d5431cc1b.jpg,0480,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__e9602bd46204490c.jpg,0480,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__e9f98cfde3bc9a83.jpg,0480,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__ea230d346afee90e.jpg,0481,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__eb2d25cf5e32ac52.jpg,0481,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__ebf53d92e7c7ad60.jpg,0481,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__edbe5eec3c799377.jpg,0481,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__ee5986a0af5b7c5b.jpg,0482,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__eedee6372569ec75.jpg,0482,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__ef7d168c647b4152.jpg,0482,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__f07bef8745538a0d.jpg,0483,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__f129c317cd3eb40d.jpg,0483,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__f1df30933de11d18.jpg,0483,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__f2f2e7021264e372.jpg,0484,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__f4bf8f1eec48c317.jpg,0484,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__f6680b4e614abb47.jpg,0484,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__f97e1f56ac215b7a.jpg,0485,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__f9d36174352b89e7.jpg,0485,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__fadaa632de7c8e08.jpg,0486,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__fb2908bf0bded230.jpg,0486,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__fb3820123a58bc9d.jpg,0486,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__fb5c0e5ea0dcbd4f.jpg,0486,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__fbe664b5eebbfe3d.jpg,0486,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__fc0a917d06c521f2.jpg,0487,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__fc9143a868f49d5d.jpg,0487,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__fe284f51398063f7.jpg,0487,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__ff2d74b4bef3b872.jpg,0488,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__ffaeeeaf407b63e8.jpg,0488,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__18af64fb122d9644.jpg,0488,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__a37ece5c264783a9.jpg,0490,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__a926418b0b373c28.jpg,0490,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__a9a52587733bb990.jpg,0491,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rdd_ji__f4022ab07e83f4b0.jpg,0492,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/red__04705f4d8aa09a32.jpg,0493,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__0a979254e84020af.jpg,0548,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__0e79d308bbce337d.jpg,0549,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__2f9745f54b97b879.jpg,0551,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__31a39bf810efb08c.jpg,0551,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__3510017ad0057c63.jpg,0551,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__400068b41d1dc5e3.jpg,0551,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__4c716896ed4f26ce.jpg,0552,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__573709049df57721.jpg,0552,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__62251153edd15d9c.jpg,0553,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__73bc1b41f0fa5dd3.jpg,0554,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__81ac33d71dbe31b6.jpg,0554,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__88010e7f450da023.jpg,0555,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__93eb9fa616e85999.jpg,0555,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__98ba9976f9b01da0.jpg,0555,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__9de9487bcce15213.jpg,0556,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__a0292bca8dc78eae.jpg,0556,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__a3f2ca7f0ef89aa6.jpg,0556,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__b928555fa7d354a1.jpg,0557,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__b94226845f2ed94e.jpg,0557,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__d8713cf759e86af4.jpg,0559,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__da64d28cfa531238.jpg,0559,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__e1132d1ad48c57d7.jpg,0560,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__e74d638470320de6.jpg,0560,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__011919bfcf610cc2.jpg,0561,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__06ba7d7ab7f15d5b.jpg,0563,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__0deda45ea78e9efa.jpg,0564,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__10757ba82c0e76d0.jpg,0564,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__1145bd7d65ef0719.jpg,0565,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__17c23f7794e62c89.jpg,0566,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__17daaa43e82708e4.jpg,0566,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__2271948fa0e0bfc8.jpg,0568,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__2365454e3fbab3c6.jpg,0568,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__2428d7cade2b9dd1.jpg,0568,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__2429076c99ddb45c.jpg,0568,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__29cbd90663b045a9.jpg,0569,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__2f974166a1b2b156.jpg,0571,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__3057a9e6b8c4a329.jpg,0571,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__31be371f405dacdf.jpg,0571,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__32502b3264ef4b9a.jpg,0572,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__33a4e0bd598f3c04.jpg,0572,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__36e9f0a5874f8635.jpg,0573,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__38eab1aac6aa87e0.jpg,0574,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__38eb76a512dec02c.jpg,0574,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__39d9729597ccb8c6.jpg,0574,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__3c7d31a734523b3b.jpg,0575,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__3dabb01d33ac3a93.jpg,0575,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__3fbdaab7d78cb250.jpg,0576,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__40c519c5333ff9c9.jpg,0576,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__453da1839138a816.jpg,0578,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__482b66feb16af6b6.jpg,0578,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__4d521b4147754b20.jpg,0580,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__4fff57bae494764d.jpg,0580,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__531d468a92a2b964.jpg,0582,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__562ca93d4146fc41.jpg,0583,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__5ca914bbceeed8ee.jpg,0585,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__61fc9170f85dffad.jpg,0586,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__6615f46f24ffe22b.jpg,0587,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__6a33f33d8854ea1d.jpg,0588,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__6a55010eb95ebd87.jpg,0588,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__711969c3b168ef15.jpg,0589,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__7358a1a319c2a81c.jpg,0590,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__7524d1623a2aed1b.jpg,0590,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__762a2806ac8b30c8.jpg,0590,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__77e0347233aa10dd.jpg,0591,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__7a55f6dc801d9e82.jpg,0591,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__7aadfd94c8dd0053.jpg,0592,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__7ac85f948364c4be.jpg,0592,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__7ba2f44bb5d845b1.jpg,0592,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__7cbf2444221ea5df.jpg,0593,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__7dd7165a51fa7912.jpg,0593,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__7faa93853bc8b819.jpg,0593,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__81351c3cb8edcd04.jpg,0594,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__873e7a968d5aa143.jpg,0596,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__89600c8e0d4dcf92.jpg,0596,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__8a8ed38ac49cf749.jpg,0596,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__8c335a598f5762d3.jpg,0597,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__90673375930f1cd5.jpg,0597,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__93581418a02332ae.jpg,0598,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__9576063aa16cb56e.jpg,0598,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__980b64f36bdfbac2.jpg,0600,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__99189852c7a2c74e.jpg,0600,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__996ace3ec6ba975e.jpg,0600,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__9bbaddf7c240a10c.jpg,0601,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__9d350f747262544d.jpg,0601,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__9d9eb5ea34a59cd7.jpg,0602,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__9ebd5c9cc5dbb0b1.jpg,0602,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__9f86444553429186.jpg,0602,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__a0b97278d631d3eb.jpg,0603,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__a54b115003167b26.jpg,0603,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__a6738697b563a4a0.jpg,0604,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__aa3f837e09ba65d2.jpg,0604,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__b0963f7aae955bf9.jpg,0606,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__b236b03cf2f90aae.jpg,0607,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__b309cc4c2eb0120d.jpg,0607,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__b3d83d8dfe65eeec.jpg,0608,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__b49758a39501ebc2.jpg,0608,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__b4fed62f228d8477.jpg,0608,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__b77cf056a1432eff.jpg,0609,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__ba56447001aa2228.jpg,0610,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__bd56797e83feb114.jpg,0611,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__bde0d6f0088bb806.jpg,0611,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__c1aea757b4d6ed8c.jpg,0612,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__c21159a8bbd890d7.jpg,0612,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__c3ae8844351e67cc.jpg,0612,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__c3c9efd0940b6000.jpg,0612,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__c70e53e6392605bc.jpg,0613,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__c71ba57ae684e0d2.jpg,0613,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__cac1b88180a64860.jpg,0614,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__ce3cdb8d1e5860e7.jpg,0615,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__cefbef2c9e7011d2.jpg,0615,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__cfe1900fe32642ea.jpg,0616,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__d1e59f41a6372d4f.jpg,0616,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__d2012397330e8e6c.jpg,0617,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__d26af81cc3f11f12.jpg,0617,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__d2f907d1064d9548.jpg,0617,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__d3ca0ef93a7a4d53.jpg,0617,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__dd6bc17d746d55d8.jpg,0619,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__dd81f3939b6e5056.jpg,0619,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__df8274e145fcc2c8.jpg,0620,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__e02fd5d6ffabc30a.jpg,0620,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__e0cd83bd6698e7cf.jpg,0621,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__e18463718722b262.jpg,0621,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__e287efa6648b3d47.jpg,0621,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__e58a5cda43573e05.jpg,0622,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__e7b147384c7b6f3a.jpg,0623,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__e89cdfccf2d30f3f.jpg,0623,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__ef20fcc693e691c4.jpg,0625,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__f0e6bea0f50153d7.jpg,0625,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__f171e5ae5f20ac4b.jpg,0626,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__f2584056f8da1bcb.jpg,0626,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__f6eba536bd757aac.jpg,0628,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__f7f23f3457776ad5.jpg,0628,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__fa8d18a7baf1114e.jpg,0629,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__fd1c8aae45609416.jpg,0630,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__fd748e40bfddad64.jpg,0630,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rf8__fdd4e7d4aac97277.jpg,0630,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__083a1c4581f3279c.jpg,0631,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__2667c8f62897b513.jpg,0632,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__4d55a27f46748ac3.jpg,0632,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__672ae4f17ff11d10.jpg,0632,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__78f12e407ca8cc5f.jpg,0633,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__7d3ceb476c2dfe01.jpg,0633,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__9fd53dcf706de9a4.jpg,0633,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__b044cfa02dca955d.jpg,0633,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__bdc718813db232de.jpg,0634,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__c1900b6331a751cc.jpg,0634,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__c8281dcb5e2d4549.jpg,0634,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__035e0b02488550c9.jpg,0635,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__5ca2c2cc667e4d33.jpg,0641,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__634812a1fab5d234.jpg,0641,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__65cd5fd77625e13d.jpg,0642,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__70d8be2d20c4d377.jpg,0643,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__7446e84bac025301.jpg,0643,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__88ddaccd653a4bcc.jpg,0644,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/rsid__cc61c38b368ea2d0.jpg,0650,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sb15__009e1e2de7fb38e8.jpg,0654,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sb15__00f1f619de3f3ed7.jpg,0654,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sb15__04f82ce3029c7432.jpg,0655,1,Possible split or partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__195871b322216919.jpg,0660,4,Possible split or partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__2b0ec924c1cc8ebb.jpg,0666,3,Possible split or partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__3c0100e401220657.jpg,0675,2,Possible split or partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__41991b7126d1a2fc.jpg,0678,1,Possible split or partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__448dafc70bf129ad.jpg,0679,4,Possible split or partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__46da5b3784e8d26b.jpg,0680,5,Possible split or partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__482be01c9903cf80.jpg,0681,2,Possible split or partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__555d3521510fb3d2.jpg,0688,3,Possible split or partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__5abe98845f74c522.jpg,0692,2,Possible split or partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__6917098b256a81d9.jpg,0701,6,Possible split or partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__8093b3ce387bda37.jpg,0715,5,Possible split or partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__861f97579a50b1d6.jpg,0718,3,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__9ae2e0c6a9eb5923.jpg,0731,2,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__9ba0ff4c912c6a0a.jpg,0731,3,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__a450fb10ecb21726.jpg,0736,6,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__a579837bbfac8632.jpg,0737,3,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__b528abdea7ba0d6d.jpg,0749,2,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__c4b743a438b3dd5e.jpg,0761,2,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__cc817d4a3ebff4e5.jpg,0768,2,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__d6acd4ca32a09870.jpg,0775,1,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__d6bf09211e672400.jpg,0775,2,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__dd1bfcb27e43e0cd.jpg,0778,6,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__e58ed76acb174265.jpg,0785,1,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__e8ca440485bf4ef5.jpg,0787,4,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__ecb6878f39ce51f9.jpg,0791,1,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__ef15d4bc6d810e54.jpg,0793,2,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__ef718910f17a9481.jpg,0793,5,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__f40e4f3529ddbe06.jpg,0797,5,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__f649ed99f109d915.jpg,0799,4,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__f87928c1941adff4.jpg,0800,6,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sb15__fe4352e770dabd0e.jpg,0804,6,Possible partial extent of unpainted bump needs full-size boundary review.
+images/train/sr__2d1160057f378aad.jpg,0806,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__4ec76d57f8da2aed.jpg,0807,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__67dfeba511856e0e.jpg,0808,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__81efc32a596dea98.jpg,0809,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__a7ce9bb8a93221d3.jpg,0812,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__a85820cc7c174868.jpg,0812,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__b92f5fd382ed64b8.jpg,0813,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__bcf88f192279b179.jpg,0813,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__c4b338a62b384fbc.jpg,0814,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__c897fda18927e7b8.jpg,0814,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__d7ac338ad3973ed0.jpg,0815,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__e25330b231712039.jpg,0816,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__e597af3b829a23c8.jpg,0816,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__e7b2d3986018977a.jpg,0817,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__f0758ec5ad8d0d32.jpg,0817,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__f3c4aaecfc0a4162.jpg,0817,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__f8b7a933c3f14f40.jpg,0818,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__fe8f103b8c7e9e63.jpg,0818,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__0ae9032d4b84b582.jpg,0822,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__0d10388521d35bde.jpg,0822,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__0ecec7f8f73e14f8.jpg,0823,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__0f12b4ff99e53847.jpg,0823,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__16d5a5839e6cf3c2.jpg,0825,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__2c95837ab4c505fb.jpg,0832,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__2cc49d78f16a36aa.jpg,0832,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__3c1caa50640d1f19.jpg,0838,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__3c9eb911896a524a.jpg,0839,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__3cb472d637ed604a.jpg,0839,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__3f4a79be87d4febe.jpg,0840,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__40c46beb26a2ed61.jpg,0840,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__4142e6b2ec48ad84.jpg,0841,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__43496693465e0c01.jpg,0841,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__4a62e7a21df420ac.jpg,0844,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__52a861c5dfd71e12.jpg,0848,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__596640a7de125eac.jpg,0850,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__62789f76e0873da3.jpg,0853,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__668be956af416c9c.jpg,0855,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__6f3e05e5fc67bff3.jpg,0859,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__73ae30e7de07adee.jpg,0860,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__7ab3ac233bfdf708.jpg,0863,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__80d62dadd72cfae9.jpg,0866,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__86f259e38e7f4729.jpg,0869,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__90b914c8bcc94611.jpg,0873,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__9b413174a5869cf6.jpg,0879,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__9ceea4676971d45d.jpg,0879,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__a2b99b6d9a5dbb55.jpg,0883,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__a46ac6dc3cc24272.jpg,0883,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__acf2f4c6c110b699.jpg,0887,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__b29e40e099d3ba23.jpg,0888,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__b4225714a9544d78.jpg,0888,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__ba44b18fb31d2a74.jpg,0890,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__becf6e3770e5565a.jpg,0892,5,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__c05f776e6df2a6ed.jpg,0893,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__c0c07a0ade3009b7.jpg,0894,1,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__c2cb366ff467b19a.jpg,0895,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__c80c11ce7554be46.jpg,0896,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__cffc0434e6f8b538.jpg,0900,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__e7f8ecc478a30467.jpg,0908,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__f22f1365de529eeb.jpg,0911,6,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__f77b43af70683115.jpg,0913,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__f831f6474999383c.jpg,0913,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__fabb15ef267bc817.jpg,0914,3,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__fc0c538b8ccfbcec.jpg,0915,2,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.
+images/train/sr__fcf9570608ce698b.jpg,0915,4,Full-frame and enlarged-box review leaves surface depth or cavity boundaries unresolved.

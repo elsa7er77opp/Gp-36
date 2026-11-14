@@ -1,0 +1,8 @@
+{
+  "candidates": 2420,
+  "current_reference_match_pairs": 61,
+  "current_reference_candidate_images": 56,
+  "protected_eval_candidate_images": 0,
+  "within_candidate_pairs": 144,
+  "note": "Potential matches require visual adjudication. This screen does not accept any image or certify annotations. Source and standardized pixels, all eight transforms; dHash<=4 and pHash<=10 in same transform."
+}

@@ -1,0 +1,9 @@
+{"title": "r2 validation (frozen benchmark)",
+ "split": "val",
+ "figures": true,
+ "rows": [
+  {"label": "v1 (r1 data)", "report": "review/metrics_r3/val_r2_all_2026-11-04/report.json", "model": "v1"},
+  {"label": "Run A s0", "report": "review/metrics_r3/val_r2_all_2026-11-04/report.json", "model": "runA_s0"},
+  {"label": "D1 11n (v3b_A)", "report": "review/metrics_r3/val_r2_all_2026-11-04/report.json", "model": "D1_11n"},
+  {"label": "D1 11s (v3b_A)", "report": "review/metrics_r3/val_r2_all_2026-11-04/report.json", "model": "D1_11s"}
+ ]}

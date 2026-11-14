@@ -1,0 +1,34 @@
+Ultralytics 8.4.192  Python-3.12.10 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5050 Laptop GPU, 8123MiB)
+YOLO11n summary (fused): 101 layers, 2,597,294 parameters, 0 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.2±0.1 ms, read: 479.0±115.1 MB/s, size: 265.2 KB)
+[K[34m[1mval: [0mScanning C:\Users\ahmed\Desktop\GP36_AI\parts_r3\egm\labels\val.cache... 35 images, 35 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 35/35  0.0s
+WARNING Labels are missing or empty in C:\Users\ahmed\Desktop\GP36_AI\parts_r3\egm\labels\val.cache, training may not work correctly. See https://docs.ultralytics.com/datasets for dataset formatting guidance.
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 14.0s/it 4.2s<56.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.8it/s 4.4s<1.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 3.0it/s 4.5s<0.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 3.0it/s 4.9s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 1.0s/it 5.2s
+                   all         35          0          0          0          0          0
+WARNING no labels found in detect set, cannot compute metrics without labels
+Speed: 4.2ms preprocess, 27.2ms inference, 0.0ms loss, 4.9ms postprocess per image
+Saving C:\Users\ahmed\Desktop\GP36_AI\runs\detect\PARTVAL_egm_v3b_C3_11n_960_s0\predictions.json...
+
+Evaluating faster-coco-eval mAP...
+Evaluate annotation type *bbox*
+COCOeval_opt.evaluate() finished...
+DONE (t=0.01s).
+Accumulating evaluation results...
+COCOeval_opt.accumulate() finished...
+DONE (t=0.00s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets=100 ] = -1.000
+Results saved to [1mC:\Users\ahmed\Desktop\GP36_AI\runs\detect\PARTVAL_egm_v3b_C3_11n_960_s0[0m
+ Learn more at https://docs.ultralytics.com/modes/val

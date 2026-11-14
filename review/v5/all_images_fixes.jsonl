@@ -1,0 +1,592 @@
+{"image": "images/train/bpo__006db40a203536f1.jpg", "boxes": [], "why": "box was on the median kerb, no pothole on the road"}
+{"image": "images/train/bpo__02f8e12ace14cd07.jpg", "boxes": [], "why": "boxes were on a roadside puddle off the carriageway and on a wet-road reflection"}
+{"image": "images/train/bpo__08272f2226bdf321.jpg", "boxes": [], "why": "box was on a bridge expansion joint"}
+{"image": "images/train/bpo__08c626d85fb58df9.jpg", "boxes": [], "why": "box was on dirt at the side junction, no pothole visible"}
+{"image": "images/train/bpo__0916079086260eeb.jpg", "boxes": [], "why": "boxes were on roadside dirt beside the wall and on the road edge, no pothole visible"}
+{"image": "images/train/bpo__0aebc75b16b6b5a2.jpg", "boxes": [], "why": "box was on roadside drain water and rubbish, not on the road"}
+{"image": "images/train/bpo__0eb65f80fc651274.jpg", "boxes": [], "why": "box was on the roadside ditch and earth bank, not on the road"}
+{"image": "images/train/bpo__16b2838865d3becb.jpg", "boxes": [], "why": "box was on an earth and rubble pile on the unpaved shoulder, not on the road"}
+{"image": "images/train/bpo__262b6bacd90ff6ce.jpg", "boxes": [], "why": "boxes were on the kerb drain at the grass verge and on roadside dirt, none on the road"}
+{"image": "images/train/bpo__2ef677d0ba028649.jpg", "boxes": [], "why": "boxes were on the kerb and on a puddle on the dirt shoulder, not on the asphalt"}
+{"image": "images/train/bpo__3171e45fb25ca143.jpg", "boxes": [], "why": "box was on the lane edge at the wall base, no pothole visible"}
+{"image": "images/train/bpo__37370776ab6dea2c.jpg", "boxes": [], "why": "boxes were on puddles on the dirt shoulder beside the highway, not on the asphalt"}
+{"image": "images/train/bpo__37e01050465970ea.jpg", "boxes": [[0, 0.332, 0.7177, 0.3773, 0.7448], [0, 0.407, 0.6771, 0.4445, 0.7271]], "why": "two big boxes were on puddles on the dirt shoulders; the two small ones on the road are kept"}
+{"image": "images/train/bpo__3dc30dc3edf4379f.jpg", "boxes": [], "why": "box was on the red dirt shoulder at the left, not on the asphalt"}
+{"image": "images/train/bpo__42fceca9195507aa.jpg", "boxes": [], "why": "box was on a debris patch on the dirt shoulder, not on the asphalt"}
+{"image": "images/train/bpo__483c29504e8f9efc.jpg", "boxes": [], "why": "box was on puddles in the dirt area beside the highway, not on the asphalt"}
+{"image": "images/train/bpo__4cf0d3bc13f0bac7.jpg", "boxes": [], "why": "box was on roadside rubbish and drain water, not on the road"}
+{"image": "images/train/bpo__522d2401d404b3e7.jpg", "boxes": [], "why": "box was on a puddle on the dirt shoulder, not on the asphalt"}
+{"image": "images/train/bpo__6706395f3a2603ec.jpg", "boxes": [], "why": "box was on the roadside by the signboards, not on the road"}
+{"image": "images/train/bpo__604bf96b8292a327.jpg", "boxes": [[0, 0.5813, 0.6312, 0.7453, 0.6958]], "why": "second box was on a long crack, the pothole box is kept"}
+{"image": "images/train/bpo__7005496c0f0afee7.jpg", "boxes": [], "why": "boxes were on puddles on the red dirt shoulder, not on the asphalt"}
+{"image": "images/train/bpo__704bcab992afd733.jpg", "boxes": [], "why": "boxes were on the shop-front steps and pavement slabs, not on the road"}
+{"image": "images/train/bpo__78cea863e3ad906c.jpg", "boxes": [], "why": "box was on roadside drain water and rubbish, not on the road"}
+{"image": "images/train/bpo__80ef09f6269ea6c4.jpg", "boxes": [], "why": "box was on crack lines in the road, no pothole"}
+{"image": "images/train/bpo__87356441b7a4590e.jpg", "boxes": [], "why": "box was on the shop-side kerb and litter, not on the road"}
+{"image": "images/train/bpo__89b7720cdea2f849.jpg", "boxes": [], "why": "box was on a round manhole cover"}
+{"image": "images/train/bpo__8c366535d423fb44.jpg", "boxes": [], "why": "box was on the sandy forecourt beside the road, not on the asphalt"}
+{"image": "images/train/bpo__9ae434d0ffe5753a.jpg", "boxes": [], "why": "box was on crack lines, no pothole"}
+{"image": "images/train/bpo__9ebd70c4e7f9da4d.jpg", "boxes": [], "why": "boxes were on a puddle on the dirt shoulder and on the roadside, not on the asphalt"}
+{"image": "images/train/bpo__a3fbd0ff68ef5b17.jpg", "boxes": [], "why": "box was on a bridge expansion joint"}
+{"image": "images/train/bpo__aae897f1d8b76d02.jpg", "boxes": [], "why": "box was on a puddle in the roadside dirt, not on the asphalt"}
+{"image": "images/train/bpo__ae9c34c09cb77c72.jpg", "boxes": [], "why": "boxes were on roadside puddle and rubbish, not on the road"}
+{"image": "images/train/bpo__b1099e42af91448c.jpg", "boxes": [], "why": "boxes were on a cracked (alligator) area, no pothole"}
+{"image": "images/train/bpo__b8ecf40c2d1e6721.jpg", "boxes": [], "why": "box was on a puddle on the dirt strip beside the highway, not on the asphalt"}
+{"image": "images/train/bpo__bd348108a1ee92fe.jpg", "boxes": [], "why": "boxes were on the shop-front step and drain slab, not on the road"}
+{"image": "images/train/bpo__c8cdd20e7321211c.jpg", "boxes": [], "why": "box was on the red dirt verge beside the kerb line, not on the asphalt"}
+{"image": "images/train/bpo__c40df97198fc8027.jpg", "boxes": [[0, 0.7492, 0.7135, 0.793, 0.7448]], "why": "two boxes were on a puddle on the dirt shoulder; the small road box is kept as it was"}
+{"image": "images/train/bpo__c47ea8a37884f4f9.jpg", "boxes": [[0, 0.4211, 0.6792, 0.4867, 0.7146], [0, 0.5016, 0.8781, 0.5297, 0.9135], [0, 0.4961, 0.8187, 0.5352, 0.8833], [0, 0.5539, 0.7385, 0.5789, 0.8281], [0, 0.5187, 0.7344, 0.5422, 0.8219], [0, 0.6789, 0.7396, 0.707, 0.7708]], "why": "large box was on a pond on the dirt beside the road; the boxes on the asphalt are kept"}
+{"image": "images/train/bpo__cd487693a0d7a583.jpg", "boxes": [[0, 0.4313, 0.6667, 0.4625, 0.6938], [0, 0.4391, 0.701, 0.4953, 0.7385], [0, 0.4648, 0.6781, 0.5086, 0.7031]], "why": "boxes on the roadside muddy ditch and on the dirt mound removed; the three at the road edge are kept as they were"}
+{"image": "images/train/bpo__d323293ddaab3c1e.jpg", "boxes": [], "why": "box was on water in the side drain beside the road, not on the road"}
+{"image": "images/train/bpo__daa1cae6e12ce05b.jpg", "boxes": [], "why": "box was on a puddle on the dirt strip beside the highway, not on the asphalt"}
+{"image": "images/train/bpo__e28d86bc6856f36f.jpg", "boxes": [], "why": "box was on a white object on the dirt verge, not on the asphalt"}
+{"image": "images/train/bpo__e56c8297908e7f8b.jpg", "boxes": [[0, 0.3977, 0.4073, 0.593, 0.4927]], "why": "large box was on a long crack; the smaller box is kept as it was"}
+{"image": "images/train/bpo__f52d1fe98f62a184.jpg", "boxes": [[0, 0.5836, 0.7323, 0.6555, 0.7698]], "why": "large box was on the sandy forecourt beside the road; the small box at the road edge is kept as it was"}
+{"image": "images/train/dmd__625324dddb0cba46.jpg", "boxes": [[1, 0.0, 0.4971, 0.8744, 0.8324], [1, 0.115, 0.235, 0.86, 0.39]], "why": "second speed bump (yellow and white, behind the first) had no box; box added, existing box kept"}
+{"image": "images/train/dmd__99854924e193dc93.jpg", "boxes": [[1, 0.1256, 0.4971, 1.0, 0.8324], [1, 0.125, 0.235, 0.885, 0.395]], "why": "second speed bump (yellow and white, behind the first) had no box; box added, existing box kept"}
+{"image": "images/train/egy__1ea3ddf757ea3122.jpg", "boxes": [], "why": "box was on the reflection of the dashboard vents in the windscreen"}
+{"image": "images/train/egy__290318bcac68573c.jpg", "boxes": [[0, 0.1, 0.2, 0.7, 0.36]], "why": "broken, sunken asphalt around the drain grate had no box; one pothole box added"}
+{"image": "images/train/egy__3064933d84ca31e5.jpg", "boxes": [[0, 0.155, 0.305, 0.225, 0.365]], "why": "small clear pothole near the left had no box; box added"}
+{"image": "images/train/egy__594c44b49a6f6473.jpg", "boxes": [[0, 0.31, 0.3, 0.86, 0.41]], "why": "clear pothole in the middle of the road had no box; box added"}
+{"image": "images/train/egy__6eb45c784939961e.jpg", "boxes": [[0, 0.04, 0.21, 0.6, 0.5]], "why": "broken water-filled pothole beside the manhole cover had no box; box added (cover left out)"}
+{"image": "images/train/egy__94c53fcdf9ddaa02.jpg", "boxes": [[0, 0.15, 0.26, 0.5, 0.46]], "why": "broken water-filled pothole beside the manhole cover had no box; box added (cover left out)"}
+{"image": "images/train/egy__89008611a38cdc03.jpg", "boxes": [], "why": "box was on the gravel strip at the kerb, no pothole"}
+{"image": "images/train/egy__a39e91917aebc8fa.jpg", "boxes": [[1, 0.23, 0.4, 1.0, 0.52], [1, 0.0, 0.17, 0.47, 0.25]], "why": "pothole box was on a manhole cover (removed); the rubber speed bump behind it and the one in the far lane had no box (added as speed_bump)"}
+{"image": "images/train/egy__b8bdd4c2a94c8eb4.jpg", "boxes": [], "why": "box was on a manhole cover"}
+{"image": "images/train/egy__d5dfd16e9d1d0b88.jpg", "boxes": [], "why": "box was on a rectangular asphalt patch"}
+{"image": "images/train/egy__e50dc89632b6ff8a.jpg", "boxes": [], "why": "box was on a storm-drain grate"}
+{"image": "images/train/egy__effa7da72bbdfb3f.jpg", "boxes": [], "why": "box was on a manhole cover"}
+{"image": "images/train/egy__f1099e09e3170bf8.jpg", "boxes": [[0, 0.35, 0.38, 0.82, 0.475]], "why": "round rubble-filled pothole had no box (the same pothole is boxed in other frames); box added"}
+{"image": "images/train/egy__6f5ee1d8a8a1cfb7.jpg", "boxes": [[0, 0.0642, 0.2458, 0.2096, 0.3032], [0, 0.755, 0.48, 0.875, 0.52]], "why": "second pothole at the right near the kerb had no box; box added, existing box kept"}
+{"image": "images/train/ens__0178e929a23173a5.jpg", "boxes": [[1, 0, 0.045, 0.73, 0.18]], "why": "Box cut off the painted hump at both ends."}
+{"image": "images/train/ens__03b31281a9effedd.jpg", "boxes": [[1, 0.305, 0.073, 0.99, 0.174]], "why": "Box missed the right side of the transverse hump."}
+{"image": "images/train/ens__0fd672876a2232c2.jpg", "boxes": [[1, 0, 0, 1, 0.194]], "why": "Visible hump continues to the right edge of the image."}
+{"image": "images/train/ens__1a44147968f3e9f6.jpg", "boxes": [[1, 0.126, 0.024, 0.736, 0.133]], "why": "Near edge of the hump fell below the box on the right."}
+{"image": "images/train/ens__1c996afdb247f462.jpg", "boxes": [[1, 0.235, 0, 0.85, 0.103]], "why": "Box excluded the left end of the painted hump."}
+{"image": "images/train/ens__21aece75eee41024.jpg", "boxes": [[1, 0.145, 0.067, 0.858, 0.174]], "why": "Box stopped short of the hump near the bicycle."}
+{"image": "images/train/ens__2b29811b9748e92f.jpg", "boxes": [[1, 0.17, 0, 0.84, 0.174]], "why": "Right side of the hump is visible past the motorcycle."}
+{"image": "images/train/ens__2d56f6f570d00b8c.jpg", "boxes": [[1, 0, 0.052, 0.946, 0.285]], "why": "Near and right edges were outside the box."}
+{"image": "images/train/ens__2d6c9af6689eba83.jpg", "boxes": [[1, 0.041, 0, 0.935, 0.373]], "why": "Box clipped the near corners of the hump."}
+{"image": "images/train/ens__2e27180ba0d2d1db.jpg", "boxes": [[1, 0, 0.085, 0.96, 0.23]], "why": "Right end of the hump extended past the box."}
+{"image": "images/train/ens__2f2e08aa4edfd7f2.jpg", "boxes": [[1, 0, 0.056, 1, 0.385]], "why": "Hump extends left of the box behind the rider."}
+{"image": "images/train/ens__2f88a60d3069820f.jpg", "boxes": [[1, 0.027, 0.024, 1, 0.307]], "why": "Visible hump on both sides of the riders was only boxed on the right."}
+{"image": "images/train/ens__31cdc600aa9842e6.jpg", "boxes": [[1, 0, 0.006, 0.763, 0.166]], "why": "Two partial boxes split one continuous road hump."}
+{"image": "images/train/ens__394d8946eaf63890.jpg", "boxes": [[1, 0.09, 0.085, 0.66, 0.182]], "why": "Lower right edge of the slanted hump was outside the box."}
+{"image": "images/train/ens__3c999aa98a47b736.jpg", "boxes": [[1, 0.325, 0.102, 0.795, 0.201]], "why": "Hump is visible on both sides of the pedestrian."}
+{"image": "images/train/ens__3f43541de8698636.jpg", "boxes": [[1, 0.01, 0.122, 1, 0.277]], "why": "Hump continues to the right edge behind the bicycle."}
+{"image": "images/train/ens__3faf320e323671df.jpg", "boxes": [[1, 0.235, 0.02, 0.557, 0.063]], "why": "Left part of the distant striped hump was outside the box."}
+{"image": "images/train/bpo__06f840455f295435.jpg", "boxes": [[0, 0.3, 0.827, 0.456, 0.947]], "why": "Broken gravel rim around foreground water-filled hole. Other boxes cover flat marks, reflections or shoulder.", "fixed_by": "codex"}
+{"image": "images/train/bpo__09c88212ac57ef25.jpg", "boxes": [], "why": "Narrow strips on dirt beside parked rickshaws, outside the travel surface.", "fixed_by": "codex"}
+{"image": "images/train/bpo__0a337f8d1ba7bbc8.jpg", "boxes": [], "why": "Reflective standing water follows the shoulder beside the asphalt.", "fixed_by": "codex"}
+{"image": "images/train/bpo__0a3d508f70882cb1.jpg", "boxes": [], "why": "Boxes follow the pale road edge and the dirt shoulder beyond the edge line.", "fixed_by": "codex"}
+{"image": "images/train/bpo__0c0a2379f8629fe4.jpg", "boxes": [], "why": "Both boxes trace the same continuous roadside water strip.", "fixed_by": "codex"}
+{"image": "images/train/bpo__0f7dcb63b4a05f0d.jpg", "boxes": [], "why": "Water lies on the dirt shoulder outside the intact asphalt edge.", "fixed_by": "codex"}
+{"image": "images/train/bpo__152ecd609e7d9811.jpg", "boxes": [], "why": "Standing water and dirt follow both shoulders outside the travel surface.", "fixed_by": "codex"}
+{"image": "images/train/bpo__15903eba793b7540.jpg", "boxes": [], "why": "Both marks follow the road edges; left is reflected light on water.", "fixed_by": "codex"}
+{"image": "images/train/bpo__16ea33a6fb8d9d1d.jpg", "boxes": [], "why": "Boxes land on the wet verges at the side-road junction.", "fixed_by": "codex"}
+{"image": "images/train/bpo__1752499973a56ab0.jpg", "boxes": [], "why": "Eroded dirt shoulder outside the asphalt.", "fixed_by": "codex"}
+{"image": "images/train/bpo__176c7a2abfdcc930.jpg", "boxes": [], "why": "Far box lies between vehicles and near box covers the grass verge.", "fixed_by": "codex"}
+{"image": "images/train/bpo__1ac08c918cca653d.jpg", "boxes": [], "why": "Puddles are in the dirt median beyond the white edge line.", "fixed_by": "codex"}
+{"image": "images/train/bpo__1e6940cf9d868aff.jpg", "boxes": [], "why": "All four boxes cover roadside drainage and standing water beyond the pavement.", "fixed_by": "codex"}
+{"image": "images/train/bpo__2114aec8d4a5c247.jpg", "boxes": [], "why": "Box covers muddy roadside gutter along the shop frontage.", "fixed_by": "codex"}
+{"image": "images/train/bpo__22d780a567ec4708.jpg", "boxes": [], "why": "Smooth faded surface markings at the roundabout; no broken pavement.", "fixed_by": "codex"}
+{"image": "images/train/bpo__24ff25396baa2620.jpg", "boxes": [], "why": "Box is at the intersection of two continuous narrow pavement seams.", "fixed_by": "codex"}
+{"image": "images/train/bpo__2721d3f9033fbe3d.jpg", "boxes": [], "why": "Reflection in standing shoulder water beyond the truck's lane.", "fixed_by": "codex"}
+{"image": "images/train/bpo__27760c3498684b2d.jpg", "boxes": [], "why": "Three boxes trace the continuous pavement edge beside the verge.", "fixed_by": "codex"}
+{"image": "images/train/bpo__292d804f223f5a3e.jpg", "boxes": [[0, 0.483, 0.928, 0.534, 0.958]], "why": "Foreground hole has an irregular broken rim; second box lies on a flat edge marking.", "fixed_by": "codex"}
+{"image": "images/train/bpo__29cea52d4893d02f.jpg", "boxes": [], "why": "Box covers dirt and litter beside the yellow wall on the shoulder.", "fixed_by": "codex"}
+{"image": "images/train/bpo__315e6edffd90486c.jpg", "boxes": [], "why": "Boxes cover roadside standing water and highlights around the edge of the road.", "fixed_by": "codex"}
+{"image": "images/train/bpo__3255fdddefb01012.jpg", "boxes": [], "why": "Four boxes outline reflections and pooled water on the shoulder left of the truck.", "fixed_by": "codex"}
+{"image": "images/train/bpo__3652b4efe2ca996f.jpg", "boxes": [], "why": "Narrow branching cracks continue beyond the box.", "fixed_by": "codex"}
+{"image": "images/train/bpo__3777b0a31b801070.jpg", "boxes": [], "why": "Open roadside gutter and broken shoulder outside the paved lane.", "fixed_by": "codex"}
+{"image": "images/train/bpo__380dbda51bb32005.jpg", "boxes": [], "why": "All three boxes follow muddy verges beside intact pavement.", "fixed_by": "codex"}
+{"image": "images/train/bpo__3882f362d4d31169.jpg", "boxes": [], "why": "Boxes cover wet dirt or runoff along either verge.", "fixed_by": "codex"}
+{"image": "images/train/bpo__39ddb525c2db10ae.jpg", "boxes": [[0, 0.615, 0.837, 0.683, 0.866]], "why": "Right cavity has chipped asphalt and exposed earth; left mark is a thin seam.", "fixed_by": "codex"}
+{"image": "images/train/bpo__3ddd0be9f0f4fe84.jpg", "boxes": [], "why": "Boxed loose gravel and litter lie on the unpaved left shoulder.", "fixed_by": "codex"}
+{"image": "images/train/bpo__3fb12465be740e9b.jpg", "boxes": [], "why": "Water fills roadside channels beyond both asphalt edges.", "fixed_by": "codex"}
+{"image": "images/train/bpo__41cfe137f76cddea.jpg", "boxes": [], "why": "Small mark joins the dappled tree shadow behind the van.", "fixed_by": "codex"}
+{"image": "images/train/bpo__44e26e9e9b9cc8d2.jpg", "boxes": [], "why": "Box covers loose litter, dirt and the rear wheel shadow.", "fixed_by": "codex"}
+{"image": "images/train/bpo__4667f384d77a86c3.jpg", "boxes": [], "why": "Parallel flat wear marks; lowest box also covers a windshield outline.", "fixed_by": "codex"}
+{"image": "images/train/bpo__4684674324bb39e2.jpg", "boxes": [], "why": "Box follows the roadside gutter on the right.", "fixed_by": "codex"}
+{"image": "images/train/bpo__473dbe9d9af32271.jpg", "boxes": [], "why": "Shallow gutter and debris beneath storefront, outside travel lane.", "fixed_by": "codex"}
+{"image": "images/train/bpo__474691bf02b865c7.jpg", "boxes": [], "why": "Straight drainage trench runs along the left pavement edge.", "fixed_by": "codex"}
+{"image": "images/train/bpo__47f2dfbd0271fb82.jpg", "boxes": [], "why": "Narrow crack crossing otherwise intact road.", "fixed_by": "codex"}
+{"image": "images/train/bpo__4a35e11fb7ec61fd.jpg", "boxes": [], "why": "Boxes lie on bridge edge strip and gutter beside guardrails.", "fixed_by": "codex"}
+{"image": "images/train/bpo__4a9abfc54aaafb76.jpg", "boxes": [], "why": "Both boxes cover water on the grass or dirt shoulders.", "fixed_by": "codex"}
+{"image": "images/train/bpo__4c58688be97bd534.jpg", "boxes": [], "why": "Faint surface scuff beside lane paint with continuous pavement texture.", "fixed_by": "codex"}
+{"image": "images/train/bpo__4fc19b4b1c372abe.jpg", "boxes": [], "why": "Large rectangle spans a continuous strip of loose gravel at the pavement edge.", "fixed_by": "codex"}
+{"image": "images/train/bpo__516ed8c92785cd32.jpg", "boxes": [], "why": "Boxes follow reflections of vertical objects on wet asphalt.", "fixed_by": "codex"}
+{"image": "images/train/bpo__521e9e51f8279a39.jpg", "boxes": [], "why": "Box falls on the shoulder and windshield border at the lower left.", "fixed_by": "codex"}
+{"image": "images/train/bpo__525ac83cd477a9c8.jpg", "boxes": [], "why": "Roadside gravel beside the parked motorcycle.", "fixed_by": "codex"}
+{"image": "images/train/bpo__552525effb1ae3b6.jpg", "boxes": [], "why": "Boxes follow the left painted edge and verge.", "fixed_by": "codex"}
+{"image": "images/train/bpo__55a27bf1aed821d7.jpg", "boxes": [], "why": "Small item beside a parked motorcycle lies in its shadow; pavement is intact.", "fixed_by": "codex"}
+{"image": "images/train/bpo__566cfa34d4a64cfc.jpg", "boxes": [], "why": "Continuous puddle along unpaved left shoulder.", "fixed_by": "codex"}
+{"image": "images/train/bpo__587b5a04ff7bbdd5.jpg", "boxes": [], "why": "Three boxes follow a flush longitudinal surface strip.", "fixed_by": "codex"}
+{"image": "images/train/bpo__59f8645e7972a2e2.jpg", "boxes": [], "why": "Loose litter sits on a continuous road surface.", "fixed_by": "codex"}
+{"image": "images/train/bpo__68e2eabea4996314.jpg", "boxes": [], "why": "All boxes follow the excavated dirt verge beside the carriageway.", "fixed_by": "codex"}
+{"image": "images/train/bpo__6b320ca8b8892773.jpg", "boxes": [], "why": "Standing water follows the dirt shoulder beside the paved lane.", "fixed_by": "codex"}
+{"image": "images/train/bpo__6ed50962c9df6551.jpg", "boxes": [], "why": "Boxes follow standing water on the unpaved verges.", "fixed_by": "codex"}
+{"image": "images/train/bpo__702e70566ebea7d8.jpg", "boxes": [], "why": "Pale loose material sits on the dirt turnout.", "fixed_by": "codex"}
+{"image": "images/train/bpo__725a23bc62c41105.jpg", "boxes": [], "why": "Pools follow gravel verges outside the paved travel surface.", "fixed_by": "codex"}
+{"image": "images/train/bpo__7273e85a348fafce.jpg", "boxes": [], "why": "Boxes trace a continuous flush pavement seam and discoloration.", "fixed_by": "codex"}
+{"image": "images/train/bpo__738eb13eeebc6519.jpg", "boxes": [], "why": "Regular parallel grooves beside the lane stripe have no broken rim.", "fixed_by": "codex"}
+{"image": "images/train/bpo__78f69546cc39d7ef.jpg", "boxes": [], "why": "Loose stones and debris lie on the vegetated shoulder.", "fixed_by": "codex"}
+{"image": "images/train/bpo__7ab4696279a58b3e.jpg", "boxes": [], "why": "Box follows a flush longitudinal change in pavement texture.", "fixed_by": "codex"}
+{"image": "images/train/bpo__7af909bbbffb885b.jpg", "boxes": [], "why": "White litter is on the dirt median.", "fixed_by": "codex"}
+{"image": "images/train/bpo__7b49d421cf4e4300.jpg", "boxes": [], "why": "Both boxes lie in the soil channel beside the pavement.", "fixed_by": "codex"}
+{"image": "images/train/bpo__7c35b4925d9052d8.jpg", "boxes": [], "why": "Box covers soil and debris outside the pavement.", "fixed_by": "codex"}
+{"image": "images/train/bpo__7ce10210e6015b30.jpg", "boxes": [], "why": "Scattered stones lie along the dusty road margin.", "fixed_by": "codex"}
+{"image": "images/train/bpo__7df9c374ca1d2cdf.jpg", "boxes": [], "why": "Narrow linear crack has no visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__7f3a1e7f868d07ed.jpg", "boxes": [], "why": "Box lies on the dirt strip alongside the bridge rail.", "fixed_by": "codex"}
+{"image": "images/train/bpo__83839052aa83457c.jpg", "boxes": [], "why": "Boxes follow water and mud on unpaved verges outside the edge lines.", "fixed_by": "codex"}
+{"image": "images/train/bpo__85ed485722f3e9e0.jpg", "boxes": [], "why": "Box follows the open drainage channel between the pavement and raised frontage.", "fixed_by": "codex"}
+{"image": "images/train/bpo__8a23e6efbe2a405b.jpg", "boxes": [], "why": "Box follows a flush longitudinal seam and texture change.", "fixed_by": "codex"}
+{"image": "images/train/bpo__8c1dd98e75501682.jpg", "boxes": [], "why": "Regular transverse grooves form a flush textured strip.", "fixed_by": "codex"}
+{"image": "images/train/bpo__8ca84b4d14d00bc9.jpg", "boxes": [], "why": "Box follows an open roadside drain and accumulated rubble.", "fixed_by": "codex"}
+{"image": "images/train/bpo__9484c01de49756af.jpg", "boxes": [], "why": "Box covers the open drain beside the parked scooters.", "fixed_by": "codex"}
+{"image": "images/train/bpo__96ac337ff2a0e68e.jpg", "boxes": [], "why": "Both boxes follow the open roadside drainage channel.", "fixed_by": "codex"}
+{"image": "images/train/bpo__96cb51bdbdd13b2a.jpg", "boxes": [], "why": "Box lies on a broken raised roadside gutter outside the white edge line.", "fixed_by": "codex"}
+{"image": "images/train/bpo__99953c7d0de401e1.jpg", "boxes": [], "why": "Box covers standing water within the roadside gutter below the shop frontage.", "fixed_by": "codex"}
+{"image": "images/train/bpo__9d175a7298336c3f.jpg", "boxes": [], "why": "Boxes follow a flush regularly grooved strip beside the road edge.", "fixed_by": "codex"}
+{"image": "images/train/bpo__9f00ec1693344c49.jpg", "boxes": [], "why": "Water lies in the dirt verge beside the asphalt.", "fixed_by": "codex"}
+{"image": "images/train/bpo__9f639d1dd0bdec24.jpg", "boxes": [], "why": "All boxes follow wet soil outside the painted road edge.", "fixed_by": "codex"}
+{"image": "images/train/bpo__a04f212e4d25ddc5.jpg", "boxes": [], "why": "Box lies on the wet unpaved shoulder outside the edge line.", "fixed_by": "codex"}
+{"image": "images/train/bpo__af7c3ffc44969935.jpg", "boxes": [], "why": "Box covers the water-filled dirt channel outside the asphalt edge.", "fixed_by": "codex"}
+{"image": "images/train/bpo__b05da74f593bc40f.jpg", "boxes": [], "why": "Box follows standing water in the narrow roadside gutter beneath the kerb.", "fixed_by": "codex"}
+{"image": "images/train/bpo__b74514607f4491cd.jpg", "boxes": [], "why": "Both boxes follow water in the dirt shoulder outside the asphalt.", "fixed_by": "codex"}
+{"image": "images/train/bpo__b9395f60ecc2a672.jpg", "boxes": [], "why": "Boxes trace a continuous flush longitudinal pavement seam.", "fixed_by": "codex"}
+{"image": "images/train/bpo__bec5610ce5319824.jpg", "boxes": [], "why": "Box covers the roadside drainage channel beside the stall.", "fixed_by": "codex"}
+{"image": "images/train/bpo__c2233af88e26642d.jpg", "boxes": [], "why": "Both boxes lie on debris on the dirt median outside the edge line.", "fixed_by": "codex"}
+{"image": "images/train/bpo__cdd0e38fb7f3dffe.jpg", "boxes": [], "why": "Box covers pale loose litter on the dirt median.", "fixed_by": "codex"}
+{"image": "images/train/bpo__d27b9065e0dea446.jpg", "boxes": [], "why": "Box follows a narrow linear crack without visible missing material.", "fixed_by": "codex"}
+{"image": "images/train/bpo__d38ab1539dadf986.jpg", "boxes": [], "why": "Box follows the open gutter beside raised frontage.", "fixed_by": "codex"}
+{"image": "images/train/bpo__d7bd8973b5207d70.jpg", "boxes": [], "why": "Box follows the roadside drainage channel at the parked vehicles.", "fixed_by": "codex"}
+{"image": "images/train/bpo__dc7bed5e5d9c75fd.jpg", "boxes": [], "why": "Pool follows the dirt verge outside the paved lane.", "fixed_by": "codex"}
+{"image": "images/train/bpo__df7a7ddd5bf1ce4c.jpg", "boxes": [], "why": "Muddy water follows the dirt verge approaching the bridge.", "fixed_by": "codex"}
+{"image": "images/train/bpo__f30db1a26bd0976e.jpg", "boxes": [], "why": "Box follows a flush longitudinal strip of textured pavement.", "fixed_by": "codex"}
+{"image": "images/train/bpo__f3280a8b403dc903.jpg", "boxes": [], "why": "Water lies on the unpaved verge outside the white edge line.", "fixed_by": "codex"}
+{"image": "images/train/bpo__f6ce18b05066f52c.jpg", "boxes": [], "why": "Box follows regular grooves on a continuous flush pavement strip.", "fixed_by": "codex"}
+{"image": "images/train/bpo__f8a5391ffaaf0d10.jpg", "boxes": [], "why": "Box covers the end of a regular transverse drainage grate.", "fixed_by": "codex"}
+{"image": "images/train/bpo__f9e457fb6da94db7.jpg", "boxes": [], "why": "Box covers scattered pale litter beside the stall.", "fixed_by": "codex"}
+{"image": "images/train/bpo__fcfe2ca7c5d36fb5.jpg", "boxes": [], "why": "Box lies on dirt and debris outside the solid edge line beside the kerb.", "fixed_by": "codex"}
+{"image": "images/train/bpo__fee201228de38fbc.jpg", "boxes": [], "why": "Box covers the raised roadside kerb and soil beside it.", "fixed_by": "codex"}
+{"image": "images/train/bpo__29a19ba4bca61e50.jpg", "boxes": [], "why": "All boxes cover pools on dirt shoulders beyond the paved travel strip.", "fixed_by": "codex"}
+{"image": "images/train/bpo__807e3fe4deb6616c.jpg", "boxes": [], "why": "Large pool follows the dirt frontage outside the paved travel surface.", "fixed_by": "codex"}
+{"image": "images/train/egy__39881a023f113411.jpg", "boxes": [[0, 0.2708333333333333, 0.3888888888888889, 0.765625, 0.5416666666666666]], "why": "Added missing box around the transverse depression with visible broken far lip.", "fixed_by": "codex"}
+{"image": "images/train/egy__2ac1d8fc207f3fd1.jpg", "boxes": [], "why": "Box covers dirt frontage and loose debris beyond the edge of the paved surface.", "fixed_by": "codex"}
+{"image": "images/train/egy__da75e90df57a2677.jpg", "boxes": [[0, 0.446875, 0.5777777777777777, 0.6552083333333333, 0.6361111111111111]], "why": "Added missing box around broken asphalt adjacent to and surrounding the utility cover.", "fixed_by": "codex"}
+{"image": "images/train/ens__78ec7daedb105be7.jpg", "boxes": [[1, 0, 0, 1, 0.53]], "why": "Replaced partial boxes with one box covering the visible painted speed bump, including its occluded span.", "fixed_by": "codex"}
+{"image": "images/train/ens__b56b8b824fffc501.jpg", "boxes": [[1, 0, 0, 1, 0.48]], "why": "Replaced partial boxes with one box covering the visible painted speed bump, including its occluded span.", "fixed_by": "codex"}
+{"image": "images/train/ens__bf66222233a60a79.jpg", "boxes": [[1, 0, 0.105, 1, 1]], "why": "Replaced partial boxes with one box covering the visible painted speed bump, including its occluded span.", "fixed_by": "codex"}
+{"image": "images/train/ens__c681c160f9d83632.jpg", "boxes": [[1, 0, 0, 1, 0.35]], "why": "Replaced partial boxes with one box covering the visible painted speed bump, including its occluded span.", "fixed_by": "codex"}
+{"image": "images/train/ens__d245e696a5e69cc6.jpg", "boxes": [[1, 0, 0, 0.995, 0.62]], "why": "Replaced partial boxes with one box covering the visible painted speed bump, including its occluded span.", "fixed_by": "codex"}
+{"image": "images/train/ens__ed4fe011eb89b6a7.jpg", "boxes": [[1, 0.125, 0, 0.875, 0.8]], "why": "Replaced partial boxes with one box covering the visible painted speed bump, including its occluded span.", "fixed_by": "codex"}
+{"image": "images/train/ens__ee36b76de6f7fb67.jpg", "boxes": [[1, 0.06, 0.07, 0.65, 0.2]], "why": "Replaced partial boxes with one box covering the visible painted speed bump, including its occluded span.", "fixed_by": "codex"}
+{"image": "images/train/ens__f1fb7cc3491a3fd4.jpg", "boxes": [[1, 0, 0, 0.66, 0.09]], "why": "Replaced partial boxes with one box covering the visible painted speed bump, including its occluded span.", "fixed_by": "codex"}
+{"image": "images/train/ens__7d1b15e4036b06a0.jpg", "boxes": [[1, 0.2344, -0.0, 0.7703, 0.1333]], "why": "Replaced partial boxes with one box covering the visible painted speed bump, including its occluded span.", "fixed_by": "codex"}
+{"image": "images/train/ens__c65cb99414600cc1.jpg", "boxes": [[1, 0.3312, 0.0813, 0.7773, 0.1948]], "why": "Replaced partial boxes with one box covering the visible painted speed bump, including its occluded span.", "fixed_by": "codex"}
+{"image": "images/train/ens__e9ebd341028cf5dd.jpg", "boxes": [[1, 0.1531, 0.0, 0.7359, 0.1146]], "why": "Replaced partial boxes with one box covering the visible painted speed bump, including its occluded span.", "fixed_by": "codex"}
+{"image": "images/train/ens__fa6b368e873fdabb.jpg", "boxes": [[1, 0.1453, 0.0, 0.7203, 0.0958]], "why": "Replaced partial boxes with one box covering the visible painted speed bump, including its occluded span.", "fixed_by": "codex"}
+{"image": "images/train/ghpot__97a0ff75e519040b.jpg", "boxes": [], "why": "Box covers freshly spread asphalt during resurfacing.", "fixed_by": "codex"}
+{"image": "images/train/ghpot__bc500d140e13df82.jpg", "boxes": [], "why": "Box covers discarded tyres on the pavement.", "fixed_by": "codex"}
+{"image": "images/train/ghpot__d9eff34c2147284d.jpg", "boxes": [], "why": "Both boxes cover completed flush asphalt repairs.", "fixed_by": "codex"}
+{"image": "images/train/hmpt__f912a0d370c4cf34.jpg", "boxes": [], "why": "Speed-bump box covers cracks in a flat concrete slab.", "fixed_by": "codex"}
+{"image": "images/train/ghpot__76ee91c6a1e635ca.jpg", "boxes": [[0, 0.4142, 0.7758, 0.5618, 0.893]], "why": "Removed boxes on construction material or repaired pavement; retained visibly damaged cavities.", "fixed_by": "codex"}
+{"image": "images/train/ghpot__5a2b4e3118d68052.jpg", "boxes": [[0, 0.3816, 0.7099, 0.5934, 0.9021], [0, 0.0656, 0.5245, 0.1531, 0.5611]], "why": "Removed boxes on construction material or repaired pavement; retained visibly damaged cavities.", "fixed_by": "codex"}
+{"image": "images/train/ghpot__c394da568e599b3f.jpg", "boxes": [[0, 0.0, 0.5156, 0.7914, 0.8266]], "why": "Removed boxes on construction material or repaired pavement; retained visibly damaged cavities.", "fixed_by": "codex"}
+{"image": "images/train/hmpt__3b9fdd8ef36e3a45.jpg", "boxes": [[1, 0.2129, 0.4007, 0.9144, 0.5239]], "why": "Merged overlapping fragments into one speed-bump box.", "fixed_by": "codex"}
+{"image": "images/train/hmpt__aafac9b675d98b97.jpg", "boxes": [[1, 0.2913, 0.3333, 0.8204, 0.4271]], "why": "Merged overlapping fragments into one speed-bump box.", "fixed_by": "codex"}
+{"image": "images/train/hmpt__0ecaea1fc4dae8d0.jpg", "boxes": [[1, 0.002, 0.5552, 0.9375, 0.6581], [1, 0.18, 0.04, 0.6, 0.09]], "why": "Added missing distant speed bumps visible beyond the labelled foreground bumps.", "fixed_by": "codex"}
+{"image": "images/train/hmpt__1b3a36a3046e4ffd.jpg", "boxes": [[1, 0.2695, 0.5917, 0.6797, 0.704], [1, 0.0996, 0.8182, 0.8781, 0.9999], [1, 0.33, 0.475, 0.53, 0.51], [1, 0.3, 0.51, 0.58, 0.565]], "why": "Added missing distant speed bumps visible beyond the labelled foreground bumps.", "fixed_by": "codex"}
+{"image": "images/train/hmpt__2bb5919579337b58.jpg", "boxes": [[1, 0.0703, 0.8234, 0.8328, 0.9957], [1, 0.3026, 0.6083, 0.7073, 0.7109], [1, 0.37, 0.485, 0.63, 0.525], [1, 0.315, 0.525, 0.66, 0.585]], "why": "Added missing distant speed bumps visible beyond the labelled foreground bumps.", "fixed_by": "codex"}
+{"image": "images/train/hmpt__51baa2cd5278e2c3.jpg", "boxes": [[1, 0.0898, 0.8807, 0.875, 0.9478], [1, 0.3047, 0.6281, 0.7297, 0.6831], [1, 0.35, 0.47, 0.63, 0.515], [1, 0.315, 0.52, 0.695, 0.575]], "why": "Added missing distant speed bumps visible beyond the labelled foreground bumps.", "fixed_by": "codex"}
+{"image": "images/train/hmpt__8fcd1422837e495c.jpg", "boxes": [[1, 0.0449, 0.7495, 0.9266, 0.9999], [1, 0.2441, 0.3406, 0.7078, 0.4852], [1, 0.37, 0.215, 0.65, 0.29]], "why": "Added missing distant speed bumps visible beyond the labelled foreground bumps.", "fixed_by": "codex"}
+{"image": "images/train/hmpt__b72d070f114526a6.jpg", "boxes": [[1, -0.0, 0.8062, 0.8453, 1.0], [1, 0.2988, 0.438, 0.7297, 0.604], [1, 0.41, 0.325, 0.64, 0.395], [1, 0.43, 0.235, 0.6, 0.285]], "why": "Added missing distant speed bumps visible beyond the labelled foreground bumps.", "fixed_by": "codex"}
+{"image": "images/train/hmpt__d72debc82dc3b194.jpg", "boxes": [[1, 0.0547, 0.8792, 0.9172, 1.0], [1, 0.3086, 0.4641, 0.7437, 0.5811], [1, 0.4, 0.31, 0.64, 0.395], [1, 0.44, 0.24, 0.6, 0.28]], "why": "Added missing distant speed bumps visible beyond the labelled foreground bumps.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__134e311d8c75457f.jpg", "boxes": [], "why": "Box covers a flush filled pavement repair.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__1e2a1a94b04ecc79.jpg", "boxes": [], "why": "Box covers a flush patch adjacent to a utility cover.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__26880d8bfd85ce54.jpg", "boxes": [], "why": "Both boxes follow narrow linear cracks without visible cavities.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__314d8d7be1ab6330.jpg", "boxes": [], "why": "Box covers a small intact circular utility cover.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__35cc312f1dd354ab.jpg", "boxes": [], "why": "Box covers dashboard hardware inside the vehicle.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__39e9237c703eada7.jpg", "boxes": [], "why": "Box covers a small pale intact utility cover.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__3eba6ba819f4eed0.jpg", "boxes": [], "why": "Box covers a narrow linear crack without missing asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__3faa5487e674ccc3.jpg", "boxes": [], "why": "Boxes follow linear seams without distinct material loss.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__40eeafce89753ce3.jpg", "boxes": [], "why": "Box covers a flush repaired slab beside a drain.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__1acce0bf751c607d.jpg", "boxes": [[0, 0.6967, 0.4778, 0.7667, 0.5956]], "why": "Merge overlapping duplicate boxes on the same small pothole; preserve its visible extent.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__4cdf405474ed746c.jpg", "boxes": [], "why": "Box marks a flush repair, utility cover, linear crack, construction dirt or water staining without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__56921b2591ac3fae.jpg", "boxes": [], "why": "Box marks a flush repair, utility cover, linear crack, construction dirt or water staining without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__5cc5ae971cab6a8f.jpg", "boxes": [], "why": "Box marks a flush repair, utility cover, linear crack, construction dirt or water staining without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__5d985b058e1d51ed.jpg", "boxes": [], "why": "Box marks a flush repair, utility cover, linear crack, construction dirt or water staining without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__610e2d06526dca3e.jpg", "boxes": [], "why": "Box marks a flush repair, utility cover, linear crack, construction dirt or water staining without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__67ef896c450f431f.jpg", "boxes": [], "why": "Box marks a flush repair, utility cover, linear crack, construction dirt or water staining without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__6cd2e99450888dbb.jpg", "boxes": [], "why": "Box marks a flush repair, utility cover, linear crack, construction dirt or water staining without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__6f0910d6348715a6.jpg", "boxes": [], "why": "Box marks a flush repair, utility cover, linear crack, construction dirt or water staining without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__86a2f5453809cab5.jpg", "boxes": [], "why": "Box marks a flush repair, utility cover, linear crack, construction dirt or water staining without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__88dbcda8c9bae87d.jpg", "boxes": [], "why": "Box marks a flush repair, utility cover, linear crack, construction dirt or water staining without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__8a2f4bdc9c59d78b.jpg", "boxes": [], "why": "Box marks a flush repair, utility cover, linear crack, construction dirt or water staining without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__9681a2fa674dfa76.jpg", "boxes": [], "why": "Box marks a flush repair, utility cover, linear crack, construction dirt or water staining without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__9b5c6781568ed356.jpg", "boxes": [], "why": "Box marks a flush repair, utility cover, linear crack, construction dirt or water staining without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__9d2e27ecc68c9cba.jpg", "boxes": [], "why": "Box marks a flush repair, utility cover, linear crack, construction dirt or water staining without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__a2392b1bdda06a30.jpg", "boxes": [], "why": "Box marks a flush repair, utility cover, linear crack, construction dirt or water staining without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__83d17384e11741c3.jpg", "boxes": [], "why": "Long alligator-cracked repair strip with intact blocks, without an open pothole."}
+{"image": "images/train/rdd_ji__a4f5f37fca2afa19.jpg", "boxes": [], "why": "Alligator surface cracks without visible material loss.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__ab39dd3a1e4f9493.jpg", "boxes": [], "why": "Narrow crack network; no cavity at boxed location.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__bb3ab291c85dc561.jpg", "boxes": [], "why": "Boxes trace thin surface seams without cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__c13c6d2e5292c9d2.jpg", "boxes": [], "why": "Box covers dirt shoulder beside fresh asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__c41df12e230838f9.jpg", "boxes": [], "why": "Boxes cover loose sand piles across the road.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__c9805685424080e5.jpg", "boxes": [], "why": "Box traces intact worn road stripe/aggregate without cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__d7313ff7597c5fa9.jpg", "boxes": [], "why": "Boxes are on concrete sidewalk surface wear rather than road potholes.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__dea91103f0576cdf.jpg", "boxes": [], "why": "Box is on dashboard hardware.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__e86c23fe2c99feac.jpg", "boxes": [], "why": "Box traces a thin linear surface crack.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__f93144a528dbdfa3.jpg", "boxes": [], "why": "Boxes trace narrow linear surface cracks.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__f9538b1374c2a376.jpg", "boxes": [], "why": "Box marks a small white utility cover.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__1372e9f7187f2511.jpg", "boxes": [], "why": "Boxes mark sidewalk cracking outside the road surface.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__9136258b75b6ff5e.jpg", "boxes": [], "why": "Box traces a thin linear crack.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__a11525ea4bd4cca6.jpg", "boxes": [], "why": "Boxes trace worn white painted stripe fragments.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__ca381a945fa22d77.jpg", "boxes": [], "why": "Box marks intact sidewalk asphalt by tactile paving.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__d0ec5b9e0d68be58.jpg", "boxes": [], "why": "Box marks sidewalk surface wear outside roadway.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__f80ec122d5a59039.jpg", "boxes": [[0, 0.655, 0.6044, 0.695, 0.64]], "why": "Removed edge box on intact circular utility cover; retained central damaged spot.", "fixed_by": "codex"}
+{"image": "images/train/red__e6df565d106b3f20.jpg", "boxes": [[1, 0, 0.645, 1, 1]], "why": "Added missing box on visible foreground speed bump.", "fixed_by": "codex"}
+{"image": "images/train/red__04705f4d8aa09a32.jpg", "boxes": [[1, 0, 0, 0.82, 0.14]], "why": "Added box for visible truncated speed bump at top edge, partially occluded by car.", "fixed_by": "codex"}
+{"image": "images/train/rf8__3c33aec8da6ce88d.jpg", "boxes": [], "why": "Boxes mark circular and rectangular utility covers/flush utility repairs.", "fixed_by": "codex"}
+{"image": "images/train/rf8__7ac3e17a689adfbb.jpg", "boxes": [], "why": "Box marks a flush oval asphalt repair with no visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__dfdd8b5a6feade54.jpg", "boxes": [], "why": "Boxes mark intact utility covers and flush service patches.", "fixed_by": "codex"}
+{"image": "images/train/rf8__4236dea37f407953.jpg", "boxes": [], "why": "Box marks a fresh flush asphalt fill, not an open cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__58d780444c24ff70.jpg", "boxes": [[0, 0.3176, 0.1362, 0.6478, 0.2615], [0, 0.2326, 0.006, 0.4653, 0.1202]], "why": "Removed box on light reflection along wet road; retained two visible cavities.", "fixed_by": "codex"}
+{"image": "images/train/rf8__67300941532b5d22.jpg", "boxes": [[0, 0.0529, 0.5646, 0.1098, 0.6022]], "why": "Removed box on intact circular utility cover; retained left cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__ec30f02c7a352ab2.jpg", "boxes": [], "why": "Box covers shadow on intact asphalt without visible cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__fedddca6254c90db.jpg", "boxes": [], "why": "Boxes cover flush asphalt-filled repair strips without an open cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__ffe5a53b84d4c8cb.jpg", "boxes": [], "why": "Box covers a flush filled asphalt repair strip.", "fixed_by": "codex"}
+{"image": "images/train/rsid__aae3ded2238591c8.jpg", "boxes": [[1, 0, 0.447, 0.9987, 0.57]], "why": "Tightened foreground bump box; original included a large unrelated road area and dashboard.", "fixed_by": "codex"}
+{"image": "images/train/sr__9d8bd4f24203676b.jpg", "boxes": [], "why": "Box marks a rectangular utility cover rather than a pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__de7db92ff2e52127.jpg", "boxes": [], "why": "Box marks a filled flush asphalt repair rather than open material loss.", "fixed_by": "codex"}
+{"image": "images/train/sr__e25eb92f3eb7e056.jpg", "boxes": [], "why": "Box marks a circular utility cover rather than a pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__0934651e7ab5b10a.jpg", "boxes": [], "why": "Erroneous pothole box is on a bright building window above the road.", "fixed_by": "codex"}
+{"image": "images/train/sr__e6739e06aa8e267b.jpg", "boxes": [[0, 0.1771, 0.2583, 0.2917, 0.3833]], "why": "Retain the damaged cavity; remove boxes on two fresh filled asphalt patches.", "fixed_by": "codex"}
+{"image": "images/train/sr__1ba56bc03b7eb091.jpg", "boxes": [], "why": "Erroneous pothole box marks the car bonnet rather than road.", "fixed_by": "codex"}
+{"image": "images/train/sr__233d0f687940c922.jpg", "boxes": [], "why": "Box marks a circular utility cover rather than a pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__397938274f91e95d.jpg", "boxes": [], "why": "Erroneous speed bump box marks the dashboard fabric.", "fixed_by": "codex"}
+{"image": "images/train/sr__438486fb6ab12cf8.jpg", "boxes": [], "why": "Erroneous pothole box is above the road on a building light.", "fixed_by": "codex"}
+{"image": "images/train/sr__5309edeb9bf32cc2.jpg", "boxes": [], "why": "Box marks a circular manhole cover, not missing asphalt.", "fixed_by": "codex"}
+{"image": "images/train/sr__5e71eaea9d08748b.jpg", "boxes": [], "why": "Box marks a circular utility cover rather than a pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__2be9358591cb810c.jpg", "boxes": [[1, 0.3551, 0.4771, 0.7107, 0.5297]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__470b29e0cef2c7d6.jpg", "boxes": [[1, 0.4287, 0.4049, 0.615, 0.4266]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__54835b5f5e95e880.jpg", "boxes": [[1, 0.3004, 0.4318, 0.6528, 0.4667]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__5e8cfe3f53161cfe.jpg", "boxes": [[1, 0.5564, 0.4443, 0.7109, 0.474]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__6104362fb4bfb36c.jpg", "boxes": [[1, 0.4336, 0.4107, 0.4746, 0.4451]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__67da71248ccecfd0.jpg", "boxes": [[1, 0.3917, 0.335, 0.4693, 0.3468]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__67407ead1461e5a2.jpg", "boxes": [[0, 0.5434, 0.6284, 0.5976, 0.6547]], "why": "Remove erroneous pothole box in the sky; preserve road-level annotation pending surface review.", "fixed_by": "codex"}
+{"image": "images/train/sr__735ab992af2aa58c.jpg", "boxes": [], "why": "Box marks a utility cover or drainage grate rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__87be4055f0670a9f.jpg", "boxes": [], "why": "Box marks a utility cover or drainage grate rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__aec134e84cb9deed.jpg", "boxes": [], "why": "Box marks a utility cover or drainage grate rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__bc638ef123c73897.jpg", "boxes": [], "why": "Box marks a utility cover or drainage grate rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__c09ed7cc16d691bc.jpg", "boxes": [], "why": "Box marks a utility cover or drainage grate rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__746e95c2440354fa.jpg", "boxes": [], "why": "Box marks filled asphalt repair with surface cracking rather than a pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__7d1a402969c718e1.jpg", "boxes": [], "why": "Box marks filled asphalt repair with surface cracking rather than a pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__92b151f5b02111e9.jpg", "boxes": [], "why": "Box marks filled asphalt repair with surface cracking rather than a pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__82c9156d16e09c65.jpg", "boxes": [], "why": "Box covers road texture without a visible cavity or broken rim.", "fixed_by": "codex"}
+{"image": "images/train/sr__966439c616731f51.jpg", "boxes": [], "why": "Box covers road texture without a visible cavity or broken rim.", "fixed_by": "codex"}
+{"image": "images/train/sr__af1f6ac2b1202b7e.jpg", "boxes": [], "why": "Erroneous pothole box is in the sky above the road.", "fixed_by": "codex"}
+{"image": "images/train/sr__a5b2576b989771fb.jpg", "boxes": [], "why": "Box marks a thin linear crack without an open cavity.", "fixed_by": "codex"}
+{"image": "images/train/sr__b9cfc512000d1534.jpg", "boxes": [], "why": "Box marks a thin linear crack without an open cavity.", "fixed_by": "codex"}
+{"image": "images/train/sr__bf85a5fbeb95be3c.jpg", "boxes": [], "why": "Box marks an orange object on the road rather than a cavity.", "fixed_by": "codex"}
+{"image": "images/train/sr__8266f757e53b2fe8.jpg", "boxes": [[1, 0.4332, 0.4104, 0.5545, 0.4271]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__84f37538df746a70.jpg", "boxes": [[1, 0.4189, 0.3911, 0.4672, 0.4161]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__86d47589b62802b3.jpg", "boxes": [[1, 0.4574, 0.4094, 0.6406, 0.4359]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__8cc10051d37a1a36.jpg", "boxes": [[1, 0.2891, 0.5961, 0.6145, 0.632]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__96bdd2040a602a74.jpg", "boxes": [[1, 0.2891, 0.3826, 0.5324, 0.4161]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__a049000229d4c2b1.jpg", "boxes": [[1, 0.3848, 0.4198, 0.6783, 0.4682]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__bf3d667975526bed.jpg", "boxes": [[1, 0.2891, 0.4143, 0.7105, 0.4727]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__ccc6a1bdf3635b80.jpg", "boxes": [], "why": "Box marks a utility/drainage cover rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__dd0b51b8d85977e9.jpg", "boxes": [], "why": "Box marks a utility/drainage cover rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__e4990ca091ef455f.jpg", "boxes": [], "why": "Box marks a utility/drainage cover rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__facf662534fd5220.jpg", "boxes": [], "why": "Box marks a utility/drainage cover rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__e2d27c5dabdb8b56.jpg", "boxes": [], "why": "Box marks a filled asphalt patch rather than an open cavity.", "fixed_by": "codex"}
+{"image": "images/train/sr__e9c8323cc7c29867.jpg", "boxes": [[1, 0.4931, 0.5602, 0.6151, 0.5744]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__f4007b2a43805d46.jpg", "boxes": [[1, 0.3078, 0.4427, 0.7109, 0.4964]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__fbf8a0318e621a08.jpg", "boxes": [[1, 0.4305, 0.4086, 0.4926, 0.4273]], "why": "Merge overlapping duplicate annotations of the same physical speed bump.", "fixed_by": "codex"}
+{"image": "images/train/sr__c8195ba0140ff57c.jpg", "boxes": [[1, 0.2891, 0.4422, 0.4633, 0.476], [1, 0.608, 0.4362, 0.7082, 0.4818]], "why": "Merge duplicate boxes separately on the two visible sections of the occluded bump.", "fixed_by": "codex"}
+{"image": "images/train/bpo__1c56882f5d5303ef.jpg", "boxes": [], "why": "Enlarged review shows superficial cracking/flat pavement or edge damage without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__4716f101de20ea89.jpg", "boxes": [], "why": "Enlarged review shows superficial cracking/flat pavement or edge damage without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__5a2b43be88584acc.jpg", "boxes": [], "why": "Enlarged review shows superficial cracking/flat pavement or edge damage without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__6d791468000bb263.jpg", "boxes": [], "why": "Enlarged review shows superficial cracking/flat pavement or edge damage without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__746a252ad0df50f4.jpg", "boxes": [], "why": "Enlarged review shows superficial cracking/flat pavement or edge damage without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__7a2f5ba1d2108487.jpg", "boxes": [], "why": "Enlarged review shows superficial cracking/flat pavement or edge damage without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__7e615f9d629e90a1.jpg", "boxes": [], "why": "Enlarged review shows superficial cracking/flat pavement or edge damage without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__a46d7591b134c5d0.jpg", "boxes": [], "why": "Enlarged review shows superficial linear cracking/flat road, with no discrete cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__a68a6c9ff188d51b.jpg", "boxes": [], "why": "Enlarged review shows superficial linear cracking/flat road, with no discrete cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__abfbb5c34bbb72af.jpg", "boxes": [], "why": "Enlarged review shows superficial linear cracking/flat road, with no discrete cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__b11597ced39dcc2a.jpg", "boxes": [], "why": "Enlarged review shows superficial linear cracking/flat road, with no discrete cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__bb81ff4b6da384ab.jpg", "boxes": [], "why": "Enlarged review shows superficial linear cracking/flat road, with no discrete cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__bebd2b1ad5e5bf1f.jpg", "boxes": [], "why": "Enlarged review shows superficial linear cracking/flat road, with no discrete cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__c3d7c94f771a9d67.jpg", "boxes": [], "why": "Enlarged review shows superficial linear cracking/flat road, with no discrete cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__c6437f22ea44dbf5.jpg", "boxes": [], "why": "Enlarged review shows superficial linear cracking/flat road, with no discrete cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__c95fd57562afc16d.jpg", "boxes": [], "why": "Enlarged review shows superficial linear cracking/flat road, with no discrete cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__d32bae430ad1b766.jpg", "boxes": [], "why": "Enlarged review shows superficial linear cracking/flat road, with no discrete cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__d63769aff2419be9.jpg", "boxes": [], "why": "Enlarged review shows superficial linear cracking/flat road, with no discrete cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__db6c1e7c07fa093b.jpg", "boxes": [], "why": "Enlarged review shows superficial linear cracking/flat road, with no discrete cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__df7b7b0df9ef5947.jpg", "boxes": [], "why": "Enlarged review shows superficial linear cracking/flat road, with no discrete cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__e689b2b9163853c5.jpg", "boxes": [], "why": "Enlarged review shows superficial linear cracking/flat road, with no discrete cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__b920a06a99b4cbeb.jpg", "boxes": [], "why": "Box covers a reflection of the rider/camera on the windscreen, not a road cavity.", "fixed_by": "codex"}
+{"image": "images/train/bpo__f50165a31c56441e.jpg", "boxes": [], "why": "Enlarged review shows linear cracks/flat ravelled pavement without a discrete pothole.", "fixed_by": "codex"}
+{"image": "images/train/bpo__fc8d85bf2785580c.jpg", "boxes": [], "why": "Enlarged review shows linear cracks/flat ravelled pavement without a discrete pothole.", "fixed_by": "codex"}
+{"image": "images/train/bpo__ff1294fe1df5d9f8.jpg", "boxes": [], "why": "Enlarged review shows linear cracks/flat ravelled pavement without a discrete pothole.", "fixed_by": "codex"}
+{"image": "images/train/bpo__48133d42a3acffcb.jpg", "boxes": [], "why": "Enlarged review shows linear cracks/flat ravelled pavement without a discrete pothole.", "fixed_by": "codex"}
+{"image": "images/train/egy__2a2f985e4ebd58ee.jpg", "boxes": [], "why": "Enlarged review shows linear cracks/flat ravelled pavement without a discrete pothole.", "fixed_by": "codex"}
+{"image": "images/train/egy__4a76e7067c9027c1.jpg", "boxes": [], "why": "Enlarged review shows linear cracks/flat ravelled pavement without a discrete pothole.", "fixed_by": "codex"}
+{"image": "images/train/egy__1ba53877e25d20bf.jpg", "boxes": [], "why": "Annotation marks a utility cover rather than a pothole.", "fixed_by": "codex"}
+{"image": "images/train/egy__439f0045248dbd6b.jpg", "boxes": [], "why": "Annotation marks a circular utility cover rather than a pothole.", "fixed_by": "codex"}
+{"image": "images/train/egy__4095de139191c6a3.jpg", "boxes": [], "why": "Annotation marks windscreen reflections, not a road cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__742141fb9d64e640.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__7aef9ec5364aa39e.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__932eb15a91bb1fd2.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__a8cea4257811375e.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__ae67dcea856e62c4.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__c1f8e20a8b697309.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__d61735818b276634.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__dda8c20e3f665fd9.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__e23a2b0918d819f8.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__ee3f40469919f61e.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__f9b84a08f38fd047.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__01bba34d04f1c0d8.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__059ed423df69661e.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__0d48e0f6180e7f29.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__20ed4d4ea40d0c7a.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__2d3b3b36aeb581f2.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__58f2217a91424016.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__65256f71651458c9.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__689fd22649936824.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__6a2ba88d90dd533e.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__709f1bf81ecd0cad.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__715e652ca5459f70.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__874cc9bb58e56b70.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__87a7edba667c3b60.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__886542f62f2eb3d2.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__8c0f9afbcc37516d.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__93a3df5c8c19d696.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__9a16897014ab7404.jpg", "boxes": [], "why": "Enlarged review shows a filled repair, shallow surface wear or a seam without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__4c21c70a344035d3.jpg", "boxes": [], "why": "Box marks utility access cover with surrounding dirt; no pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__a471654dfcc1cbd3.jpg", "boxes": [], "why": "Final enlarged review shows flat repair, ravelled surface or road edge without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__a66a3e01759c0c31.jpg", "boxes": [], "why": "Final enlarged review shows flat repair, ravelled surface or road edge without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__af3716c77b29c8ca.jpg", "boxes": [], "why": "Final enlarged review shows flat repair, ravelled surface or road edge without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__c1a03c9a8df0f836.jpg", "boxes": [], "why": "Final enlarged review shows flat repair, ravelled surface or road edge without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__c61b4142b112f26a.jpg", "boxes": [], "why": "Final enlarged review shows flat repair, ravelled surface or road edge without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__c775dab24e0b82e0.jpg", "boxes": [], "why": "Final enlarged review shows flat repair, ravelled surface or road edge without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__ccc8f77c89f44767.jpg", "boxes": [], "why": "Final enlarged review shows flat repair, ravelled surface or road edge without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__daed4f34fff2550f.jpg", "boxes": [], "why": "Final enlarged review shows flat repair, ravelled surface or road edge without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__de3d50089f01cb8f.jpg", "boxes": [], "why": "Final enlarged review shows flat repair, ravelled surface or road edge without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__e7f2bf9850f1cd94.jpg", "boxes": [], "why": "Final enlarged review shows flat repair, ravelled surface or road edge without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__e814b0a8d60ed49f.jpg", "boxes": [], "why": "Final enlarged review shows flat repair, ravelled surface or road edge without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__f62b323ce122deb1.jpg", "boxes": [], "why": "Final enlarged review shows flat repair, ravelled surface or road edge without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/egy__f83a280962045d5b.jpg", "boxes": [], "why": "Final enlarged review shows flat repair, ravelled surface or road edge without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__00371ca286c9f478.jpg", "boxes": [], "why": "Final enlarged review shows flat repair, ravelled surface or road edge without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__01b5e78d663aa04a.jpg", "boxes": [], "why": "Final enlarged review shows flat repair, ravelled surface or road edge without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__05c8041d7bbcb054.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__1102fec4f111c580.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__12465e98d817ffe0.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__127561b1e7ec5310.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__131b6bc88ccc6964.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__13b40f1f381e7f56.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__1768f490a98b38c7.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__1a8e29deb40815bc.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__1ba100bab2a0ece0.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__1c877b5d4100a733.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__20040c712b65afe5.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__204a8d452e3de49b.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__22ff2961ff4cca25.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__260b4fc1aca614c0.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__275b6979099b5bb4.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__31bc2104109c6516.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__324525a4accbde89.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__35328c6cfa4b816d.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__362d06d468f87b7d.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__373764d00dfe3f19.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__37ba336bbd50ac64.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__39cc8c0cf506ee59.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__39ed79ef28774d66.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__3c6ed46b78bde46c.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__3d6d6bdbb95fc776.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__3fa4976a9083367f.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__3fd5394ce651295d.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__43a82a2593e781f5.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__481f43f99de00f1b.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__4870d2e75914aec1.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__491f1c9acad3746d.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__4a6f0bf9c38d87db.jpg", "boxes": [], "why": "Final enlarged review shows cracks, a flush repair, dirt accumulation or flat surface wear rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__4b9f7f1c2540373f.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__4bb4d0836171ec86.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__4bf426d0b7efd80e.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__4c4ae06c546c4f52.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__4fd0f2efc2edbfea.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__50763d91cdca5f4e.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__51f0fa9f4dc2fb10.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__56f596880668c090.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__57becba415834d59.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__5897068b45bb3358.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__59a99af11dc36ea5.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__5d6ba2c1c055485c.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__626934cb3723d477.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__65acab010216c700.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__663cbf71121cb391.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__668f70101edfe0f6.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__68474982d8b355a2.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__688794f310df1158.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__6994c61cf0af74b2.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__6a8999428bc6a60c.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__6c4275d39bacf5a0.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__73911b4e0325a743.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__739779cb42d15f39.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__7d1b1fcfe7a3cc5f.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__7d329d557be5a942.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__85e8e53443895fc9.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__87fcb03c31064b38.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__8d2669e8446aef6a.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__8d5138a761c03067.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__8dae10eaa450e8ee.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__8e608690b4672566.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__8fc9e73f37e9eba7.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__92763b71df7c0407.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__930b9e7cc7ba5259.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__94929a9d966eabae.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__9ab2d7e1af7892e7.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__a05fdd10fe3c3b35.jpg", "boxes": [], "why": "Enlarged review shows cracks, flat asphalt/dirt, a flush repair or surface texture without an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__aa27cf7e3584928c.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__adb7f9cc83a4f91f.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__b8431f1ae89b946a.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__b96dc241046fb571.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__c11951747726352d.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__c33425dea08f92fc.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__c726c263011f0a6e.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__c9b56e1cff0e6973.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__ca85ff46735c6904.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__ca97617795f1b469.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__cb6f311f2e5c69fd.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__d3583ee762cd8ecb.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__d62abb531d183eff.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__d6ed05bc46b338eb.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__e2cc04e4d878c01f.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__e2ccef1f3f14abe7.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__e85b7a0d82623768.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__e9f98cfde3bc9a83.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__ea230d346afee90e.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__eb2d25cf5e32ac52.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__edbe5eec3c799377.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__f129c317cd3eb40d.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__f4bf8f1eec48c317.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__f6680b4e614abb47.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__f9d36174352b89e7.jpg", "boxes": [], "why": "Final enlarged review shows a seam, alligator/linear cracking, paint loss, flush cover/repair or dirt on otherwise intact asphalt.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__fb2908bf0bded230.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__fb5c0e5ea0dcbd4f.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__fbe664b5eebbfe3d.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__fc9143a868f49d5d.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__ff2d74b4bef3b872.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__18af64fb122d9644.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rdd_ji__a37ece5c264783a9.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__400068b41d1dc5e3.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__98ba9976f9b01da0.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__9de9487bcce15213.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__a3f2ca7f0ef89aa6.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__b94226845f2ed94e.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__da64d28cfa531238.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__e1132d1ad48c57d7.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__10757ba82c0e76d0.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__38eb76a512dec02c.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__40c519c5333ff9c9.jpg", "boxes": [], "why": "Enlarged review identifies a flush filled repair, superficial cracking or loose surface material without a discrete pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__980b64f36bdfbac2.jpg", "boxes": [], "why": "Final enlarged review identifies a flat filled asphalt repair/seam rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__9bbaddf7c240a10c.jpg", "boxes": [], "why": "Final enlarged review identifies a flat filled asphalt repair/seam rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__9d9eb5ea34a59cd7.jpg", "boxes": [], "why": "Final enlarged review identifies a flat filled asphalt repair/seam rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__a6738697b563a4a0.jpg", "boxes": [], "why": "Final enlarged review identifies a flat filled asphalt repair/seam rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__cac1b88180a64860.jpg", "boxes": [], "why": "Final enlarged review identifies a flat filled asphalt repair/seam rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__d2f907d1064d9548.jpg", "boxes": [], "why": "Final enlarged review identifies a flat filled asphalt repair/seam rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__e02fd5d6ffabc30a.jpg", "boxes": [], "why": "Final enlarged review identifies a flat filled asphalt repair/seam rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__e58a5cda43573e05.jpg", "boxes": [], "why": "Final enlarged review identifies a flat filled asphalt repair/seam rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/rf8__fdd4e7d4aac97277.jpg", "boxes": [], "why": "Final enlarged review identifies a flat filled asphalt repair/seam rather than a pothole cavity.", "fixed_by": "codex"}
+{"image": "images/train/sr__a7ce9bb8a93221d3.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__a85820cc7c174868.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__b92f5fd382ed64b8.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__c4b338a62b384fbc.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__0d10388521d35bde.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__3c1caa50640d1f19.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__3f4a79be87d4febe.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__4a62e7a21df420ac.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__596640a7de125eac.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__90b914c8bcc94611.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__b29e40e099d3ba23.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__b4225714a9544d78.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__becf6e3770e5565a.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__cffc0434e6f8b538.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__f22f1365de529eeb.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__f77b43af70683115.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__fabb15ef267bc817.jpg", "boxes": [], "why": "Final enlarged review shows a filled repair, utility/drainage cover or intact marking/shadow rather than an open pothole.", "fixed_by": "codex"}
+{"image": "images/train/sr__c2cb366ff467b19a.jpg", "boxes": [[1, 0.3979, 0.4234, 0.4578, 0.4427], [1, 0.5408, 0.4151, 0.5943, 0.4313]], "why": "Merge duplicate left-side bump boxes; retain separate visible right section.", "fixed_by": "codex"}
+{"image": "images/train/sr__16d5a5839e6cf3c2.jpg", "boxes": [[1, 0.4143, 0.4008, 0.4576, 0.4195]], "why": "Remove false pothole label on yellow paint; merge duplicate distant bump boxes.", "fixed_by": "codex"}
+{"image": "images/train/bpo__0c427fed66352b82.jpg", "boxes": [], "why": "Removed wet reflection streak and occluded painted mark; no bounded asphalt cavity."}
+{"image": "images/train/bpo__187e791c24307a5b.jpg", "boxes": [[0, 0.5547, 0.9469, 0.5812, 0.9969]], "why": "Removed litter-like light spots; retained the plausible foreground pavement defect."}
+{"image": "images/train/bpo__2b58aa961a6f3925.jpg", "boxes": [[0, 0.6422, 0.724, 0.6859, 0.7698]], "why": "Removed concrete cover and shoulder water; retained uncertain small lane defect."}
+{"image": "images/train/bpo__4bef317d49936c4f.jpg", "boxes": [[0, 0.6102, 0.7198, 0.6398, 0.7552], [0, 0.5828, 0.6781, 0.6063, 0.726], [0, 0.5844, 0.7656, 0.65, 0.8281]], "why": "Removed narrow crack strips; retained bounded pavement defects."}
+{"image": "images/train/bpo__54d06108a4e65bae.jpg", "boxes": [[0, 0.5344, 0.8187, 0.5766, 0.875], [0, 0.5484, 0.7635, 0.5797, 0.8073], [0, 0.5273, 0.7458, 0.5508, 0.8042]], "why": "Removed unpaved shoulder water; retained three lane defects."}
+{"image": "images/train/bpo__580b3329825cc124.jpg", "boxes": [], "why": "Flat brown surface patches without a visible broken rim."}
+{"image": "images/train/bpo__5a8f2c57ed478950.jpg", "boxes": [], "why": "Water lies on the unpaved shoulder beside the wall, without an asphalt cavity."}
+{"image": "images/train/bpo__682dede34e2c6c52.jpg", "boxes": [], "why": "Connected roadside shoulder water, not a bounded defect in asphalt."}
+{"image": "images/train/bpo__6cbd213996dd9fe4.jpg", "boxes": [[0, 0.7195, 0.8719, 0.7508, 0.8969], [0, 0.7258, 0.9104, 0.7602, 0.9437]], "why": "Removed foreground windshield reflection; retained two small road defects."}
+{"image": "images/train/bpo__761da17b7d7c562f.jpg", "boxes": [], "why": "Connected water along the shoulder drain outside the paved lane."}
+{"image": "images/train/bpo__77abb3992cd9d942.jpg", "boxes": [[0, 0.7102, 0.7937, 0.7539, 0.85], [0, 0.7648, 0.8552, 0.8008, 0.9073]], "why": "Removed large unpaved shoulder puddle; retained two possible asphalt defects."}
+{"image": "images/train/bpo__82c80428d769d2ac.jpg", "boxes": [], "why": "Roadside curb and drain structures, not holes in the asphalt lane."}
+{"image": "images/train/bpo__8673cb983a2134fc.jpg", "boxes": [], "why": "Large pond on the bare shoulder outside the paved lane."}
+{"image": "images/train/bpo__8ada0be895165da3.jpg", "boxes": [[0, 0.5664, 0.6677, 0.618, 0.701], [0, 0.5195, 0.7667, 0.5711, 0.7875]], "why": "Removed water on bare road margins; retained two uncertain lane defects."}
+{"image": "images/train/bpo__947ce305c6ddeaa1.jpg", "boxes": [], "why": "Water on unpaved roadside shoulder, no visible asphalt cavity."}
+{"image": "images/train/bpo__965123719a706d7e.jpg", "boxes": [[0, 0.3453, 0.7385, 0.4078, 0.7865], [0, 0.3125, 0.7292, 0.3422, 0.7688]], "why": "Removed foreground reflection/surface marks; retained two bounded asphalt defects."}
+{"image": "images/train/bpo__a066d92a6527f95b.jpg", "boxes": [], "why": "Water on bare roadside shoulder, no visible asphalt cavity."}
+{"image": "images/train/bpo__a2f0850383667940.jpg", "boxes": [], "why": "Thin linear pavement crack rather than a bounded pothole."}
+{"image": "images/train/bpo__b19d39772ba6ee22.jpg", "boxes": [[0, 0.3328, 0.726, 0.4297, 0.876]], "why": "Removed defect box on bare left shoulder; retained bounded dark road-edge cavity."}
+{"image": "images/train/bpo__b5920d5304e37dc3.jpg", "boxes": [], "why": "Connected drainage water along unpaved margins, no separate asphalt cavity visible."}
+{"image": "images/train/bpo__b8b01f4bc351b039.jpg", "boxes": [], "why": "Boxes cover roadside concrete curb/cover structures and sheen."}
+{"image": "images/train/bpo__bda096d0d8e8e8f2.jpg", "boxes": [], "why": "Connected water and longitudinal cracks along road margins, no bounded cavity."}
+{"image": "images/train/bpo__d9ef0e444882b6e8.jpg", "boxes": [[0, 0.3492, 0.7156, 0.4586, 0.7844]], "why": "Removed shoulder crack; retained broken asphalt cavity with visible material loss."}
+{"image": "images/train/bpo__e1261c6c95d50ab4.jpg", "boxes": [], "why": "Boxes lie on unpaved parking margins, without asphalt cavities."}
+{"image": "images/train/bpo__e747a12274061399.jpg", "boxes": [[0, 0.6711, 0.7896, 0.718, 0.8375], [0, 0.4227, 0.8094, 0.4492, 0.8323]], "why": "Removed two boxes on unpaved curbside erosion; retained small lane defect candidates."}
+{"image": "images/train/bpo__f456eb10db70e5d4.jpg", "boxes": [], "why": "Standing water on bare roadside shoulder outside the asphalt lane."}
+{"image": "images/train/bpo__f7387052f92789e7.jpg", "boxes": [[0, 0.3178, 0.8325, 0.3863, 0.9261]], "why": "Removed off-road shoulder water; retained uncertain narrow lane defect."}
+{"image": "images/train/bpo__ff951d32624d5698.jpg", "boxes": [], "why": "Connected drainage water and bare shoulder margins, no bounded asphalt cavity."}
+{"image": "images/train/bpo__02ce19c231283f02.jpg", "boxes": [[0, 0.5797, 0.1455, 0.6687, 0.1765]], "why": "Removed large box covering rider hand and foreground; retained distant pavement defect."}
+{"image": "images/train/bpo__19118b2923c228a1.jpg", "boxes": [[0, 0.4063, 0.4594, 0.7297, 0.5906], [0, 0.2031, 0.6229, 0.4047, 0.7813], [0, 0.4227, 0.65, 0.6414, 0.8146], [0, 0.75, 0.6521, 0.9797, 0.7875], [0, 0.6508, 0.3312, 0.7367, 0.4188], [0, 0.4812, 0.3708, 0.6406, 0.4187], [0, 0.2492, 0.3781, 0.4414, 0.4323], [0, 0.7914, 0.3458, 0.9164, 0.4562], [0, 0.8375, 0.5042, 1.0, 0.5938], [0, 0.4734, 0.3083, 0.6031, 0.3729], [0, 0.5422, 0.251, 0.6875, 0.3281], [0, 0.5703, 0.176, 0.6203, 0.2385], [0, 0.4977, 0.1469, 0.5992, 0.176], [0, 0.4844, 0.1156, 0.5875, 0.1573], [0, 0.4242, 0.2458, 0.5398, 0.2958], [0, 0.375, 0.3, 0.475, 0.3729], [0, 0.6867, 0.2375, 0.8195, 0.2771], [0, 0.8359, 0.1979, 0.9156, 0.2187], [0, 0.9055, 0.1604, 0.9898, 0.1771], [0, 0.2578, 0.151, 0.3109, 0.201], [0, 0.0047, 0.4667, 0.1094, 0.5313], [0, 0.95, 0.2583, 0.9984, 0.2813], [0, 0.9625, 0.2844, 1.0, 0.3052], [0, 0.6172, 0.1656, 0.7125, 0.2031]], "why": "Removed box covering rider wrist/foreground; retained uncertain wet-road defect annotations."}
+{"image": "images/train/bucko__f1518d3ece9082c9.jpg", "boxes": [], "why": "Transverse straight repair seam, no bounded pothole."}
+{"image": "images/train/egy__66c3dbd13d3fb449.jpg", "boxes": [[0, 0.17, 0.5, 0.62, 0.64]], "why": "Added missing box around visible broken asphalt cavity. Geometry verified and aligned against original full frame."}
+{"image": "images/train/egy__999d89b9ec9eaf2e.jpg", "boxes": [[0, 0.3129, 0.4417, 0.5344, 0.5299]], "why": "Removed litter on flat asphalt; retained rough bounded asphalt defect."}
+{"image": "images/train/egy__302f998b7d154aa6.jpg", "boxes": [[0, 0.51, 0.53, 0.7, 0.75]], "why": "Added missing box around the round dark cavity beside the curb. Box includes the full visible rim."}
+{"image": "images/train/ghpot__ab92d8278028f5f3.jpg", "boxes": [[0, 0.5646, 0.41, 0.6057, 0.4323], [0, 0.5609, 0.3581, 0.598, 0.3748], [0, 0.6371, 0.4399, 0.7588, 0.4771], [0, 0.8448, 0.6022, 0.9006, 0.6642], [0, 0.5112, 0.438, 0.5423, 0.4572], [0, 0.4782, 0.4114, 0.4949, 0.4207], [0, 0.2869, 0.51, 0.7033, 0.7143]], "why": "Removed small box nested inside the large foreground cavity to avoid duplicate annotation."}
+{"image": "images/train/ghpot__9a5f55a2541bd880.jpg", "boxes": [[0, 0.3856, 0.3668, 0.9766, 0.6629]], "why": "Retained main broken pothole; removed distant thin crack boxes."}
+{"image": "images/train/rdd_ji__0b1fb26b788ec2c9.jpg", "boxes": [], "why": "Light spots inside an intact rectangular asphalt repair, without visible material loss."}
+{"image": "images/train/rdd_ji__15d5615ff5eea81e.jpg", "boxes": [], "why": "Longitudinal branching crack/repair seam, no bounded cavity."}
+{"image": "images/train/rdd_ji__21946608fcc7432f.jpg", "boxes": [[0, 0.3639, 0.4907, 0.4653, 0.5426], [0, 0.0014, 0.5222, 0.2111, 0.6463], [0, 0.2486, 0.5481, 0.35, 0.6]], "why": "Removed oversized box spanning road and vehicle hood; retained three local defect candidates."}
+{"image": "images/train/rdd_ji__2357187bd2b4c179.jpg", "boxes": [], "why": "Narrow intersecting cracks containing debris, without a bounded pothole."}
+{"image": "images/train/rdd_ji__47f77407328a5d51.jpg", "boxes": [], "why": "Alligator cracking with intact asphalt blocks rather than an open cavity."}
+{"image": "images/train/rdd_ji__66f13357846ddd66.jpg", "boxes": [[0, 0.6583, 0.7044, 0.73, 0.7533]], "why": "Removed intact cracked asphalt polygon; retained the other small defect candidate."}
+{"image": "images/train/rdd_ji__91f754674821fb07.jpg", "boxes": [[0, 0.3444, 0.6407, 0.6875, 0.8981], [0, 0.2806, 0.563, 0.4222, 0.6259]], "why": "Removed bright foreground paint/debris mark; retained two road defect candidates."}
+{"image": "images/train/rdd_ji__9b4a96ec7a364796.jpg", "boxes": [], "why": "Boundary between two pavement layers beside barrier; no bounded cavity."}
+{"image": "images/train/rdd_ji__a170a1a68db39c11.jpg", "boxes": [], "why": "Intact filled asphalt repair patches, no visible open cavity."}
+{"image": "images/train/rdd_ji__a813df06130b71f2.jpg", "boxes": [[0, 0.2333, 0.3611, 0.3417, 0.4926]], "why": "Removed foreground narrow longitudinal seam; retained bounded distant defect."}
+{"image": "images/train/rdd_ji__b3b33afa744a2ca0.jpg", "boxes": [[0, 0.6403, 0.5241, 0.7347, 0.6074]], "why": "Removed foreground triangular crack around intact asphalt; retained other small defect."}
+{"image": "images/train/rdd_ji__b85c94642423a320.jpg", "boxes": [], "why": "Edge of a resurfaced asphalt layer beside sandy shoulder, not a pothole."}
+{"image": "images/train/rdd_ji__c285f2646a0cee22.jpg", "boxes": [], "why": "Loose aggregate piles and tire tracks on flat asphalt, not bounded cavities."}
+{"image": "images/train/rdd_ji__e8ad338cbd7f2cff.jpg", "boxes": [[0, 0.26, 0.68, 0.44, 0.8]], "why": "Moved annotation from intact cracked asphalt and longitudinal seam to the adjacent visible dark broken cavity. Geometry verified and aligned against original full frame."}
+{"image": "images/train/rdd_ji__e91e81152935037a.jpg", "boxes": [[0, 0.3183, 0.8333, 0.47, 0.9644], [0, 0.16, 0.8267, 0.3183, 0.9711], [0, 0.0783, 0.82, 0.1583, 0.8978], [0, 0.0017, 0.9444, 0.1017, 1.0]], "why": "Removed distant utility-cover seam; retained four foreground broken asphalt cavities."}
+{"image": "images/train/rdd_ji__f1df30933de11d18.jpg", "boxes": [], "why": "Sand spill intruding from roadside over intact asphalt, no visible cavity."}
+{"image": "images/train/rdd_ji__f4022ab07e83f4b0.jpg", "boxes": [], "why": "Paint loss and surface marks on colored pavement, no visible broken cavity."}
+{"image": "images/train/rf8__2429076c99ddb45c.jpg", "boxes": [[0, 0.1903, 0.1717, 0.4606, 0.3376]], "why": "Removed broad box over intact alligator-cracked/filled asphalt; retained the separate bounded broken defect."}
+{"image": "images/train/rf8__29cbd90663b045a9.jpg", "boxes": [[0, 0.2289, 0.0468, 0.4399, 0.1492]], "why": "Removed broad box over intact alligator-cracked/filled asphalt; retained the separate bounded broken defect."}
+{"image": "images/train/rf8__38eab1aac6aa87e0.jpg", "boxes": [[0, 0.2056, 0.1189, 0.4548, 0.2745]], "why": "Removed broad box over intact alligator-cracked/filled asphalt; retained the separate bounded broken defect."}
+{"image": "images/train/rf8__3fbdaab7d78cb250.jpg", "boxes": [[0, 0.1271, 0.0638, 0.4641, 0.2874]], "why": "Removed broad box over intact alligator-cracked/filled asphalt; retained the separate bounded broken defect."}
+{"image": "images/train/rf8__77e0347233aa10dd.jpg", "boxes": [[0, 0.3005, 0.1056, 0.5157, 0.2135]], "why": "Removed broad box over intact alligator-cracked/filled asphalt; retained the separate bounded broken defect."}
+{"image": "images/train/rf8__7a55f6dc801d9e82.jpg", "boxes": [[0, 0.3207, 0.0884, 0.5226, 0.208]], "why": "Removed broad box over intact alligator-cracked/filled asphalt; retained the separate bounded broken defect."}
+{"image": "images/train/rf8__7ac85f948364c4be.jpg", "boxes": [[0, 0.1783, 0.1229, 0.4493, 0.2794]], "why": "Removed broad box over intact alligator-cracked/filled asphalt; retained the separate bounded broken defect."}
+{"image": "images/train/rf8__a0b97278d631d3eb.jpg", "boxes": [[0, 0.1328, 0.2917, 0.8129, 0.7007]], "why": "Removed broad box over intact alligator-cracked/filled asphalt; retained the separate bounded broken defect."}
+{"image": "images/train/rf8__e0cd83bd6698e7cf.jpg", "boxes": [[0, 0.1335, 0.3701, 0.8625, 0.8427]], "why": "Removed broad box over intact alligator-cracked/filled asphalt; retained the separate bounded broken defect."}
+{"image": "images/train/rsid__70d8be2d20c4d377.jpg", "boxes": [], "why": "Removed misplaced speed-bump box spanning vehicle bodies; no visible bump within box."}
+{"image": "images/train/rsid__7446e84bac025301.jpg", "boxes": [], "why": "Removed speed-bump box spanning vehicle body and occluded roadway; no visible bump."}
+{"image": "images/train/sr__e7b2d3986018977a.jpg", "boxes": [], "why": "Boxes lie on rectangular utility covers/straight joints, not bounded asphalt potholes."}
+{"image": "images/train/sr__2c95837ab4c505fb.jpg", "boxes": [[1, 0.343, 0.4435, 0.6801, 0.5065]], "why": "Removed small distant glare/occluded-road box; retained foreground transverse bump candidate."}
+{"image": "images/train/sr__9b413174a5869cf6.jpg", "boxes": [[0, 0.3428, 0.7789, 0.5197, 0.8477]], "why": "Removed nested duplicate box inside the same foreground pavement defect."}
+{"image": "images/train/sr__c0c07a0ade3009b7.jpg", "boxes": [], "why": "Box covers flat worn asphalt near the vehicle hood without a visible cavity."}
+{"image": "images/train/sr__c80c11ce7554be46.jpg", "boxes": [], "why": "Box covers filled/resurfaced asphalt boundary with longitudinal seams, no bounded hole."}
+{"image": "images/train/sr__e7f8ecc478a30467.jpg", "boxes": [], "why": "Box covers roadside rectangular drainage cover/structure, not an asphalt pothole."}

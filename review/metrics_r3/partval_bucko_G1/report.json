@@ -1,0 +1,165 @@
+{
+ "data": "parts_r3\\bucko",
+ "split": "val",
+ "definitions": "STATUS_for_claude.md Stage 7.2",
+ "thresholds_from": "argmax F1 on this split (val)",
+ "care": "all",
+ "models": {
+  "C": {
+   "pred": "runs\\detect\\PARTVAL_bucko_v3b_C_11n_960_s0_r2\\predictions.json",
+   "classes": {
+    "pothole": {
+     "n_gt": 186,
+     "AP50": 0.6357287101587835,
+     "AP50_95": 0.24764211309807607,
+     "P_at_R50": 0.6888888888888889,
+     "op": {
+      "thr": 0.1833,
+      "tp": 132,
+      "fp": 87,
+      "fn": 54,
+      "P": 0.6027397260273972,
+      "R": 0.7096774193548387,
+      "F1": 0.6518518518518519,
+      "BoxAcc": 0.4835164835164835,
+      "ImgAcc": 0.864,
+      "n_img": 125,
+      "n_neg": 42,
+      "NearR": 0.8125,
+      "n_near": 48
+     },
+     "deploy": {
+      "thr": 0.35,
+      "tp": 77,
+      "fp": 32,
+      "fn": 109,
+      "P": 0.7064220183486238,
+      "R": 0.41397849462365593,
+      "F1": 0.5220338983050847,
+      "BoxAcc": 0.3532110091743119,
+      "ImgAcc": 0.784,
+      "n_img": 125,
+      "n_neg": 42,
+      "NearR": 0.625,
+      "n_near": 48
+     }
+    },
+    "speed_bump": {
+     "n_gt": 0,
+     "AP50": null,
+     "AP50_95": null,
+     "P_at_R50": 0.0,
+     "op": {
+      "thr": 1.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "BoxAcc": 0.0,
+      "ImgAcc": 1.0,
+      "n_img": 125,
+      "n_neg": 125,
+      "NearR": null,
+      "n_near": 0
+     },
+     "deploy": {
+      "thr": 0.35,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "BoxAcc": 0.0,
+      "ImgAcc": 1.0,
+      "n_img": 125,
+      "n_neg": 125,
+      "NearR": null,
+      "n_near": 0
+     }
+    }
+   },
+   "by": {}
+  },
+  "G1": {
+   "pred": "runs\\detect\\PARTVAL_bucko_v3b_C2_11n_960_s0\\predictions.json",
+   "classes": {
+    "pothole": {
+     "n_gt": 186,
+     "AP50": 0.5312620463420686,
+     "AP50_95": 0.19949024269642185,
+     "P_at_R50": 0.6333333333333333,
+     "op": {
+      "thr": 0.1887,
+      "tp": 112,
+      "fp": 70,
+      "fn": 74,
+      "P": 0.6153846153846154,
+      "R": 0.6021505376344086,
+      "F1": 0.6086956521739132,
+      "BoxAcc": 0.4375,
+      "ImgAcc": 0.856,
+      "n_img": 125,
+      "n_neg": 42,
+      "NearR": 0.8125,
+      "n_near": 48
+     },
+     "deploy": {
+      "thr": 0.35,
+      "tp": 55,
+      "fp": 30,
+      "fn": 131,
+      "P": 0.6470588235294118,
+      "R": 0.2956989247311828,
+      "F1": 0.4059040590405904,
+      "BoxAcc": 0.25462962962962965,
+      "ImgAcc": 0.72,
+      "n_img": 125,
+      "n_neg": 42,
+      "NearR": 0.5208333333333334,
+      "n_near": 48
+     }
+    },
+    "speed_bump": {
+     "n_gt": 0,
+     "AP50": null,
+     "AP50_95": null,
+     "P_at_R50": 0.0,
+     "op": {
+      "thr": 1.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "BoxAcc": 0.0,
+      "ImgAcc": 1.0,
+      "n_img": 125,
+      "n_neg": 125,
+      "NearR": null,
+      "n_near": 0
+     },
+     "deploy": {
+      "thr": 0.35,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "BoxAcc": 0.0,
+      "ImgAcc": 1.0,
+      "n_img": 125,
+      "n_neg": 125,
+      "NearR": null,
+      "n_near": 0
+     }
+    }
+   },
+   "by": {}
+  }
+ }
+}

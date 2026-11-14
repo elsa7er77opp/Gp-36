@@ -1,0 +1,26 @@
+[
+  {
+    "candidate": 10,
+    "decision": "reject_addition",
+    "reason": "Individual full frame shows diffuse alligator cracking and material-loss regions extending outside source box; exact exhaustive pothole annotation is not sufficiently settled.",
+    "evidence": "rdd_candidates/c0010.jpg"
+  },
+  {
+    "candidate": 21,
+    "decision": "reject_addition",
+    "reason": "Individual full frame shows pale material along a repair seam but no confident bounded open cavity; do not admit as a clean new positive.",
+    "evidence": "rdd_candidates/c0021.jpg"
+  },
+  {
+    "candidate": 54,
+    "decision": "reject_addition",
+    "reason": "Individual full frame reveals the source region is clipped at the upper image edge; complete cavity extent is not visible.",
+    "evidence": "rdd_candidates/c0054.jpg"
+  },
+  {
+    "candidate": 83,
+    "decision": "reject_addition",
+    "reason": "Individual full frame shows a pale road-wear spot under glare without a sufficiently clear broken rim for high-purity admission.",
+    "evidence": "rdd_candidates/c0083.jpg"
+  }
+]

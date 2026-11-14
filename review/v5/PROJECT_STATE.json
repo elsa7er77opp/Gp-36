@@ -1,0 +1,203 @@
+{
+  "updated_utc": "2026-11-12T21:18:41.566967+00:00",
+  "workspace": "C:\\Users\\ahmed\\Desktop\\GP36_AI",
+  "current_dataset": "C:\\Users\\ahmed\\Desktop\\GP36_AI\\road_hazards_v5_source_review_20261112_u4k",
+  "resolution": [
+    960,
+    720
+  ],
+  "current_images": 11715,
+  "current_splits": {
+    "val": {
+      "images": 830,
+      "pothole_boxes": 691,
+      "speed_bump_boxes": 378,
+      "empty": 10
+    },
+    "train": {
+      "images": 10562,
+      "pothole_boxes": 6014,
+      "speed_bump_boxes": 3957,
+      "empty": 3941
+    },
+    "test": {
+      "images": 323,
+      "pothole_boxes": 285,
+      "speed_bump_boxes": 160,
+      "empty": 0
+    }
+  },
+  "current_content_fingerprint": "a4eb58dc61bebf829e9d892fe3bdbf9a928dca56d0c90e58fc21021c7b67150e",
+  "resolution_pass": true,
+  "current_release_integrity": "PASS",
+  "leakage_review": {
+    "dataset": "C:\\Users\\ahmed\\Desktop\\GP36_AI\\road_hazards_v5_source_review_20261112_u4k",
+    "manifest_sha": "366bda9f10dc179e6d683b9c3dc06b22ba0f2c7b261bca57b9e3bb5715279f25",
+    "raw_hash_screen_pass": false,
+    "raw_candidate_pairs": 2,
+    "visually_rejected_false_positive_pairs": 2,
+    "confirmed_leak_pairs": 0,
+    "unreviewed_candidate_pairs": 0,
+    "exact_cross_split_hashes": 0,
+    "cross_split_groups": {},
+    "cross_split_explicit_video_keys": {},
+    "reviewed_gate_pass": true,
+    "limitations": "No confirmed leakage under these checks. This is not proof of absence of all shared scenes or original collection routes. Generic filenames cannot certify video identities. Current annotations and additions have independent unresolved gates. No test inference performed."
+  },
+  "unresolved_existing_labels": 149,
+  "target_train_images": 13000,
+  "current_train_images": 10562,
+  "additional_train_images_needed": 2438,
+  "addition_candidates": 2420,
+  "candidate_yolo_labels": 2420,
+  "addition_images_visually_screened": 162,
+  "addition_images_staged": 11,
+  "addition_boxes_staged": 7,
+  "addition_images_merged_into_training": 0,
+  "expansion_dedup": {
+    "candidates": 2420,
+    "current_reference_match_pairs": 61,
+    "current_reference_candidate_images": 56,
+    "protected_eval_candidate_images": 0,
+    "within_candidate_pairs": 144,
+    "note": "Potential matches require visual adjudication. This screen does not accept any image or certify annotations. Source and standardized pixels, all eight transforms; dHash<=4 and pHash<=10 in same transform."
+  },
+  "training_started": false,
+  "test_inference_performed": false,
+  "train_ready": false,
+  "next_steps": [
+    "Adjudicate 149 existing provisional images using adequate source evidence; do not silently promote confidence.",
+    "Continue candidate visual review at C0163; individually recheck held images recorded in visual ledger.",
+    "Adjudicate current-reference and within-candidate perceptual matches, then complete video/scene-family grouping.",
+    "Only merge fully reviewed, unique additions into a NEW version; retain all existing images and freeze validation/test. Need 2,438 admitted additions for 13,000 train images.",
+    "Recheck every output image is 960x720 and every YOLO label is aligned, in bounds and class-correct; verify full hashes and split paths.",
+    "Train from clean pretrained YOLO11n at imgsz960, batch8, seed0, epochs70, patience20, workers2, close_mosaic10 as baseline; select checkpoints on validation. Do not invoke old train.py which automatically evaluates test."
+  ],
+  "addition_staged_pending_images": 3,
+  "addition_staged_rejected_duplicate_images": 1,
+  "addition_reviewed_negative_images": 5,
+  "addition_reviewed_pothole_images": 2,
+  "upstream_preparation": {
+    "candidates": 2623,
+    "videos": 131,
+    "resolution": [
+      960,
+      720
+    ],
+    "transform_counts": {
+      "crop": 2614,
+      "pad": 9
+    },
+    "accepted": 0,
+    "source_annotation_geometry_issue_images": 3,
+    "guard_checks_completed": false,
+    "source_family": "BPO upstream; not independent geography",
+    "status": "prepared_proposals_only",
+    "notes": "Source proposals, NOT visually confirmed labels. Video IDs interleaved to review distinct scenes first. Used canonical frame IDs and protected BPO videos excluded by inventory; full guard/current/within-candidate pixel checks remain mandatory. Source subpixel geometry issues make an image ineligible until full visual relabeling. No training started."
+  },
+  "upstream_visual_screened_images": 36,
+  "upstream_dedup": {
+    "candidates": 2623,
+    "current_reference_match_pairs": 38,
+    "current_reference_candidate_images": 33,
+    "protected_eval_candidate_images": 0,
+    "within_candidate_pairs": 331,
+    "note": "Potential matches require visual adjudication. This screen does not accept any image or certify annotations. Source and standardized pixels, all eight transforms; dHash<=4 and pHash<=10 in same transform."
+  },
+  "upstream_exact_hash_audit": {
+    "candidates": 2623,
+    "original_sha_matches": [],
+    "duplicate_original_sha_groups": [],
+    "source_box_geometry_issue_images": 3,
+    "notes": "Exact hashes supplement the separate original/standardized eight-transform perceptual screen. Geometry issue images must not be admitted without full relabeling."
+  },
+  "upstream_structural_audit": {
+    "images": 2623,
+    "size": [
+      960,
+      720
+    ],
+    "dimensions_decode_and_label_geometry": "PASS",
+    "source_subpixel_box_issue_candidates": [
+      2233,
+      2478,
+      2604
+    ],
+    "proposed_box_count": 900,
+    "candidate_content_fingerprint": "9f299f7801ffe26557b3a071a5019a52c7261944c473c75b1b89608cbf06350b",
+    "accepted_images": 0,
+    "notes": "Structural verification of candidate proposals only; not semantic approval. Three flagged images require full relabeling before admission. Protected/duplicate audits are separate. No training started."
+  },
+  "new_candidate_cross_pool_audit": {
+    "upstream_candidates": 2623,
+    "rdd_candidates": 2420,
+    "candidate_pairs": 0,
+    "views": [
+      "source",
+      "standardized"
+    ],
+    "transforms": 8,
+    "thresholds": {
+      "dhash": 4,
+      "phash": 10
+    },
+    "notes": "Potential matches need visual adjudication. No candidate automatically accepted or deleted. Complements current/protected and within-pool checks."
+  },
+  "optional_clear_subset_draft": {
+    "dataset": "C:\\Users\\ahmed\\Desktop\\GP36_AI\\road_hazards_v5_clear_subset_draft_20261112",
+    "status": "optional_draft_requires_data_scope_choice",
+    "full_dataset_preserved": "C:\\Users\\ahmed\\Desktop\\GP36_AI\\road_hazards_v5_source_review_20261112_u4k",
+    "full_train_images": 10562,
+    "excluded_from_draft_only": 149,
+    "splits": {
+      "val": {
+        "images": 830,
+        "pothole_boxes": 691,
+        "speed_bump_boxes": 378,
+        "empty": 10
+      },
+      "train": {
+        "images": 10413,
+        "pothole_boxes": 5457,
+        "speed_bump_boxes": 3931,
+        "empty": 3931
+      },
+      "test": {
+        "images": 323,
+        "pothole_boxes": 285,
+        "speed_bump_boxes": 160,
+        "empty": 0
+      }
+    },
+    "integrity": "PASS",
+    "content_fingerprint": "5d4a5671b11d90944c1a9dc9236564eb80028465405411be262f2b9ee0b31730",
+    "resolution": [
+      960,
+      720
+    ],
+    "training_started": false,
+    "train_ready": false,
+    "scope_choice_required": true,
+    "validation_test_unchanged": true,
+    "addition_candidates_included": 0,
+    "notes": "Not automatically selected for training. User requested all images; draft only demonstrates the alternative of holding unresolved examples out of training while preserving all originals. Hash/scene checks apply to superset; subsets cannot introduce train-eval overlaps. Existing AI visual labels are not a zero-error guarantee."
+  },
+  "training_scope_choice": "wait_for_13000_reviewed_train_images",
+  "training_policy": {
+    "mode": "wait_for_13000_reviewed_train_images",
+    "user_answer": "انتظر اكتمال 13,000 صورة مراجَعة",
+    "selected_on": "2026-11-12",
+    "minimum_reviewed_train_images": 13000,
+    "allow_provisional_labels": false,
+    "start_on_current_full_release": false,
+    "start_on_optional_clear_subset": false,
+    "training_started": false,
+    "requirements": [
+      "Complete visual annotation review and save actual YOLO boxes for admitted additions",
+      "Resolve existing provisional annotations with adequate evidence; do not silently promote confidence",
+      "Review near duplicates and keep scene/video families out of held-out splits",
+      "Verify every output image is 960x720 and annotation geometry remains aligned",
+      "Freeze validation/test; select checkpoint on validation; no automatic test inference"
+    ]
+  }
+}

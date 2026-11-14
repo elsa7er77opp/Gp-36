@@ -1,0 +1,17 @@
+{
+  "mode": "wait_for_13000_reviewed_train_images",
+  "user_answer": "انتظر اكتمال 13,000 صورة مراجَعة",
+  "selected_on": "2026-11-12",
+  "minimum_reviewed_train_images": 13000,
+  "allow_provisional_labels": false,
+  "start_on_current_full_release": false,
+  "start_on_optional_clear_subset": false,
+  "training_started": false,
+  "requirements": [
+    "Complete visual annotation review and save actual YOLO boxes for admitted additions",
+    "Resolve existing provisional annotations with adequate evidence; do not silently promote confidence",
+    "Review near duplicates and keep scene/video families out of held-out splits",
+    "Verify every output image is 960x720 and annotation geometry remains aligned",
+    "Freeze validation/test; select checkpoint on validation; no automatic test inference"
+  ]
+}

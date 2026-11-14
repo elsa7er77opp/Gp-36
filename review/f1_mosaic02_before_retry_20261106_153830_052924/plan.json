@@ -1,0 +1,32 @@
+{
+  "changed_training_parameter": {
+    "mosaic": [
+      1.0,
+      0.2
+    ]
+  },
+  "baseline_args_sha256": "336899de5e305364252bdb22cffe725e42b1c7555a675960077e21924239e50a",
+  "pretrained_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "baseline_val_predictions_sha256": "a594d366ed001d58b4f5512b68b912544bb53846fb5f52dd0149ec1bc68ccccd",
+  "environment": {
+    "python": "3.12.10",
+    "system": "Windows",
+    "packages": {
+      "ultralytics": "8.4.192",
+      "torch": "2.11.0+cu128",
+      "torchvision": "0.26.0+cu128",
+      "numpy": "2.5.4",
+      "PyYAML": "6.0.3",
+      "Pillow": "13.0.0"
+    }
+  },
+  "accept_rule": "bump AP50 delta >= .02; pothole AP50 delta >= -.02; near bump AP50 delta >= 0. Val only; provisional single seed.",
+  "dataset_metadata_sha256": {
+    "road_hazards_v3b_C\\data.yaml": "07727ccca3962504b0e102d4c84b59891762aee02d687b15649b440f6f6eb598",
+    "road_hazards_v3b_C\\manifest.csv": "5fbbc4d35bc4d6af9b6a9b0c2b03af44c118ad463565e8ff53e27e5146c2049e",
+    "road_hazards_v3b_C\\checksums.sha256": "5d56bf35234b4f3181192eee8974ad00a87db8dd8fb51f45579877d40209c97b",
+    "road_hazards_v3a_r2\\data.yaml": "07727ccca3962504b0e102d4c84b59891762aee02d687b15649b440f6f6eb598",
+    "road_hazards_v3a_r2\\manifest.csv": "18406c60d83df60e4320e5103b7f5c094eba8162d025a9d4adc9f321cfddbe16",
+    "road_hazards_v3a_r2\\checksums.sha256": "ec9e9dbbf892813c6b3fab0693c77686270ab45f64d01d27336c235fd2537e59"
+  }
+}

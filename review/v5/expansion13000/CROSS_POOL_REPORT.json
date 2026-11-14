@@ -1,0 +1,15 @@
+{
+  "upstream_candidates": 2623,
+  "rdd_candidates": 2420,
+  "candidate_pairs": 0,
+  "views": [
+    "source",
+    "standardized"
+  ],
+  "transforms": 8,
+  "thresholds": {
+    "dhash": 4,
+    "phash": 10
+  },
+  "notes": "Potential matches need visual adjudication. No candidate automatically accepted or deleted. Complements current/protected and within-pool checks."
+}

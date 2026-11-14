@@ -83,10 +83,11 @@ class TestLeakCheck(unittest.TestCase):
         cases = {"Image00045.jpg": "Image000xx", "MVI_1523_frame3.jpg": "MVI_15xx", "G0012345.jpg": "G00xxxxx",
                  "VID_20190924_101.jpg": "VID_20190924", "newonetrwww (12).jpg": "newonetrwww",
                  "kg_2025-01-02.jpg": "kg_/dz_", "rdd_Japan_001.jpg": "rdd_",
-                 "Image-12-_jpg.rf.0123456789abcdef0123456789abcdef.jpg": "Image000xx"}
+                 "Image-12-_jpg.rf.0123456789abcdef0123456789abcdef.jpg": "Image000xx",
+                 "SpeedBreaker-7-_jpg.rf.0123456789abcdef0123456789abcdef.jpg": "SpeedBreaker-N-"}
         for name, fam in cases.items():
             self.assertIn(fam, lc.family(name) or "", name)
-        for name in ("xqq062000001.jpg", "frame_0373.png", "IMG_1234.jpg"):
+        for name in ("xqq062000001.jpg", "frame_0373.png", "IMG_1234.jpg", "speedbreaker_12.jpg"):
             self.assertIsNone(lc.family(name), name)
 
 

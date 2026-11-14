@@ -48,9 +48,10 @@ def label_for(img):
 
 
 def clusters(rows):
-    """Union-find over within-source near-duplicates; returns cluster id per row index."""
+    """Union-find over within-source near-duplicates (rule v2: dHash <= 4 and pHash <= 10 under the SAME one of
+    the 8 flips/rotations, so flipped augmentation copies join their original); cluster id per row index."""
     D0 = np.array([r["_d8"][0] for r in rows], dtype=np.uint64)
-    P = np.array([r["_ph"] for r in rows], dtype=np.uint64)
+    P0 = np.array([r["_p8"][0] for r in rows], dtype=np.uint64)
     par = list(range(len(rows)))
 
     def f(i):
@@ -59,9 +60,9 @@ def clusters(rows):
             i = par[i]
         return i
     for i, r in enumerate(rows):
-        dd = np.min(np.bitwise_count(np.asarray(r["_d8"], dtype=np.uint64)[:, None] ^ D0[None, :]), axis=0)
-        pp = np.bitwise_count(np.uint64(r["_ph"]) ^ P)
-        for j in np.nonzero((dd <= 4) & (pp <= 10))[0]:
+        dd = np.bitwise_count(np.asarray(r["_d8"], dtype=np.uint64)[:, None] ^ D0[None, :])
+        pp = np.bitwise_count(np.asarray(r["_p8"], dtype=np.uint64)[:, None] ^ P0[None, :])
+        for j in np.nonzero(((dd <= 4) & (pp <= 10)).any(axis=0))[0]:
             if j != i:
                 par[f(i)] = f(int(j))
     return [f(i) for i in range(len(rows))]
@@ -75,7 +76,8 @@ def hashes(path):
     with Image.open(path) as im:
         im.draft("RGB", (512, 512))
         im = im.convert("RGB")
-        return [int(dhash(im if t is None else im.transpose(t))) for t in DIHEDRAL], int(phash(im))
+        tr = [im if t is None else im.transpose(t) for t in DIHEDRAL]
+        return [int(dhash(x)) for x in tr], [int(phash(x)) for x in tr]
 
 
 def main():
@@ -100,7 +102,7 @@ def main():
         lk = check_image(img, RD, RP, ids, shas)
         d8, ph = hashes(img)
         rows.append({"image": str(img.relative_to(root)), "label": bool(lbl), "cls": cls, "base": base_name(img.stem),
-                     "family": family(img.name), "hit": lk["hit"], "closest": lk["closest_id"], "_d8": d8, "_ph": ph})
+                     "family": family(img.name), "hit": lk["hit"], "closest": lk["closest_id"], "_d8": d8, "_p8": ph})
     if not rows:
         sys.exit(f"no images under {root}")
     cid = clusters(rows)

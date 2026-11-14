@@ -1,0 +1,31 @@
+{
+  "dataset": "C:\\Users\\ahmed\\Desktop\\GP36_AI\\road_hazards_v5_source_review_20261112_u4k",
+  "required_size": [
+    960,
+    720
+  ],
+  "splits": {
+    "train": {
+      "images": 10562,
+      "sizes": {
+        "960x720": 10562
+      }
+    },
+    "val": {
+      "images": 830,
+      "sizes": {
+        "960x720": 830
+      }
+    },
+    "test": {
+      "images": 323,
+      "sizes": {
+        "960x720": 323
+      }
+    }
+  },
+  "mismatches": [],
+  "unreadable": [],
+  "total_images": 11715,
+  "pass": true
+}

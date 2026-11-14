@@ -1,0 +1,66 @@
+{
+ "name": "irdd",
+ "root": "/home/user/data/zen_irdd/x",
+ "images": 8479,
+ "labelled": 8479,
+ "class_id_counts": {
+  "1": 3105,
+  "0": 1782,
+  "2": 1500,
+  "3": 2169
+ },
+ "data_yaml_names": {
+  "data.yaml": [
+   "D00_Longitudinal",
+   "D10_Transverse",
+   "D20_Alligator",
+   "D40_Pothole"
+  ]
+ },
+ "licence_lines": [],
+ "roboflow_bases": 8479,
+ "images_per_base": {
+  "1": 8479
+ },
+ "near_dup_clusters": 4763,
+ "images_per_cluster": {
+  "2": 486,
+  "3": 186,
+  "14": 10,
+  "4": 102,
+  "1": 3709,
+  "6": 42,
+  "25": 4,
+  "5": 68,
+  "7": 29,
+  "8": 28,
+  "12": 9,
+  "9": 18,
+  "10": 16,
+  "15": 5,
+  "26": 2,
+  "11": 11,
+  "18": 1,
+  "37": 2,
+  "24": 3,
+  "13": 9,
+  "21": 1,
+  "22": 7,
+  "29": 3,
+  "16": 3,
+  "47": 1,
+  "27": 2,
+  "61": 1,
+  "38": 1,
+  "44": 1,
+  "20": 1,
+  "23": 1,
+  "17": 1
+ },
+ "known_families": {},
+ "leak_hits_eval": 0,
+ "leak_hits_r2_train": 0,
+ "leak_eval_by_protected_set": {},
+ "leak_eval_by_family": {},
+ "hint": "AUGMENTED export: keep one image per base/cluster"
+}

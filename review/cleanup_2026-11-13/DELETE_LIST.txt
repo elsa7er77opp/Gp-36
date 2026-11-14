@@ -1,0 +1,40 @@
+# Cleanup 2026-11-13 — owner request (Ahmed, chat 20:54): "delete anything not needed in the project folder, especially the data".
+# Checked before deleting: perception/ uses only runs/detect/v3a_r1_11n_960_s0 weights + yolo11n.pt (kept); C's data
+# road_hazards_v3b_C has its own images (no .npy, no links); ALLVAL/ALLTEST are copies in review/alldata_v1/ds (kept);
+# only old build scripts in tools/ refer to the folders below (scripts are kept as history).
+# OLD DATASETS (superseded before C)
+road_hazards
+road_hazards_v2
+road_hazards_v3a
+road_hazards_v3a_r1
+# DATASETS OF REJECTED / SUPERSEDED EXPERIMENTS (their models and results stay in runs/)
+road_hazards_v3b_A
+road_hazards_v3b_B
+road_hazards_v3b_C2
+road_hazards_v3b_C3
+road_hazards_v4_clean
+road_hazards_v4_std
+GP36_v4_clean
+GP36_v4_clean.zip
+GP36_v4_std
+GP36_v4_std.zip
+road_hazards_v5_all
+road_hazards_v5_all_corrected_final
+road_hazards_v5_clear_subset_draft_20261112
+road_hazards_v5_corrected_20261112
+road_hazards_v5_curated_10000
+road_hazards_v5_fixed
+road_hazards_v5_source_review_20261112
+road_hazards_v5_source_review_20261112_u4k
+# CLAUDE'S UNUSED STAGE 42 WORK (on hold, never run)
+road_hazards_v3b_C_fix
+review/ft_fix_2026-11-13
+run_ft_0_prepare_and_train_visible.bat
+run_ft_1_C_fixlabels_visible.bat
+# ARCHIVE (torch installer already installed in venv; raw zips already extracted; old review/delivery packages)
+_archive_2026-11-08
+# TRANSFER LEFTOVERS (handoff 25 §5) + empty folder of the aborted A1 run
+review/alldata_v1/onnx_eval/stage
+review/alldata_v1/export_2026-11-13/_parts
+review/alldata_v1/export_2026-11-13/_parts2
+runs/detect/v5_all_11n_960_s0_ALLVAL

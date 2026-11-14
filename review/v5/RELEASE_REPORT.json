@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-12",
+  "labelling": "AI visual review by claude and codex; no detector output used",
+  "reviewed_sheets": 916,
+  "rechecked_uncertain_images": 988,
+  "corrected_images": 522,
+  "unresolved_images": 435,
+  "eligible_train_images": 10127,
+  "curated_train_images": 10000,
+  "eligible_reserve_images": 127,
+  "train_sources": {
+    "ghpot": 73,
+    "rf8": 1168,
+    "sb15": 1658,
+    "rsid": 749,
+    "bucko": 277,
+    "rdd_ji": 343,
+    "sr": 2249,
+    "dmd": 274,
+    "pol": 359,
+    "red": 330,
+    "ng8": 274,
+    "hmpt": 418,
+    "ens": 409,
+    "egy": 1051,
+    "bpo": 368
+  },
+  "complete_dataset_splits": {
+    "val": {
+      "images": 830,
+      "pothole_boxes": 691,
+      "speed_bump_boxes": 378,
+      "empty": 10
+    },
+    "train": {
+      "images": 10562,
+      "pothole_boxes": 6257,
+      "speed_bump_boxes": 3960,
+      "empty": 3866
+    },
+    "test": {
+      "images": 323,
+      "pothole_boxes": 285,
+      "speed_bump_boxes": 160,
+      "empty": 0
+    }
+  },
+  "full_content_fingerprint": "e1dd36f6f5b468d59192f56179796e8539182f43d1ff2bb814fc96e4dff47826",
+  "verification": "PASS: every full image decoded, dimension/hash checked, every label checked against fixes/source; curated pairs checked byte-for-byte",
+  "val_test": "Image and label bytes unchanged; no model evaluation performed",
+  "limitations": "Visual first pass complete; unresolved images preserved only in complete release. Curated data is AI-reviewed, not human ground truth or a guarantee of perfect annotation."
+}

@@ -1,0 +1,490 @@
+# Eye review by Claude Code (labeller=claude), started 2026-11-11. Rule: a cell is bad if a box is not on a visible pothole/bump (rough or ravelled surface, patch, hood/edge, debris), a clear hazard has no box, a box is far off, close-up/not road, or too dark/blurred to tell. "# NNNN ok" = sheet looked at, no bad cell.
+0001: 10   # small box on debris
+0002: 4 5 7 8 10 11 12   # boxes on ravelled/rough surface, not a cavity; 5 on hood edge
+0003: 1 6 9 12   # ravelled surface / cracks / shadow
+0004: 1 2 3 4 12   # wet-road reflections and puddles, wiper, hood edge
+0005: 1 3 11   # boxes on dirt / hood area
+0006: 1 3   # boxes on roadside/parked area
+0007: 2 3 5 6 8 12   # tall boxes on cracks / hood edge
+0008: 2 8 12   # boxes on cracks / not a cavity
+SOURCE bpo   # sheets 0001-0032 all looked at: boxes on wet-road ripples, puddles, plastic, grass, lane lines, roadside dirt; close-ups and rain-covered/dark frames. Systematic, so the whole source is left out.
+0033: 2 5 6   # night, headlight only - too dark to tell
+0035: 1 11   # night
+0036: 12   # night
+0037: 1 10   # night; wiper covers view
+0038: 1   # night
+0039: 4 7   # night
+0040: 5   # night
+# 0034 ok
+# 0041 ok
+# 0044 ok
+0042: 4   # night
+0043: 2 3 4 8   # night
+0045: 4 6 10   # night
+0046: 2   # night
+0047: 8 12   # night
+0048: 1 2 6 12   # night
+0049: 4 11   # wiper/rain covers view; night
+0050: 4   # night
+0051: 2 7 12   # night; wiper covers view
+0052: 5 11   # night
+# 0053 ok
+# 0054 ok
+0055: 7 10   # close-up of the bump; device in view, not a road view
+0056: 8   # close-up of the bump
+0057: 1 10   # close-up / blurred
+0058: 5 8 9 12   # close-ups; laptop in view
+0059: 6   # close-up
+0060: 2 4 6 9   # close-ups; tilted wall view; laptop in view
+0061: 1 3 9   # close-ups
+0062: 2 8   # close-ups
+# 0063 ok
+0064: 2 3 4 7   # close-ups
+0065: 3 7 8 9   # blurred / close-ups
+0066: 4   # device in view
+0067: 1 2   # close-ups
+0068: 2   # close-up
+# 0069 ok
+# 0070 ok
+# 0071 ok
+# 0072 ok
+# 0073 ok
+0074: 10   # box on rough curb strip, not a cavity
+# 0075 ok
+# 0076 ok
+# 0077 ok
+# 0078 ok
+# 0079 ok
+# 0080 ok
+# 0081 ok
+# 0082 ok
+# 0083 ok
+# 0084 ok
+# 0085 ok
+# 0086 ok
+# 0087 ok
+# 0088 ok
+# 0089 ok
+# 0090 ok
+# 0091 ok
+# 0092 ok
+# 0093 ok
+0094: 10   # dashboard reflection covers the view
+0095: 1   # square box on a dark cover, likely manhole
+# 0096 ok
+# 0097 ok
+# 0098 ok
+# 0099 ok
+# 0100 ok
+# 0101 ok
+# 0102 ok
+# 0103 ok
+# 0104 ok
+# 0105 ok
+# 0106 ok
+# 0107 ok
+# 0108 ok
+# 0109 ok
+# 0110 ok
+# 0111 ok
+# 0112 ok
+0113: 2 10 11 12   # rubble close-up; box on dashboard reflection
+0114: 1 2 3 4 5 6 7 8 10   # phone pointed down at the road surface - not a forward road view
+0115: 2 3 4 5 6 7 8 9 10 11 12   # road-surface views (camera tilted down)
+0116: 1 2 3 6 7 8 9 10 11 12   # road-surface views
+0117: 2 3 4 5 6 7 8 10 11 12   # road-surface views / dirt close-ups
+0118: 1 2 3 4 5 6 7 8 12   # road-surface views
+0119: 2 3 4 5 6 7 8 9 10 12   # road-surface views
+0120: 3 4 5 6 7 8 9 10 11 12   # road-surface views / close-ups
+0121: 1 2 3 4 5 6 7 8 9 10 11 12   # egy phone shots pointed down at the road surface - not a forward road view
+0122: 1 2 3 4 5 6 7 8 9 10 11 12   # egy phone shots pointed down at the road surface - not a forward road view
+0123: 1 2 3 4 5 6 7 8 9 10 11 12   # egy phone shots pointed down at the road surface - not a forward road view
+0124: 1 2 3 4 5 6 7 8 9 10 11 12   # egy phone shots pointed down at the road surface - not a forward road view
+0125: 1 2 3 4 5 6 7 8 9 10 11 12   # egy phone shots pointed down at the road surface - not a forward road view
+0126: 1 2 3 4 5 6 7 8 9 10 11 12   # egy phone shots pointed down at the road surface - not a forward road view
+0127: 1 2 3 4 5 6 7 8 9 10 11 12   # egy phone shots pointed down at the road surface - not a forward road view
+0128: 1 2 3 4 5 6 7 8 9 10 11 12   # egy phone shots pointed down at the road surface - not a forward road view
+0129: 1 2 3 4 5 6 7 8 9 10 11 12   # egy phone shots pointed down at the road surface
+0130: 1 2 3 4 5 6 7 8 9 10 11 12   # egy phone shots pointed down at the road surface
+0131: 1 2 3 4 5 6 7 8 9 10 11 12   # egy phone shots pointed down at the road surface
+0132: 1 2 3 4 5 6 7 8 9 10 11 12   # egy phone shots pointed down at the road surface
+0133: 1 2 3 4 5 6 7 8 9 10 11 12   # egy phone shots pointed down at the road surface
+0134: 1 2 3 4 5 6 7 8 9 10 11 12   # egy phone shots pointed down at the road surface
+0135: 1 2 3 4 5 6 7 8 9 10 11   # egy road-surface views
+0136: 3 4 5 6 8 9 10 11 12   # ghpot close-ups of potholes (not a forward road view); stock photo with watermark
+SOURCE ghpot   # sheets 0136-0139 looked at: web/stock close-ups of potholes, workers repairing, watermark - not a forward road view
+0139: 9 10 11 12   # hmpt night handheld close views of rubber humps, loose boxes
+0140: 1 2 3 4 5 6 7 8 9 10 11 12   # hmpt night handheld close/tilted views, loose boxes
+0141: 1 2 3 4 5 6 7 8 9 10 11 12   # hmpt night handheld close/tilted views, loose boxes
+# 0142 ok   (night dashcam, painted humps clearly lit)
+# 0143 ok
+# 0144 ok
+# 0145 ok
+# 0146 ok
+# 0147 ok
+# 0148 ok
+0149: 11   # handheld night close view
+0150: 1   # handheld night close view
+0151: 4 5 9 10 12   # too dark at the boxed area; product photos / rotated close-up
+0152: 1 2 3 6 7   # product photos / rotated close-ups
+0153: 1 2 3 4 5 6 7 8 9 10 11 12   # hmpt web/product photos, rotated/sheared augmentations, white backgrounds - not a forward road view
+0154: 1 2 3 4 5 6 7 8 9 10 11 12   # hmpt web/product photos, rotated/sheared augmentations, white backgrounds - not a forward road view
+0155: 1 2 3 4 5 6 7 8 9 10 11 12   # hmpt web/product photos, rotated/sheared augmentations, white backgrounds - not a forward road view
+0156: 1 2 3 4 5 6 7 8 9 10 11 12   # hmpt web/product photos, rotated/sheared augmentations, white backgrounds - not a forward road view
+0157: 1 2 3 4 5 6 7 8 9 10 11 12   # hmpt web/product photos, rotated/sheared augmentations, white backgrounds - not a forward road view
+0158: 1 2 3 4 5 6 7 8 9 10 11 12   # hmpt web/product photos, rotated/sheared augmentations, white backgrounds - not a forward road view
+0159: 1 2 3 4 5 6 7 8 9 10 11 12   # hmpt web/product photos, rotated/sheared augmentations, white backgrounds - not a forward road view
+0160: 1 2 3 4   # hmpt augmented web photos
+# 0161 ok
+# 0162 ok
+# 0163 ok
+# 0164 ok
+# 0165 ok
+# 0166 ok
+# 0167 ok
+# 0168 ok
+# 0169 ok
+# 0170 ok
+# 0171 ok
+# 0172 ok
+# 0173 ok
+# 0174 ok
+# 0175 ok
+# 0176 ok
+SOURCE rdd_ji   # sheets 0177-0217 looked at: India part - very large boxes over ravelled/dusty pavement and dirt shoulders; Japan part - tiny boxes that cannot be confirmed at sheet scale, some on manholes, many close road-surface or tilted views. Systematic, so left out.
+# 0177 pol cells ok
+SOURCE red   # sheets 0217-0223 looked at: camera tilted down at the road surface, painted hump fills the view, no horizon - not a forward road view (some boxes also on a crosswalk corner / broken patch)
+# 0224 ok
+# 0225 ok
+# 0226 ok
+# 0227 ok
+# 0228 ok
+# 0229 ok
+# 0230 ok
+# 0231 ok
+# 0232 ok
+# 0233 ok
+# 0234 ok
+# 0235 ok
+# 0236 ok
+# 0237 ok
+# 0238 ok
+# 0239 ok
+# 0240 ok
+# 0241 ok
+# 0242 ok
+# 0243 ok
+# 0244 ok
+# 0245 ok
+# 0246 ok
+0247: 7   # hand covers the view
+# 0248 ok
+# 0249 ok
+# 0250 ok
+# 0251 ok
+# 0252 ok
+# 0253 ok
+# 0254 ok
+# 0255 ok
+# 0256 ok
+# 0257 ok
+# 0258 ok
+# 0259 ok
+# 0260 ok
+# 0261 ok
+0263: 10 11 12   # bump boxes far too big, covering cars
+0262: 5   # tilted road-surface close view
+0264: 5 6 8   # tilted close views; box far too big
+0265: 4 5 11 12   # box far too big; mirror covers view; road-surface close view
+0266: 1 2 8 9 10   # road-surface close view; bump boxes over flat road, not visible
+# 0267 ok
+0268: 4 5 6 7 8 9 10 11 12   # portrait night close-ups (letterboxed)
+0269: 1 2 3 4 5 6 7 8   # portrait close-ups; bump boxes over flat road, not visible; road-surface view
+# 0270 ok
+0271: 5 6   # hand covers the view
+# 0272 ok
+# 0273 ok
+0274: 5 7 9 10 11 12   # boxes far too big; box on a zebra crossing; mirror/road-surface close views; portrait close-up
+# 0275 ok
+# 0276 ok
+# 0277 ok
+# 0278 ok
+0279: 2 9 10 11 12   # night tail-light glare; handlebar covers view; portrait close-ups
+0280: 1 2 3 4 5 6 7 8 11   # low letterboxed views, bump boxes over flat road (not visible); wet night reflections; web close-up
+0281: 2 6 11   # web close-ups of potholes
+# 0282 ok
+0283: 6   # web close-up of a pothole
+0284: 6   # blurred, close-up
+0285: 2 8   # road-surface close-ups with many boxes
+0286: 12   # close-up
+0287: 2 6 7   # web close-ups
+0288: 8   # web close-up
+0289: 2 3 4 5 6 7 8 9   # road-surface close-ups (gravel) with loose boxes
+# 0290 ok
+# 0291 ok
+# 0292 ok
+# 0293 ok
+0294: 2   # night, too dark
+# 0295 ok
+0296: 6   # night, only headlight glare
+# 0297 ok
+# 0298 ok
+0299: 5 6   # night, wet reflections, too dark
+# 0300 ok
+# 0301 ok
+# 0302 ok
+# 0303 ok
+# 0304 ok
+# 0305 ok
+# 0306 ok
+# 0307 ok
+0308: 4 5 6 7 8   # synthetic rendered (CG) road images, not real
+# 0309 ok
+# 0310 ok
+# 0311 ok
+# 0312 ok
+# 0313 ok
+# 0314 ok
+# 0315 ok
+# 0316 ok
+# 0317 ok
+# 0318 ok
+0319: 5   # wiper covers the view
+# 0320 ok
+0321: 2   # wiper covers the view
+0322: 12   # wiper covers the view
+0323: 9 12   # wiper covers the view
+# 0324 ok
+0325: 4   # wiper covers the view
+# 0326 ok
+0327: 5   # wiper covers the view
+0328: 4   # wiper covers the view
+0329: 2 9 12   # wiper covers the view
+# 0330 ok
+# 0331 ok
+# 0332 ok
+# 0333 ok
+# 0334 ok
+# 0335 ok
+# 0336 ok
+# 0337 ok
+# 0338 ok
+# 0339 ok
+# 0340 ok
+# 0341 ok
+# 0342 ok
+# 0343 ok
+# 0344 ok
+# 0345 ok
+# 0346 ok
+# 0347 ok
+0348: 9 11   # sb15 box on a crack line, no hump visible
+# 0349 ok
+# 0350 ok
+# 0351 ok
+# 0352 ok
+# 0353 ok
+# 0354 ok
+# 0355 ok
+# 0356 ok
+# 0357 ok
+# 0358 ok
+# 0359 ok
+# 0360 ok
+# 0361 ok
+# 0362 ok
+# 0363 ok
+# 0364 ok
+# 0365 ok
+# 0366 ok
+# 0367 ok
+# 0368 ok
+# 0369 ok
+# 0370 ok
+# 0371 ok
+# 0372 ok
+# 0373 ok
+# 0374 ok
+# 0375 ok
+# 0376 ok
+# 0377 ok
+# 0378 ok
+# 0379 ok
+# 0380 ok
+# 0381 ok
+# 0382 ok
+# 0383 ok
+# 0384 ok
+# 0385 ok
+# 0386 ok
+# 0387 ok
+# 0388 ok
+# 0389 ok
+# 0390 ok
+# 0391 ok
+# 0392 ok
+# 0393 ok
+# 0394 ok
+# 0395 ok
+# 0396 ok
+# 0397 ok
+# 0398 ok
+# 0399 ok
+# 0400 ok
+# 0401 ok
+# 0402 ok
+# 0403 ok
+# 0404 ok
+# 0405 ok
+# 0406 ok
+# 0407 ok
+# 0408 ok
+# 0409 ok
+# 0410 ok
+# 0411 ok
+# 0412 ok
+# 0413 ok
+# 0414 ok
+# 0415 ok
+# 0416 ok
+0417: 7   # object covers the view
+# 0418 ok
+# 0419 ok
+# 0420 ok
+# 0421 ok
+# 0422 ok
+# 0423 ok
+# 0424 ok
+# 0425 ok
+# 0426 ok
+# 0427 ok
+# 0428 ok
+# 0429 ok
+0430: 9   # object covers the view
+# 0431 ok
+# 0432 ok
+# 0433 ok
+# 0434 ok
+# 0435 ok
+# 0436 ok
+# 0437 ok
+# 0438 ok
+# 0439 ok
+# 0440 ok
+# 0441 ok
+# 0442 ok
+# 0443 ok
+# 0444 ok
+# 0445 ok
+# 0446 ok
+# 0447 ok
+# 0448 ok
+0449: 2   # clear dark pothole, image has no box
+# 0450 ok
+# 0451 ok
+# 0452 ok
+# 0453 ok
+# 0454 ok
+# 0455 ok
+# 0456 ok
+0457: 8   # road-surface close-up
+# 0458 ok
+# 0459 ok
+# 0460 ok
+# 0461 ok
+# 0462 ok
+# 0463 ok
+# 0464 ok
+# 0465 ok
+# 0466 ok
+# 0467 ok
+# 0468 ok
+0469: 6 7   # sun glare covers the view
+# 0470 ok
+# 0471 ok
+# 0472 ok
+# 0473 ok
+0474: 10   # road-surface close-up
+# 0475 ok
+# 0476 ok
+# 0477 ok
+0478: 3 7 10 12   # handheld close-ups (manhole, pothole, grass path)
+# 0479 ok
+0480: 1 8   # handheld close-ups
+# 0481 ok
+# 0482 ok
+0483: 5   # handheld close-up
+0484: 5 12   # handheld close-ups
+# 0485 ok
+0486: 10   # handheld close-up
+# 0487 ok
+0488: 4 6   # handheld close-ups
+# 0489 ok
+0490: 6   # handheld close-up
+0491: 1 2 3 8   # handheld close-ups / road-surface view
+0492: 1   # grass, not a road view
+0493: 2 6   # tunnel glare; handheld close-up
+0494: 11   # handheld close-up of a gravel path
+0495: 2   # wiper covers the view
+0496: 4 5 12   # handheld close-ups
+0497: 1 4 12   # handheld close-ups
+0498: 9 10 11 12   # handheld close-ups / grass path
+0499: 1   # dark, glare
+0500: 6   # handheld close-up
+# 0501 ok
+0502: 3 5   # tunnel glare; handheld close-up of a gravel path
+0503: 2   # sun glare covers the view
+0504: 4   # handheld close-up of a gravel path
+# 0505 ok
+0506: 4   # handheld close-up of a puddle
+0507: 6 7   # handheld close-up; low-res road surface
+0508: 11 12   # grass path; handheld close-up
+# 0509 ok
+0510: 5   # grass path close-up
+0511: 4   # handheld close-up of a gravel path
+0512: 4 8 12   # sun glare; wiper; handheld close-up
+0513: 1 5 6   # glare; wiper covers the view
+0514: 1 5 8 9 11 12   # handheld close-ups; glare; wiper
+# 0515 ok
+# 0516 ok
+0517: 4   # handheld close-up of a puddle
+0518: 3 4   # handheld close-ups
+0519: 7   # handheld close-up
+# 0520 ok
+0521: 9   # handheld close-up
+# 0522 ok
+# 0523 ok
+# 0524 ok
+# 0525 ok
+# 0526 ok
+# 0527 ok
+# 0528 ok
+# 0529 ok
+# 0530 ok
+# 0531 ok
+# 0532 ok
+# 0533 ok
+# 0534 ok
+# 0535 ok
+# 0536 ok
+# 0537 ok
+# 0538 ok
+# 0539 ok
+# 0540 ok
+# 0541 ok
+# 0542 ok
+# 0543 ok
+# 0544 ok
+# 0545 ok
+# 0546 ok
+0547: 2   # sun glare covers the view
+0548: 12   # upside-down / mirrored frame
+0549: 3   # sun glare
+# 0550 ok
+# 0551 ok
+0552: 1   # sun glare
+0553: 1 6   # sun glare
+# 0554 ok
+# 0555 ok
+# 0556 ok
+DONE

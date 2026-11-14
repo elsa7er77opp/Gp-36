@@ -1,0 +1,37 @@
+{
+ "part": "irq",
+ "items": "/tmp/claude-0/-home-user-Gp-36/55f2f952-d430-5ea3-b945-ca598a7929f9/scratchpad/items_irq.csv",
+ "n_items": 8479,
+ "kept": 7802,
+ "drops": {
+  "label_error": 642,
+  "exact_dup_in_part": 35
+ },
+ "far_tiny_boxes_removed": 0,
+ "ignored_boxes_removed": 5366,
+ "far_tiny_threshold": 0.02,
+ "leakage_guard": "exact + dHash<=4 & pHash<=10 under the same one of 8 flips/rotations (rule v2, 2026-11-04) vs /nonexistent (all splits)",
+ "splits": {
+  "train": {
+   "images": 5613,
+   "negatives": 4556,
+   "pothole_boxes": 1542,
+   "speed_bump_boxes": 0,
+   "groups": 32
+  },
+  "val": {
+   "images": 1109,
+   "negatives": 887,
+   "pothole_boxes": 345,
+   "speed_bump_boxes": 0,
+   "groups": 8
+  },
+  "test": {
+   "images": 1080,
+   "negatives": 905,
+   "pothole_boxes": 231,
+   "speed_bump_boxes": 0,
+   "groups": 8
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+  "reviewer": "codex_visual",
+  "evidence": ["rdd_candidates/sheet_0001.jpg", "rdd_candidates/sheet_0007.jpg", "rdd_candidates/sheet_0013.jpg"],
+  "status": "preliminary_visual_screen_only",
+  "candidate_decisions": [
+    {"candidate":1,"decision":"visual_approved_pending_current_train_dedup","reason":"Two localized asphalt-loss defects; round manholes correctly unlabelled."},
+    {"candidate":2,"decision":"reject_addition","reason":"Distant dusty region does not reveal a cavity clearly."},
+    {"candidate":3,"decision":"reject_addition","reason":"Box covers intact dark filled road patch."},
+    {"candidate":4,"decision":"visual_approved_pending_current_train_dedup","reason":"Localized broken asphalt depression above grate; grate is not boxed."},
+    {"candidate":5,"decision":"negative_candidate_pending_full_review","proposed_boxes":[],"reason":"Box covers longitudinal and alligator cracking, no bounded open pothole."},
+    {"candidate":6,"decision":"reject_addition","reason":"Blurred broad repair textures; open versus filled cannot be settled."},
+    {"candidate":7,"decision":"reject_addition","reason":"Coarse texture without a sufficiently clear broken cavity rim."},
+    {"candidate":8,"decision":"reject_addition","reason":"Broad fine-textured patch looks filled; uncertain material loss."},
+    {"candidate":9,"decision":"reject_addition","reason":"Distant light dusty patch, also same scene family as candidates 2 and 8."},
+    {"candidate":10,"decision":"needs_individual_source_view","reason":"Possible foreground asphalt loss at crop edge; exact extent not visible in contact sheet."},
+    {"candidate":11,"decision":"visual_approved_pending_current_train_dedup","reason":"Clear localized broken asphalt next to drainage channel; manhole excluded."},
+    {"candidate":12,"decision":"reject_addition","reason":"Dark smooth patch lacks a clear broken rim."},
+    {"candidate":13,"decision":"reject_addition","reason":"Large box covers unpaved entrance; small spot remains ambiguous."},
+    {"candidate":14,"decision":"reject_addition","reason":"Small distant rough spots not sufficiently clear for high-purity additions."},
+    {"candidate":15,"decision":"needs_individual_source_view","reason":"Foreground fine aggregate might be filled damage; small distant mark unclear."},
+    {"candidate":16,"decision":"reject_addition","reason":"Small pale coarse patch lacks a clear open rim."},
+    {"candidate":17,"decision":"visual_approved_pending_current_train_dedup","reason":"Visible open cavity with broken asphalt edge beside gutter."},
+    {"candidate":18,"decision":"visual_approved_pending_current_train_dedup","reason":"Small localized open asphalt-loss pit; surrounding exposed aggregate is unboxed."}
+  ],
+  "accepted_into_training_release": 0,
+  "remaining_checks": ["near duplicates against all current training images", "within-candidate duplicates and scene-family audit", "final full-resolution box review before acceptance"]
+}

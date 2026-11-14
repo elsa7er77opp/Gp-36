@@ -1,0 +1,924 @@
+ PROJECT OUTLINE
+
+ BEng (Hons) Mechatronics Engineering
+
+
+
+ Name: Ahmed Mohamed Elsayed Elreefy (23022692)
+
+
+ Supervisor: Dr. Peter Makeen
+
+
+
+
+AI-Powered Multi-Modal Perception System for
+Autonomous Micro-Mobility Environmental
+Awareness
+
+8 November 2026
+School of Engineering and Computer Science                                                                        BEng Project Outline
+
+
+TABLE OF CONTENTS
+
+1. INTRODUCTION..........................................................................................................................1
+    1.1 Project Background and Justification...................................................................................1
+    1.2 Project Aim and Objectives.................................................................................................. 1
+    1.3 Product Design Specification (PDS).....................................................................................2
+    1.4 Methodology (VDI 2206)....................................................................................................... 2
+    1.5 Concept Generation and Selection....................................................................................... 3
+    1.6 System Architecture and Circuit...........................................................................................4
+    1.7 Health, Safety and Ethics.....................................................................................................5
+    1.8 Sustainability Analysis.......................................................................................................... 6
+2. SOURCES OF INFORMATION.................................................................................................... 6
+3. RESOURCE ANALYSIS.............................................................................................................. 7
+4. PROJECT PLAN.......................................................................................................................... 8
+    4.1 Project Work Description and Progress to Date...................................................................8
+    4.2 Critical Path Analysis..........................................................................................................10
+    4.3 Threats and Contingency Plan...........................................................................................10
+5. REFERENCES...........................................................................................................................11
+APPENDIX A: Gantt Chart............................................................................................................ 12
+APPENDIX B: Project Resources Checklist............................................................................... 15
+APPENDIX C: Project Risk, Ethics and Threat Assessment Checklist....................................17
+APPENDIX D: Pod Wiring Diagram............................................................................................. 18
+
+TABLE OF FIGURES
+Figure 1: VDI 2206 V-model as applied to the perception pod.........................................................3
+Figure 2: System architecture of the perception pod and the edge PC............................................5
+Figure 3: Four-wheel-drive lab robot car to be used as the test vehicle...........................................5
+Figure 4: Gantt chart v2 – completed, in-progress and planned tasks, critical path and gates.......12
+Figure 5: Pod wiring diagram: ESP32 DevKit sensor hub, sensors, motor driver and power supply18
+
+LIST OF TABLES
+Table 1: Product Design Specification.............................................................................................. 2
+Table 2: Morphological chart (selected options of Concept A in bold)..............................................3
+Table 3: Weighted evaluation of the four concepts (score 1–5)........................................................4
+Table 4: Summary of the component request (full list in Appendix B)..............................................7
+Table 5: Work plan for the whole project (task numbers refer to the Gantt chart in Appendix A).....8
+Table 6: Progress against the first Gantt chart (v1) on 8 November 2026........................................9
+Table 7: Hazard model results so far (AP50 per class; val = validation set, never used for testing) 9
+Table 8: Decision gates and milestones.........................................................................................10
+Table 9: Main threats to the plan.................................................................................................... 10
+Table 10: Gantt chart task list (each task ≤ 2 weeks; CP = on the critical path).............................13
+Table 11: Components to be used in the pod (items sheet submitted to the PTO on 29 Oct 2026)15
+
+
+
+
+                                                                                                                                          i
+School of Engineering and Computer Science                                       BEng Project Outline
+
+
+1. INTRODUCTION
+
+   1.1 Project Background and Justification
+Electric micro-mobility vehicles such as e-scooters, small delivery robots and personal mobility
+pods are now common in many cities, and they share the road with pedestrians, cars and a road
+surface that is not always in good condition. A small vehicle is much more affected by potholes
+and speed bumps than a car, and its rider or its control system has very little time to react. Most
+low-cost safety systems use a single sensor. An ultrasonic sensor alone cannot tell a soft bush
+from a solid wall, and a camera alone can fail in poor lighting or when the lens is blocked, so the
+brief of this project asks for a module that combines several sensors.
+
+A review of perception for intelligent two-wheelers by Hassanin et al. (2025) found fewer than
+ten e-scooter detection studies in three years, small datasets, and weak performance at night,
+and it named multi-modal fusion as a future direction. Existing systems that do work are
+expensive: Zheng et al. (2025) used an Intel RealSense depth camera on an e-scooter, and
+Barua and Hitosugi (2025) used thermal and stereo cameras on an NVIDIA Jetson AGX Orin.
+On the other hand, the low-cost ESP32-CAM and ultrasonic system of Aniobi (2024) had a
+delay of about 715 ms, which is too slow for a moving vehicle. There is therefore a gap for a low-
+cost, modular perception pod that can detect obstacles and road hazards, measure their
+distance and give a clear safety decision in real time.
+
+The expected benefits are a cheap and re-usable "perception pod" that can be mounted on
+different small vehicles, a documented and leak-free dataset and model for potholes and speed
+bumps, and measured results (accuracy, latency and distance error) that can be compared with
+the literature. The work also supports the safety of micro-mobility users in local conditions,
+where unmarked speed bumps and potholes are very common.
+
+
+   1.2 Project Aim and Objectives
+Aim: To design, build and evaluate a low-cost multi-modal perception pod (camera, LiDAR and
+ultrasonic range sensors, and IMU) for a small micro-mobility vehicle that detects obstacles and
+road hazards (pedestrians, vehicles, potholes and speed bumps), estimates their distance and
+outputs SAFE / WARNING / STOP decisions in real time.
+
+Objectives (each one is linked to the PDS in Table 1 and to the Gantt chart in Appendix A):
+
+ • O1 – Produce a Product Design Specification, generate and select a system concept and
+    define the system architecture (by 8 Nov 2026; Table 1).
+
+ • O2 – Build a labelled, leak-free road hazard dataset (potholes and speed bumps) from
+    public sources and train a YOLO detector, reporting precision, recall, mAP50 and accuracy
+    for each class separately (model frozen by 29 Nov 2026, fine-tuned on pod footage by 14
+    Mar 2027; R1–R3).
+
+
+                                                                                                   1
+School of Engineering and Computer Science                                                          BEng Project Outline
+
+ • O3 – Design (SolidWorks), check with a simple static FEA and 3D-print a sensor tower that
+      holds the ESP32-CAM, TF-Luna LiDAR, two HC-SR04 sensors, two MPU6050 IMUs and
+      an OLED, and mount it on the lab vehicle (by 13 Dec 2026; R11, R15).
+
+ • O4 – Implement the sensor firmware and the Wi-Fi link to the laptop, and measure the end-
+      to-end latency from camera frame to decision (by 13 Dec 2026; R5, R6, R8).
+
+ • O5 – Develop the fusion algorithm and the SAFE / WARNING / STOP state machine using
+      detections, range and IMU vibration, including an IMU-based surface and bump classifier
+      (by 7 Mar 2027; R7, R9).
+
+ • O6 – Integrate and validate the whole system against the PDS under different lighting,
+      speeds (0.3–1 m/s) and approach angles, and report PR curves, confusion matrices and
+      latency tables (by 22 Apr 2027; R4, R10, R12).
+
+
+   1.3 Product Design Specification (PDS)
+Table 1 lists the main requirements. D = demand (must be met), W = wish. Each requirement
+has a test, so it can be verified in the "assurance of properties" stage of the V-model.
+
+                                    Table 1: Product Design Specification
+
+ ID      Requirement                   Target value                       D/W   Verification test
+ R1      Hazard and object classes     Pothole, speed bump; person,       D     Model output check
+                                       bicycle, car, motorcycle, bus,
+                                       truck, dog
+ R2      Hazard detection accuracy     P, R, mAP50 and accuracy           D/W   One evaluation per final model; P, R,
+         (per class, leak-free test    reported per class (D); mAP50 ≥          mAP50, accuracy per class
+         set)                          0.70 (W); 0.90 supervisor target
+                                       (W)
+ R3      Speed-bump recall at the      ≥ 0.80                             W     Validation set, threshold chosen on
+         chosen threshold                                                       val only
+ R4      Distance measurement          ≤ ±6 cm (TF-Luna datasheet         D     Tape-measure test at 0.5, 1, 2, 3 m
+         error (0.2–3 m)               accuracy)
+ R5      End-to-end latency (frame     ≤ 300 ms (D); ≤ 150 ms (W), p95    D/W   Time-stamped logs, 1,000 frames
+         to decision)
+ R6      Processing rate               ≥ 5 frames per second (D); ≥ 10    D/W   Logged FPS during driving
+                                       (W)
+ R7      Decision thresholds           STOP < 0.5 m, WARNING < 2.0        D     Bench test with a box at set
+                                       m in the path                            distances
+ R8      Fail-safe                     STOP within 1 s if any stream or   D     Unplug / Wi-Fi off test
+                                       sensor stops
+ R9      IMU surface / bump            ≥ 85 % accuracy (bump, pothole,    W     Labelled drives, confusion matrix
+         classification                smooth)
+ R10     Operating conditions          Day, dusk and indoor light;        D     Test matrix: light × speed × angle
+                                       speed up to 1 m/s
+ R11     Mass and size of the pod      ≤ 1 kg; fits a 20 × 12 cm deck     D     Scale and measurement
+ R12     Battery life                  ≥ 30 min from a 2S 2600 mAh        D     Continuous run test
+                                       pack
+ R13     Cost of components            ≤ 5,400 EGP (component sheet)      D     Items sheet total
+ R14     Outputs                       OLED: state, nearest object,       D     Inspection
+                                       distance; Wi-Fi telemetry log
+ R15     Safety and data               Main power switch; Class 1         D     Inspection, data audit
+                                       laser; no identifiable people
+                                       stored
+
+
+
+
+   1.4 Methodology (VDI 2206)
+The project follows the VDI 2206 V-model for mechatronic systems (VDI, 2021), which was also
+used in the Integrated Engineering Systems Design module. The left side of the V goes from
+
+                                                                                                                        2
+School of Engineering and Computer Science                                                BEng Project Outline
+
+requirements to system design and then to domain-specific design (mechanical, electrical and
+software/AI). The right side integrates the domains and checks the result against the design and
+the PDS (Figure 1). Modelling and analysis, such as a latency versus stopping-distance model
+in Simulink and an FEA of the mount, run beside these stages.
+
+
+
+
+                    Figure 1: VDI 2206 V-model as applied to the perception pod
+
+For the AI part, a strict evaluation method is used: the data is split by video or recording group,
+so frames from one drive never appear in both training and test; near-duplicate images are
+removed with image hashing (also under flips and rotations); the model and thresholds are
+chosen on the validation set only; and the test set is used once per final model. Precision, recall,
+mAP50 and accuracy are always reported per class. This method was adopted after an audit
+showed that the first test mAP50 of 0.69 was inflated (42 test images were identical to training
+images and 100 were near-duplicates), so those numbers were withdrawn. The corrected
+results are in Section 4.1 (Table 7).
+
+
+   1.5 Concept Generation and Selection
+A morphological chart (Table 2) was used to list solution options for each main function. Four
+concepts were then built from different combinations.
+
+            Table 2: Morphological chart (selected options of Concept A in bold)
+
+ Function             Option 1                 Option 2               Option 3           Option 4
+ Capture image        ESP32-CAM (Wi-Fi)        Pi Camera 3            USB webcam         RGB-D camera
+                                                                                         (RealSense)
+ Measure range        TF-Luna LiDAR + 2×       HC-SR04 only           VL53L1X ToF        Stereo / depth
+                      HC-SR04                                                            camera
+ Sense vibration      2× MPU6050               MPU9250                BNO055             None
+ Run the AI model     Laptop GPU via Wi-Fi     Raspberry Pi 5 + AI    Jetson Orin Nano   ESP32 only (TinyML)
+                                               HAT+
+ Fuse the data        Decision-level rules +   Feature-level fusion   Learned fusion     —
+                      FSM                                             network
+ Show the output      OLED + Wi-Fi             Buzzer and LEDs        Phone app          —
+                      telemetry
+
+
+
+Concept A – low-cost offload: ESP32-CAM, TF-Luna and ultrasonic sensors, MPU6050, AI
+on the laptop over Wi-Fi. Concept B – all on board: Pi Camera 3, TF-Luna, MPU6050 and a
+Raspberry Pi 5 with an AI HAT+. Concept C – depth camera: RealSense D435i (RGB-D and
+IMU) on a Jetson Orin Nano, similar to Zheng et al. (2025). Concept D – ESP32 only: ESP32-
+
+                                                                                                               3
+School of Engineering and Computer Science                                                 BEng Project Outline
+
+CAM running a tiny model, with HC-SR04 and MPU6050.
+
+The concepts were scored from 1 to 5 against weighted criteria taken from the PDS (Table 3).
+The weights follow the importance of each requirement: accuracy and latency come from R2
+and R5, cost from R13, and the risk of late or unavailable parts from the critical path. Each
+component inside the selected concept was also chosen with its own reference-based decision
+matrix (camera, range sensor, IMU, processing, motor driver, platform and regulator).
+
+                  Table 3: Weighted evaluation of the four concepts (score 1–5)
+
+ Criterion (PDS link)                    Weight   A – Offload   B – On board   C – Depth         D – ESP32
+                                                                                  cam               only
+ Detection accuracy (R2)                 25 %         5              4             5                  1
+ Latency (R5, R6)                        20 %         4              4             5                  2
+ Cost within budget (R13)                20 %         5              1             1                  5
+ Parts availability / development risk   15 %         4              3             2                  2
+ Independent of external PC              10 %         2              5             5                  5
+ Power and mass (R11, R12)               10 %         4              3             2                  5
+ Weighted total                          100 %       4.25           3.25          3.45              2.95
+
+
+
+Concept A was selected. It gives the best accuracy and speed for the lowest cost, because the
+laptop GPU can run full YOLO models (the full pipeline with both models was measured at 35.8
+ms per frame (median) on the laptop, about 28 frames per second). Its weakness is the
+dependence on Wi-Fi and an external PC, so latency is a demand in the PDS and the fail-safe
+STOP (R8) covers a lost link. Concept B is kept as the upgrade path if on-board processing is
+needed later.
+
+
+   1.6 System Architecture and Circuit
+Figure 2 shows the selected architecture. The ESP32-CAM streams video to the laptop, where
+two YOLO11n models run on the same frame: a hazard model trained in this project and a
+pretrained COCO model for people and vehicles. The ESP32 DevKit is the sensor hub on the
+vehicle: it reads the TF-Luna (UART), the two HC-SR04 sensors and the two MPU6050 IMUs
+and OLED (I2C), sends the readings to the laptop, and can stop the motors through the L298N
+driver when a STOP flag arrives or the link is lost. Fusion is done at decision level, which is the
+lightest method for low-cost hardware (Yeong et al., 2021): the detection box gives the class
+and direction, the range sensor gives the distance, and the IMU confirms bumps and rough
+surfaces. The full pin-level wiring with the power supply is given in Appendix D.
+
+
+
+
+                                                                                                             4
+School of Engineering and Computer Science                                       BEng Project Outline
+
+
+
+
+           Figure 2: System architecture of the perception pod and the edge PC
+
+The vehicle is a four-wheel-drive two-deck acrylic robot car from the university lab (Figure 3),
+requested from the lab engineer. It has DC gear motors with accessible wires and enough deck
+space for the sensor tower, so it meets the platform requirements of the component sheet.
+
+
+
+
+          Figure 3: Four-wheel-drive lab robot car to be used as the test vehicle
+
+
+   1.7 Health, Safety and Ethics
+Health and safety. The main hazards and controls are: (1) Li-ion 18650 cells – a 2S BMS
+protects against over-charge, over-discharge and short circuit; charging only with the 8.4 V
+charger and under supervision. (2) Moving vehicle – speed limited to about 1 m/s, a main power
+switch and a software STOP, tests only in the lab or a closed area of the campus, never on
+public roads. (3) Soldering and 3D printing – done in the lab with ventilation, heat-resistant mat
+and lead-free solder. (4) TF-Luna LiDAR – a Class 1 eye-safe laser product (IEC 60825-1), the
+sensor is still not looked into at close range. (5) Electrical – all voltages are below 9 V. A risk
+assessment of these hazards is given in Appendix C.
+
+Ethics. The project does not involve measurements on human subjects or questionnaires
+
+                                                                                                   5
+School of Engineering and Computer Science                                      BEng Project Outline
+
+(Appendix C, Q8–Q10 are "No"). People and vehicles are detected with a pretrained COCO
+model, so images of people are not collected for training. Road hazard images come from public
+datasets with open licences (for example CC BY 4.0), and every source is credited. If the pod
+camera records people on campus during tests, faces and number plates will be blurred before
+storage, the data will be kept only on a password-protected laptop and its backup, and no
+identifiable images will be published. If recording of people becomes necessary, Ethics
+Committee approval will be requested first.
+
+Legal requirements. Images in which people can be identified are personal data under the UK
+Data Protection Act 2018 (UK GDPR) and the Egyptian Personal Data Protection Law No. 151
+of 2020 (Egypt, 2020), so they are blurred, kept private and deleted at the end of the project.
+Dataset licences are followed (e.g. CC BY 4.0 attribution), the LiDAR is classified under IEC
+60825-1, and e-waste goes through the university route.
+
+
+   1.8 Sustainability Analysis
+ • Re-use of hardware: the vehicle is borrowed from the lab and the pod is modular, so it can
+    be moved to another vehicle after the project; no new chassis is bought.
+
+ • Low-power electronics: the ESP32 boards use much less energy than a single-board
+    computer, and the existing laptop is used for AI instead of buying new hardware.
+
+ • Materials: the sensor tower is printed in PLA with low infill and few supports; failed prints
+    and off-cuts are recycled through the lab where possible.
+
+ • Batteries and e-waste: rechargeable cells with a BMS extend battery life; damaged cells
+    and electronics will be disposed of through the university e-waste route.
+
+ • Computing energy: public datasets are re-used instead of long data-collection drives, and
+    training runs are planned in advance and compared on the validation set, so the GPU is not
+    used for random experiments.
+
+ • Social: the result can improve the safety of micro-mobility users and pedestrians at low
+    cost.
+
+
+2. SOURCES OF INFORMATION
+The following sources have been identified for the literature review of the final report. Thirteen
+papers have already been read and summarised.
+
+ • Sensor fusion and autonomous vehicles: Yeong et al. (2021) review of sensors and
+    fusion levels; Favelli, Xie and Tonoli (2024) camera–LiDAR distance estimation; Alai and
+    Rajamani (2024) low-cost camera and 2-D LiDAR fusion for micro-mobility; Barua and
+    Hitosugi (2025) multi-modal fusion with braking decisions.
+
+ • Micro-mobility perception: Hassanin et al. (2025) review of intelligent two-wheelers;
+    Zheng et al. (2025) e-scooter obstacle detection; Akhavi Zadegan, Vivet and Hadachi
+    (2024) DELTA multi-sensor e-scooter; Strässer et al. (2024) ultrasonic collision-avoidance
+                                                                                                  6
+School of Engineering and Computer Science                                                 BEng Project Outline
+
+    filter; Jang, Kim and Lim (2023) ESP32-based e-scooter monitoring.
+
+ • Low-cost hardware and edge AI: Aniobi (2024) ESP32-CAM with ultrasonic and YOLOv8;
+    Alqahtani, Cheema and Toosi (2024) benchmark of detectors on edge devices; Jocher and
+    Qiu (2024) Ultralytics YOLO11.
+
+ • Road hazards and surface classification: Liang et al. (2025) SBP-YOLO for speed
+    bumps and potholes; Peralta-López et al. (2023) speed bump and pothole detection with a
+    ZED camera; Arce-Saenz, Izquierdo-Reyes and Bustamante-Bello (2025) IMU road
+    surface classification with MPU6050; Wang et al. (2023) camera and vibration fusion for
+    terrain.
+
+ • Datasets: RDD2022 road damage dataset (Arya et al., 2022), Roboflow Universe and
+    Kaggle speed-bump and pothole datasets, and the Egyptian EGY_PDD dataset (access
+    not yet obtained).
+
+ • Standards and guidance: VDI 2206 (VDI, 2021); IEC 60825-1 laser safety (IEC, 2014);
+    the University project handbook (University of Hertfordshire, 2026).
+
+
+3. RESOURCE ANALYSIS
+The resources were agreed with the supervisor and entered in the Project Resources Checklist
+(Appendix B). The component request sheet was submitted to the PTO on 29 October 2026 and
+contains 27 lines with a total of 5,362 EGP (Table 4; full list in Appendix B), which is close to the
+nominal budget of £75 per project in the handbook (about 5,350 EGP at the October 2026
+exchange rate). The vehicle comes from the lab at no cost.
+
+           Table 4: Summary of the component request (full list in Appendix B)
+
+ Group                     Main items                                                           Cost (EGP)
+ Camera and processing     ESP32-CAM + programmer, ESP32 DevKit V1, spare ESP32-CAM             1,330
+ Range and motion          TF-Luna LiDAR, 3× HC-SR04 (1 spare), 3× MPU6050 (1 spare), 2×        2,815
+ sensors                   LM393 encoders
+ Output and actuation      0.96" OLED, L298N motor driver                                       235
+ Power                     2× 18650 cells, holder with switch, 2S BMS, 8.4 V charger, LM2596    701
+                           buck
+ Wiring and mounting       Jumpers, perfboard, capacitors, resistors, terminals, breadboard,    281
+                           standoffs, cable
+ Vehicle                   4WD robot car from the university lab                                0
+ Total                     27 lines                                                             5,362
+
+
+Other resources: a laptop with an NVIDIA RTX GPU (training and running the models);
+software – Python, PyTorch, Ultralytics YOLO, OpenCV, Arduino IDE / ESP-IDF, SolidWorks
+(including its FEA tool), MATLAB/Simulink and Microsoft Excel; lab facilities – 3D printer,
+soldering station, bench power supply and multimeter; people – the supervisor, the lab engineer
+(vehicle) and the PTO (orders). Public datasets are used for training, and the pod itself will
+record test footage on campus.
+
+
+
+
+                                                                                                             7
+School of Engineering and Computer Science                                                           BEng Project Outline
+
+
+4. PROJECT PLAN
+
+   4.1 Project Work Description and Progress to Date
+The project covers the whole perception pod, not only the AI model: the mechanical design of
+the sensor tower, the electronics and firmware, the AI and fusion software, the connection to the
+vehicle, and the testing against the PDS. The work is divided into six phases that follow the V-
+model: requirements and research, AI development, hardware (mechanical and electrical),
+progress review, fusion and integration, and testing and reporting. Table 5 describes the work to
+be done in each part of the project, what each part produces and how it will be checked. The
+detailed Gantt chart is in Appendix A.
+
+    Table 5: Work plan for the whole project (task numbers refer to the Gantt chart in
+                                                  Appendix A)
+
+ Part of the          Work to be done                                Output and how it is               When (Gantt
+ project                                                             checked                            tasks)
+ 1. Requirements      Read the literature, write the PDS,            PDS, selected concept,             Oct – 8 Nov
+ and research         generate and select the concept, and           items sheet and this outline.      (1.1–1.6), done
+                      choose each component with a decision
+                      matrix.
+ 2. AI hazard         Build a leak-free pothole and speed-bump       Precision, recall, mAP50 and       Oct – Mar
+ detection            dataset from public sources, train             accuracy for each class;           (2.1–2.4, 5.4),
+                      YOLO11n, choose the model on                   frozen model by 29 Nov;            in progress
+                      validation only and test it once, then fine-   results on pod footage by 14
+                      tune it on video recorded by the pod.          Mar.
+ 3. Mechanical        Design the sensor tower in SolidWorks so       CAD model and drawings,            16 Nov – 13
+ design               that the camera, LiDAR and ultrasonic          FEA stress and deflection,         Dec (3.2, 3.4,
+                      sensors face forward at fixed heights and      assembled pod on the               3.5)
+                      angles, check it with a simple static FEA      vehicle.
+                      in SolidWorks, 3D print it and mount it on
+                      the lab car.
+ 4. Electrical        Draw the schematic and I/O list, calculate     Schematic and power                16 – 29 Nov
+ design               the power budget, and wire the 2S              budget; every supply rail and      (3.3)
+                      battery, BMS, 5 V buck converter, ESP32        signal checked with a
+                      and sensors, with level shifting for the       multimeter before power-up.
+                      ultrasonic echo pins (Appendix D).
+ 5. Firmware and      Write the ESP32 drivers for the TF-Luna,       Live sensor readings logged;       23 Nov – 13
+ communication        HC-SR04, MPU6050 and OLED; stream              remote drive and stop              Dec (3.6–3.8)
+                      the ESP32-CAM video to the laptop over         working; end-to-end latency
+                      Wi-Fi; drive the motors through the            measured in ms.
+                      L298N with an emergency stop on STOP
+                      or on link loss.
+ 6. Sensor fusion     Record labelled IMU and video data in          IMU accuracy and confusion         13 Dec – 28
+ and decision         project week, train the IMU bump and           matrix; alignment check;           Feb (3.9, 5.1–
+                      surface classifier, check where the LiDAR      correct warnings with the          5.3)
+                      and ultrasonic beams point in the camera       real sensors.
+                      image, time-stamp all readings, and
+                      combine detection, distance and IMU in
+                      the SAFE / WARNING / STOP state
+                      machine.
+ 7. Modelling         Build a Simulink model of detection            Maximum safe speed for the         1 – 7 Mar (5.5)
+                      latency against stopping distance to find      measured latency.
+                      the maximum safe speed of the vehicle.
+ 8. Integration and   Join the pod, vehicle and laptop, then test    End-to-end demo (gate G2,          8 Mar – 22 Apr
+ testing              the system under different lighting,           21 Mar); results against each      (5.6, 6.1–6.3)
+                      speeds (0.3–1 m/s) and approach angles,        PDS requirement; demo
+                      fix problems and repeat.                       video.
+ 9. Management        Keep weekly logbooks and supervisor            Progress Review (24 Jan),          Whole year
+ and reporting        meetings, update the Gantt chart, and          final report (4 May), defence      (4.1–4.2, 6.4–
+                      write the Progress Review, final report,       (May).                             6.6)
+                      slides, poster and paper draft.
+
+
+
+                                                                                                                          8
+School of Engineering and Computer Science                                                             BEng Project Outline
+
+Table 6 compares the first plan (Gantt v1, October) with the real progress on 8 November.
+
+           Table 6: Progress against the first Gantt chart (v1) on 8 November 2026
+
+ Gantt v1 task                          Status           What was done / what changed
+ Literature and market research         Done             13 papers summarised; datasets and repositories collected
+ (Oct)
+ PDS, concepts, selection,              Done             Decision matrices for 7 components; PDS and concept
+ architecture                                            selection in this outline
+ Component order through PTO            Done (early)     Items sheet submitted 29 Oct (27 lines, 5,362 EGP)
+ Platform (RC car from the lab)         Changed          A 4WD two-deck lab robot car will be used; request sent to the
+                                                         lab engineer
+ AI: dataset, training, fusion logic    Ahead of         Leak-free dataset, two rounds of label cleaning and several
+ (planned Jan–Mar)                      plan             controlled training runs (Table 7); live pipeline with two models
+                                                         and the SAFE/WARNING/STOP state machine, 26 unit tests
+                                                         passing, about 36 ms per frame on the laptop
+ Dataset collection in project          Changed          Supervisor advised a wider search of existing data (e.g.
+ week (Dec)                                              Kaggle) instead of collecting a large dataset; the pod will
+                                                         record test drives only
+ Improve model accuracy (Jan–           In progress      New public sources added (models D1, D2): large gains on
+ Feb)                                                    unseen countries (Table 7); v3b_C with 10,562 training images
+                                                         is being trained; final model chosen on validation by 29 Nov
+ Sensor tower CAD, electronics,         Not started      Starts 16 Nov after the vehicle and components are confirmed
+ firmware                                                (gate G1)
+
+
+Table 7 summarises the leak-free results (YOLO11n, image size 960). On the main validation
+set all models are close (about 0.60–0.63 AP50 for potholes and 0.68–0.73 for speed bumps;
+the difference between training seeds is about ±0.01–0.02). The clear gain is on countries never
+used in training: after new public sources were added (D1, D2), Lithuanian speed bumps rose
+from 0.028 to 0.670 and Slovak potholes from 0.399 to 0.617. Only v1 and Run A have been
+tested, once each; Run A reached 0.631 for potholes but only 0.294 for speed bumps, because
+the test bumps come from two drives with unmarked bumps that the early training data did not
+cover.
+
+ Table 7: Hazard model results so far (AP50 per class; val = validation set, never used
+                                                        for testing)
+
+ Model (data version)                  Pothole –       Bump – val      Pothole –           Bump –           Test, used
+                                        val (830        (830 img)       unseen             unseen         once (pothole /
+                                         img)                           country            country            bump)
+                                                                       (Slovakia)        (Lithuania)
+ v1 (v3a_r1)                             0.628           0.710           0.399              0.028          0.660 / 0.354
+                                                                                                             (324 img)
+ Run A (cleaned labels, v3a_r2)          0.605           0.725            0.422             0.036          0.631 / 0.294
+                                                                                                             (323 img)
+ D1 (+ RSID, Bučko, RDD2022              0.596           0.710            0.571             0.670          not tested yet
+ data)
+ D2 (D1 + Malaysia/Indonesia             0.615           0.683            0.617             0.630          not tested yet
+ data)
+ v3b_C (10,562 train images,            training        training         training          training        after selection
+ bump boxes doubled)                                                                                           on val
+
+
+
+The supervisor target of 0.90 has not been reached yet. The closest agreed metric is the
+precision of speed-bump warnings at 50 % recall (0.904 for D2 and 0.950 for Run A on
+validation), which still has to be confirmed on the test set. Per-class mAP50 is well below 0.90
+and recall is the main weakness. The gap comes from data diversity (unmarked Egyptian
+bumps, far and small potholes), not from training length, so the next step is more independent
+data, model selection on validation and one test.
+
+                                                                                                                             9
+School of Engineering and Computer Science                                                       BEng Project Outline
+
+Next steps (to 13 Dec): confirm the vehicle and the parts (G1), finish the model experiments
+and freeze the hazard model using the validation set only, design and print the sensor tower,
+write the sensor firmware, connect the vehicle to the ESP32 and the L298N, and measure the
+end-to-end latency over Wi-Fi. The project week in December is used for test drives with the
+complete pod.
+
+
+   4.2 Critical Path Analysis
+The critical path (red in Appendix A) is: Outline → vehicle and parts confirmed (G1) → sensor
+tower CAD → 3D print and mounting → sensor drivers and vehicle interface → ESP32-CAM
+streaming → test drives → IMU classification → fusion with real sensors → full integration (G2)
+→ benchmark tests → report. The AI tasks were moved earlier and are now off the critical path,
+which gives extra float. Table 8 lists the key decision gates and milestones.
+
+                               Table 8: Decision gates and milestones
+
+ ID     Date            Gate / milestone                  Decision or measurable outcome
+ M1     8 Nov 2026      Project Outline submitted         Outline on Canvas
+ G1     15 Nov          Vehicle and components            Lab car received; PTO order approved, otherwise switch
+        2026            confirmed                         to the 4WD kit (400 EGP)
+ G1b    29 Nov          Hazard model frozen               Best model chosen on validation; tested once; P, R,
+        2026                                              mAP50, accuracy per class
+ G1c    13 Dec          Pod assembled and                 All sensors read on the laptop; latency measured against
+        2026            streaming                         R5
+ M2     24 Jan 2027     Progress Review submitted         Literature review, slides, updated Gantt, logbook
+ G2     21 Mar 2027     Integrated system working         End-to-end demo: STOP and WARNING on real
+                                                          obstacles
+ M3     4 May 2027      Report and slides submitted       Canvas submission
+ M4     4–13 May        Project defence                   Presentation and live demo
+        2027
+
+
+
+
+   4.3 Threats and Contingency Plan
+                                    Table 9: Main threats to the plan
+
+ Threat                                  L   I      Mitigation / contingency
+ Lab vehicle not available or not        M   H      Back-up: 4WD two-layer kit (400 EGP) is already in the items
+ suitable                                           sheet as the alternative
+ Late delivery of parts (TF-Luna stock   M   H      Order before Christmas; HC-SR04 sensors cover range finding;
+ is limited)                                        alternative vendors listed
+ Hazard model does not reach the         H   M      Wider data search, per-class thresholds on validation, larger
+ accuracy target                                    model if latency allows; report the honest result
+ Wi-Fi delay too high for real time      M   H      Lower resolution/JPEG quality, phone hotspot close to the car,
+                                                    on-board STOP from range sensors only
+ Hardware damage (ESP32-CAM,             L   M      Spares ordered (ESP32-CAM, HC-SR04, MPU6050)
+ IMU)
+ Laptop or data loss                     L   H      Git repository and weekly backup to cloud and external drive
+ Exams and other modules in              H   M      Christmas buffer (B1) and April buffer (B2); hardware finished
+ January                                            before Christmas
+
+
+L = likelihood, I = impact (L/M/H). Monitoring and control. Progress is checked at the weekly
+supervisor meeting and recorded, with the hours spent, in the logbook (about 300 h in total and
+120–150 h by the Progress Review, as in the handbook). The Gantt chart is updated every two
+weeks with the actual dates; if a critical-path task slips by more than one week, its contingency
+(Table 9) or the next buffer is used and the change is logged.
+
+                                                                                                                     10
+School of Engineering and Computer Science                                               BEng Project Outline
+
+
+5. REFERENCES
+Akhavi Zadegan, A., Vivet, D. and Hadachi, A. (2024) 'DELTA: integrating multimodal sensing with
+    micromobility for enhanced sidewalk and pedestrian route understanding', Sensors, 24(12), p.
+    3863.
+Alai, H. and Rajamani, R. (2024) 'Low-cost camera and 2-D LIDAR fusion for target vehicle corner
+      detection and tracking: applications to micromobility devices', Mechanical Systems and Signal
+      Processing, 206, p. 110891.
+Alqahtani, D.K., Cheema, A. and Toosi, A.N. (2024) 'Benchmarking deep learning models for object
+    detection on edge computing devices', arXiv preprint, arXiv:2409.16808.
+Aniobi, A. (2024) 'Sensor fusion for real-time object detection and spatial positioning in unmanned
+    vehicles using YOLOv8 and ESP32-Cam', Preprints.org, 202411.0611 (not peer-reviewed).
+Arce-Saenz, L.A., Izquierdo-Reyes, J. and Bustamante-Bello, R. (2025) 'Exploring single-head and
+    multi-head CNN and LSTM-based models for road surface classification using on-board vehicle
+    multi-IMU data', Scientific Reports, 15, p. 24595.
+Arya, D., Maeda, H., Ghosh, S.K., Toshniwal, D. and Sekimoto, Y. (2022) 'RDD2022: a multi-national
+     image dataset for automatic road damage detection', arXiv preprint, arXiv:2209.08538.
+Barua, N. and Hitosugi, M. (2025) 'Advanced multi-modal sensor fusion system for detecting falling
+    humans: quantitative evaluation for enhanced vehicle safety', Vehicles, 7(4), p. 149.
+Data Protection Act 2018, c. 12. Available at: https://www.legislation.gov.uk/ukpga/2018/12 (Accessed:
+    5 November 2026).
+Egypt (2020) Law No. 151 of 2020 on the Protection of Personal Data. Cairo: Official Gazette of the
+    Arab Republic of Egypt.
+Favelli, S., Xie, M. and Tonoli, A. (2024) 'Sensor fusion method for object detection and distance
+    estimation in assisted driving applications', Sensors, 24(24), p. 7895.
+Hassanin, M., Abu Alsheikh, M., Kuhn, C.C.N., Herath, D., Hoang, D.T. and Radwan, I. (2025) 'Towards
+    autonomous riding: a review of perception, planning, and control in intelligent two-wheelers', arXiv
+    preprint, arXiv:2507.11852.
+IEC (2014) IEC 60825-1:2014 Safety of laser products – Part 1: Equipment classification and
+     requirements. Geneva: International Electrotechnical Commission.
+Jang, W.-J., Kim, D.-H. and Lim, S.-H. (2023) 'An AI safety monitoring system for electric scooters
+    based on the number of riders and road types', Sensors, 23(22), p. 9181.
+Jocher, G. and Qiu, J. (2024) Ultralytics YOLO11. Available at: https://github.com/ultralytics/ultralytics
+    (Accessed: 5 November 2026).
+Liang, C., Fu, J., Yu, M. and Luo, L. (2025) 'SBP-YOLO: a lightweight real-time model for detecting
+     speed bumps and potholes toward intelligent vehicle suspension systems', arXiv preprint,
+     arXiv:2508.01339.
+Peralta-López, J.-E. et al. (2023) 'Speed bump and pothole detection using deep neural network with
+    images captured through ZED camera', Applied Sciences, 13(14), p. 8349.
+Strässer, R., Seidel, M., Brändle, F., Meister, D., Soloperto, R., Hambach Ferrer, D. and Allgöwer, F.
+     (2024) 'Collision avoidance safety filter for an autonomous e-scooter using ultrasonic sensors',
+     IFAC-PapersOnLine (17th IFAC Symposium on Control in Transportation Systems).
+     doi:10.1016/j.ifacol.2024.07.313.
+University of Hertfordshire (2026) Undergraduate Project Handbook 2026–27, BEng Individual Project.
+    School of Engineering and Computer Science.
+VDI (2021) VDI/VDE 2206: Development of mechatronic and cyber-physical systems. Berlin: Beuth
+     Verlag.
+Wang, H., Lu, E., Zhao, X. and Xue, J. (2023) 'Vibration and image texture data fusion-based terrain
+   classification using WKNN for tracked robots', World Electric Vehicle Journal, 14(8), p. 214.
+Yeong, D.J., Velasco-Hernandez, G., Barry, J. and Walsh, J. (2021) 'Sensor and sensor fusion
+    technology in autonomous vehicles: a review', Sensors, 21(6), p. 2140.
+Zheng, Z., Hosseini, A., Chen, D., Shoghli, O. and Heydarian, A. (2025) 'Real-time roadway obstacle
+    detection for electric scooters using deep learning and multi-sensor fusion', arXiv preprint,
+    arXiv:2504.03171.
+
+
+
+
+                                                                                                             11
+School of Engineering and Computer Science                                              BEng Project Outline
+
+
+APPENDIX A: Gantt Chart
+The Gantt chart was planned from the start of the project (5 Oct 2026) to the defence (May 2027). Grey = completed, orange = in progress, red = planned on the critical path, blue = planned
+not critical, hatched = buffer, diamonds = milestones and decision gates. Dependencies are finish-to-start unless marked SS (start-to-start).
+
+
+
+
+                                      Figure 4: Gantt chart v2 – completed, in-progress and planned tasks, critical path and gates
+
+                                                                                                                                                                                         12
+School of Engineering and Computer Science                                             BEng Project Outline
+
+                                         Table 10: Gantt chart task list (each task ≤ 2 weeks; CP = on the critical path; SS = start-to-start)
+
+       ID     Task                                                      Duration   Start     Finish     Predecessors    Measurable outcome             CP    Status
+              PHASE 1 – REQUIREMENTS AND RESEARCH
+       1.1    Allocation, brief, first meetings                         7d         05-Oct    11-Oct     —               Signed W3 logbook                    Done
+       1.2    Literature search and paper summaries                     14 d       12-Oct    25-Oct     1.1             13 papers summarised                 Done
+       1.3    Datasets and repositories survey                          7d         19-Oct    25-Oct     1.1             Dataset list + licences              Done
+       1.4    Component selection (decision matrices)                   11 d       19-Oct    29-Oct     1.3             Items sheet (27 lines)         Yes   Done
+       1.5    PDS, concepts, architecture                               13 d       26-Oct    07-Nov     1.4SS           PDS + selected concept         Yes   Done
+       1.6    Write Project Outline                                     14 d       26-Oct    08-Nov     1.5SS           Outline document               Yes   In progress
+       M1     Project Outline submitted                                 0d         08-Nov    08-Nov     1.6             Canvas submission              Yes   Milestone
+              PHASE 2 – AI DEVELOPMENT (started early)
+       2.1    Dataset audit, leak-free split, baseline                  7d         29-Oct    04-Nov     1.3             Test mAP50 baseline                  Done
+       2.2    Live pipeline (2 models + FSM) + tests                    7d         30-Oct    05-Nov     2.1SS           26 tests pass, latency               Done
+       2.3    Multi-source dataset v3b + experiments                    14 d       02-Nov    15-Nov     2.1SS           Val P/R/mAP50 per class              In progress
+       2.4    Model selection on val + one test run                     14 d       16-Nov    29-Nov     2.3             Frozen hazard model v2               Planned
+              PHASE 3 – HARDWARE (MECHANICAL AND ELECTRICAL)
+       G1     Gate: vehicle + components confirmed                      0d         15-Nov    15-Nov     M1              Lab car + PTO approval         Yes   Milestone
+       3.1    Order follow-up with PTO (before Xmas)                    14 d       09-Nov    22-Nov     M1              Parts received                 Yes   Planned
+       3.2    Sensor tower CAD (SolidWorks)                             14 d       16-Nov    29-Nov     G1              CAD + drawings                 Yes   Planned
+       3.3    Schematic, I/O list, power budget                         14 d       16-Nov    29-Nov     G1              Schematic + budget                   Planned
+       3.4    Simple FEA check of the mount (SolidWorks)                7d         30-Nov    06-Dec     3.2             Max stress + deflection              Planned
+       3.5    3D print + mount pod on the vehicle                       14 d       30-Nov    13-Dec     3.2             Assembled pod                  Yes   Planned
+       3.6    Sensor drivers (TF-Luna, HC-SR04, IMU, OLED)              14 d       23-Nov    06-Dec     3.1             Live readings logged           Yes   Planned
+       3.7    Vehicle interface (ESP32 + L298N, stop)                   14 d       30-Nov    13-Dec     3.3             Remote drive + stop            Yes   Planned
+       3.8    ESP32-CAM streaming + latency test                        14 d       30-Nov    13-Dec     3.1             End-to-end latency (ms)        Yes   Planned
+       3.9    Project week: pod test drives + IMU data                  6d         13-Dec    18-Dec     3.5, 3.7, 3.8   Labelled IMU/video logs        Yes   Planned
+       B1     Christmas closure (buffer)                                14 d       21-Dec    03-Jan     3.9             —                                    Buffer
+              PHASE 4 – PROGRESS REVIEW
+       4.1    Literature review chapter draft                           14 d       04-Jan    17-Jan     B1              Draft chapter                  Yes   Planned
+       4.2    Progress Review slides + updated Gantt                    7d         18-Jan    24-Jan     4.1             Slides + logbook               Yes   Planned
+       M2     Progress Review submitted                                 0d         24-Jan    24-Jan     4.2             Canvas submission              Yes   Milestone
+              PHASE 5 – FUSION, INTEGRATION AND MODELLING
+       5.1    IMU surface / bump classification                         14 d       25-Jan    07-Feb     3.9, M2         Accuracy + confusion matrix    Yes   Planned
+       5.2    Sensor alignment + time stamps                            14 d       08-Feb    21-Feb     5.1             Alignment check, synced logs         Planned
+       5.3    Fusion + FSM with real sensors                            14 d       15-Feb    28-Feb     5.1, 5.2SS      Fused warnings working         Yes   Planned
+       5.4    Hazard model on pod footage (fine-tune)                   14 d       01-Mar    14-Mar     2.4, 5.3        Pod-domain val results               Planned
+       5.5    Simulink: latency vs stopping distance                    7d         01-Mar    07-Mar     5.3             Max safe speed                       Planned
+       5.6    Full integration (pod + vehicle + laptop)                 14 d       08-Mar    21-Mar     5.3             End-to-end demo                Yes   Planned
+       G2     Gate: integrated system working                           0d         21-Mar    21-Mar     5.6             Demo to supervisor             Yes   Milestone
+              PHASE 6 – TESTING AND REPORT
+       6.1    Benchmark tests (light, speed, angle)                     14 d       22-Mar    04-Apr     G2              Results vs PDS                 Yes   Planned
+
+                                                                                                                                                                           13
+School of Engineering and Computer Science                             BEng Project Outline
+
+       ID     Task                                      Duration   Start     Finish     Predecessors   Measurable outcome      CP    Status
+       6.2    Fix issues + repeat tests                 7d         05-Apr    11-Apr     6.1            Updated results               Planned
+       B2     Buffer                                    6d         12-Apr    17-Apr     6.2            —                             Buffer
+       6.3    Project week: final tests + demo video    5d         18-Apr    22-Apr     B2             Final results + video   Yes   Planned
+       6.4    Report: methodology + results chapters    14 d       29-Mar    11-Apr     6.1SS          Chapters drafted        Yes   Planned
+       6.5    Report: discussion, conclusion, PM/QM     14 d       12-Apr    25-Apr     6.4            Full draft              Yes   Planned
+       6.6    Final edit, slides, poster, paper draft   14 d       19-Apr    02-May     6.5SS          Final documents         Yes   Planned
+       M3     Report + slides submitted                 0d         04-May    04-May     6.6            Canvas submission       Yes   Milestone
+       M4     Project defence                           10 d       04-May    13-May     M3             Defence + demo          Yes   Planned
+
+
+
+
+                                                                                                                                                 14
+School of Engineering and Computer Science                                                         BEng Project Outline
+
+
+APPENDIX B: Project Resources Checklist
+ Student's Name:                  Ahmed Mohamed Elsayed Elreefy
+ SRN:                             202301376 (UH ID 23022692)
+ Project Title:                   AI-Powered Multi-Modal Perception System for Autonomous Micro-Mobility
+                                  Environmental Awareness
+ Supervisor's Name:               Dr. Peter Makeen
+ Date:                            8 November 2026
+
+
+ No    Question                                            Answer and details
+ 1     Will materials or components be ordered?            ☒ Yes ☐ No
+                                                           Items sheet submitted to the PTO on 29 Oct 2026 (27
+                                                           lines, 5,362 EGP).
+ 2     Will you be designing a PCB or drawing which        ☒ Yes ☐ No
+       will require manufacture?                           Sensor tower drawing for 3D printing (PLA). Electronics
+                                                           on perfboard, no PCB manufacture.
+ 3     Will PCB or drawing assemblies already              ☒ Yes ☐ No
+       designed and manufactured within the School         The 4WD robot car from the university lab.
+       be required?
+ 4     Will a PC be required for work other than for       ☒ Yes ☐ No
+       report writing?                                     Laptop with NVIDIA GPU for model training, live inference
+                                                           and data logging.
+ 5     Special hardware installed/attached?                ☒ Yes ☐ No
+                                                           USB-serial programmers (CH340 on ESP32-CAM-MB,
+                                                           CP2102 on the ESP32 DevKit); Wi-Fi access point or
+                                                           phone hotspot.
+ 6     Will you require specific software, other than      ☒ Yes ☐ No
+       word processing?                                    Python, PyTorch, Ultralytics YOLO, OpenCV, Arduino IDE
+                                                           / ESP-IDF, SolidWorks, MATLAB/Simulink.
+ 7     Will your project require technical staff to        ☒ Yes ☐ No
+       make items requiring workshop facilities?           3D printing of the sensor tower, and possibly drilling
+                                                           mounting holes in the acrylic deck.
+ 8     Workshop activities required                        Drilling (mounting holes); Other: 3D printing
+ 9     Are there other resources required, not             ☒ Yes ☐ No
+       covered above?                                      A closed indoor or campus area for driving tests, and lab
+                                                           bench power supply and multimeter.
+
+
+ Table 11: Components to be used in the pod (items sheet submitted to the PTO on 29
+                                                        Oct 2026)
+
+ No      Component                               Qty      Use in the pod                                     Cost
+                                                                                                             (EGP)
+ 1       ESP32-CAM AI-Thinker (OV2640)           1        Captures road images and streams them to the       450
+                                                          laptop over Wi-Fi
+ 2       ESP32-CAM-MB programmer                 1        Uploads code to the ESP32-CAM                      80
+         (CH340)
+ 3       ESP32 DevKit V1 (ESP32-                 1        Sensor hub on the vehicle: LiDAR, ultrasonic,      350
+         WROOM-32)                                        IMU, OLED, motor driver
+ 4       TF-Luna ToF LiDAR (0.2–8 m,             1        Main range sensor: distance to the detected        2,250
+         UART)                                            obstacle
+ 5       HC-SR04 ultrasonic sensor               2        Front-left and front-right range, wider coverage   80
+ 6       MPU6050 GY-521 IMU                      2        Vibration for bump and surface classification      230
+                                                          (left and right)
+ 7       0.96" OLED SSD1306 (I2C)                1        Shows state, nearest object, distance and          160
+                                                          surface
+ 8       L298N motor driver                      1        Drives the vehicle motors and the STOP             75
+                                                          command
+ 9       Robot car from the university lab       1        Test vehicle (4WD kit, 400 EGP, as alternative)    0
+ 10      18650 Li-ion cell 3.7 V 2600 mAh        2        2S battery pack (7.4 V)                            398
+ 11      2×18650 holder with ON/OFF              1        Battery holder and main power switch               18
+         switch
+ 12      2S BMS 8.4 V 5 A                        1        Over-charge, over-discharge and short-circuit      40
+                                                          protection
+ 13      2S charger 8.4 V 2 A                    1        Charging the battery pack                          185
+ 14      LM2596 buck converter (set to 5         1        5 V supply for the ESP32 boards and sensors        60
+         V)
+ 15–     Jumper wires M/F and M/M (40            2        Connections between modules                        70
+ 16      each)
+
+                                                                                                                     15
+School of Engineering and Computer Science                                                   BEng Project Outline
+
+ No      Component                           Qty   Use in the pod                                     Cost
+                                                                                                      (EGP)
+ 17      Perfboard 7×9 cm + pin headers      1     Permanent wiring of the pod electronics            60
+ 18      Capacitor 1000 µF / 16 V            2     Stabilises the ESP32-CAM 5 V supply                10
+ 19      Resistor kit (1k, 2k, 4.7k, 10k)    1     Echo dividers (5 V → 3.3 V) and battery voltage    20
+                                                   sensing
+ 20      Micro-USB data cable                1     Programming the ESP32 boards                       30
+ 21      Screw terminal 2-pin                4     Battery, 5 V and motor connections                 20
+ 22      Mini breadboard 400 points          1     Testing each sensor before soldering               35
+ 23      M3 nylon standoffs 12 mm (10        3     Mounting the boards on the vehicle and tower       36
+         pcs)
+ 24      LM393 speed sensor (wheel           2     Wheel speed, to link vehicle speed with            100
+         encoder)                                  stopping distance
+ 25–     Spares: ESP32-CAM, HC-SR04,         3     Replacement if a part is damaged                   605
+ 27      MPU6050
+         Total (27 lines)                                                                             5,362
+
+
+
+Other items are taken from the lab and are not in the sheet: PLA filament and 3D printing, M3 screws and
+nuts, hook-up wire, soldering tools, bench power supply and multimeter.
+
+
+
+
+                                                                                                              16
+School of Engineering and Computer Science                                                        BEng Project Outline
+
+
+APPENDIX C: Project Risk, Ethics and Threat
+      Assessment Checklist
+ No     Question                                          Answer and details
+ 1      Use or contact with: voltages above 30 V; high    ☒ Yes ☐ No
+        currents at low voltage; rotating machines;       No voltage above 9 V. High current possible from Li-ion
+        high temperatures; hazardous fluids or gases      cells (short circuit); small DC gear motors and wheels
+                                                          (rotating); soldering iron and 3D-printer nozzle (high
+                                                          temperature). No hazardous fluids or gases.
+ 2      Attaching electrodes to yourself or someone       ☐ Yes ☒ No
+        else?
+ 3      If 2 is Yes, has a risk assessment been carried   N/A
+        out?
+ 4      If 2 or 3 is Yes, is the risk acceptable?         N/A
+ 5      Substances classified as 'Hazardous to            ☐ Yes ☒ No
+        Health'?                                          Lead-free solder used with ventilation.
+ 6      Flammable substances?                             ☐ Yes ☒ No
+                                                          No cleaning solvents or paint planned.
+ 7      Other aspects which might impose a danger to      ☒ Yes ☐ No
+        yourself or others?                               Moving vehicle during tests; Class 1 LiDAR laser; Li-ion
+                                                          battery charging.
+        Ethical issues
+ 8      Measurements on human subjects or their           ☐ Yes ☒ No
+        behaviour?                                        People are detected with a pretrained model only; no data
+                                                          about people is collected.
+ 9      Asking human subjects questions of a              ☐ Yes ☒ No
+        personal nature?
+ 10     Could any aspect cause distress to human          ☐ Yes ☒ No
+        subjects?                                         Any accidental images of people on campus are blurred
+                                                          and not published.
+
+
+Questions 1 and 7 are "Yes", so the hazards are assessed in the table below with their controls.
+ Hazard                       Who            Risk (L ×    Controls                                         Residual
+                                             S)
+ Li-ion cell short circuit,   Student, lab   M×H          2S BMS, insulated holder and switch, 8.4 V       Low
+ fire while charging          users                       CC/CV charger, charge only when present,
+                                                          fire-proof bag, inspect cells
+ Vehicle collision with       Student,       M×M          Speed ≤ 1 m/s, closed test area, main switch,    Low
+ people or objects            bystanders                  software STOP and fail-safe STOP, test with
+                                                          boxes
+ Burns from soldering         Student        M×L          Stand and mat, switch off after use, lab rules   Low
+ iron / printer nozzle
+ Laser exposure (TF-          Student,       L×L          Class 1 eye-safe product; do not look into the   Very low
+ Luna)                        bystanders                  emitter
+ Cuts or pinching from        Student        L×L          Wheels lifted off the ground during bench        Very low
+ wheels and tools                                         tests; correct tools
+
+
+
+
+                                                                                                                      17
+School of Engineering and Computer Science                                            BEng Project Outline
+
+
+APPENDIX D: Pod Wiring Diagram
+The diagram uses net labels: pins with the same label are connected. The ESP32 DevKit is supplied with 5
+V from the LM2596 buck converter, and the I2C devices and encoders use its 3.3 V output. The HC-SR04
+echo outputs (5 V) are reduced to 3.3 V with 1 kΩ / 2 kΩ dividers, and the battery voltage is measured on
+GPIO36 through a 10 kΩ / 4.7 kΩ divider. Strapping pins are not used. The pin map will be confirmed on
+the bench before soldering (Gantt task 3.3).
+
+
+
+
+  Figure 5: Pod wiring diagram: ESP32 DevKit sensor hub, sensors, motor driver and
+                                             power supply
+
+
+
+
+                                                                                                       18
+

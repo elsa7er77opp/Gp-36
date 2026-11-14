@@ -1,0 +1,34 @@
+Ultralytics 8.4.192  Python-3.12.10 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5050 Laptop GPU, 8123MiB)
+YOLO11n summary (fused): 101 layers, 2,597,294 parameters, 0 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.3±0.0 ms, read: 131.4±90.2 MB/s, size: 160.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\ahmed\Desktop\GP36_AI\parts_r3\rsid\labels\val.cache... 252 images, 81 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 252/252  0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 3% ──────────── 1/32 114.5s/it 34.3s<59:09[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 6% ╸─────────── 2/32 2.1it/s 34.5s<14.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 9% ━─────────── 3/32 3.5it/s 34.6s<8.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 12% ━─────────── 4/32 4.6it/s 34.8s<6.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 15% ━╸────────── 5/32 4.8it/s 35.0s<5.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 18% ━━────────── 6/32 5.3it/s 35.1s<4.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 21% ━━╸───────── 7/32 5.7it/s 35.3s<4.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% ━━━───────── 8/32 5.7it/s 35.4s<4.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 28% ━━━───────── 9/32 5.8it/s 35.6s<4.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 31% ━━━╸──────── 10/32 6.2it/s 35.8s<3.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 34% ━━━━──────── 11/32 5.6it/s 36.0s<3.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 37% ━━━━──────── 12/32 5.8it/s 36.1s<3.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 13/32 5.2it/s 36.4s<3.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 43% ━━━━━─────── 14/32 6.2it/s 36.5s<2.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 46% ━━━━━╸────── 15/32 6.2it/s 36.7s<2.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 16/32 5.9it/s 36.9s<2.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 53% ━━━━━━────── 17/32 6.0it/s 37.0s<2.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 56% ━━━━━━╸───── 18/32 6.5it/s 37.2s<2.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 59% ━━━━━━━───── 19/32 6.8it/s 37.3s<1.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 62% ━━━━━━━───── 20/32 6.8it/s 37.5s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 65% ━━━━━━━╸──── 21/32 6.8it/s 37.6s<1.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 68% ━━━━━━━━──── 22/32 7.1it/s 37.7s<1.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 71% ━━━━━━━━╸─── 23/32 7.2it/s 37.9s<1.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 24/32 7.1it/s 38.0s<1.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 78% ━━━━━━━━━─── 25/32 6.9it/s 38.2s<1.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 81% ━━━━━━━━━╸── 26/32 6.9it/s 38.3s<0.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 84% ━━━━━━━━━━── 27/32 6.9it/s 38.5s<0.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 87% ━━━━━━━━━━── 28/32 7.0it/s 38.6s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 90% ━━━━━━━━━━╸─ 29/32 6.9it/s 38.7s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 93% ━━━━━━━━━━━─ 30/32 6.9it/s 38.9s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 96% ━━━━━━━━━━━╸ 31/32 6.8it/s 39.0s<0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 32/32 1.2s/it 39.3s
+                   all        252        182      0.547      0.424      0.466      0.232
+               pothole         35         42      0.513       0.19      0.304      0.149
+            speed_bump        136        140       0.58      0.657      0.628      0.314
+Speed: 2.6ms preprocess, 7.9ms inference, 0.0ms loss, 3.6ms postprocess per image
+Saving C:\Users\ahmed\Desktop\GP36_AI\runs\detect\PARTVAL_rsid_v3b_B_11n_960_s0\predictions.json...
+
+Evaluating faster-coco-eval mAP...
+Evaluate annotation type *bbox*
+COCOeval_opt.evaluate() finished...
+DONE (t=0.05s).
+Accumulating evaluation results...
+COCOeval_opt.accumulate() finished...
+DONE (t=0.00s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.237
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.469
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.200
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.083
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.210
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.378
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.309
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.463
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.484
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.217
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.469
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.479
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.869
+ Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.505
+Results saved to [1mC:\Users\ahmed\Desktop\GP36_AI\runs\detect\PARTVAL_rsid_v3b_B_11n_960_s0[0m
+ Learn more at https://docs.ultralytics.com/modes/val

@@ -39,3 +39,4 @@ ultralytics==8.4.192
 ultralytics-platform==0.1.101
 ultralytics-thop==2.2.3
 urllib3==2.8.0
+pycocotools==2.0.8

@@ -1,0 +1,335 @@
+[
+  {
+    "q": 1,
+    "confidence": "low",
+    "reason": "Near box has localized coarse material loss but fill versus open depression remains uncertain; second box is a windshield/surface streak.",
+    "evidence": "upstream_source_full_and_individual_rois:upstream_box_views/q001.jpg",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 2,
+    "confidence": "low",
+    "reason": "Near coarse dark defect could be asphalt loss; far light mark lacks a broken rim. Higher-pixel copy does not settle near defect depth.",
+    "evidence": "upstream_source_full_and_individual_rois:upstream_box_views/q002.jpg",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 3,
+    "confidence": "low",
+    "reason": "Near localized rough depression contradicts previous confident negative; distant small dark mark remains ambiguous. Restore best-available boxes pending stronger evidence.",
+    "evidence": "upstream_source_full_and_individual_rois:upstream_box_views/q003.jpg",
+    "keep": [
+      0,
+      1
+    ]
+  },
+  {
+    "q": 9,
+    "confidence": "low",
+    "reason": "Near water-covered coarse road damage is visible; distant narrow openings remain crack-versus-pothole ambiguous.",
+    "evidence": "upstream_source_full_and_individual_rois:upstream_box_views/q009.jpg",
+    "boxes": [
+      [
+        0,
+        0.5547,
+        0.8375,
+        0.6453,
+        1.0
+      ],
+      [
+        0,
+        0.3305,
+        0.6094,
+        0.3664,
+        0.626
+      ],
+      [
+        0,
+        0.4102,
+        0.5802,
+        0.4852,
+        0.6052
+      ],
+      [
+        0,
+        0.4812,
+        0.6469,
+        0.5281,
+        0.6719
+      ],
+      [
+        0,
+        0.4695,
+        0.6135,
+        0.4977,
+        0.6448
+      ]
+    ]
+  },
+  {
+    "q": 15,
+    "confidence": "medium",
+    "reason": "Individual upstream crops show exposed aggregate, cavities and broken pavement rims in all five regions; retain five boxes.",
+    "evidence": "upstream_source_full_and_individual_rois:upstream_box_views/q015.jpg",
+    "boxes": [
+      [
+        0,
+        0.3422,
+        0.8948,
+        0.3781,
+        0.9281
+      ],
+      [
+        0,
+        0.3656,
+        0.8552,
+        0.4031,
+        0.8823
+      ],
+      [
+        0,
+        0.3813,
+        0.8292,
+        0.4188,
+        0.8437
+      ],
+      [
+        0,
+        0.8375,
+        0.9375,
+        0.9016,
+        1.0
+      ],
+      [
+        0,
+        0.6617,
+        0.7354,
+        0.7383,
+        0.7583
+      ]
+    ]
+  },
+  {
+    "q": 17,
+    "confidence": "medium",
+    "reason": "Full upstream scene places these gravel/debris regions in the unpaved entrance outside asphalt; retain negative.",
+    "evidence": "upstream_source_full_and_individual_rois:upstream_box_views/q017.jpg",
+    "boxes": []
+  },
+  {
+    "q": 22,
+    "confidence": "low",
+    "reason": "Boxes zero and one include light debris or a light surface strip without a cavity; remaining wet aggregate and water hide depression boundaries.",
+    "evidence": "upstream_source_full_and_individual_rois:upstream_box_views/q022.jpg",
+    "keep": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "q": 26,
+    "confidence": "low",
+    "reason": "Road-edge water regions have broken asphalt boundaries, but exact water-covered extent remains uncertain; fifth region lacks an asphalt cavity.",
+    "evidence": "upstream_source_full_and_individual_rois:upstream_box_views/q026.jpg",
+    "keep": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "q": 28,
+    "confidence": "low",
+    "reason": "Upstream image remains too dark to distinguish open asphalt loss from filled coarse repairs reliably.",
+    "evidence": "upstream_source_full_and_individual_rois:upstream_box_views/q028.jpg",
+    "boxes": [
+      [
+        0,
+        0.1883,
+        0.75,
+        0.2477,
+        0.8083
+      ],
+      [
+        0,
+        0.1672,
+        0.8292,
+        0.2563,
+        0.9229
+      ],
+      [
+        0,
+        0.0258,
+        0.7927,
+        0.1539,
+        0.8656
+      ]
+    ]
+  },
+  {
+    "q": 40,
+    "confidence": "medium",
+    "reason": "Both upstream crops show dark cavities with broken asphalt rims; reverse previous negative based on lower-detail copy.",
+    "evidence": "upstream_source_full_and_individual_rois:upstream_box_views/q040.jpg",
+    "keep": [
+      0,
+      1
+    ]
+  },
+  {
+    "q": 41,
+    "confidence": "low",
+    "reason": "Several small water-filled cavities have visible edges, but broad roadside water and shoulder regions remain ambiguous; no blanket confirmation.",
+    "evidence": "upstream_source_full_and_individual_rois:upstream_box_views/q041.jpg",
+    "boxes": [
+      [
+        0,
+        0.2547,
+        0.7281,
+        0.3344,
+        0.8281
+      ],
+      [
+        0,
+        0.6156,
+        0.7625,
+        0.6437,
+        0.8229
+      ],
+      [
+        0,
+        0.7125,
+        0.7083,
+        0.8688,
+        0.8313
+      ],
+      [
+        0,
+        0.5352,
+        0.9594,
+        0.5617,
+        1.0
+      ],
+      [
+        0,
+        0.5398,
+        0.8958,
+        0.5648,
+        0.9229
+      ],
+      [
+        0,
+        0.5711,
+        0.9187,
+        0.5914,
+        0.9521
+      ],
+      [
+        0,
+        0.1578,
+        0.8323,
+        0.2266,
+        0.9052
+      ],
+      [
+        0,
+        0.1234,
+        0.8042,
+        0.1453,
+        0.8375
+      ],
+      [
+        0,
+        0.2797,
+        0.9094,
+        0.3062,
+        0.9406
+      ],
+      [
+        0,
+        0.2344,
+        0.8865,
+        0.2547,
+        0.9135
+      ]
+    ]
+  },
+  {
+    "q": 43,
+    "confidence": "low",
+    "reason": "Upstream crops reveal localized dark depressions and aggregate edges, contradicting prior confident negative; filled-versus-open state remains uncertain for some regions.",
+    "evidence": "upstream_source_full_and_individual_rois:upstream_box_views/q043.jpg",
+    "keep": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "q": 48,
+    "confidence": "low",
+    "reason": "Large region crosses windshield obstruction and litter; visible dark road area does not settle asphalt-loss extent.",
+    "evidence": "upstream_source_full_and_individual_rois:upstream_box_views/q048.jpg",
+    "boxes": [
+      [
+        0,
+        0.0648,
+        0.9396,
+        0.2258,
+        1.0
+      ]
+    ]
+  },
+  {
+    "q": 51,
+    "confidence": "low",
+    "reason": "Exclude broad unpaved shoulder pools zero and one; remaining regions have broken pavement edges but water obscures depth and exact limits.",
+    "evidence": "upstream_source_full_and_individual_rois:upstream_box_views/q051.jpg",
+    "keep": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "q": 58,
+    "confidence": "low",
+    "reason": "Small localized dark defects are visible but blur and blue windshield cast prevent reliable open-versus-filled adjudication.",
+    "evidence": "upstream_source_full_and_individual_rois:upstream_box_views/q058.jpg",
+    "boxes": [
+      [
+        0,
+        0.5891,
+        0.75,
+        0.6078,
+        0.7833
+      ],
+      [
+        0,
+        0.7687,
+        0.7354,
+        0.8063,
+        0.7604
+      ],
+      [
+        0,
+        0.4141,
+        0.7552,
+        0.4812,
+        0.7781
+      ]
+    ]
+  }
+]

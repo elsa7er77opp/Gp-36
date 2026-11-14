@@ -1,0 +1,4 @@
+[
+ {"q":374,"keep":[1],"confidence":"medium","reason":"Retain separate small left asphalt-loss patch (index 1); remove giant index 0 box following a curved crack. Index checked against exact normalized coordinates."},
+ {"q":80,"confidence":"low","reason":"Rubble/debris fills transverse damaged repair. Original cannot distinguish a cavity from raised rubble reliably; negative is provisional."}
+]

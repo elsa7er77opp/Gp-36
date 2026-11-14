@@ -1,0 +1,120 @@
+{
+ "assignment": {
+  "augsburg": "train",
+  "avetrana": "val",
+  "bibi": "val",
+  "carmiano": "val",
+  "germany": "train",
+  "ingol": "test",
+  "korntal": "val",
+  "ludwig": "train",
+  "monte": "val",
+  "munich": "train",
+  "nardo": "train",
+  "speedbump": "val",
+  "vi": "test"
+ },
+ "place_counts_pot_bump_images": {
+  "augsburg": [
+   3,
+   427,
+   430
+  ],
+  "avetrana": [
+   363,
+   19,
+   382
+  ],
+  "bibi": [
+   71,
+   272,
+   343
+  ],
+  "carmiano": [
+   38,
+   119,
+   157
+  ],
+  "germany": [
+   1194,
+   854,
+   2048
+  ],
+  "ingol": [
+   2,
+   454,
+   456
+  ],
+  "korntal": [
+   0,
+   69,
+   69
+  ],
+  "ludwig": [
+   0,
+   311,
+   311
+  ],
+  "monte": [
+   27,
+   93,
+   120
+  ],
+  "munich": [
+   52,
+   1283,
+   1335
+  ],
+  "nardo": [
+   1438,
+   170,
+   1608
+  ],
+  "speedbump": [
+   0,
+   1,
+   1
+  ],
+  "vi": [
+   286,
+   162,
+   448
+  ]
+ },
+ "shares": [
+  [
+   0.7734599884858953,
+   0.7191780821917808
+  ],
+  [
+   0.1436384571099597,
+   0.1353330184222957
+  ],
+  [
+   0.08290155440414508,
+   0.14548889938592346
+  ]
+ ],
+ "cost": 0.09263807067767603,
+ "candidates": 169,
+ "orb_confirmed_cross_split": 0,
+ "images": {
+  "train": 5732,
+  "val": 1072,
+  "test": 904
+ },
+ "boxes": {
+  "train": [
+   4634,
+   3323
+  ],
+  "val": [
+   627,
+   597
+  ],
+  "test": [
+   352,
+   697
+  ]
+ }
+}

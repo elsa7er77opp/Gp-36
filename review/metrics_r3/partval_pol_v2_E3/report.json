@@ -1,0 +1,165 @@
+{
+ "data": "parts_r3\\pol_v2",
+ "split": "val",
+ "definitions": "STATUS_for_claude.md Stage 7.2",
+ "thresholds_from": "argmax F1 on this split (val)",
+ "care": "all",
+ "models": {
+  "C": {
+   "pred": "runs\\detect\\PARTVAL_pol_v2_v3b_C_11n_960_s0_r2\\predictions.json",
+   "classes": {
+    "pothole": {
+     "n_gt": 0,
+     "AP50": null,
+     "AP50_95": null,
+     "P_at_R50": 0.0,
+     "op": {
+      "thr": 1.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "BoxAcc": 0.0,
+      "ImgAcc": 1.0,
+      "n_img": 100,
+      "n_neg": 100,
+      "NearR": null,
+      "n_near": 0
+     },
+     "deploy": {
+      "thr": 0.35,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "BoxAcc": 0.0,
+      "ImgAcc": 1.0,
+      "n_img": 100,
+      "n_neg": 100,
+      "NearR": null,
+      "n_near": 0
+     }
+    },
+    "speed_bump": {
+     "n_gt": 100,
+     "AP50": 0.9502832870324209,
+     "AP50_95": 0.5528866555518349,
+     "P_at_R50": 1.0,
+     "op": {
+      "thr": 0.1329,
+      "tp": 80,
+      "fp": 1,
+      "fn": 20,
+      "P": 0.9876543209876543,
+      "R": 0.8,
+      "F1": 0.8839779005524862,
+      "BoxAcc": 0.7920792079207921,
+      "ImgAcc": 0.8,
+      "n_img": 100,
+      "n_neg": 0,
+      "NearR": 0.8333333333333334,
+      "n_near": 18
+     },
+     "deploy": {
+      "thr": 0.35,
+      "tp": 75,
+      "fp": 0,
+      "fn": 25,
+      "P": 1.0,
+      "R": 0.75,
+      "F1": 0.8571428571428571,
+      "BoxAcc": 0.75,
+      "ImgAcc": 0.75,
+      "n_img": 100,
+      "n_neg": 0,
+      "NearR": 0.7777777777777778,
+      "n_near": 18
+     }
+    }
+   },
+   "by": {}
+  },
+  "E3": {
+   "pred": "runs\\detect\\PARTVAL_pol_v2_v3b_C3_11n_960_s0\\predictions.json",
+   "classes": {
+    "pothole": {
+     "n_gt": 0,
+     "AP50": null,
+     "AP50_95": null,
+     "P_at_R50": 0.0,
+     "op": {
+      "thr": 1.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "BoxAcc": 0.0,
+      "ImgAcc": 1.0,
+      "n_img": 100,
+      "n_neg": 100,
+      "NearR": null,
+      "n_near": 0
+     },
+     "deploy": {
+      "thr": 0.35,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "BoxAcc": 0.0,
+      "ImgAcc": 0.99,
+      "n_img": 100,
+      "n_neg": 100,
+      "NearR": null,
+      "n_near": 0
+     }
+    },
+    "speed_bump": {
+     "n_gt": 100,
+     "AP50": 0.9670612082401374,
+     "AP50_95": 0.47500519186618007,
+     "P_at_R50": 1.0,
+     "op": {
+      "thr": 0.2603,
+      "tp": 89,
+      "fp": 3,
+      "fn": 11,
+      "P": 0.967391304347826,
+      "R": 0.89,
+      "F1": 0.9270833333333334,
+      "BoxAcc": 0.8640776699029126,
+      "ImgAcc": 0.89,
+      "n_img": 100,
+      "n_neg": 0,
+      "NearR": 0.8888888888888888,
+      "n_near": 18
+     },
+     "deploy": {
+      "thr": 0.35,
+      "tp": 84,
+      "fp": 0,
+      "fn": 16,
+      "P": 1.0,
+      "R": 0.84,
+      "F1": 0.9130434782608696,
+      "BoxAcc": 0.84,
+      "ImgAcc": 0.84,
+      "n_img": 100,
+      "n_neg": 0,
+      "NearR": 0.8888888888888888,
+      "n_near": 18
+     }
+    }
+   },
+   "by": {}
+  }
+ }
+}

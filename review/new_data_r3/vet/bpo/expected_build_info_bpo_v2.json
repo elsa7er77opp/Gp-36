@@ -1,0 +1,51 @@
+{
+ "part": "bpo_v2",
+ "source_part": "parts_r3/bpo (cloud build)",
+ "source_build_info_sha256": "06e1eb6fadbf737629dccc349467ee38d74cc4702a6de5861afb03567112819a",
+ "audit": "review/new_data_r3/vet/bpo/box_audit.csv",
+ "audit_sha256": "4b5aa6c3d35662dc894b0db9241ca82e6572f23cfd6c9c42b031829fac71bdab",
+ "policy": "remove_* removed in all splits; uncertain kept in train, removed in val/test; boxes never resized",
+ "audit_rows": 583,
+ "audit_rows_not_in_part": 96,
+ "drop_images": "review/new_data_r3/vet/bpo/valtest_missing_labels.csv",
+ "drop_images_sha256": "b03f22a2751cfa54c990e6c402c0e313c51e50818360346eb648d7dc03ff567a",
+ "images_dropped_valtest": [],
+ "splits": {
+  "train": {
+   "images": 442,
+   "negatives": 2,
+   "pothole_boxes": 1413,
+   "speed_bump_boxes": 0,
+   "changes": {
+    "keep:keep": 71,
+    "uncertain:keep": 8
+   }
+  },
+  "val": {
+   "images": 102,
+   "negatives": 45,
+   "pothole_boxes": 105,
+   "speed_bump_boxes": 0,
+   "changes": {
+    "keep:keep": 103,
+    "remove_bad_box:remove": 19,
+    "uncertain:remove": 77,
+    "images_now_negative": 45,
+    "remove_not_pothole:remove": 13
+   }
+  },
+  "test": {
+   "images": 93,
+   "negatives": 41,
+   "pothole_boxes": 106,
+   "speed_bump_boxes": 0,
+   "changes": {
+    "uncertain:remove": 67,
+    "keep:keep": 100,
+    "remove_bad_box:remove": 22,
+    "images_now_negative": 40,
+    "remove_not_pothole:remove": 7
+   }
+  }
+ }
+}

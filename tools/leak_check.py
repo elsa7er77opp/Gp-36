@@ -38,6 +38,7 @@ KNOWN_FAMILIES = {
     "rdd_ (RDD2022, already held)": r"^rdd_|^(Japan|India|Czech|Norway|United_States|China_Drone|China_MotorBike)_\d+",
     "kg_/dz_ (part sr, already used)": r"^(kg|dz)_",
     "potholesN (andrewmvd / ghpot family)": r"^potholes\d+",
+    "SpeedBreaker-N- (rf8 re-upload: yolov7-tipdu/speed-breaker-ffvo0, 59 rf8-val hits, session 5)": r"^SpeedBreaker-\d+-",
 }
 
 

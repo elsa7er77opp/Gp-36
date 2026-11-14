@@ -1,0 +1,3 @@
+# Batch 2: three reviewed hard negatives
+
+Candidates 5, 78 and 109: source pothole boxes removed after inspecting each full 960x720 frame. Final YOLO labels are empty files, intentionally: cracks, intact filled repairs, manholes/utility structures, flat zebra crossing and paint fragments are not either target class. Images retain original pixels, labels and annotated previews are separate. No matches against protected/current references or other candidates at the eight-transform dHash<=4 AND pHash<=10 screen. This is not proof of all scene independence or zero annotation error; AI confidence medium. No image merged into the training release. Source proposed labels remain untouched under rdd_candidates/proposed_labels.

@@ -130,5 +130,58 @@ class TestEvaluate(unittest.TestCase):
             mr.load(self.tmp, "val", bad)
 
 
+class TestNearCare(TestEvaluate):
+    """--care near: KITTI/COCO ignore-region semantics (definition in CLOUD_REPORT.md §0-S5 B1)."""
+
+    def test_care_range(self):
+        self.assertTrue(mr.in_care((0.4, 0.7, 0.6, 0.9)))      # y2 0.9, side 0.2
+        self.assertFalse(mr.in_care((0.4, 0.3, 0.6, 0.55)))    # bottom edge above 0.60 H
+        self.assertFalse(mr.in_care((0.5, 0.9, 0.52, 0.92)))   # sqrt(area) 0.02 < 0.05
+
+    def test_pothole_near(self):
+        meta, gt, pr = mr.load(self.tmp, "val", self.pj)
+        e = mr.evaluate(sorted(meta), gt, pr, 0)
+        n = mr.evaluate_near(sorted(meta), gt, pr, 0, {"op": e["op"]["thr"], "deploy": 0.35})
+        # a: near GT, TP. d: far small pothole -> ignore GT, its prediction is ignored (not TP, not FP).
+        # c: FP box with y2 = 0.55 -> outside the care range -> ignored.
+        self.assertEqual((n["n_gt"], n["n_ignore_gt"]), (1, 1))
+        self.assertAlmostEqual(n["AP50"], 1.0)
+        self.assertEqual((n["op"]["tp"], n["op"]["fp"], n["op"]["fn"]), (1, 0, 0))
+        self.assertAlmostEqual(n["op"]["thr"], e["op"]["thr"])   # same threshold as "all", never re-chosen
+        self.assertAlmostEqual(n["op"]["ImgAcc"], 1.0)
+        # the full numbers are unchanged next to it
+        self.assertEqual((e["op"]["tp"], e["op"]["fp"]), (2, 1))
+
+    def test_fp_inside_care_range_counts(self):
+        st, _ = mr.match_care([(0.9, (0.1, 0.7, 0.3, 0.9))], np.zeros((0, 4)), np.zeros((0, 4)))
+        self.assertEqual(st.tolist(), [0])
+
+    def test_ignore_gt_absorbs_several_predictions(self):
+        ign = np.array([[0.1, 0.1, 0.3, 0.3]])
+        st, _ = mr.match_care([(0.9, (0.1, 0.1, 0.3, 0.3)), (0.8, (0.11, 0.1, 0.31, 0.3))], np.zeros((0, 4)), ign)
+        self.assertEqual(st.tolist(), [-1, -1])
+
+    def test_care_gt_matched_before_ignore_gt(self):
+        care = np.array([[0.1, 0.7, 0.3, 0.9]])
+        ign = np.array([[0.1, 0.7, 0.3, 0.9]])
+        st, gi = mr.match_care([(0.9, (0.1, 0.7, 0.3, 0.9)), (0.5, (0.1, 0.7, 0.3, 0.9))], care, ign)
+        self.assertEqual(st.tolist(), [1, -1])   # 2nd duplicate falls on the ignore GT, not an FP
+        self.assertEqual(gi.tolist()[0], 0)
+
+    def test_cli_writes_near_next_to_all(self):
+        import subprocess
+        out = self.tmp / "rep"
+        r = subprocess.run([sys.executable, "-I", str(ROOT / "tools" / "metrics_report.py"), "--data", str(self.tmp),
+                            "--split", "val", "--pred", f"m={self.pj}", "--care", "near", "--out", str(out)],
+                           capture_output=True, text=True)
+        self.assertEqual(r.returncode, 0, r.stderr)
+        rep = json.loads((out / "report.json").read_text(encoding="utf-8"))
+        c = rep["models"]["m"]["classes"]["pothole"]
+        self.assertIn("AP50", c)
+        self.assertIn("near", c)
+        self.assertEqual(rep["care"], "near")
+        self.assertIn("AP50 all | AP50 near", (out / "report.md").read_text(encoding="utf-8"))
+
+
 if __name__ == "__main__":
     unittest.main()

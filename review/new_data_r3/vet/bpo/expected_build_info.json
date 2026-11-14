@@ -1,0 +1,36 @@
+{
+ "part": "bpo",
+ "items": "<laptop items csv>",
+ "n_items": 673,
+ "kept": 637,
+ "drops": {
+  "only_far_tiny": 36
+ },
+ "far_tiny_boxes_removed": 158,
+ "ignored_boxes_removed": 0,
+ "far_tiny_threshold": 0.02,
+ "leakage_guard": "exact + dHash<=4 & pHash<=10 under the same one of 8 flips/rotations (rule v2, 2026-11-04) vs /nonexistent (all splits) [cloud run: --hash-cache = protected_hashes.npz]",
+ "splits": {
+  "train": {
+   "images": 442,
+   "negatives": 2,
+   "pothole_boxes": 1413,
+   "speed_bump_boxes": 0,
+   "groups": 53
+  },
+  "val": {
+   "images": 102,
+   "negatives": 0,
+   "pothole_boxes": 214,
+   "speed_bump_boxes": 0,
+   "groups": 13
+  },
+  "test": {
+   "images": 93,
+   "negatives": 1,
+   "pothole_boxes": 202,
+   "speed_bump_boxes": 0,
+   "groups": 13
+  }
+ }
+}

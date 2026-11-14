@@ -1,0 +1,17 @@
+{
+  "images": 2623,
+  "size": [
+    960,
+    720
+  ],
+  "dimensions_decode_and_label_geometry": "PASS",
+  "source_subpixel_box_issue_candidates": [
+    2233,
+    2478,
+    2604
+  ],
+  "proposed_box_count": 900,
+  "candidate_content_fingerprint": "9f299f7801ffe26557b3a071a5019a52c7261944c473c75b1b89608cbf06350b",
+  "accepted_images": 0,
+  "notes": "Structural verification of candidate proposals only; not semantic approval. Three flagged images require full relabeling before admission. Protected/duplicate audits are separate. No training started."
+}

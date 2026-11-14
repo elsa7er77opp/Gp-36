@@ -1,0 +1,28 @@
+model,set,images,class,gt_boxes,pred_boxes_conf>=0.001,AP50,note
+A1,ALLVAL,1754,pothole,1057,44832,0.576699,
+A1,ALLVAL,1754,speed_bump,741,11661,0.679236,
+A1,ALLVAL,1754,mean_over_classes_with_GT,,,0.627967,2 class(es)
+A1,r2,830,pothole,691,31653,0.638930,
+A1,r2,830,speed_bump,378,3031,0.650700,
+A1,r2,830,mean_over_classes_with_GT,,,0.644815,2 class(es)
+A1,rsid,252,pothole,42,1598,0.261211,
+A1,rsid,252,speed_bump,140,6309,0.634791,
+A1,rsid,252,mean_over_classes_with_GT,,,0.448001,2 class(es)
+A1,bucko,125,pothole,186,5760,0.571549,
+A1,bucko,125,speed_bump,0,202,,no GT of this class: AP not computable
+A1,bucko,125,mean_over_classes_with_GT,,,0.571549,1 class(es)
+A1,sr,164,pothole,108,4793,0.401837,
+A1,sr,164,speed_bump,35,1215,0.000000,
+A1,sr,164,mean_over_classes_with_GT,,,0.200918,2 class(es)
+A1,pol_v2,100,pothole,0,118,,no GT of this class: AP not computable
+A1,pol_v2,100,speed_bump,100,235,0.894759,
+A1,pol_v2,100,mean_over_classes_with_GT,,,0.894759,1 class(es)
+A1,red_v2,69,pothole,0,57,,no GT of this class: AP not computable
+A1,red_v2,69,speed_bump,68,118,0.985046,
+A1,red_v2,69,mean_over_classes_with_GT,,,0.985046,1 class(es)
+A1,ng8_v2,67,pothole,0,30,,no GT of this class: AP not computable
+A1,ng8_v2,67,speed_bump,20,100,0.871471,
+A1,ng8_v2,67,mean_over_classes_with_GT,,,0.871471,1 class(es)
+A1,egy_v2,147,pothole,30,823,0.377862,
+A1,egy_v2,147,speed_bump,0,451,,no GT of this class: AP not computable
+A1,egy_v2,147,mean_over_classes_with_GT,,,0.377862,1 class(es)

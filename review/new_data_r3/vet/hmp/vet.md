@@ -1,0 +1,21 @@
+# Vet report — hmp
+
+Tool: `tools/vet_source.py`; root `<rf_humps export root>`.
+
+| item | value |
+|---|---|
+| images | 5000 |
+| labelled | 5000 |
+| class_id_counts | {"4": 3434, "0": 1214, "1": 1180, "2": 3225, "3": 1916} |
+| data_yaml_names | {"data.yaml": ["animals", "humps", "pedestrian", "pothole", "roadworks"]} |
+| licence_lines | [] |
+| roboflow_bases | 4165 |
+| images_per_base | {"1": 3790, "4": 42, "2": 206, "3": 79, "5": 14, "9": 7, "6": 12, "8": 2, "7": 3, "16": 2, "18": 2, "17": 1, "10": 2, "12": 2, "22": 1} |
+| near_dup_clusters | 3917 |
+| images_per_cluster | {"1": 3369, "9": 4, "2": 386, "3": 98, "4": 22, "5": 11, "8": 2, "7": 3, "13": 1, "6": 16, "138": 1, "55": 1, "14": 1, "18": 1, "15": 1} |
+| known_families | {"Image000xx / Image-N- (rf8 / sb15 family)": 101} |
+| leak_hits_eval | 18 |
+| leak_hits_r2_train | 10 |
+| leak_eval_by_protected_set | {"val:rf8": 17, "test:ghpot": 1} |
+| leak_eval_by_family | {"105_jpg.rf.1": 1, "114_jpg.rf.4": 1, "119_jpg.rf.4": 1, "24_jpg.rf.11": 1, "25_jpg.rf.6d": 1, "26_jpg.rf.7c": 1, "36_jpg.rf.85": 1, "38_jpg.rf.aa": 1, "44_jpg.rf.c0": 1, "51_jpg.rf.84": 1, "51_jpg.rf.b3": 1, "69_jpg.rf.69": 1, "70_jpg.rf.fd": 1, "79_jpg.rf.40": 1, "81_jpg.rf.36": 1, "81_jpg.rf.f8": 1, "88_jpg.rf.22": 1, "images254_jp": 1} |
+| hint | "REJECT or exclude the hit families (eval leak)" |

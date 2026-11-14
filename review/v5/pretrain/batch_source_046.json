@@ -1,0 +1,612 @@
+[
+  {
+    "q": 121,
+    "confidence": "medium",
+    "reason": "Blurred filled repair and longitudinal seam; no distinct open cavity visible."
+  },
+  {
+    "q": 123,
+    "confidence": "medium",
+    "reason": "Block cracks and intact repair surface; no localized asphalt loss."
+  },
+  {
+    "q": 124,
+    "confidence": "medium",
+    "reason": "Cracks separate intact asphalt blocks, rather than an open pothole."
+  },
+  {
+    "q": 127,
+    "confidence": "low",
+    "reason": "Water on gravel/asphalt boundary; original does not establish depression for all puddles."
+  },
+  {
+    "q": 129,
+    "confidence": "medium",
+    "reason": "Foreground alligator cracking is intact asphalt; retain the separate smaller material-loss defects.",
+    "keep": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "q": 132,
+    "confidence": "medium",
+    "reason": "Raised loose rubble/asphalt piles on the road are not open cavities.",
+    "keep": []
+  },
+  {
+    "q": 135,
+    "confidence": "medium",
+    "reason": "Retain foreground broken-rim cavity; distant thin linear cracks are not separate potholes.",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 308,
+    "confidence": "medium",
+    "reason": "Original shows broken rims around the wet/snowy localized cavities."
+  },
+  {
+    "q": 309,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 310,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 311,
+    "confidence": "medium",
+    "reason": "Closed aggregate repair surface; dark adjoining stain does not establish an open hole.",
+    "keep": []
+  },
+  {
+    "q": 312,
+    "confidence": "low",
+    "reason": "Surface raveling versus shallow cavity remains uncertain in the original."
+  },
+  {
+    "q": 313,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 314,
+    "confidence": "medium",
+    "reason": "Elongated exposed aggregate areas show localized loss of asphalt surface."
+  },
+  {
+    "q": 315,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 316,
+    "confidence": "medium",
+    "reason": "Retain left rough cavity; broad right region is an intact filled asphalt repair.",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 317,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 318,
+    "confidence": "medium",
+    "reason": "Retain small dark pit; large right patch has a closed continuous repair surface.",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 319,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 320,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 321,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 322,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 323,
+    "confidence": "medium",
+    "reason": "One connected exposed-aggregate cavity; merge the overlapping boxes.",
+    "boxes": [
+      [
+        0,
+        0.0002,
+        0.1203,
+        0.7388,
+        1.0
+      ]
+    ]
+  },
+  {
+    "q": 324,
+    "confidence": "medium",
+    "reason": "Retain round broken-rim cavity; remove long linear crack on the left.",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 326,
+    "confidence": "medium",
+    "reason": "Retain upper localized pit; large foreground region is intact alligator-cracked asphalt.",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 327,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 328,
+    "confidence": "medium",
+    "reason": "Retain left cavity; broad new asphalt patch is closed and filled.",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 332,
+    "confidence": "medium",
+    "reason": "Retain two left localized asphalt-loss defects; giant right box covers closed filled repair.",
+    "keep": [
+      0,
+      2
+    ]
+  },
+  {
+    "q": 333,
+    "confidence": "medium",
+    "reason": "Remove circular utility fitting and closed foreground repair; retain broken-rim material-loss areas.",
+    "keep": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "q": 334,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 335,
+    "confidence": "medium",
+    "reason": "The four dark regions are closed filled asphalt repairs, not open cavities.",
+    "keep": []
+  },
+  {
+    "q": 337,
+    "confidence": "medium",
+    "reason": "Broad box covers a closed filled asphalt repair and adjacent wet stain.",
+    "keep": []
+  },
+  {
+    "q": 338,
+    "confidence": "medium",
+    "reason": "Retain small upper cavity; broad foreground region is a filled repair.",
+    "keep": [
+      1
+    ]
+  },
+  {
+    "q": 339,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 341,
+    "confidence": "low",
+    "reason": "Original does not distinguish pale filled repairs from shallow asphalt loss reliably."
+  },
+  {
+    "q": 343,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 344,
+    "confidence": "medium",
+    "reason": "Tighten to the right localized asphalt-loss cavity, excluding the long adjoining crack.",
+    "boxes": [
+      [
+        0,
+        0.46,
+        0.2,
+        0.6421,
+        0.425
+      ]
+    ]
+  },
+  {
+    "q": 345,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 347,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 348,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 349,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 352,
+    "confidence": "medium",
+    "reason": "Large region is a closed filled asphalt repair.",
+    "keep": []
+  },
+  {
+    "q": 354,
+    "confidence": "medium",
+    "reason": "Retain left localized pit; remove large closed asphalt repair.",
+    "keep": [
+      1
+    ]
+  },
+  {
+    "q": 355,
+    "confidence": "medium",
+    "reason": "Retain right cavity; remove separate left transverse crack.",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 356,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 357,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 358,
+    "confidence": "medium",
+    "reason": "Near defect has missing asphalt and broken edges; distant small mark is not a visible cavity.",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 359,
+    "confidence": "medium",
+    "reason": "Remove circular utility fitting and flat closed repair; retain localized broken-rim defects.",
+    "keep": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "q": 360,
+    "confidence": "medium",
+    "reason": "Retain two left asphalt-loss cavities; curbside dirt/litter is not a separate road pothole.",
+    "keep": [
+      0,
+      3
+    ]
+  },
+  {
+    "q": 361,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 362,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 363,
+    "confidence": "medium",
+    "reason": "Remove utility fitting and large closed foreground repair; retain other asphalt-loss defects.",
+    "keep": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "q": 364,
+    "confidence": "medium",
+    "reason": "Foreground exposed coarse aggregate has a clear continuous broken asphalt rim; add missing cavity.",
+    "boxes": [
+      [
+        0,
+        0.4055,
+        0.1998,
+        0.6568,
+        0.419
+      ],
+      [
+        0,
+        0.1257,
+        0.0024,
+        0.2591,
+        0.2687
+      ],
+      [
+        0,
+        0.7742,
+        0.0067,
+        0.8769,
+        0.2231
+      ],
+      [
+        0,
+        0.126,
+        0.45,
+        0.876,
+        1.0
+      ]
+    ]
+  },
+  {
+    "q": 366,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 367,
+    "confidence": "medium",
+    "reason": "Dark wet image retains visible rims and localized material loss around labelled cavities."
+  },
+  {
+    "q": 368,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 369,
+    "confidence": "medium",
+    "reason": "Remove utility cap and two overlapping boxes on closed foreground repair; retain visible cavities.",
+    "keep": [
+      0,
+      1,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "q": 370,
+    "confidence": "medium",
+    "reason": "Remove utility cap and overlapping closed foreground repair boxes; retain the open asphalt-loss defects.",
+    "keep": [
+      0,
+      1,
+      4,
+      5,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "q": 371,
+    "confidence": "medium",
+    "reason": "Four areas have localized exposed lower road material and broken asphalt boundaries."
+  },
+  {
+    "q": 372,
+    "confidence": "medium",
+    "reason": "Two labelled features are narrow linear/curved cracks in otherwise intact road.",
+    "keep": []
+  },
+  {
+    "q": 373,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 374,
+    "confidence": "medium",
+    "reason": "Remove giant box covering a curved road crack; retain separate left asphalt-loss patch.",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 376,
+    "confidence": "low",
+    "reason": "Original wet road contains additional water regions without enough visible rims to settle completeness."
+  },
+  {
+    "q": 377,
+    "confidence": "medium",
+    "reason": "Both boxes follow narrow linear cracks rather than localized cavities.",
+    "keep": []
+  },
+  {
+    "q": 378,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 379,
+    "confidence": "low",
+    "reason": "Long transverse joint/repair and shadows prevent reliable cavity boundary adjudication."
+  },
+  {
+    "q": 380,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 381,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 382,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 383,
+    "confidence": "medium",
+    "reason": "Original shows localized exposed aggregate bounded by missing asphalt edges; retain visible material-loss defects."
+  },
+  {
+    "q": 384,
+    "confidence": "medium",
+    "reason": "Raised crossing ramp edge is visible; retain speed-bump/platform class."
+  },
+  {
+    "q": 385,
+    "confidence": "medium",
+    "reason": "Raised crossing platform and approach edge are visible; retain class."
+  },
+  {
+    "q": 386,
+    "confidence": "medium",
+    "reason": "Same raised crossing with visible checker ramp edge in original."
+  },
+  {
+    "q": 387,
+    "confidence": "medium",
+    "reason": "Checker-marked ramp has a visible elevation edge ahead of the crossing."
+  },
+  {
+    "q": 388,
+    "confidence": "medium",
+    "reason": "Raised crossing approach ramp is visible; retain speed-bump/platform class."
+  },
+  {
+    "q": 390,
+    "confidence": "medium",
+    "reason": "Raised crossing approach edge is visible in the original road context."
+  },
+  {
+    "q": 391,
+    "confidence": "low",
+    "reason": "Wet crossing glare and wiper obscure elevation; raised-versus-flat not settled."
+  },
+  {
+    "q": 392,
+    "confidence": "medium",
+    "reason": "Checker ramp and broad raised crossing platform visible in original."
+  },
+  {
+    "q": 393,
+    "confidence": "low",
+    "reason": "Rain reflection and wiper hide crossing elevation; unresolved."
+  },
+  {
+    "q": 394,
+    "confidence": "medium",
+    "reason": "Crossing ramp edge alongside central island is visible; retain raised-platform class."
+  },
+  {
+    "q": 416,
+    "confidence": "low",
+    "reason": "Saturated road pixels beneath vehicles do not reveal the claimed bump."
+  },
+  {
+    "q": 418,
+    "confidence": "low",
+    "reason": "Headlight saturation and motion blur prevent a cavity-versus-mark decision."
+  },
+  {
+    "q": 419,
+    "confidence": "low",
+    "reason": "Washed-out foreground road does not reveal the claimed bump elevation."
+  },
+  {
+    "q": 420,
+    "confidence": "low",
+    "reason": "Motion-blurred shallow road wear cannot establish a cavity boundary."
+  },
+  {
+    "q": 421,
+    "confidence": "low",
+    "reason": "Blurred dark spot could be stain or shallow road loss; original cannot distinguish."
+  },
+  {
+    "q": 423,
+    "confidence": "low",
+    "reason": "Roadside transverse worn region may be repair or cavity; depth not visible."
+  },
+  {
+    "q": 424,
+    "confidence": "low",
+    "reason": "Near dark region and distant bright band cannot both be settled from this blurred frame."
+  },
+  {
+    "q": 428,
+    "confidence": "low",
+    "reason": "Transverse shadow/band may be a bump but no reliable elevation contour is visible."
+  },
+  {
+    "q": 429,
+    "confidence": "low",
+    "reason": "Blurred circular region lacks a clear broken rim."
+  },
+  {
+    "q": 430,
+    "confidence": "low",
+    "reason": "Overexposed road mark has no recoverable cavity edge."
+  },
+  {
+    "q": 431,
+    "confidence": "low",
+    "reason": "Dark shallow region lacks a distinct broken rim in original."
+  },
+  {
+    "q": 432,
+    "confidence": "low",
+    "reason": "Thin blurred dark line does not establish missing asphalt depth."
+  }
+]

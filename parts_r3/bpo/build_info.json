@@ -1,0 +1,36 @@
+{
+ "part": "bpo",
+ "items": "review\\new_data_r3\\items/items_bpo.csv",
+ "n_items": 673,
+ "kept": 637,
+ "drops": {
+  "only_far_tiny": 36
+ },
+ "far_tiny_boxes_removed": 158,
+ "ignored_boxes_removed": 0,
+ "far_tiny_threshold": 0.02,
+ "leakage_guard": "exact + dHash<=4 & pHash<=10 under the same one of 8 flips/rotations (rule v2, 2026-11-04) vs road_hazards_v3a_r2 (all splits) + ['external_tests/bd_speedbreaker_v2_orig87', 'parts_r3/rsid:val,test', 'parts_r3/bucko:val,test', 'parts_r3/sr:val,test', 'parts_r3/rdd_cz:test', 'parts_r3/pol:val,test', 'parts_r3/red:val,test', 'parts_r3/ng8:val,test', 'parts_r3/egy_v2:val,test']",
+ "splits": {
+  "train": {
+   "images": 442,
+   "negatives": 2,
+   "pothole_boxes": 1413,
+   "speed_bump_boxes": 0,
+   "groups": 53
+  },
+  "val": {
+   "images": 102,
+   "negatives": 0,
+   "pothole_boxes": 214,
+   "speed_bump_boxes": 0,
+   "groups": 13
+  },
+  "test": {
+   "images": 93,
+   "negatives": 1,
+   "pothole_boxes": 202,
+   "speed_bump_boxes": 0,
+   "groups": 13
+  }
+ }
+}

@@ -11,12 +11,17 @@ Rules (the same as make_items_sr.py, written down before any model sees the data
 2. Roboflow augmented copies: images are grouped by base name (stem without `_jpg.rf.<hash>`); ONE copy per base
    is kept (the lexicographically first, so the choice is reproducible).
 3. Known re-upload families (tools/leak_check.py KNOWN_FAMILIES) are dropped by file name.
-4. Group key = within-source near-duplicate cluster (dihedral dHash <= 10 and pHash <= 16: looser than the leak
-   rule, so frames of the same place/approach land in one group), joined with the numeric-block of the name when
-   names are consecutive frame numbers (`..._123` -> block of 25). Groups, not frames, are split.
+4. Group key = numeric block of the name when names end in a frame/photo number (`..._123` -> block of 25),
+   joined (union-find) with within-source near-duplicates under the leak rule (dHash <= 4 and pHash <= 10 under
+   the same flip/rotation), so copies of one picture never straddle splits. Groups, not frames, are split.
+   (Looser thresholds chained low-texture road frames into one giant group: tried and rejected 2026-11-04.)
 5. Split: groups sorted by (-hazard boxes, id); every 6th group -> val, the next -> test, rest train
    (~2/3 train), like make_items_sr.py. --all-train sends everything to train (use it for single-location sets).
 6. --max-per-group caps the images kept per group (most hazard boxes first), so one place does not dominate.
+8. --group-regex: group key from the name (e.g. the video id), before the numeric-block fallback; --block sets
+   the numeric block size (default 25).
+7. --include / --exclude: regular expressions on the base name (full match) to keep one family only, e.g.
+   --include "[0-9]{3,}" keeps bare numeric names >= 100.
 The source's own train/valid/test split is ignored (Roboflow splits are by image, so copies leak across them).
 """
 import argparse
@@ -35,9 +40,10 @@ from leak_check import family, images_under  # noqa: E402
 from vet_source import base_name, hashes, label_for  # noqa: E402
 
 
-def cluster(H, P, dthr=10, pthr=16):
+def cluster(H, P8, dthr=4, pthr=10):
+    """Group key: near-duplicates under the same flip/rotation (looser thresholds than the leak rule)."""
     D0 = np.array([h[0] for h in H], dtype=np.uint64)
-    P = np.array(P, dtype=np.uint64)
+    P0 = np.array([p[0] for p in P8], dtype=np.uint64)
     par = list(range(len(H)))
 
     def f(i):
@@ -46,9 +52,9 @@ def cluster(H, P, dthr=10, pthr=16):
             i = par[i]
         return i
     for i, h in enumerate(H):
-        dd = np.min(np.bitwise_count(np.asarray(h, dtype=np.uint64)[:, None] ^ D0[None, :]), axis=0)
-        pp = np.bitwise_count(P[i] ^ P)
-        for j in np.nonzero((dd <= dthr) & (pp <= pthr))[0]:
+        dd = np.bitwise_count(np.asarray(h, dtype=np.uint64)[:, None] ^ D0[None, :])
+        pp = np.bitwise_count(np.asarray(P8[i], dtype=np.uint64)[:, None] ^ P0[None, :])
+        for j in np.nonzero(((dd <= dthr) & (pp <= pthr)).any(axis=0))[0]:
             if j != i:
                 par[f(i)] = f(int(j))
     return [f(i) for i in range(len(H))]
@@ -70,6 +76,11 @@ def main():
     ap.add_argument("--all-train", action="store_true")
     ap.add_argument("--max-per-group", type=int, default=0)
     ap.add_argument("--keep-family", action="append", default=[], help="known family to keep anyway (rare)")
+    ap.add_argument("--group-regex", help="regex whose first capture group (re.search on the base name) is the group "
+                    "key, e.g. a video id; images without a match fall back to the numeric name block")
+    ap.add_argument("--block", type=int, default=25, help="numeric name block size for the fallback group key")
+    ap.add_argument("--include", help="regex: keep only images whose Roboflow BASE name matches (re.fullmatch)")
+    ap.add_argument("--exclude", help="regex: drop images whose base name matches (re.fullmatch)")
     a = ap.parse_args()
     out = Path(a.out)
     if out.exists():
@@ -85,6 +96,8 @@ def main():
             dropped_fam += 1
             continue
         b = base_name(img.stem)
+        if (a.include and not re.fullmatch(a.include, b)) or (a.exclude and re.fullmatch(a.exclude, b)):
+            continue
         if b not in by_base or str(img) < str(by_base[b]):
             by_base[b] = img
     rows = []
@@ -97,8 +110,10 @@ def main():
         haz = sum(cmap[i] != "ignore" for i in ids)
         d8, ph = hashes(img)
         m = re.search(r"(\d+)$", b)
+        g = re.search(a.group_regex, b) if a.group_regex else None
         rows.append({"img": img, "lbl": lbl, "haz": haz, "d8": d8, "ph": ph,
-                     "block": f"{re.sub(r'[0-9]+$', '', b)}{int(m.group(1)) // 25}" if m else b})
+                     "block": f"re:{g.group(1)}" if g else
+                     f"{re.sub(r'[0-9]+$', '', b)}{int(m.group(1)) // a.block}" if m else b})
     if not rows:
         sys.exit("no images left")
     cid = cluster([r["d8"] for r in rows], [r["ph"] for r in rows])
@@ -138,7 +153,10 @@ def main():
                         "meta": f"family={a.part}"})
     summ = {s: {"images": sum(split[r["group"]] == s for r in rows), "hazard_boxes": sum(r["haz"] for r in rows if split[r["group"]] == s),
                 "groups": sum(v == s for v in split.values())} for s in ("train", "val", "test")}
-    print(json.dumps({"out": str(out), "bases": len(by_base), "dropped_known_family": dropped_fam, "splits": summ}, indent=1))
+    from collections import Counter
+    gs = Counter(r["group"] for r in rows)
+    print(json.dumps({"out": str(out), "bases": len(by_base), "dropped_known_family": dropped_fam, "groups": len(gs),
+                      "largest_groups": gs.most_common(3), "splits": summ}, indent=1))
 
 
 if __name__ == "__main__":

@@ -1,0 +1,50 @@
+{
+ "part": "egy_v2",
+ "source_part": "parts_r3/egy (cloud build)",
+ "source_build_info_sha256": "82fcabb4badbb31873486fdea834b70d065bdacebd38cae62557c19797e377e3",
+ "audit": "review/new_data_r3/vet/egy/box_audit.csv",
+ "audit_sha256": "cc10b8d12dab41ece3d079314a2ade68daa220538de14e507d5d9b1bbc8d493e",
+ "policy": "remove_* removed in all splits; uncertain kept in train, removed in val/test; boxes never resized",
+ "audit_rows": 954,
+ "audit_rows_not_in_part": 1,
+ "splits": {
+  "train": {
+   "images": 1118,
+   "negatives": 697,
+   "pothole_boxes": 500,
+   "speed_bump_boxes": 0,
+   "changes": {
+    "remove_manhole:remove": 222,
+    "images_now_negative": 270,
+    "keep:keep": 486,
+    "remove_not_pothole:remove": 94,
+    "remove_bad_box:remove": 19,
+    "uncertain:keep": 14
+   }
+  },
+  "val": {
+   "images": 147,
+   "negatives": 117,
+   "pothole_boxes": 30,
+   "speed_bump_boxes": 0,
+   "changes": {
+    "remove_manhole:remove": 27,
+    "images_now_negative": 34,
+    "keep:keep": 30,
+    "remove_not_pothole:remove": 9
+   }
+  },
+  "test": {
+   "images": 105,
+   "negatives": 84,
+   "pothole_boxes": 23,
+   "speed_bump_boxes": 0,
+   "changes": {
+    "keep:keep": 23,
+    "remove_manhole:remove": 21,
+    "images_now_negative": 27,
+    "remove_not_pothole:remove": 8
+   }
+  }
+ }
+}

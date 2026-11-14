@@ -1,0 +1,9 @@
+{
+  "status": "REJECT",
+  "deltas": {
+    "pothole_AP50": -0.029549592079968656,
+    "bump_AP50": -0.035250845762785143,
+    "near_bump_AP50": -0.08094242688377506
+  },
+  "note": "Single seed, validation only. This is not proof of 0.90 test performance."
+}

@@ -1,0 +1,12 @@
+{
+  "python": "3.12.10",
+  "system": "Windows",
+  "packages": {
+    "ultralytics": "8.4.192",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "2.5.4",
+    "PyYAML": "6.0.3",
+    "Pillow": "13.0.0"
+  }
+}

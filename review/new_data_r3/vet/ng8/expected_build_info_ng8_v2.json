@@ -1,0 +1,46 @@
+{
+ "part": "ng8_v2",
+ "source_part": "parts_r3/ng8 (cloud build)",
+ "source_build_info_sha256": "66baa8c99e2e899b96df94518b773f2c5a4d85ad6829e8350622ebe77d80838f",
+ "audit": "review/new_data_r3/vet/ng8/box_audit.csv",
+ "audit_sha256": "816a17551d328296e0d868e57c242f2324d8152964d2a55030ae22d7433cc138",
+ "policy": "remove_* removed in all splits; uncertain kept in train, removed in val/test; boxes never resized",
+ "audit_rows": 132,
+ "audit_rows_not_in_part": 0,
+ "drop_images": "review/new_data_r3/vet/ng8/valtest_missing_labels.csv",
+ "drop_images_sha256": "da3c48547146a74ea1e482a3095de170d2e4deb895dcf62f48a0b6fdf30fbf1b",
+ "images_dropped_valtest": [
+  "images/test/ng8__93938767af38530c.jpg"
+ ],
+ "splits": {
+  "train": {
+   "images": 278,
+   "negatives": 133,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 145,
+   "changes": {
+    "keep:keep": 95,
+    "uncertain:keep": 5
+   }
+  },
+  "val": {
+   "images": 67,
+   "negatives": 47,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 20,
+   "changes": {
+    "keep:keep": 20
+   }
+  },
+  "test": {
+   "images": 38,
+   "negatives": 26,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 12,
+   "changes": {
+    "keep:keep": 12,
+    "images_dropped": 1
+   }
+  }
+ }
+}

@@ -1,0 +1,51 @@
+{
+  "dataset": "C:\\Users\\ahmed\\Desktop\\GP36_AI\\road_hazards_v5_source_review_20261112_u4k",
+  "date": "2026-11-12",
+  "integrity": "PASS",
+  "train_ready": false,
+  "source_rechecks": 343,
+  "source_pass_changed_images": 92,
+  "cumulative_replacement_records": 683,
+  "unresolved_images": 149,
+  "unresolved_by_source": {
+    "bpo": 36,
+    "bucko": 1,
+    "egy": 14,
+    "ghpot": 5,
+    "rdd_ji": 51,
+    "rf8": 11,
+    "rsid": 2,
+    "sb15": 13,
+    "sr": 16
+  },
+  "confidence_counts": {
+    "low": 149,
+    "medium": 286
+  },
+  "splits": {
+    "val": {
+      "images": 830,
+      "pothole_boxes": 691,
+      "speed_bump_boxes": 378,
+      "empty": 10
+    },
+    "train": {
+      "images": 10562,
+      "pothole_boxes": 6014,
+      "speed_bump_boxes": 3957,
+      "empty": 3941
+    },
+    "test": {
+      "images": 323,
+      "pothole_boxes": 285,
+      "speed_bump_boxes": 160,
+      "empty": 0
+    }
+  },
+  "content_fingerprint": "a4eb58dc61bebf829e9d892fe3bdbf9a928dca56d0c90e58fc21021c7b67150e",
+  "training_started": false,
+  "test_evaluated": false,
+  "limitations": "AI visual labels; 149 provisional images (use unresolved_images field as authoritative). No zero-error guarantee. All original training images retained. Structural checks do not certify semantic truth. Training waits for unresolved labels to be adjudicated with adequate evidence. Benchmark validation/test images and labels unchanged.",
+  "expansion_target_train_images": 13000,
+  "additional_images_required": 2438
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-12",
+  "dataset": "C:\\Users\\ahmed\\Desktop\\GP36_AI\\road_hazards_v5_all_corrected_final",
+  "excluded_train_images": 0,
+  "rechecked_images": 435,
+  "additional_label_changes": 71,
+  "cumulative_replacement_records": 592,
+  "confidence_counts": {
+    "low": 343,
+    "medium": 92
+  },
+  "splits": {
+    "val": {
+      "images": 830,
+      "pothole_boxes": 691,
+      "speed_bump_boxes": 378,
+      "empty": 10
+    },
+    "train": {
+      "images": 10562,
+      "pothole_boxes": 6156,
+      "speed_bump_boxes": 3957,
+      "empty": 3898
+    },
+    "test": {
+      "images": 323,
+      "pothole_boxes": 285,
+      "speed_bump_boxes": 160,
+      "empty": 0
+    }
+  },
+  "train_sources": {
+    "ghpot": 85,
+    "rf8": 1258,
+    "sb15": 1692,
+    "rsid": 773,
+    "bucko": 282,
+    "rdd_ji": 500,
+    "sr": 2303,
+    "dmd": 277,
+    "pol": 375,
+    "red": 334,
+    "ng8": 278,
+    "hmpt": 431,
+    "ens": 414,
+    "egy": 1118,
+    "bpo": 442
+  },
+  "content_fingerprint": "12719cdcbcc8d02ed9129ed6216ed4d1947b64a359d7ee14474a9ce4efa37ade",
+  "verification": "PASS: all image bytes/dimensions/decodes; all labels versus source or explicit replacements; all label classes/bounds; manifest counts; split counts; YAML/list paths.",
+  "limitations": "AI visual review, no detector predictions. Low-confidence records are included with their best-available existing annotations, not certified correct. Review completion does not mean ambiguity was eliminated. Validation/test bytes unchanged; no training or evaluation run."
+}

@@ -1,0 +1,7 @@
+# Audit-only wrapper: lets `yolo val` predict on the v3b_C TRAIN split (label audit, STATUS Stage 34). Never used for training or scoring.
+path: C:/Users/ahmed/Desktop/GP36_AI/road_hazards_v3b_C
+train: images/train
+val: images/train
+names:
+  0: pothole
+  1: speed_bump

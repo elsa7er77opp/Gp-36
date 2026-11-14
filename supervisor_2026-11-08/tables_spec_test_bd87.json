@@ -1,0 +1,7 @@
+{"title": "External BD87 TEST (87 images, speed bumps only; used once per model) - val-chosen thresholds",
+ "split": "test",
+ "figures": true,
+ "rows": [
+  {"label": "C (v3b_C, YOLO11n)", "report": "review/metrics_r3/test_bd87_final/report.json", "model": "C"},
+  {"label": "WBF(C, v1)", "report": "review/metrics_r3/test_bd87_final/report.json", "model": "WBF_C_v1"}
+ ]}

@@ -1,0 +1,48 @@
+{
+ "wbf": {
+  "iou": 0.55,
+  "skip": 0.001,
+  "weights": [
+   1,
+   1
+  ]
+ },
+ "inputs": {
+  "C": "runs\\detect\\v3b_C_11n_960_s0_r2_ALLVAL\\predictions.json",
+  "v1": "runs\\detect\\v3a_r1_11n_960_s0_ALLVAL_WBFinput\\predictions.json"
+ },
+ "ALLVAL": {
+  "C": {
+   "pothole_AP50": 0.586995051073695,
+   "speed_bump_AP50": 0.7243233526646984,
+   "mean_AP50": 0.6556592018691967
+  },
+  "v1": {
+   "pothole_AP50": 0.4788329444346113,
+   "speed_bump_AP50": 0.40638039481579397,
+   "mean_AP50": 0.4426066696252026
+  },
+  "WBF(C,v1)": {
+   "pothole_AP50": 0.5795449884933084,
+   "speed_bump_AP50": 0.6995151000812707,
+   "mean_AP50": 0.6395300442872895
+  }
+ },
+ "ALLVAL_minus_32_sr_rad": {
+  "C": {
+   "pothole_AP50": 0.5881595942136545,
+   "speed_bump_AP50": 0.7594149867721217,
+   "mean_AP50": 0.6737872904928881
+  },
+  "v1": {
+   "pothole_AP50": 0.47917512216154123,
+   "speed_bump_AP50": 0.42759657049683597,
+   "mean_AP50": 0.4533858463291886
+  },
+  "WBF(C,v1)": {
+   "pothole_AP50": 0.5802184344093322,
+   "speed_bump_AP50": 0.7344779593743735,
+   "mean_AP50": 0.6573481968918529
+  }
+ }
+}

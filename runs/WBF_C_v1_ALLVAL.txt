@@ -1,0 +1,37 @@
+===== C: boxes 47965, images with >=1 box 1722/1754
+  ALLVAL                               img  1754 | pothole 0.5870 | bump 0.7243 | mean 0.6557
+  r2                                   img   830 | pothole 0.6413 | bump 0.7047 | mean 0.6730
+  rsid                                 img   252 | pothole 0.1853 | bump 0.6847 | mean 0.4350
+  bucko                                img   125 | pothole 0.6370 | bump    -   | mean 0.6370
+  sr                                   img   164 | pothole 0.3928 | bump 0.0004 | mean 0.1966
+  pol_v2                               img   100 | pothole    -   | bump 0.9451 | mean 0.9451
+  red_v2                               img    69 | pothole    -   | bump 0.9888 | mean 0.9888
+  ng8_v2                               img    67 | pothole    -   | bump 0.9238 | mean 0.9238
+  egy_v2                               img   147 | pothole 0.3350 | bump    -   | mean 0.3350
+  ALLVAL_minus_32_sr_rad(sensitivity)  img  1722 | pothole 0.5882 | bump 0.7594 | mean 0.6738
+===== v1: boxes 60714, images with >=1 box 1752/1754
+  ALLVAL                               img  1754 | pothole 0.4788 | bump 0.4064 | mean 0.4426
+  r2                                   img   830 | pothole 0.6278 | bump 0.7121 | mean 0.6699
+  rsid                                 img   252 | pothole 0.0226 | bump 0.0277 | mean 0.0252
+  bucko                                img   125 | pothole 0.3980 | bump    -   | mean 0.3980
+  sr                                   img   164 | pothole 0.2575 | bump 0.0000 | mean 0.1287
+  pol_v2                               img   100 | pothole    -   | bump 0.3901 | mean 0.3901
+  red_v2                               img    69 | pothole    -   | bump 0.2020 | mean 0.2020
+  ng8_v2                               img    67 | pothole    -   | bump 0.4970 | mean 0.4970
+  egy_v2                               img   147 | pothole 0.0108 | bump    -   | mean 0.0108
+  ALLVAL_minus_32_sr_rad(sensitivity)  img  1722 | pothole 0.4792 | bump 0.4276 | mean 0.4534
+===== WBF(C,v1): boxes 54358, images with >=1 box 1754/1754
+  ALLVAL                               img  1754 | pothole 0.5795 | bump 0.6995 | mean 0.6395
+  r2                                   img   830 | pothole 0.6778 | bump 0.7546 | mean 0.7162
+  rsid                                 img   252 | pothole 0.1141 | bump 0.4833 | mean 0.2987
+  bucko                                img   125 | pothole 0.5596 | bump    -   | mean 0.5596
+  sr                                   img   164 | pothole 0.3595 | bump 0.0004 | mean 0.1800
+  pol_v2                               img   100 | pothole    -   | bump 0.8570 | mean 0.8570
+  red_v2                               img    69 | pothole    -   | bump 0.9859 | mean 0.9859
+  ng8_v2                               img    67 | pothole    -   | bump 0.8314 | mean 0.8314
+  egy_v2                               img   147 | pothole 0.1543 | bump    -   | mean 0.1543
+  ALLVAL_minus_32_sr_rad(sensitivity)  img  1722 | pothole 0.5802 | bump 0.7345 | mean 0.6573
+===== ALLVAL, WBF minus C: pothole -0.0075 | bump -0.0248 | mean -0.0161
+Stage 41 rule (written before the run): another candidate replaces C only if its ALLVAL mean AP50 >= C + 0.02 -> NOT MET
+WBF runs two models per frame; latency is NOT measured here.
+written: review\alldata_v1\wbf_allval_C_v1

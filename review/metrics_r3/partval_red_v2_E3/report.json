@@ -1,0 +1,165 @@
+{
+ "data": "parts_r3\\red_v2",
+ "split": "val",
+ "definitions": "STATUS_for_claude.md Stage 7.2",
+ "thresholds_from": "argmax F1 on this split (val)",
+ "care": "all",
+ "models": {
+  "C": {
+   "pred": "runs\\detect\\PARTVAL_red_v2_v3b_C_11n_960_s0_r2\\predictions.json",
+   "classes": {
+    "pothole": {
+     "n_gt": 0,
+     "AP50": null,
+     "AP50_95": null,
+     "P_at_R50": 0.0,
+     "op": {
+      "thr": 1.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "BoxAcc": 0.0,
+      "ImgAcc": 1.0,
+      "n_img": 69,
+      "n_neg": 69,
+      "NearR": null,
+      "n_near": 0
+     },
+     "deploy": {
+      "thr": 0.35,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "BoxAcc": 0.0,
+      "ImgAcc": 1.0,
+      "n_img": 69,
+      "n_neg": 69,
+      "NearR": null,
+      "n_near": 0
+     }
+    },
+    "speed_bump": {
+     "n_gt": 68,
+     "AP50": 0.993409242945115,
+     "AP50_95": 0.9043511702164191,
+     "P_at_R50": 1.0,
+     "op": {
+      "thr": 0.6941,
+      "tp": 68,
+      "fp": 3,
+      "fn": 0,
+      "P": 0.9577464788732394,
+      "R": 1.0,
+      "F1": 0.9784172661870503,
+      "BoxAcc": 0.9577464788732394,
+      "ImgAcc": 0.9855072463768116,
+      "n_img": 69,
+      "n_neg": 1,
+      "NearR": 1.0,
+      "n_near": 47
+     },
+     "deploy": {
+      "thr": 0.35,
+      "tp": 68,
+      "fp": 5,
+      "fn": 0,
+      "P": 0.9315068493150684,
+      "R": 1.0,
+      "F1": 0.9645390070921985,
+      "BoxAcc": 0.9315068493150684,
+      "ImgAcc": 0.9855072463768116,
+      "n_img": 69,
+      "n_neg": 1,
+      "NearR": 1.0,
+      "n_near": 47
+     }
+    }
+   },
+   "by": {}
+  },
+  "E3": {
+   "pred": "runs\\detect\\PARTVAL_red_v2_v3b_C3_11n_960_s0\\predictions.json",
+   "classes": {
+    "pothole": {
+     "n_gt": 0,
+     "AP50": null,
+     "AP50_95": null,
+     "P_at_R50": 0.0,
+     "op": {
+      "thr": 1.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "BoxAcc": 0.0,
+      "ImgAcc": 1.0,
+      "n_img": 69,
+      "n_neg": 69,
+      "NearR": null,
+      "n_near": 0
+     },
+     "deploy": {
+      "thr": 0.35,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "P": 0.0,
+      "R": 0.0,
+      "F1": 0.0,
+      "BoxAcc": 0.0,
+      "ImgAcc": 1.0,
+      "n_img": 69,
+      "n_neg": 69,
+      "NearR": null,
+      "n_near": 0
+     }
+    },
+    "speed_bump": {
+     "n_gt": 68,
+     "AP50": 0.9964126847467357,
+     "AP50_95": 0.9176577077154722,
+     "P_at_R50": 1.0,
+     "op": {
+      "thr": 0.72,
+      "tp": 68,
+      "fp": 1,
+      "fn": 0,
+      "P": 0.9855072463768116,
+      "R": 1.0,
+      "F1": 0.9927007299270074,
+      "BoxAcc": 0.9855072463768116,
+      "ImgAcc": 0.9855072463768116,
+      "n_img": 69,
+      "n_neg": 1,
+      "NearR": 1.0,
+      "n_near": 47
+     },
+     "deploy": {
+      "thr": 0.35,
+      "tp": 68,
+      "fp": 5,
+      "fn": 0,
+      "P": 0.9315068493150684,
+      "R": 1.0,
+      "F1": 0.9645390070921985,
+      "BoxAcc": 0.9315068493150684,
+      "ImgAcc": 0.9855072463768116,
+      "n_img": 69,
+      "n_neg": 1,
+      "NearR": 1.0,
+      "n_near": 47
+     }
+    }
+   },
+   "by": {}
+  }
+ }
+}

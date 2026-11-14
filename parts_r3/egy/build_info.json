@@ -1,0 +1,34 @@
+{
+ "part": "egy",
+ "items": "review\\new_data_r3\\items/items_egy.csv",
+ "n_items": 1370,
+ "kept": 1370,
+ "drops": {},
+ "far_tiny_boxes_removed": 0,
+ "ignored_boxes_removed": 1004,
+ "far_tiny_threshold": 0.02,
+ "leakage_guard": "exact + dHash<=4 & pHash<=10 under the same one of 8 flips/rotations (rule v2, 2026-11-04) vs road_hazards_v3a_r2 (all splits) + ['external_tests/bd_speedbreaker_v2_orig87', 'parts_r3/rsid:val,test', 'parts_r3/bucko:val,test', 'parts_r3/sr:val,test', 'parts_r3/rdd_cz:test']",
+ "splits": {
+  "train": {
+   "images": 1118,
+   "negatives": 427,
+   "pothole_boxes": 835,
+   "speed_bump_boxes": 0,
+   "groups": 33
+  },
+  "val": {
+   "images": 147,
+   "negatives": 83,
+   "pothole_boxes": 66,
+   "speed_bump_boxes": 0,
+   "groups": 3
+  },
+  "test": {
+   "images": 105,
+   "negatives": 57,
+   "pothole_boxes": 52,
+   "speed_bump_boxes": 0,
+   "groups": 2
+  }
+ }
+}

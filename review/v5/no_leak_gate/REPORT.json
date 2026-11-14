@@ -1,0 +1,20 @@
+{
+  "dataset": "C:\\Users\\ahmed\\Desktop\\GP36_AI\\road_hazards_v5_source_review_20261112_u4k",
+  "images": 11715,
+  "manifest_sha": "366bda9f10dc179e6d683b9c3dc06b22ba0f2c7b261bca57b9e3bb5715279f25",
+  "views": [
+    "standardized",
+    "original"
+  ],
+  "transforms_per_view": 8,
+  "dhash_threshold": 4,
+  "phash_threshold": 10,
+  "protected_reference_count": 4778,
+  "cross_split_candidate_pairs": 2,
+  "candidate_train_images": 2,
+  "cross_split_groups": {},
+  "cross_split_explicit_video_keys": {},
+  "exact_cross_split_hashes": 0,
+  "note": "Review all candidates before training. Zero matches cannot prove every possible shared scene is absent. Generic filenames do not identify videos reliably; no semantic or training-readiness certification.",
+  "screen_pass": false
+}

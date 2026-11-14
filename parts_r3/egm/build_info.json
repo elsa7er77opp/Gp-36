@@ -1,0 +1,34 @@
+{
+ "part": "egm",
+ "items": "review\\new_data_r3\\items\\items_egm.csv",
+ "n_items": 98,
+ "kept": 98,
+ "drops": {},
+ "far_tiny_boxes_removed": 0,
+ "ignored_boxes_removed": 0,
+ "far_tiny_threshold": 0.02,
+ "leakage_guard": "exact + dHash<=4 & pHash<=10 under the same one of 8 flips/rotations (rule v2, 2026-11-04) vs road_hazards_v3a_r2 (all splits) + ['external_tests/bd_speedbreaker_v2_orig87', 'parts_r3/rsid:val,test', 'parts_r3/bucko:val,test', 'parts_r3/sr:val,test', 'parts_r3/rdd_cz:test', 'parts_r3/pol:val,test', 'parts_r3/red:val,test', 'parts_r3/ng8:val,test', 'parts_r3/egy_v2:val,test']",
+ "splits": {
+  "train": {
+   "images": 63,
+   "negatives": 63,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 0,
+   "groups": 29
+  },
+  "val": {
+   "images": 35,
+   "negatives": 35,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 0,
+   "groups": 15
+  },
+  "test": {
+   "images": 0,
+   "negatives": 0,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 0,
+   "groups": 0
+  }
+ }
+}

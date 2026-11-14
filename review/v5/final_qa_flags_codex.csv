@@ -1,0 +1,4 @@
+image,sheet,cell,decision,reason,reviewer
+images/train/rdd_ji__83d17384e11741c3.jpg,0449,4,unsure,Final overlay leaves small cracked patch versus cavity unresolved.,codex
+images/train/rdd_ji__f80ec122d5a59039.jpg,0485,1,unsure,Final overlay leaves tiny road mark versus cavity unresolved.,codex
+images/train/sr__67407ead1461e5a2.jpg,0855,4,unsure,"Sky annotation corrected, but road-level tiny annotation remains uncertain under glare.",codex

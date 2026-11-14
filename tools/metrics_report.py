@@ -19,6 +19,15 @@ Per model and class it reports:
   NearR          A1: recall at thr over GT with bottom edge y2 >= 0.60 H and sqrt(area fraction) >= 0.05
   P@R50          A3: interpolated precision at recall 0.50
 and the same P/R/F1/BoxAcc/ImgAcc at the deployed conf 0.35 (perception/config.yaml fsm.hazard_min_conf).
+With --care near (definition: review/new_data_r3/CLOUD_REPORT.md §0-S5 B1 and supervisor_2026-11-08/METRICS.md
+"Near-range metrics"), every class also gets a "near" block, always NEXT TO the full ("all") numbers, never instead:
+  care range     a box is in the care range iff y2 >= 0.60 H and sqrt(w h / (W H)) >= 0.05 (same as NearR)
+  ignore regions (KITTI / COCO semantics) GT boxes outside the care range become IGNORE; a prediction that matches
+                 (IoU >= 0.5) an ignore GT is neither TP nor FP; an unmatched prediction that is itself outside the
+                 care range is ignored too; predictions are matched to care GT first (greedy by score), then to ignore GT
+  AP50_near, P/R/F1/BoxAcc/ImgAcc_near   at the SAME thresholds as "all" (val-chosen op thr and 0.35); thresholds
+                 are never re-chosen on the near subset. ImgAcc_near: present = any care GT, predicted = any counted
+                 (non-ignored) prediction at the threshold.
 With --by <manifest column>, AP50, P, R at thr are also given per value of that column.
 Writes <out>/report.json and <out>/report.md (refuses to overwrite).
 """
@@ -173,6 +182,71 @@ def evaluate(stems, gt, pr, c, thr=None):
     return {"n_gt": n_gt, "AP50": ap50, "AP50_95": ap5095, "P_at_R50": p_at_r50, "op": at(thr), "deploy": at(DEPLOY_CONF)}
 
 
+NEAR_Y2, NEAR_SIDE = 0.60, 0.05
+
+
+def in_care(box):
+    """Care range 'near' for a normalised xyxy box: bottom edge y2 >= 0.60 H and sqrt(area fraction) >= 0.05."""
+    w, h = max(box[2] - box[0], 0.0), max(box[3] - box[1], 0.0)
+    return box[3] >= NEAR_Y2 and (w * h) ** 0.5 >= NEAR_SIDE
+
+
+def match_care(p, care, ign, thr_iou=0.5):
+    """KITTI/COCO ignore semantics. p: [(score, box)]; care/ign: (m,4) arrays.
+    Returns status per prediction: 1 = TP (matched care GT), 0 = FP, -1 = ignored; and matched care-GT index."""
+    tp, gi = match(p, care, thr_iou)
+    st = np.where(tp, 1, 0)
+    rest = [k for k in range(len(p)) if not tp[k]]
+    if rest and len(ign):  # like COCO crowd / KITTI DontCare: an ignore GT may absorb several predictions
+        M = iou_matrix(np.array([p[k][1] for k in rest]), ign)
+        for r, k in enumerate(rest):
+            if (M[r] >= thr_iou).any():
+                st[k] = -1
+    for k in range(len(p)):
+        if st[k] == 0 and not in_care(p[k][1]):
+            st[k] = -1
+    return st, gi
+
+
+def evaluate_near(stems, gt, pr, c, thrs):
+    """Near-range (care = near) metrics for class c at the given thresholds {"op": t, "deploy": t}."""
+    scores, flags, per_img, n_gt = [], [], [], 0
+    for s in stems:
+        g = [b for b in gt[s] if b[0] == c]
+        care = [b for b in g if in_care(b[1])]
+        ign = [b for b in g if not in_care(b[1])]
+        p = [(sc, bx) for cl, sc, bx in pr.get(s, []) if cl == c]
+        C = np.array([b[1] for b in care]) if care else np.zeros((0, 4))
+        I = np.array([b[1] for b in ign]) if ign else np.zeros((0, 4))
+        st, gi = match_care(p, C, I)
+        n_gt += len(care)
+        for k in range(len(p)):
+            if st[k] >= 0:
+                scores.append(p[k][0])
+                flags.append(bool(st[k] == 1))
+        per_img.append((len(care), len(ign), [x[0] for x in p], st))
+
+    def at(th):
+        tp = fp = fn = img_ok = n_img = n_neg = 0
+        for n_c, n_i, sc, st in per_img:
+            keep = np.array([x >= th for x in sc], bool)
+            t = int(np.sum((st == 1) & keep))
+            f = int(np.sum((st == 0) & keep))
+            tp, fp, fn = tp + t, fp + f, fn + n_c - t
+            present, predicted = n_c > 0, (t + f) > 0
+            img_ok += present == predicted
+            n_img += 1
+            n_neg += not present
+        P = tp / (tp + fp) if tp + fp else 0.0
+        R = tp / (tp + fn) if tp + fn else 0.0
+        return {"thr": round(th, 4), "tp": tp, "fp": fp, "fn": fn, "P": P, "R": R,
+                "F1": 2 * P * R / (P + R) if P + R else 0.0, "BoxAcc": tp / (tp + fp + fn) if tp + fp + fn else 0.0,
+                "ImgAcc": img_ok / n_img if n_img else 0.0, "n_img": n_img, "n_neg": n_neg}
+
+    return {"care": "near", "n_gt": n_gt, "n_ignore_gt": sum(x[1] for x in per_img),
+            "AP50": ap101(scores, flags, n_gt), "op": at(thrs["op"]), "deploy": at(thrs["deploy"])}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--data", required=True)
@@ -180,6 +254,8 @@ def main():
     ap.add_argument("--pred", action="append", required=True, help="name=path/to/predictions.json")
     ap.add_argument("--thresholds", help="val report.json whose operating thresholds are reused (for test)")
     ap.add_argument("--by", action="append", default=[], help="manifest column for subset reports")
+    ap.add_argument("--care", choices=["all", "near"], default="all",
+                    help="near: add near-range (ignore-region) metrics next to the full ones")
     ap.add_argument("--out", required=True)
     args = ap.parse_args()
     out, data = Path(args.out), Path(args.data)
@@ -190,7 +266,7 @@ def main():
         sys.exit("test needs --thresholds from a val report (thresholds are never chosen on test)")
 
     rep = {"data": str(data), "split": args.split, "definitions": "STATUS_for_claude.md Stage 7.2",
-           "thresholds_from": args.thresholds or "argmax F1 on this split (val)", "models": {}}
+           "thresholds_from": args.thresholds or "argmax F1 on this split (val)", "care": args.care, "models": {}}
     for spec in args.pred:
         name, path = spec.split("=", 1)
         meta, gt, pr = load(data, args.split, path)
@@ -199,6 +275,9 @@ def main():
         for c, cn in NAMES.items():
             thr = fixed["models"][name]["classes"][cn]["op"]["thr"] if fixed else None
             r["classes"][cn] = evaluate(stems, gt, pr, c, thr)
+            if args.care == "near":
+                e = r["classes"][cn]
+                e["near"] = evaluate_near(stems, gt, pr, c, {"op": e["op"]["thr"], "deploy": DEPLOY_CONF})
             for col in args.by:
                 groups = defaultdict(list)
                 for s in stems:
@@ -225,6 +304,19 @@ def main():
             L.append(f"| {name} | {cn} | {e['n_gt']} | {f(e['AP50'])} | {f(e['AP50_95'])} | {o['thr']:.3f} | {f(o['P'])} | {f(o['R'])} | "
                      f"{f(o['F1'])} | {f(o['BoxAcc'])} | {f(o['ImgAcc'])} ({o['n_neg']}) | {f(o['NearR'])} ({o['n_near']}) | "
                      f"{f(e['P_at_R50'])} | {f(d['P'])} / {f(d['R'])} / {f(d['ImgAcc'])} |")
+    if args.care == "near":
+        L += ["", "## Near range (care = near, ignore-region semantics) NEXT TO all", "",
+              "Care range: y2 >= 0.60 H and sqrt(area) >= 0.05. GT outside = ignore; predictions on ignore GT or outside "
+              "the care range are neither TP nor FP. Same thresholds as the full table.", "",
+              "| model | class | AP50 all | AP50 near | n_gt all | n_gt near (ignored) | P/R all @thr | P/R near @thr | "
+              "BoxAcc all / near | ImgAcc all / near | P/R near @0.35 |", "|---|---|---|---|---|---|---|---|---|---|---|"]
+        for name, r in rep["models"].items():
+            for cn, e in r["classes"].items():
+                o, n = e["op"], e["near"]
+                L.append(f"| {name} | {cn} | {f(e['AP50'])} | {f(n['AP50'])} | {e['n_gt']} | {n['n_gt']} ({n['n_ignore_gt']}) | "
+                         f"{f(o['P'])} / {f(o['R'])} | {f(n['op']['P'])} / {f(n['op']['R'])} | {f(o['BoxAcc'])} / "
+                         f"{f(n['op']['BoxAcc'])} | {f(o['ImgAcc'])} / {f(n['op']['ImgAcc'])} | "
+                         f"{f(n['deploy']['P'])} / {f(n['deploy']['R'])} |")
     for name, r in rep["models"].items():
         if r["by"]:
             L += ["", f"## {name}: subsets (at the operating threshold)", "",

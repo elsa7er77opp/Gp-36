@@ -1,0 +1,83 @@
+{
+ "data": "external_tests\\bd87_eval_view",
+ "split": "test",
+ "tool": "pycocotools COCOeval bbox, default params",
+ "models": {
+  "C": {
+   "pred": "runs\\detect\\v3b_C_11n_960_s0_r2_EXT_bd87_json\\predictions.json",
+   "n_images": 87,
+   "all": {
+    "AP": 0.3534,
+    "AP50": 0.7309,
+    "AP75": 0.3323,
+    "APs": null,
+    "APm": 0.2059,
+    "APl": 0.4181,
+    "AR1": 0.4182,
+    "AR10": 0.4648,
+    "AR100": 0.4648,
+    "ARs": null,
+    "ARm": 0.3,
+    "ARl": 0.5302
+   },
+   "classes": {
+    "pothole": {
+     "n_gt": 0
+    },
+    "speed_bump": {
+     "n_gt": 88,
+     "AP": 0.3534,
+     "AP50": 0.7309,
+     "AP75": 0.3323,
+     "APs": null,
+     "APm": 0.2059,
+     "APl": 0.4181,
+     "AR1": 0.4182,
+     "AR10": 0.4648,
+     "AR100": 0.4648,
+     "ARs": null,
+     "ARm": 0.3,
+     "ARl": 0.5302
+    }
+   }
+  },
+  "WBF_C_v1": {
+   "pred": "runs\\detect\\WBF_C_v1_EXT_bd87\\predictions.json",
+   "n_images": 87,
+   "all": {
+    "AP": 0.3264,
+    "AP50": 0.7314,
+    "AP75": 0.1995,
+    "APs": null,
+    "APm": 0.1615,
+    "APl": 0.3876,
+    "AR1": 0.3943,
+    "AR10": 0.4523,
+    "AR100": 0.4523,
+    "ARs": null,
+    "ARm": 0.32,
+    "ARl": 0.5048
+   },
+   "classes": {
+    "pothole": {
+     "n_gt": 0
+    },
+    "speed_bump": {
+     "n_gt": 88,
+     "AP": 0.3264,
+     "AP50": 0.7314,
+     "AP75": 0.1995,
+     "APs": null,
+     "APm": 0.1615,
+     "APl": 0.3876,
+     "AR1": 0.3943,
+     "AR10": 0.4523,
+     "AR100": 0.4523,
+     "ARs": null,
+     "ARm": 0.32,
+     "ARl": 0.5048
+    }
+   }
+  }
+ }
+}

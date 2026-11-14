@@ -1,0 +1,192 @@
+[
+  {
+    "part": "bpo",
+    "total": 637,
+    "train": 442,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "bucko",
+    "total": 527,
+    "train": 282,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "dmd",
+    "total": 277,
+    "train": 277,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "egm",
+    "total": 98,
+    "train": 63,
+    "unused_train": 63,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 63,
+    "groups": 29
+  },
+  {
+    "part": "egy",
+    "total": 1370,
+    "train": 1118,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "egy_v2",
+    "total": 1370,
+    "train": 1118,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "ens",
+    "total": 414,
+    "train": 414,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "hmp",
+    "total": 431,
+    "train": 357,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "hmpt",
+    "total": 431,
+    "train": 431,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "ng8",
+    "total": 384,
+    "train": 278,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "ng8_v2",
+    "total": 383,
+    "train": 278,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "pol",
+    "total": 500,
+    "train": 375,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "pol_v2",
+    "total": 500,
+    "train": 375,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "rdd_cz",
+    "total": 154,
+    "train": 0,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "rdd_ji",
+    "total": 2920,
+    "train": 2920,
+    "unused_train": 2420,
+    "unused_pothole_images": 2420,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 2420
+  },
+  {
+    "part": "red",
+    "total": 438,
+    "train": 334,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "red_v2",
+    "total": 438,
+    "train": 334,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "rsid",
+    "total": 1259,
+    "train": 773,
+    "unused_train": 0,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 0,
+    "unused_negative_images": 0,
+    "groups": 0
+  },
+  {
+    "part": "sr",
+    "total": 2783,
+    "train": 2436,
+    "unused_train": 133,
+    "unused_pothole_images": 0,
+    "unused_bump_images": 133,
+    "unused_negative_images": 0,
+    "groups": 26
+  }
+]

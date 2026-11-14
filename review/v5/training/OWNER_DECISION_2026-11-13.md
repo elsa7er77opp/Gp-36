@@ -1,0 +1,1 @@
+Owner decision 2026-11-13 (claude.ai chat): train F1u = v5_u4k_11n_960_s0 now on road_hazards_v5_source_review_20261112_u4k (all 10,562 train, 149 unresolved keep their labels), before the 13,000 target. TRAINING_POLICY.json is not edited; see STATUS Stage 40d.

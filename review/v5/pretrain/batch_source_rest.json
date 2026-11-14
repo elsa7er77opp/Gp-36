@@ -1,0 +1,1367 @@
+[
+  {
+    "q": 1,
+    "confidence": "medium",
+    "reason": "Both boxes cover intact/filled surface or windshield reflection; no broken asphalt boundary.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 2,
+    "confidence": "medium",
+    "reason": "Flat dark repair and tiny road marking are not open cavities.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 3,
+    "confidence": "medium",
+    "reason": "Two small marks lack material loss and lie on intact asphalt.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 5,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 7,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 9,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 10,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 11,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 15,
+    "confidence": "medium",
+    "reason": "Retain the near right broken road-edge cavity; other boxes are thin cracks or utility/repair marks.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      3
+    ]
+  },
+  {
+    "q": 17,
+    "confidence": "medium",
+    "reason": "Boxes cover unpaved gravel shoulder/entrance, outside the paved road cavity definition.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 18,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 19,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 22,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 23,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 26,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 27,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 28,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 29,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 33,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 34,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 37,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 40,
+    "confidence": "medium",
+    "reason": "Boxes cover curbside dirt/stain on a closed road surface.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 41,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 43,
+    "confidence": "medium",
+    "reason": "Small boxed regions are road marks on otherwise intact asphalt, without a visible cavity.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 45,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 47,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 48,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 50,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 51,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 52,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 53,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 54,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 58,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 61,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 62,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 63,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 67,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 68,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 69,
+    "confidence": "low",
+    "reason": "Full native frame and enlarged ROI inspected. Water, glare or tiny closed surface marks prevent reliable broken-rim confirmation for all existing boxes.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 100,
+    "confidence": "low",
+    "reason": "Exposed aggregate on transverse repair is visible but flat-versus-recessed cannot be settled.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 109,
+    "confidence": "low",
+    "reason": "Broad transverse repair has rough texture but its elevation is not established.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 122,
+    "confidence": "low",
+    "reason": "Same broad pale repair; open depression versus filled rough repair remains unsettled.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 126,
+    "confidence": "medium",
+    "reason": "Retain broom-side cavity with broken rim; remove flat filled repair and raised loose gravel pile.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 128,
+    "confidence": "low",
+    "reason": "Many clear cavities, but the long overlapping foreground boxes require boundary adjudication.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 131,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 133,
+    "confidence": "low",
+    "reason": "Foreground coarse asphalt patch may be filled; distant small boxes cannot all be verified at native resolution.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 136,
+    "confidence": "low",
+    "reason": "Plant-filled circular opening has an asphalt rim, but plant/soil obscures whether this is a pothole or installed planter.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 156,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 157,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 158,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 159,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 160,
+    "confidence": "medium",
+    "reason": "Box is a closed fine-aggregate asphalt repair, without missing surface.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 161,
+    "confidence": "medium",
+    "reason": "Both boxes cover closed flat repairs; no localized exposed lower layer.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 163,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 164,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 165,
+    "confidence": "medium",
+    "reason": "Remove small utility fitting; retain small broken-asphalt cavity beside the alligator cracks.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      1
+    ]
+  },
+  {
+    "q": 166,
+    "confidence": "medium",
+    "reason": "Retain foreground material loss; remove tiny rectangular utility fitting.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 167,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 168,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 169,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 171,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 172,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 173,
+    "confidence": "medium",
+    "reason": "Retain three localized missing-asphalt patches; broad foreground box is intact fine aggregate.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "q": 174,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 177,
+    "confidence": "medium",
+    "reason": "Retain broken-rim pale cavity; neighboring broad box covers closed intact surface.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 178,
+    "confidence": "medium",
+    "reason": "Pale region is continuous intact fine-aggregate road surface.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 179,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 180,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 181,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 182,
+    "confidence": "medium",
+    "reason": "Retain upper cavity with broken edge; foreground neighboring region is closed filled repair.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 183,
+    "confidence": "medium",
+    "reason": "Three boxes follow flat filled repair seams/light patches, without open cavities.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 184,
+    "confidence": "medium",
+    "reason": "Single narrow linear road crack, not a localized cavity.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 185,
+    "confidence": "medium",
+    "reason": "Retain upper localized rough material loss; remove long narrow linear cracks.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      2
+    ]
+  },
+  {
+    "q": 186,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 187,
+    "confidence": "medium",
+    "reason": "Both boxes cover intact asphalt; no localized missing material visible.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 188,
+    "confidence": "medium",
+    "reason": "Retain upper exposed aggregate bounded by missing asphalt; foreground closed repair removed.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 189,
+    "confidence": "medium",
+    "reason": "Retain upper localized pit; remove narrow left linear crack.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 190,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 191,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 192,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 193,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 194,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 195,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 196,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 197,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 198,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 199,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 200,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 201,
+    "confidence": "medium",
+    "reason": "Boxes follow longitudinal/transverse linear cracks, not potholes.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 202,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 204,
+    "confidence": "medium",
+    "reason": "Dark mark lies on closed intact road; no broken boundary.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 205,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 206,
+    "confidence": "medium",
+    "reason": "Large region has a closed continuous fine-aggregate repair surface.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 207,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 208,
+    "confidence": "medium",
+    "reason": "Broad roughened region beneath car is intact closed surface.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 209,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 210,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 211,
+    "confidence": "medium",
+    "reason": "Right linear crack and left closed repair are not open potholes.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 212,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 213,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 215,
+    "confidence": "medium",
+    "reason": "Retain localized material-loss regions; remove giant foreground intact pale patch.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "q": 216,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 217,
+    "confidence": "medium",
+    "reason": "All three boxes cover intact alligator-cracked asphalt and dust; no open cavity.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 218,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 219,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 220,
+    "confidence": "low",
+    "reason": "Several left boxes overlap a continuous worn region; exact object boundaries remain uncertain.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 221,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 222,
+    "confidence": "low",
+    "reason": "Tiny rough/rectangular patches could include repairs or utility fittings; native source cannot settle all.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 223,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 224,
+    "confidence": "low",
+    "reason": "Foreground material loss is visible but connected-versus-separate object boundaries need further evidence.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 225,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 226,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 227,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 229,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 230,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 231,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 232,
+    "confidence": "medium",
+    "reason": "Retain left local material loss; remove right intact alligator-cracked asphalt.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 233,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 234,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 235,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 236,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 237,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 238,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 240,
+    "confidence": "medium",
+    "reason": "Closed asphalt/utility repair surface with embedded rectangular fitting, not an open cavity.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 241,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 243,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 244,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 245,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 247,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 249,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 250,
+    "confidence": "medium",
+    "reason": "Dark closed asphalt repair and pale filled insert, no visible open cavity.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 251,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 252,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 253,
+    "confidence": "low",
+    "reason": "Boxed fine-aggregate region appears closed; completeness also uncertain because small unboxed dark defects are visible.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 254,
+    "confidence": "medium",
+    "reason": "Large box covers a closed continuous asphalt repair surface.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 255,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 256,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 258,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 259,
+    "confidence": "medium",
+    "reason": "Circular utility fitting/cover within a repaired road region, not a pothole.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 260,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 261,
+    "confidence": "medium",
+    "reason": "All three boxes cover closed dark asphalt repair patches.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 262,
+    "confidence": "medium",
+    "reason": "Retain large local material loss; remove three narrow transverse/longitudinal cracks.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      2
+    ]
+  },
+  {
+    "q": 264,
+    "confidence": "medium",
+    "reason": "Remove broad intact fine-aggregate foreground region; retain separate smaller material-loss cavities.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "q": 266,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 267,
+    "confidence": "medium",
+    "reason": "Thin crack and closed asphalt patch; neither is an open pothole.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 268,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 269,
+    "confidence": "medium",
+    "reason": "Retain upper bounded material-loss pit; giant left region is closed repaired road.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 270,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 271,
+    "confidence": "medium",
+    "reason": "Retain bounded asphalt-loss patches; remove longitudinal crack and broad intact foreground patch.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0,
+      1,
+      4,
+      5
+    ]
+  },
+  {
+    "q": 272,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 273,
+    "confidence": "medium",
+    "reason": "White road paint/mark has no broken asphalt rim.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 274,
+    "confidence": "medium",
+    "reason": "Thin road crack and flat pale surface mark, no localized cavity.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 275,
+    "confidence": "medium",
+    "reason": "Two boxes cover flat intact fine-aggregate pavement.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 276,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 277,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 278,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 279,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 280,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 281,
+    "confidence": "medium",
+    "reason": "Retain broad foreground asphalt-layer loss with broken right rim; remove small flat distant mark.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 282,
+    "confidence": "medium",
+    "reason": "Retain bounded upper material loss; giant foreground region is closed repair.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 283,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 284,
+    "confidence": "medium",
+    "reason": "Distant broad patch is closed intact road, without a visible broken cavity edge.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 285,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 286,
+    "confidence": "medium",
+    "reason": "Retain two bounded asphalt-loss pits; remove thin paint/markings and intact alligator cracks.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0,
+      1
+    ]
+  },
+  {
+    "q": 287,
+    "confidence": "medium",
+    "reason": "Closed filled roadside asphalt repair; its perimeter crack does not make the interior a cavity.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 290,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 291,
+    "confidence": "medium",
+    "reason": "Broad new asphalt repair is closed and continuous.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 292,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 293,
+    "confidence": "medium",
+    "reason": "Three regions are intact asphalt/filled repair and litter, without open cavity.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 294,
+    "confidence": "medium",
+    "reason": "Retain two bounded exposed-material cavities; remove broad intact road regions and long crack.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0,
+      3
+    ]
+  },
+  {
+    "q": 295,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 296,
+    "confidence": "medium",
+    "reason": "Four boxes cover closed filled aggregate/asphalt repairs.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 298,
+    "confidence": "medium",
+    "reason": "Native pixels show localized exposed lower road material with broken asphalt boundaries; retained material-loss defects.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 299,
+    "confidence": "medium",
+    "reason": "Small rectangular utility fitting is not a pothole.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 300,
+    "confidence": "medium",
+    "reason": "Box follows a long narrow road crack.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 301,
+    "confidence": "medium",
+    "reason": "Retain three bounded distant asphalt-loss defects; remove small foreground closed patch.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "q": 302,
+    "confidence": "medium",
+    "reason": "Retain small near cavity; remove utility repair outline and flat left patch.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      1
+    ]
+  },
+  {
+    "q": 304,
+    "confidence": "medium",
+    "reason": "Retain right local asphalt loss; remove rectangular closed utility repair and narrow cracks.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      3
+    ]
+  },
+  {
+    "q": 305,
+    "confidence": "low",
+    "reason": "Native source and context inspected. Some areas appear to be asphalt-layer loss, but closed repair versus cavity or complete boundaries cannot be settled reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 306,
+    "confidence": "medium",
+    "reason": "Retain bounded upper cavity; broad lower region is intact fine aggregate/dust.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 325,
+    "confidence": "medium",
+    "reason": "Roadside leaves, loose debris and bare shoulder do not show an open paved-road cavity.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 331,
+    "confidence": "low",
+    "reason": "Motorcycles occlude the alleged bump; original does not reveal its contour.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 342,
+    "confidence": "medium",
+    "reason": "Same roadside debris/leaf piles, no separate paved-road cavity.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 346,
+    "confidence": "medium",
+    "reason": "Boxes cover loose leaves and roadside rubble, not visible open asphalt cavities.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 389,
+    "confidence": "medium",
+    "reason": "Flat brick-paved intersection with utility covers; negative retained.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 397,
+    "confidence": "medium",
+    "reason": "Raised crossing approach edge/platform is visible; retain speed-bump/platform class.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 398,
+    "confidence": "low",
+    "reason": "Several neighboring frames show the same pale transverse features, but raised bump versus flat repair/apron is not reliably established for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 399,
+    "confidence": "low",
+    "reason": "Several neighboring frames show the same pale transverse features, but raised bump versus flat repair/apron is not reliably established for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 400,
+    "confidence": "low",
+    "reason": "Several neighboring frames show the same pale transverse features, but raised bump versus flat repair/apron is not reliably established for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 401,
+    "confidence": "low",
+    "reason": "Several neighboring frames show the same pale transverse features, but raised bump versus flat repair/apron is not reliably established for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 402,
+    "confidence": "low",
+    "reason": "Several neighboring frames show the same pale transverse features, but raised bump versus flat repair/apron is not reliably established for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 403,
+    "confidence": "low",
+    "reason": "Several neighboring frames show the same pale transverse features, but raised bump versus flat repair/apron is not reliably established for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 404,
+    "confidence": "low",
+    "reason": "Several neighboring frames show the same pale transverse features, but raised bump versus flat repair/apron is not reliably established for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 405,
+    "confidence": "low",
+    "reason": "Several neighboring frames show the same pale transverse features, but raised bump versus flat repair/apron is not reliably established for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 406,
+    "confidence": "low",
+    "reason": "Several neighboring frames show the same pale transverse features, but raised bump versus flat repair/apron is not reliably established for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 407,
+    "confidence": "low",
+    "reason": "Several neighboring frames show the same pale transverse features, but raised bump versus flat repair/apron is not reliably established for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 408,
+    "confidence": "low",
+    "reason": "Several neighboring frames show the same pale transverse features, but raised bump versus flat repair/apron is not reliably established for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 409,
+    "confidence": "low",
+    "reason": "Several neighboring frames show the same pale transverse features, but raised bump versus flat repair/apron is not reliably established for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 410,
+    "confidence": "low",
+    "reason": "Several neighboring frames show the same pale transverse features, but raised bump versus flat repair/apron is not reliably established for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 411,
+    "confidence": "low",
+    "reason": "Full native image inspected; blur, glare or repair texture prevents reliable cavity adjudication for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 412,
+    "confidence": "medium",
+    "reason": "Retain small dark broken-edge pit; large pale closed concrete/asphalt repair removed.",
+    "evidence": "native_source_full_and_roi",
+    "keep": [
+      0
+    ]
+  },
+  {
+    "q": 413,
+    "confidence": "low",
+    "reason": "Full native image inspected; blur, glare or repair texture prevents reliable cavity adjudication for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 414,
+    "confidence": "medium",
+    "reason": "Pale closed repairs and transverse narrow joint do not establish open potholes.",
+    "evidence": "native_source_full_and_roi",
+    "keep": []
+  },
+  {
+    "q": 422,
+    "confidence": "low",
+    "reason": "Full native image inspected; blur, glare or repair texture prevents reliable cavity adjudication for every box.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 425,
+    "confidence": "low",
+    "reason": "Foreground white rectangular utility fitting and two tiny dark patches cannot all be classified reliably.",
+    "evidence": "native_source_full_and_roi"
+  },
+  {
+    "q": 426,
+    "confidence": "medium",
+    "reason": "Foreground coarse cavity has missing asphalt and a broken boundary.",
+    "evidence": "native_source_full_and_roi"
+  }
+]

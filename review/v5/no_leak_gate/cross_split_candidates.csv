@@ -1,0 +1,3 @@
+image,source,query_view,transform,protected_id,protected_view,dhash,phash
+images/train/rf8__c9d730a125d33938.jpg,rf8,standard,1,val:images/val/rf8__c91a18a00d6829a2.jpg,standard,3,10
+images/train/rf8__b9483dc48f025387.jpg,rf8,standard,1,val:images/val/rf8__c91a18a00d6829a2.jpg,standard,4,8

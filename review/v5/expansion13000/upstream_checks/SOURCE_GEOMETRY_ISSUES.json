@@ -1,0 +1,47 @@
+[
+  {
+    "candidate": 2233,
+    "frame_id": "20250507075126_0060_frame_00097",
+    "source_boxes": [
+      [
+        0,
+        0.39261328125,
+        0.12497222222222223,
+        0.3931731770833334,
+        0.125
+      ]
+    ],
+    "proposed_boxes": [],
+    "status": "requires_full_relabel_subpixel_source_boxes"
+  },
+  {
+    "candidate": 2478,
+    "frame_id": "20250524113052_0060_frame_00079",
+    "source_boxes": [
+      [
+        0,
+        0.4347682291666667,
+        0.008497685185185185,
+        0.4360546875,
+        0.008502314814814813
+      ]
+    ],
+    "proposed_boxes": [],
+    "status": "requires_full_relabel_subpixel_source_boxes"
+  },
+  {
+    "candidate": 2604,
+    "frame_id": "20250506183323_0060_frame_00080",
+    "source_boxes": [
+      [
+        0,
+        0.37357942708333336,
+        0.1290023148148148,
+        0.37651432291666664,
+        0.12903472222222226
+      ]
+    ],
+    "proposed_boxes": [],
+    "status": "requires_full_relabel_subpixel_source_boxes"
+  }
+]

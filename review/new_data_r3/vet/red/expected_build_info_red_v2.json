@@ -1,0 +1,42 @@
+{
+ "part": "red_v2",
+ "source_part": "parts_r3/red (cloud build)",
+ "source_build_info_sha256": "ebe9b153025f9e65dd63b4381ecf7ea4463f865f07b7da1676cb48f2a39a0c9d",
+ "audit": "review/new_data_r3/vet/red/box_audit.csv",
+ "audit_sha256": "5a1e391c117fb3b1b055fc0db9048aa4c957c94d4538a55a410946952c12b54f",
+ "policy": "remove_* removed in all splits; uncertain kept in train, removed in val/test; boxes never resized",
+ "audit_rows": 208,
+ "audit_rows_not_in_part": 0,
+ "drop_images": "review/new_data_r3/vet/red/valtest_missing_labels.csv",
+ "drop_images_sha256": "b03f22a2751cfa54c990e6c402c0e313c51e50818360346eb648d7dc03ff567a",
+ "images_dropped_valtest": [],
+ "splits": {
+  "train": {
+   "images": 334,
+   "negatives": 2,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 338,
+   "changes": {
+    "keep:keep": 100
+   }
+  },
+  "val": {
+   "images": 69,
+   "negatives": 1,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 68,
+   "changes": {
+    "keep:keep": 68
+   }
+  },
+  "test": {
+   "images": 35,
+   "negatives": 0,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 40,
+   "changes": {
+    "keep:keep": 40
+   }
+  }
+ }
+}

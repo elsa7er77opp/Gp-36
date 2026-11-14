@@ -1,0 +1,23 @@
+{
+ "counts": {
+  "train_1": 6632,
+  "train_images": 11434,
+  "train_negative_images": 0,
+  "train_0": 9288,
+  "val_1": 1188,
+  "val_images": 2135,
+  "val_negative_images": 0,
+  "val_0": 1240,
+  "test_1": 1385,
+  "test_images": 1799,
+  "test_negative_images": 0,
+  "test_0": 710,
+  "near_duplicates_across_splits": 0
+ },
+ "problems": [],
+ "n_problems": 0,
+ "map": {
+  "0": "0",
+  "1": "1"
+ }
+}

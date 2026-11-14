@@ -1,0 +1,34 @@
+{
+ "part": "dmd",
+ "items": "<laptop items csv>",
+ "n_items": 277,
+ "kept": 277,
+ "drops": {},
+ "far_tiny_boxes_removed": 0,
+ "ignored_boxes_removed": 34,
+ "far_tiny_threshold": 0.02,
+ "leakage_guard": "exact + dHash<=4 & pHash<=10 under the same one of 8 flips/rotations (rule v2, 2026-11-04) vs /nonexistent (all splits) [cloud run: --hash-cache = protected_hashes.npz (r2 all splits + BD87 + part val/test)]",
+ "splits": {
+  "train": {
+   "images": 277,
+   "negatives": 0,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 319,
+   "groups": 28
+  },
+  "val": {
+   "images": 0,
+   "negatives": 0,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 0,
+   "groups": 0
+  },
+  "test": {
+   "images": 0,
+   "negatives": 0,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 0,
+   "groups": 0
+  }
+ }
+}

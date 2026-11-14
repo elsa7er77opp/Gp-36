@@ -1,0 +1,7 @@
+# ALLVAL = r2 val + val splits of rsid, bucko, sr, pol_v2, red_v2, ng8_v2, egy_v2 (STATUS Stage 41). No test key on purpose.
+path: C:\Users\ahmed\Desktop\GP36_AI\review\alldata_v1\ds
+train: images/val
+val: images/val
+names:
+  0: pothole
+  1: speed_bump

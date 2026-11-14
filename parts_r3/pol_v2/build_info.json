@@ -1,0 +1,42 @@
+{
+ "part": "pol_v2",
+ "source_part": "parts_r3\\pol",
+ "source_build_info_sha256": "557cfb96d4cfe41d0ed1c265e938e4a654a381f462c64bf0fee03adf04c93aa3",
+ "audit": "review/new_data_r3/vet/pol/box_audit.csv",
+ "audit_sha256": "bfb740d806b94cbd85a41a2b22738cf66e9cc1082ec0ab1fa33d60afb31cc895",
+ "policy": "remove_* removed in all splits; uncertain kept in train, removed in val/test; boxes never resized",
+ "audit_rows": 225,
+ "audit_rows_not_in_part": 0,
+ "drop_images": "review/new_data_r3/vet/pol/valtest_missing_labels.csv",
+ "drop_images_sha256": "b03f22a2751cfa54c990e6c402c0e313c51e50818360346eb648d7dc03ff567a",
+ "images_dropped_valtest": [],
+ "splits": {
+  "train": {
+   "images": 375,
+   "negatives": 0,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 375,
+   "changes": {
+    "keep:keep": 100
+   }
+  },
+  "val": {
+   "images": 100,
+   "negatives": 0,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 100,
+   "changes": {
+    "keep:keep": 100
+   }
+  },
+  "test": {
+   "images": 25,
+   "negatives": 0,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 25,
+   "changes": {
+    "keep:keep": 25
+   }
+  }
+ }
+}

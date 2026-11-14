@@ -1,0 +1,11 @@
+{"title": "r2 validation (frozen benchmark) - final round, 2026-11-06",
+ "split": "val",
+ "figures": true,
+ "rows": [
+  {"label": "v1 (deployed baseline, r1 data)", "report": "review/metrics_r3/val_r2_final/report.json", "model": "v1"},
+  {"label": "C (v3b_C, YOLO11n) - final candidate 1", "report": "review/metrics_r3/val_r2_final/report.json", "model": "C"},
+  {"label": "E1 (C data, AdamW)", "report": "review/metrics_r3/val_r2_E2/report.json", "model": "E1"},
+  {"label": "E2 (C data, P2 head)", "report": "review/metrics_r3/val_r2_E2/report.json", "model": "E2"},
+  {"label": "WBF(C, D1 11s) - lever test", "report": "review/metrics_r3/val_r2_final/report.json", "model": "WBF_C_D1s"},
+  {"label": "WBF(C, v1) - final candidate 2", "report": "review/metrics_r3/val_r2_final/report.json", "model": "WBF_C_v1"}
+ ]}

@@ -1,0 +1,39 @@
+{
+ "kind": "per-class confidence threshold PROPOSAL (not applied)",
+ "model": "C",
+ "data": "road_hazards_v3a_r2",
+ "split": "val",
+ "pred": "runs\\detect\\v3b_C_11n_960_s0_r2_VALr2_json\\predictions.json",
+ "iou": 0.5,
+ "min_conf": 0.05,
+ "n_images": 830,
+ "created_utc": "2026-11-08T01:16:49Z",
+ "tool": "tools/calibrate_thresholds.py",
+ "note": "perception/config.yaml is NOT edited. The live FSM uses one value fsm.hazard_min_conf; per-class values need an owner-reviewed perception/ change. Re-check on the frozen test once, with these thresholds fixed (tools/metrics_report.py --thresholds).",
+ "classes": {
+  "pothole": {
+   "mode": "f1",
+   "n_gt": 691,
+   "conf": 0.251,
+   "reached": true,
+   "P": 0.6536,
+   "R": 0.6281,
+   "F1": 0.6406,
+   "tp": 434,
+   "fp": 230,
+   "fn": 257
+  },
+  "speed_bump": {
+   "mode": "f1",
+   "n_gt": 378,
+   "conf": 0.1917,
+   "reached": true,
+   "P": 0.7704,
+   "R": 0.6481,
+   "F1": 0.704,
+   "tp": 245,
+   "fp": 73,
+   "fn": 133
+  }
+ }
+}

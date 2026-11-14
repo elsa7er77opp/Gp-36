@@ -1,0 +1,58 @@
+{
+ "data": "parts_r3/egm",
+ "split": "val",
+ "n_images": 35,
+ "models": {
+  "C": {
+   "thresholds": {
+    "pothole": 0.251,
+    "speed_bump": 0.1917
+   },
+   "fp_boxes": {
+    "pothole": 10,
+    "speed_bump": 28
+   },
+   "fp_boxes_total": 38,
+   "fp_per_image": 1.0857,
+   "images_with_fp": {
+    "pothole": 8,
+    "speed_bump": 22
+   },
+   "images_with_any_fp": 30
+  },
+  "G1": {
+   "thresholds": {
+    "pothole": 0.3117,
+    "speed_bump": 0.2843
+   },
+   "fp_boxes": {
+    "pothole": 7,
+    "speed_bump": 8
+   },
+   "fp_boxes_total": 15,
+   "fp_per_image": 0.4286,
+   "images_with_fp": {
+    "pothole": 7,
+    "speed_bump": 8
+   },
+   "images_with_any_fp": 15
+  },
+  "E3": {
+   "thresholds": {
+    "pothole": 0.2437,
+    "speed_bump": 0.3273
+   },
+   "fp_boxes": {
+    "pothole": 7,
+    "speed_bump": 2
+   },
+   "fp_boxes_total": 9,
+   "fp_per_image": 0.2571,
+   "images_with_fp": {
+    "pothole": 7,
+    "speed_bump": 2
+   },
+   "images_with_any_fp": 9
+  }
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "images_per_split": {
+  "test": 7385,
+  "train": 323
+ },
+ "boxes": {
+  "test_1": 4557,
+  "test_0": 5051,
+  "train_1": 60,
+  "train_0": 562
+ },
+ "groups_per_split": {
+  "test": 49,
+  "train": 10
+ },
+ "super_groups": 13,
+ "cross_split_near_dups_after": {
+  "dhash<=4": 0,
+  "dhash<=6": 0
+ },
+ "link_threshold": 6,
+ "linked_pairs": 156
+}

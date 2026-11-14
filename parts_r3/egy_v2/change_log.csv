@@ -1,0 +1,955 @@
+out_image,split,orig_file,orig_line,part_line,verdict,action,note
+images/train/egy__0053ba9ecfe9ff18.jpg,train,Egypt_00318_jpg.rf.fdc1dd5a343eed5215c94b53fa656dae.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__0054405ac4799337.jpg,train,Egypt_00260_jpg.rf.3293cde6b04c8a528b123aa231e2dcfc.jpg,0,0,keep,keep,pass1
+images/train/egy__00786c6e6359ef2f.jpg,train,IMG_3997-1-_MOV-0111_jpg.rf.03154655758de20787d675572f701773.jpg,0,0,keep,keep,pass1
+images/train/egy__011892756386e7bb.jpg,train,IMG_3973-1-_MOV-0118_jpg.rf.8c70d63a00a519d0896a2ea38cef5551.jpg,0,0,keep,keep,pass1
+images/train/egy__01192907cb349ca8.jpg,train,Egypt_00371_jpg.rf.5a1910ad59eac7cfe3c54c8df7064df9.jpg,0,0,remove_manhole,remove,pass2 zoom: broken collar of a raised manhole
+images/train/egy__016735277347d963.jpg,train,Egypt_00164_jpg.rf.f1087019f3022547af7f21f1a6b67cc4.jpg,0,0,remove_not_pothole,remove,pass1 wet stain (D5 wet patch)
+images/train/egy__01bba34d04f1c0d8.jpg,train,Egypt_00192_jpg.rf.d275023d5d2ef41f3c183c49ab35d63b.jpg,0,0,keep,keep,pass1
+images/val/egy__01db2a6c0343e4a0.jpg,val,IMG_3975-1-_MOV-0174_jpg.rf.f3a08f53fca5304dda4f3eff1d37b752.jpg,0,0,remove_manhole,remove,pass2 zoom: oval cover
+images/train/egy__01dbfa1976782dd7.jpg,train,Egypt_00384_jpg.rf.390c182dbe88b0f92f6316811de9367b.jpg,0,0,keep,keep,pass1
+images/train/egy__01dbfa1976782dd7.jpg,train,Egypt_00384_jpg.rf.390c182dbe88b0f92f6316811de9367b.jpg,1,1,keep,keep,pass1
+images/train/egy__022949890f658c68.jpg,train,IMG_3997-1-_MOV-0114_jpg.rf.2ad516e339ddb0f8621cee7dacf1f427.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__0268d1304ded9c61.jpg,train,IMG_4012-1-_MOV-0545_jpg.rf.016e0fa9e67ed8afd6fefff0d9585888.jpg,0,0,keep,keep,pass2 zoom: shallow broken
+images/train/egy__03000378bb3a0704.jpg,train,IMG_3997-1-_MOV-0105_jpg.rf.4d42d081cc835b3900b18a45ac3b6a0a.jpg,0,0,keep,keep,pass2 zoom: small dark depression
+images/train/egy__030fb23c435c942b.jpg,train,Egypt_00358_jpg.rf.384172072a119ef2e3013345f0250b69.jpg,0,0,remove_not_pothole,remove,pass2 zoom: patch
+images/train/egy__034f8256c29f6ca5.jpg,train,Egypt_00293_jpg.rf.585b39d345464232c8ac35fef71f31d2.jpg,0,0,keep,keep,pass1
+images/train/egy__0364426d902aeb07.jpg,train,IMG_4012-1-_MOV-0071_jpg.rf.0c02c1d2c961082288694d49b725721c.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/test/egy__047a0e44024f30d3.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0031_jpg.rf.4958316f7aa7086951ed7ffaba12c4c5.jpg,0,0,keep,keep,pass1
+images/train/egy__0561b467d7d22657.jpg,train,Egypt_00208_jpg.rf.8a4bdcba516ff0e0d01d8dd4e1ea3313.jpg,0,0,keep,keep,pass1
+images/train/egy__056c5ef968c85a4d.jpg,train,IMG_4012-1-_MOV-0091_jpg.rf.9709ddb3cb283857e38888f041e6c191.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__0596d0dfa21b4054.jpg,train,IMG_3998-1-_MOV-0080_jpg.rf.be632757b3981e4112ef5f8e4c6ac8a6.jpg,0,0,remove_manhole,remove,pass2 zoom: round cover (+ crack)
+images/train/egy__059ed423df69661e.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0063_jpg.rf.0ea07310ca2e82b01683d86fae9cfeed.jpg,0,0,keep,keep,pass1
+images/train/egy__05be2639a04c6c6f.jpg,train,IMG_4002-1-_MOV-0079_jpg.rf.6e317a264a8a578f8e3cd0489e03d28f.jpg,0,0,remove_manhole,remove,pass1 square cover plate
+images/train/egy__05d5a3c8dbb583b2.jpg,train,Egypt_00130_jpg.rf.506ad1e9acf17f522ec974e28e311222.jpg,0,0,remove_not_pothole,remove,pass2 zoom: crack outline of a patch
+images/train/egy__05d5a3c8dbb583b2.jpg,train,Egypt_00130_jpg.rf.506ad1e9acf17f522ec974e28e311222.jpg,1,1,remove_not_pothole,remove,pass2 zoom: crack outline of a patch
+images/train/egy__069ee129f906ea2c.jpg,train,IMG_3997-1-_MOV-0109_jpg.rf.039496da84d9ef91d2e0ff591f3a2240.jpg,0,0,keep,keep,pass2 zoom: dark broken
+images/train/egy__069ee129f906ea2c.jpg,train,IMG_3997-1-_MOV-0109_jpg.rf.039496da84d9ef91d2e0ff591f3a2240.jpg,1,1,keep,keep,pass2 zoom: broken oval
+images/train/egy__069ee129f906ea2c.jpg,train,IMG_3997-1-_MOV-0109_jpg.rf.039496da84d9ef91d2e0ff591f3a2240.jpg,2,2,keep,keep,pass2 zoom: broken strip
+images/train/egy__06e375f3a96369c6.jpg,train,Egypt_00092_jpg.rf.3de6f697b79b57eb0327d99c5533cd52.jpg,0,0,keep,keep,pass2 zoom: dark pothole
+images/train/egy__0737359227af80f5.jpg,train,WhatsApp-Video-2024-03-22-at-15_08_52_mp4-0012_jpg.rf.ec1749e793f816eeb0b8a9388d9367eb.jpg,0,0,remove_not_pothole,remove,pass2 zoom: white streak
+images/train/egy__076b321ab21aca87.jpg,train,Egypt_00409_jpg.rf.75a067f49f28a73599d2d046e4e10d0b.jpg,0,0,keep,keep,pass1
+images/train/egy__079fd46370ef24fe.jpg,train,Egypt_00026_jpg.rf.05f467c0b840efb8a789ccdb5b4dc0ee.jpg,0,0,keep,keep,pass1
+images/train/egy__07bc112d934d6ced.jpg,train,Egypt_00428_jpg.rf.b778b183719eaffcbfc38d5094dfc6f2.jpg,0,0,keep,keep,pass1
+images/train/egy__0828bcd0f09487b4.jpg,train,Egypt_00401_jpg.rf.7b460c7618f5e03d5db0e4d5508581d7.jpg,0,0,keep,keep,pass1
+images/train/egy__082d24e6ab485353.jpg,train,Egypt_00013_jpg.rf.55066cd3509ed357132f5583dc1eb4a1.jpg,0,0,keep,keep,pass1
+images/train/egy__082d24e6ab485353.jpg,train,Egypt_00013_jpg.rf.55066cd3509ed357132f5583dc1eb4a1.jpg,1,1,keep,keep,pass1
+images/train/egy__09166e47d73df94a.jpg,train,Egypt_00258_jpg.rf.e9b292905e8286a28536e79d83a743a4.jpg,0,0,keep,keep,pass1
+images/test/egy__0998d2aad692c015.jpg,test,IMG_3996-1-_MOV-0058_jpg.rf.2e113f85938ba8ecb095d9443c04218f.jpg,0,0,keep,keep,pass2 zoom: shallow pothole
+images/train/egy__099ef8c950576b73.jpg,train,Egypt_00528_jpg.rf.3a65aba25337116805946f8856701b6f.jpg,0,0,keep,keep,pass1
+images/test/egy__09b07b29e831a0f2.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0202_jpg.rf.9a01ab893321a9f4ca04191662fd6f2a.jpg,0,0,remove_manhole,remove,pass1 patterned rectangular grate
+images/train/egy__0a2072c5e3995bf3.jpg,train,Egypt_00370_jpg.rf.3592cff8364fc8b36b6cc7c7a2eac8ef.jpg,0,0,remove_manhole,remove,pass2 zoom: broken collar of a raised manhole
+images/train/egy__0a3a22f3e4742a3f.jpg,train,IMG_4012-1-_MOV-1014_jpg.rf.80937e20fdc5ebf1aa93030b55a6b98b.jpg,0,0,keep,keep,pass1
+images/train/egy__0abba8cb4d9b89b3.jpg,train,WhatsApp-Video-2024-03-22-at-15_08_52_mp4-0020_jpg.rf.706c1a01a2b01486b4ca61cace551a79.jpg,0,0,remove_manhole,remove,pass1 patterned grate strip
+images/train/egy__0abba8cb4d9b89b3.jpg,train,WhatsApp-Video-2024-03-22-at-15_08_52_mp4-0020_jpg.rf.706c1a01a2b01486b4ca61cace551a79.jpg,1,1,remove_manhole,remove,pass1 patterned grate
+images/train/egy__0ae153bb5550ae11.jpg,train,WhatsApp-Video-2024-03-22-at-15_08_52_mp4-0005_jpg.rf.1b1613303608d69b103f46ecd9c72e4f.jpg,0,0,keep,keep,pass2 zoom: small broken
+images/train/egy__0ae153bb5550ae11.jpg,train,WhatsApp-Video-2024-03-22-at-15_08_52_mp4-0005_jpg.rf.1b1613303608d69b103f46ecd9c72e4f.jpg,1,1,remove_not_pothole,remove,pass2 zoom: dark streak
+images/val/egy__0b3171c71ea18a53.jpg,val,IMG_3975-1-_MOV-0428_jpg.rf.ccb2705e64fecebeb604759b9c73fb17.jpg,0,0,keep,keep,pass1
+images/train/egy__0b81a8a26a243211.jpg,train,IMG_4012-1-_MOV-1058_jpg.rf.a2f88a675a406f806b27330310ad95ea.jpg,0,0,keep,keep,pass1
+images/train/egy__0b81a8a26a243211.jpg,train,IMG_4012-1-_MOV-1058_jpg.rf.a2f88a675a406f806b27330310ad95ea.jpg,3,1,keep,keep,pass1
+images/train/egy__0b81a8a26a243211.jpg,train,IMG_4012-1-_MOV-1058_jpg.rf.a2f88a675a406f806b27330310ad95ea.jpg,4,2,keep,keep,pass1
+images/train/egy__0cace9476b413a79.jpg,train,Egypt_00021_jpg.rf.7b237266ad2c6106cb3c2b2158be2815.jpg,0,0,keep,keep,pass1
+images/train/egy__0cace9476b413a79.jpg,train,Egypt_00021_jpg.rf.7b237266ad2c6106cb3c2b2158be2815.jpg,1,1,keep,keep,pass1
+images/train/egy__0cbfab4dde71ea09.jpg,train,Egypt_00177_jpg.rf.8eeef298c4e3c93dc9ba2df6a2329fce.jpg,0,0,remove_manhole,remove,pass1 round grille cover
+images/val/egy__0cd3b51315d8eb17.jpg,val,IMG_3975-1-_MOV-0397_jpg.rf.f660bd50543544f43feb56e00ad63967.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__0cd633d124c0273a.jpg,train,IMG_4012-1-_MOV-0450_jpg.rf.f2a659c08ec3c3a6e26d85bfb5f9abba.jpg,0,0,keep,keep,pass2 zoom: broken patch
+images/train/egy__0cff866f5de0068e.jpg,train,Egypt_00111_jpg.rf.f7f2c3b42c6d171871a9ed34ca88e82b.jpg,0,0,keep,keep,pass1
+images/train/egy__0d3e286c0d772ca0.jpg,train,Egypt_00109_jpg.rf.f293067e11f7e82a10c4c5a622de912e.jpg,0,0,keep,keep,pass1
+images/train/egy__0d48e0f6180e7f29.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0035_jpg.rf.5e01b75171e6d7f877e381bd73030111.jpg,0,0,keep,keep,pass1
+images/train/egy__0d6f5807b04d8e83.jpg,train,IMG_3994-1-_MOV-0012_jpg.rf.3ba0cc24cf5db9175ee6794f4d596db4.jpg,0,0,keep,keep,pass2 zoom: dark pothole lip
+images/train/egy__0d9fe35c89b23f4b.jpg,train,IMG_4012-1-_MOV-0306_jpg.rf.98d3baecd01e36e738c8a3b1fa442515.jpg,0,0,keep,keep,pass1
+images/train/egy__0effe0a45e91756a.jpg,train,Egypt_00365_jpg.rf.730c31e00791d5dd19d310d8afd0586a.jpg,0,0,keep,keep,pass1
+images/train/egy__0f564d0ade65b524.jpg,train,Egypt_00396_jpg.rf.193ac3fb9a8e4629dc84520c79afb93a.jpg,0,0,keep,keep,pass1
+images/train/egy__0fc30852d9db9d6c.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0106_jpg.rf.5974a97d62ccb93ae01a5f6c64e88f5c.jpg,0,0,keep,keep,pass2 zoom: dark broken edge
+images/train/egy__0fcc81279b7e2140.jpg,train,IMG_3994-1-_MOV-0021_jpg.rf.0ceff2d2f7306d1c7da2609286792b59.jpg,0,0,keep,keep,pass1
+images/train/egy__0fd387ab55dec200.jpg,train,Egypt_00141_jpg.rf.a0e75de9894cd9eeee3583cffdd8b8c0.jpg,0,0,keep,keep,pass1
+images/train/egy__1101e5cdc6201dfb.jpg,train,IMG_3973-1-_MOV-0661_jpg.rf.4cbeccc92664e860b17fc111cea2f573.jpg,0,0,keep,keep,pass1
+images/train/egy__1118497df7f6aa6a.jpg,train,IMG_4012-1-_MOV-0965_jpg.rf.33f306f9de9b51efafb798e79ca8491e.jpg,0,0,keep,keep,pass1
+images/train/egy__115c3fd559275543.jpg,train,Egypt_00180_jpg.rf.09f2f88ef6d8a5e881d4ce5a35d3b9e2.jpg,0,0,remove_manhole,remove,pass2 zoom: box over round cover and broken collar
+images/train/egy__117f9bbf8a856458.jpg,train,Egypt_00145_jpg.rf.c15ac35067d8198d3f660440e3e51cb7.jpg,0,0,keep,keep,pass1
+images/train/egy__129c273e345cb638.jpg,train,IMG_4012-1-_MOV-0864_jpg.rf.953c9ac9229aa336a007ea2742b838e6.jpg,0,0,remove_manhole,remove,pass2 zoom: rectangular cover outlines
+images/train/egy__12e28c79eab9c89d.jpg,train,IMG_3973-1-_MOV-0566_jpg.rf.df646bbac3a1bf7e15a0ea3403dd7cbc.jpg,0,0,keep,keep,pass1
+images/train/egy__12f40535c44d05ab.jpg,train,Egypt_00059_jpg.rf.b10255ba821f7324e5b0879e7230f0ea.jpg,2,0,remove_not_pothole,remove,pass2 zoom: milled/scarified surface
+images/train/egy__12f40535c44d05ab.jpg,train,Egypt_00059_jpg.rf.b10255ba821f7324e5b0879e7230f0ea.jpg,3,1,remove_not_pothole,remove,pass2 zoom: milled/scarified surface
+images/train/egy__131c13fdedaa9c4a.jpg,train,Egypt_00112_jpg.rf.66fb8c19be0933bb4a03d590daaeb386.jpg,0,0,keep,keep,pass1
+images/train/egy__13478cf56013622f.jpg,train,Egypt_00159_jpg.rf.23d610099eddb3fa2ffd4c97ad46bd91.jpg,0,0,keep,keep,pass1
+images/train/egy__13478cf56013622f.jpg,train,Egypt_00159_jpg.rf.23d610099eddb3fa2ffd4c97ad46bd91.jpg,1,1,keep,keep,pass1
+images/train/egy__1349025afd442ecc.jpg,train,Egypt_00262_jpg.rf.25f1101f9d59c441ebc530c96ab4ee8d.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/test/egy__138fc408b2f633ad.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0006_jpg.rf.7a14a3dde97f3aeb0b9ce3a61fd41243.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/train/egy__13a74e3e0a06251e.jpg,train,Egypt_00334_jpg.rf.afc675c74d9e19d37607f8fe940e1e67.jpg,0,0,remove_manhole,remove,pass1 small round cover
+images/train/egy__13df1a8922277dde.jpg,train,Egypt_00087_jpg.rf.8cb44234112b0b8647025b4864c92160.jpg,0,0,remove_manhole,remove,pass1 cover in frame
+images/val/egy__13f19ce9c6f03b02.jpg,val,IMG_3975-1-_MOV-0381_jpg.rf.85359bf1c61a14ef936ec14322b5d8a3.jpg,0,0,keep,keep,pass1
+images/test/egy__1417a2bd57f59960.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0084_jpg.rf.2339cd0d121961ca8018985585bade4e.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: pale strip, flat"
+images/train/egy__14700dda52037619.jpg,train,Egypt_00031_jpg.rf.77bf38476d89cbee731c20187b86700b.jpg,0,0,remove_manhole,remove,pass2 zoom: oval ring cover
+images/train/egy__15260bde1610b86a.jpg,train,IMG_4012-1-_MOV-0161_jpg.rf.6efb26e23e466f3de90922024e3ea96a.jpg,0,0,keep,keep,pass2 zoom: small dark depression
+images/val/egy__15357009f53563ae.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0171_jpg.rf.f8402997328fa25016c4a9b916f7e7d6.jpg,0,0,keep,keep,pass1
+images/train/egy__153efded8926bf4b.jpg,train,IMG_4002-1-_MOV-0179_jpg.rf.f686074994300341289436c37490f2ba.jpg,0,0,keep,keep,pass1
+images/train/egy__156740eb59f4333c.jpg,train,IMG_3997-1-_MOV-0053_jpg.rf.3f79212be29830ea71463ccb6f114ff3.jpg,0,0,keep,keep,pass2 zoom: broken pothole
+images/train/egy__1572527ff5963831.jpg,train,IMG_3973-1-_MOV-0603_jpg.rf.ecb023b13612edb0685039ac3ca75e55.jpg,0,0,keep,keep,pass1
+images/train/egy__1587ec9c22ef5fa1.jpg,train,Egypt_00018_jpg.rf.194b372f20b1aada5acfb91b7ac1768b.jpg,0,0,keep,keep,pass1
+images/train/egy__15f287b7b2ab6b25.jpg,train,IMG_3973-1-_MOV-0569_jpg.rf.017e0571b30f418f51882602f0256af2.jpg,0,0,keep,keep,pass1
+images/train/egy__161e7600158d9005.jpg,train,IMG_4012-1-_MOV-1244_jpg.rf.33bd7922d5795c5f84f9d935b6b496a6.jpg,0,0,keep,keep,pass1
+images/train/egy__161e7600158d9005.jpg,train,IMG_4012-1-_MOV-1244_jpg.rf.33bd7922d5795c5f84f9d935b6b496a6.jpg,1,1,keep,keep,pass1
+images/train/egy__16731e70f5deb572.jpg,train,Egypt_00290_jpg.rf.27cf8fdd1a1f4a9c0bf19cd9feda7bcc.jpg,0,0,keep,keep,pass1
+images/train/egy__169941e03b6956c6.jpg,train,IMG_3999-1-_MOV-0053_jpg.rf.e5d11a257a989c689c165f19bd0319f7.jpg,0,0,remove_not_pothole,remove,pass2 zoom: crack line
+images/val/egy__170247ba1abdbc7d.jpg,val,IMG_3975-1-_MOV-0202_jpg.rf.db950dfda1c10b5968512a009b7c4ba0.jpg,0,0,keep,keep,pass1
+images/train/egy__1706f301587a7f04.jpg,train,Egypt_00454_jpg.rf.04e2650b0ef9aa0ab3ec2ebf9049df90.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__172d5519b93c2aa4.jpg,train,Egypt_00335_jpg.rf.2b5ff47ea5b24e9ae8b962182af27071.jpg,0,0,keep,keep,pass1
+images/train/egy__177cfc5ee32b887e.jpg,train,Egypt_00310_jpg.rf.ea1d66e0e0a6115094ec18ec899276cb.jpg,0,0,remove_not_pothole,remove,pass2 zoom: dark stain at curb
+images/train/egy__179e6ca5518467a8.jpg,train,IMG_4012-1-_MOV-0301_jpg.rf.53c38f0c42f936946bae38ad3a6afa70.jpg,0,0,keep,keep,pass2 zoom: small pothole
+images/train/egy__17badab8893ef511.jpg,train,IMG_4002-1-_MOV-0073_jpg.rf.7c257b69f253e5d436e5f05a827e8c7d.jpg,0,0,keep,keep,pass1
+images/train/egy__17d1f88fa464c03f.jpg,train,IMG_4012-1-_MOV-0294_jpg.rf.61f1faad38f85212859e262e40168cd4.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__18458f0359a97f1e.jpg,train,IMG_4012-1-_MOV-0671_jpg.rf.befa9fe6710fa7a79eaec2a234859b72.jpg,0,0,keep,keep,pass1
+images/train/egy__195bee92b4431ee9.jpg,train,IMG_3998-1-_MOV-0071_jpg.rf.e9fdfe81a3536a18e8e40f8ab6fd3aa3.jpg,0,0,keep,keep,pass1
+images/train/egy__198cb8e6a47b2787.jpg,train,IMG_4012-1-_MOV-0721_jpg.rf.5174b4f198e4789f74031d80b8d3c31c.jpg,0,0,keep,keep,pass1
+images/train/egy__1a075560d07d4f1b.jpg,train,Egypt_00345_jpg.rf.9d15c57e8b733dbf3616d92131d9c10b.jpg,0,0,keep,keep,pass1
+images/train/egy__1a075560d07d4f1b.jpg,train,Egypt_00345_jpg.rf.9d15c57e8b733dbf3616d92131d9c10b.jpg,1,1,remove_not_pothole,remove,pass2 zoom: patch edge with shadow
+images/train/egy__1a84633ab4d4a246.jpg,train,IMG_4002-1-_MOV-0196_jpg.rf.e983751bef64dcb9a8f3f0e314487c1c.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/val/egy__1afef41449ab16b7.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0103_jpg.rf.0e606f3bb11218e1108f1430d392390f.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: peeling surface / wet, shallow"
+images/train/egy__1b50811cffced62b.jpg,train,IMG_4012-1-_MOV-0670_jpg.rf.a40ded779c2663f1c62552331d04c5e2.jpg,0,0,keep,keep,pass1
+images/train/egy__1b67c3432eaef1aa.jpg,train,IMG_3997-1-_MOV-0125_jpg.rf.fcedae13aefa4fa55d6e62e82a484f86.jpg,0,0,keep,keep,pass1
+images/train/egy__1ba53877e25d20bf.jpg,train,Egypt_00453_jpg.rf.59ae1fc0ae7ff222f2265da9aa57a4b0.jpg,0,0,keep,keep,pass1
+images/train/egy__1bd842f2aff7f722.jpg,train,IMG_3973-1-_MOV-0263_jpg.rf.1cf57bf1bde1bdea23e5a9fd2f35c147.jpg,0,0,keep,keep,pass1
+images/val/egy__1c3981f7f5f75401.jpg,val,IMG_3975-1-_MOV-0382_jpg.rf.057f4f3be7bad224afefd7187576cf2a.jpg,0,0,keep,keep,pass1
+images/train/egy__1cc80448e47c3a4a.jpg,train,Egypt_00209_jpg.rf.73d9d2e328aaf1d7d4d8b59524c58eb3.jpg,0,0,remove_bad_box,remove,"pass2 zoom: blurred dirt/edge of road, no pothole"
+images/train/egy__1d49167fa1fdfafc.jpg,train,Egypt_00297_jpg.rf.6bab13b1f13e79a570ae8836daf3734e.jpg,0,0,keep,keep,pass1
+images/train/egy__1d6560f9838d0acb.jpg,train,IMG_4012-1-_MOV-0039_jpg.rf.de669ac4916fbbb4ecf12aaa6760c4b0.jpg,0,0,remove_manhole,remove,pass2 zoom: faint oval cover outline
+images/train/egy__1dd7a36a47621564.jpg,train,IMG_3973-1-_MOV-0308_jpg.rf.1748ea4a8959890bc6931a70cf15cda2.jpg,1,0,keep,keep,pass2 zoom: broken edge near curb
+images/train/egy__1e2b533bd2e3a4bf.jpg,train,IMG_4012-1-_MOV-0192_jpg.rf.b67bf63de9133f452a6995493be3c857.jpg,0,0,remove_manhole,remove,pass1 oval ring
+images/train/egy__1ea3ddf757ea3122.jpg,train,Egypt_00019_jpg.rf.70f979323e48b8fdb5e980049c06f324.jpg,0,0,keep,keep,pass1
+images/train/egy__1ecf4cfec5b99827.jpg,train,Egypt_00320_jpg.rf.85196e8bcb92db2bc544781c05534891.jpg,0,0,remove_manhole,remove,pass1 drain grates
+images/train/egy__1efe9016b2d866b4.jpg,train,Egypt_00277_jpg.rf.9b66bc2299e69163763fbfe0e07c55b3.jpg,0,0,keep,keep,pass1
+images/val/egy__1f28a10e25b5b9dd.jpg,val,IMG_3975-1-_MOV-0431_jpg.rf.3ccb79dcff091f258f640e17ae5b8e5b.jpg,0,0,remove_manhole,remove,pass2 zoom: drain grate
+images/train/egy__1fdea928d9c9826a.jpg,train,Egypt_00224_jpg.rf.a028340846c56ad1c124e6b32ea62ab7.jpg,0,0,keep,keep,pass1
+images/test/egy__1ffe2ce742b5787a.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0219_jpg.rf.21dcc28c2d1588fd9c686d10060197a4.jpg,0,0,remove_manhole,remove,pass1 drain grate slot
+images/train/egy__209ae5e43a42be3c.jpg,train,Egypt_00418_jpg.rf.80e8aee87a3375ce8182fa5b52652d84.jpg,0,0,keep,keep,pass1
+images/train/egy__20ed4d4ea40d0c7a.jpg,train,Egypt_00171_jpg.rf.163d0016a1bb593f5a8339c6e9f89cb3.jpg,0,0,keep,keep,pass1
+images/train/egy__20ed4d4ea40d0c7a.jpg,train,Egypt_00171_jpg.rf.163d0016a1bb593f5a8339c6e9f89cb3.jpg,1,1,keep,keep,pass1
+images/train/egy__20ed8abf06299fdc.jpg,train,Egypt_00282_jpg.rf.c00fe7d92ac460f74d595bb35fcaf5d5.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/test/egy__219ca73e6b491dcf.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0207_jpg.rf.50cbaa0a87ca6ae7d025e308f1f3faba.jpg,0,0,remove_manhole,remove,pass1 patterned rectangular grate
+images/train/egy__21cbe111cca2a6d4.jpg,train,Egypt_00012_jpg.rf.d7adcd6382155fddf5b92b918465a91c.jpg,0,0,keep,keep,pass1
+images/train/egy__21cbe111cca2a6d4.jpg,train,Egypt_00012_jpg.rf.d7adcd6382155fddf5b92b918465a91c.jpg,1,1,keep,keep,pass1
+images/train/egy__21e1dec6458fdba3.jpg,train,Egypt_00041_jpg.rf.6118ce0606c8d64e2c258476a465cb3c.jpg,0,0,remove_manhole,remove,pass1 round cover in frame
+images/train/egy__226ac63aee819935.jpg,train,IMG_4012-1-_MOV-0067_jpg.rf.9023aab7e9f805ab241843ab15070083.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__22e904f185282a4e.jpg,train,IMG_4012-1-_MOV-0497_jpg.rf.96fdbe2e1e03f1af1b6aa4280061d9bb.jpg,0,0,keep,keep,pass2 zoom: broken shallow pothole
+images/train/egy__230128eead91add7.jpg,train,Egypt_00363_jpg.rf.5709b7f80e5a45ed6a1fc7b5897a6975.jpg,0,0,keep,keep,pass1
+images/train/egy__24846997ca4f59f0.jpg,train,IMG_4012-1-_MOV-1047_jpg.rf.896008c6dc1758f7d15f67df3e67a61e.jpg,0,0,keep,keep,pass1
+images/train/egy__24846997ca4f59f0.jpg,train,IMG_4012-1-_MOV-1047_jpg.rf.896008c6dc1758f7d15f67df3e67a61e.jpg,1,1,keep,keep,pass1
+images/train/egy__256653b80deec36d.jpg,train,IMG_3973-1-_MOV-0619_jpg.rf.d5a6106d22b14a9f7334e8b16109d0e7.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__25ac88552b620c25.jpg,train,Egypt_00391_jpg.rf.2d16007c0e127a072e73b2f4133a12bb.jpg,0,0,keep,keep,pass2 zoom: broken strip
+images/train/egy__25cf85ee8da4c576.jpg,train,Egypt_00214_jpg.rf.dedc92c9b8392d46a8c39c0fae39ff41.jpg,0,0,keep,keep,pass1
+images/train/egy__25cf85ee8da4c576.jpg,train,Egypt_00214_jpg.rf.dedc92c9b8392d46a8c39c0fae39ff41.jpg,1,1,keep,keep,pass1
+images/train/egy__25cf85ee8da4c576.jpg,train,Egypt_00214_jpg.rf.dedc92c9b8392d46a8c39c0fae39ff41.jpg,2,2,keep,keep,pass1
+images/train/egy__25cf85ee8da4c576.jpg,train,Egypt_00214_jpg.rf.dedc92c9b8392d46a8c39c0fae39ff41.jpg,3,3,keep,keep,pass1
+images/train/egy__25cf85ee8da4c576.jpg,train,Egypt_00214_jpg.rf.dedc92c9b8392d46a8c39c0fae39ff41.jpg,4,4,keep,keep,pass1
+images/train/egy__2686feb9d44be8c5.jpg,train,Egypt_00124_jpg.rf.2c8963ca543c946d67419239ab882028.jpg,0,0,remove_manhole,remove,pass1 rectangular cover
+images/train/egy__26bb4879e7a8bcb1.jpg,train,IMG_4012-1-_MOV-1135_jpg.rf.9a501f0c3cc836c955051b7a8779e986.jpg,0,0,keep,keep,pass1
+images/train/egy__26cc3d96597e7c25.jpg,train,IMG_3992-1-_MOV-0016_jpg.rf.fbc770949d06bfa53fe157deef539e98.jpg,0,0,keep,keep,pass2 zoom: broken edge depression
+images/train/egy__2722e156d40729aa.jpg,train,Egypt_00266_jpg.rf.3a412ac297974cb9adc094d0078ccf35.jpg,0,0,remove_not_pothole,remove,pass1 crack
+images/train/egy__2722e156d40729aa.jpg,train,Egypt_00266_jpg.rf.3a412ac297974cb9adc094d0078ccf35.jpg,1,1,remove_not_pothole,remove,pass2 zoom: stain/patch outline
+images/test/egy__2725a693b4eeccd9.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0082_jpg.rf.ecca592329371ae503931ec660d7cd75.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: pale strip, flat"
+images/train/egy__2770345b6c352eba.jpg,train,IMG_4012-1-_MOV-0334_jpg.rf.fabc8b1210172a22cdc408e5174ff938.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__27c37b41ce713710.jpg,train,Egypt_00535_jpg.rf.ed0bca8032c616170a3e709c76cfabc7.jpg,0,0,keep,keep,pass1
+images/train/egy__286f4147641dae9d.jpg,train,IMG_4012-1-_MOV-0052_jpg.rf.fa36cc4b1c560273db0632afeb027bfd.jpg,0,0,remove_manhole,remove,pass2 zoom: rectangular cover plate
+images/train/egy__290318bcac68573c.jpg,train,Egypt_00438_jpg.rf.0b99d42b95c1f878d02d09feb6ecf501.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__294ad4c3042e51c4.jpg,train,IMG_3997-1-_MOV-0092_jpg.rf.48c868acf0413597269499d7217af51c.jpg,0,0,keep,keep,pass2 zoom: dark depression
+images/train/egy__29913f088dce5167.jpg,train,IMG_3992-1-_MOV-0015_jpg.rf.a7aee5b95f061130a96efd5395d8792a.jpg,0,0,remove_not_pothole,remove,pass2 zoom: crack line
+images/train/egy__2a2f985e4ebd58ee.jpg,train,Egypt_00135_jpg.rf.301018420d49621911cfdf4cf161c0e6.jpg,0,0,keep,keep,pass2 zoom: broken surface
+images/train/egy__2a8d7c2687c107da.jpg,train,IMG_3997-1-_MOV-0009_jpg.rf.ef5c21ab235b30ac22e9602c48138b1b.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__2aa8c29fd026b875.jpg,train,IMG_4012-1-_MOV-1157_jpg.rf.0db377c0e8f1937cdeb2042be0df4139.jpg,0,0,keep,keep,pass1
+images/train/egy__2aba19a1a163ffbb.jpg,train,Egypt_00179_jpg.rf.d05d1cd4a2ba0a0c9cfcbae7322c8c3c.jpg,0,0,keep,keep,pass1
+images/train/egy__2ac1d8fc207f3fd1.jpg,train,Egypt_00004_jpg.rf.489c31eb17d4900f52e2ff71cf5424d8.jpg,0,0,keep,keep,pass1
+images/train/egy__2b230608db325e06.jpg,train,Egypt_00323_jpg.rf.c455548af6c263427a420b42b9103b15.jpg,3,0,keep,keep,pass1
+images/train/egy__2b5fb02eab015748.jpg,train,IMG_4012-1-_MOV-0026_jpg.rf.0bc937aea408f81bc0785eb2f5595f9a.jpg,0,0,remove_manhole,remove,pass2 zoom: round grille cover
+images/test/egy__2c71680361ebf6cd.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0062_jpg.rf.fc0c68106f538f2f1c222495b9445921.jpg,0,0,remove_not_pothole,remove,pass2 zoom: nothing visible
+images/train/egy__2cbe5e348a562d3c.jpg,train,IMG_4012-1-_MOV-1015_jpg.rf.24138de94ac0830af8ce99ea9711a86e.jpg,0,0,keep,keep,pass1
+images/train/egy__2cd8215f31b5e042.jpg,train,Egypt_00205_jpg.rf.bc2df027569180eddbfce8d74f48412c.jpg,0,0,keep,keep,pass1
+images/train/egy__2cf97bca47d763c8.jpg,train,Egypt_00176_jpg.rf.b9d7cda0b493986676eaf3ba77701911.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: pale streak on road, flat"
+images/train/egy__2d290cf9beb57ea9.jpg,train,Egypt_00080_jpg.rf.9514090e03b482d53b3924b6ba08828c.jpg,2,0,uncertain,keep,pass2 zoom: dark patch edge
+images/train/egy__2d3b3b36aeb581f2.jpg,train,Egypt_00263_jpg.rf.640b7882d0369bac2701f4045f8015d2.jpg,0,0,keep,keep,pass1
+images/train/egy__2d7fd473ffefcfe3.jpg,train,Egypt_00349_jpg.rf.3d3510bc6e604a08117ee191ebb668f2.jpg,0,0,keep,keep,pass1
+images/train/egy__2d96fe7de5e7a082.jpg,train,IMG_4002-1-_MOV-0133_jpg.rf.fba93d382349c8823847f6f705d6b6f8.jpg,0,0,keep,keep,pass2 zoom: large broken patch area
+images/train/egy__2d96fe7de5e7a082.jpg,train,IMG_4002-1-_MOV-0133_jpg.rf.fba93d382349c8823847f6f705d6b6f8.jpg,1,1,remove_manhole,remove,pass1 oval cover
+images/train/egy__2dcf5567bb02af00.jpg,train,IMG_4012-1-_MOV-1053_jpg.rf.3d42f2d6a56c4686ad02523bdf3439d8.jpg,0,0,keep,keep,pass1
+images/train/egy__2dcf5567bb02af00.jpg,train,IMG_4012-1-_MOV-1053_jpg.rf.3d42f2d6a56c4686ad02523bdf3439d8.jpg,1,1,keep,keep,pass1
+images/train/egy__2dd61bec50a79a17.jpg,train,Egypt_00394_jpg.rf.79bc81fc927bc4354b675e6d9a949e79.jpg,0,0,keep,keep,pass1
+images/test/egy__2deff3ec4b0142e9.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0045_jpg.rf.138839350ad87873216ecc6073e01921.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__2dfc0172dc49bd89.jpg,train,IMG_4012-1-_MOV-0467_jpg.rf.ee3ff89413bf715d90ca026c093df307.jpg,0,0,keep,keep,pass1
+images/train/egy__2e49c6a244cacbd3.jpg,train,IMG_3973-1-_MOV-0558_jpg.rf.d57b280e2f67a961510078dd5f09f2df.jpg,0,0,keep,keep,pass1
+images/train/egy__2e833c2e65016a2a.jpg,train,Egypt_00372_jpg.rf.143b6be678a72baf4527a3d6f3030562.jpg,0,0,remove_not_pothole,remove,pass2 zoom: wet stain
+images/train/egy__2ed496ffbd729f6f.jpg,train,WhatsApp-Video-2024-03-22-at-15_08_52_mp4-0010_jpg.rf.e2faaf2192b2523337044146e4939500.jpg,0,0,keep,keep,pass2 zoom: broken edge
+images/train/egy__2efb577dacf09c87.jpg,train,IMG_4012-1-_MOV-0299_jpg.rf.b5603b4286a7410c016c560aacb3a557.jpg,0,0,keep,keep,pass1
+images/train/egy__2fab9e877e98ea51.jpg,train,IMG_4012-1-_MOV-0195_jpg.rf.bc2be43a06a3c265b8ae84be845faadd.jpg,0,0,keep,keep,pass2 zoom: broken
+images/train/egy__302f998b7d154aa6.jpg,train,Egypt_00307_jpg.rf.b51a2406010886ad3ccc3b6cfe6e708d.jpg,0,0,remove_not_pothole,remove,pass1 crack along curb
+images/test/egy__30cdad50d0ac6926.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0124_jpg.rf.719728e5cbfe5e8c82f086d373e3a349.jpg,0,0,keep,keep,pass1
+images/train/egy__3119c90fd7923e41.jpg,train,Egypt_00070_jpg.rf.13c3371502e31c2b3a0e72d9e7384ceb.jpg,1,0,remove_manhole,remove,pass1 round cover in frame
+images/train/egy__31418e252c736f28.jpg,train,IMG_3973-1-_MOV-0376_jpg.rf.f68a79071c1b4a95189c7608dd812a6f.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/val/egy__31bb7bc26a15ca78.jpg,val,IMG_3995-1-_MOV-0073_jpg.rf.dbdd1c1b8d546d7160c78f3913321908.jpg,0,0,keep,keep,pass1
+images/train/egy__3240d78e91ccab0a.jpg,train,Egypt_00146_jpg.rf.fec8fde37897ae24ee8232bbd16cd04f.jpg,0,0,remove_bad_box,remove,pass2 zoom: shadow of a barrier
+images/test/egy__3257e24560c73664.jpg,test,IMG_3996-1-_MOV-0168_jpg.rf.e77b6f34b95fac60913187ef03850fd1.jpg,0,0,remove_manhole,remove,pass2 zoom: flat rectangular cover plate
+images/train/egy__3269c995afd4a728.jpg,train,IMG_4012-1-_MOV-0251_jpg.rf.104bf80f9b40ceac70e24569ae4f9317.jpg,0,0,remove_not_pothole,remove,pass2 zoom: crosswalk paint wear
+images/train/egy__3288d0eb34bfc631.jpg,train,Egypt_00393_jpg.rf.1f4c875e8d7b4b33a5ca89e28a778bf5.jpg,0,0,keep,keep,pass1
+images/train/egy__329ce4a33f4a5010.jpg,train,Egypt_00339_jpg.rf.5e17c81e5ada2208a01f966c8946fd32.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: dark patch, flat"
+images/train/egy__32dbb58fbe3efbff.jpg,train,IMG_4012-1-_MOV-1043_jpg.rf.c440644cfe3f98f5167359c7e7651ba7.jpg,0,0,keep,keep,pass1
+images/train/egy__32eb47f8a39a9740.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0080_jpg.rf.1005913afc5a3e60ff8a99aaaf8f5d8c.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__33085ba17ab0bd55.jpg,train,Egypt_00367_jpg.rf.4ed711e9cf7ce4cc67d65011686906de.jpg,0,0,keep,keep,pass2 zoom: shallow depression with debris
+images/train/egy__331b3170cdd1b03a.jpg,train,IMG_4012-1-_MOV-0300_jpg.rf.6f5d908b3afae95aa6eedb395f236ac2.jpg,0,0,keep,keep,pass1
+images/train/egy__332dce08423fd98f.jpg,train,IMG_3973-1-_MOV-0664_jpg.rf.07227c5696d1c2c1debc48ae915045aa.jpg,0,0,keep,keep,pass1
+images/train/egy__3349328d09e50993.jpg,train,Egypt_00360_jpg.rf.b6641f74e5a6facdd6bfcd0020a59a05.jpg,0,0,remove_manhole,remove,pass1 round cover with broken surround
+images/train/egy__335928ec68349280.jpg,train,Egypt_00165_jpg.rf.5aa66bbb87c79059f0f5e2d606e70a5d.jpg,0,0,remove_not_pothole,remove,pass1 wet stain (D5 wet patch)
+images/train/egy__33e3b0f64674c0c8.jpg,train,IMG_4012-1-_MOV-0972_jpg.rf.500d2fe64edcc5b638e530ea29ba5c4b.jpg,0,0,keep,keep,pass1
+images/train/egy__33e8d337b76d545c.jpg,train,Egypt_00408_jpg.rf.0b39030cdc7e9278fe58de38a43a7ed7.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__33e8d337b76d545c.jpg,train,Egypt_00408_jpg.rf.0b39030cdc7e9278fe58de38a43a7ed7.jpg,1,1,keep,keep,pass2 zoom: sand-filled broken area (grate outside box)
+images/train/egy__3436137e2ce66f0e.jpg,train,IMG_4012-1-_MOV-0155_jpg.rf.52f6c33a178a52822c0876b2d1deddbe.jpg,0,0,keep,keep,pass2 zoom: broken oval patch
+images/train/egy__34d44dc8ac17766b.jpg,train,Egypt_00015_jpg.rf.e0ea658370d6ed0373916034483f7ebc.jpg,0,0,keep,keep,pass1
+images/train/egy__34f1a9d52346966a.jpg,train,Egypt_00419_jpg.rf.885eef5227a04a6d7dc2fb69d8ab11ee.jpg,0,0,keep,keep,pass1
+images/train/egy__34f1a9d52346966a.jpg,train,Egypt_00419_jpg.rf.885eef5227a04a6d7dc2fb69d8ab11ee.jpg,1,1,keep,keep,pass1
+images/train/egy__3549ae29386dcf3e.jpg,train,Egypt_00244_jpg.rf.59bc7ead33b7d608a57f01abf2620079.jpg,0,0,remove_bad_box,remove,"pass2 zoom: blurred close-up of rubble, whole frame"
+images/train/egy__3558f14fa18a589a.jpg,train,IMG_3994-1-_MOV-0022_jpg.rf.cec5cbde9f3c50f7be8b5f1956cd48d7.jpg,0,0,keep,keep,pass1
+images/train/egy__35936dd5a2ac4818.jpg,train,IMG_4012-1-_MOV-0019_jpg.rf.12e38babd75023c35fbb8075198f02fc.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__359594c2a51d724b.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0023_jpg.rf.02fd200c902f29bb27844ace7651b445.jpg,0,0,keep,keep,pass1
+images/train/egy__35f42174de41d3b5.jpg,train,IMG_3999-1-_MOV-0049_jpg.rf.7aad2582d94684e8c739b8b082624883.jpg,0,0,keep,keep,pass2 zoom: small broken
+images/train/egy__3616b468a2ae5447.jpg,train,IMG_3992-1-_MOV-0037_jpg.rf.61eaac7042b491c3432dbfa21d329388.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/train/egy__3616b468a2ae5447.jpg,train,IMG_3992-1-_MOV-0037_jpg.rf.61eaac7042b491c3432dbfa21d329388.jpg,1,1,keep,keep,pass2 zoom: shallow pothole
+images/train/egy__378f9506551eefce.jpg,train,Egypt_00327_jpg.rf.6bdf49b7e36a0fed8faa23edbfda5a39.jpg,0,0,remove_bad_box,remove,pass2 zoom: motion blur
+images/train/egy__38cd0840d1fa7226.jpg,train,IMG_3973-1-_MOV-0559_jpg.rf.1ead5b392ef302f0c177dfd87cc5f1eb.jpg,0,0,keep,keep,pass1
+images/train/egy__39100f1fc58ea8dd.jpg,train,Egypt_00242_jpg.rf.1bf6d996119e779ba8c234367d4729a7.jpg,0,0,keep,keep,pass2 zoom: broken edge
+images/train/egy__3917a90b517f93bd.jpg,train,Egypt_00120_jpg.rf.efade5314c88289540734aa6a2873130.jpg,0,0,uncertain,keep,"pass2 zoom: oval outline, pothole or cover"
+images/train/egy__3987ab9457d4292e.jpg,train,Egypt_00298_jpg.rf.4187c330637f83613ae36c35dd2c49ce.jpg,0,0,keep,keep,pass1
+images/train/egy__39fcf6231e2ab20f.jpg,train,Egypt_00304_jpg.rf.e466a549a2a3cf042dde57a560938ad4.jpg,0,0,remove_manhole,remove,pass1 grille cover
+images/train/egy__3a19326c585e6cde.jpg,train,Egypt_00089_jpg.rf.bb189078c79e1fd746ac96f094361174.jpg,0,0,remove_manhole,remove,pass2 zoom: cover in rectangular frame
+images/train/egy__3a1b9ddcc2b726f7.jpg,train,IMG_3973-1-_MOV-0058_jpg.rf.dd34587d5a95b9bc5aee8f54f034db15.jpg,0,0,keep,keep,pass1
+images/train/egy__3a1b9ddcc2b726f7.jpg,train,IMG_3973-1-_MOV-0058_jpg.rf.dd34587d5a95b9bc5aee8f54f034db15.jpg,1,1,remove_manhole,remove,pass1 drain grate
+images/test/egy__3b74388edcb80a35.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0029_jpg.rf.d775720a4b90e51bd946c01bee370c5d.jpg,0,0,keep,keep,pass1
+images/train/egy__3b7503fb4bb0a5b1.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0034_jpg.rf.d3caaf474e0c1a4fc4388756ceb4cf4e.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: pale strip, flat"
+images/train/egy__3c1e8e54bafdbe13.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0038_jpg.rf.6150ee2831d575abc0f16db78ceca684.jpg,2,0,keep,keep,pass1
+images/train/egy__3c2ad31f7aac0c91.jpg,train,IMG_3997-1-_MOV-0090_jpg.rf.ab7b7c40d700bfc5786547f58d00b9cb.jpg,0,0,keep,keep,pass2 zoom: broken
+images/train/egy__3c63fe5e2c2cccd1.jpg,train,IMG_4012-1-_MOV-1314_jpg.rf.a14f16b08fd31e82300cc4a20aae988b.jpg,0,0,keep,keep,pass1
+images/train/egy__3c71d70d5792dbb2.jpg,train,Egypt_00215_jpg.rf.1681aca815dc4cc01ee45b78155fc631.jpg,0,0,keep,keep,pass1
+images/train/egy__3c71d70d5792dbb2.jpg,train,Egypt_00215_jpg.rf.1681aca815dc4cc01ee45b78155fc631.jpg,1,1,keep,keep,pass1
+images/train/egy__3c71d70d5792dbb2.jpg,train,Egypt_00215_jpg.rf.1681aca815dc4cc01ee45b78155fc631.jpg,2,2,keep,keep,pass1
+images/train/egy__3c71d70d5792dbb2.jpg,train,Egypt_00215_jpg.rf.1681aca815dc4cc01ee45b78155fc631.jpg,3,3,keep,keep,pass1
+images/train/egy__3c71d70d5792dbb2.jpg,train,Egypt_00215_jpg.rf.1681aca815dc4cc01ee45b78155fc631.jpg,4,4,keep,keep,pass1
+images/train/egy__3c71d70d5792dbb2.jpg,train,Egypt_00215_jpg.rf.1681aca815dc4cc01ee45b78155fc631.jpg,5,5,keep,keep,pass1
+images/train/egy__3c7bfbb6fc5e51e7.jpg,train,Egypt_00387_jpg.rf.e1f77dbef03d836e863b2c6c4e24c0c1.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: sandy patch, flat"
+images/val/egy__3ce1e5050fe58e92.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0345_jpg.rf.091102d562d5a262546a71869680a62d.jpg,0,0,keep,keep,pass1
+images/train/egy__3d0f52285bd0f957.jpg,train,Egypt_00188_jpg.rf.71a3b60d50929abb052f43680e849681.jpg,0,0,keep,keep,pass1
+images/train/egy__3d6445a088d90557.jpg,train,Egypt_00357_jpg.rf.4c9520aff694ad9202781321df54b3d6.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__3e1a5d048273689b.jpg,train,Egypt_00319_jpg.rf.a348b43ecf6f1af5dbe9bda79c1d1cbb.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/val/egy__3e1aa6dbefcff9dc.jpg,val,IMG_3975-1-_MOV-0436_jpg.rf.a13b137cb91aefef19ca715905e27e1f.jpg,0,0,keep,keep,pass1
+images/train/egy__3ef0ca0e9fe152a6.jpg,train,IMG_4012-1-_MOV-0148_jpg.rf.86444ee329732fff9098f59253c6cea2.jpg,0,0,remove_manhole,remove,pass1 oval ring
+images/train/egy__3f466f0a2601e214.jpg,train,Egypt_00261_jpg.rf.95bb717cc00d3f68a67ace0ffffa1e27.jpg,0,0,keep,keep,pass1
+images/train/egy__3f4abe866fc4e30e.jpg,train,IMG_4012-1-_MOV-1052_jpg.rf.877daa8b0335f71632d939b017c6832d.jpg,0,0,keep,keep,pass1
+images/train/egy__3f4abe866fc4e30e.jpg,train,IMG_4012-1-_MOV-1052_jpg.rf.877daa8b0335f71632d939b017c6832d.jpg,1,1,keep,keep,pass1
+images/train/egy__3f4abe866fc4e30e.jpg,train,IMG_4012-1-_MOV-1052_jpg.rf.877daa8b0335f71632d939b017c6832d.jpg,2,2,keep,keep,pass1
+images/test/egy__405a2d630e8f0029.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0030_jpg.rf.1e24782cbc1e7e247fce7465157e5bb2.jpg,0,0,keep,keep,pass1
+images/test/egy__405a2d630e8f0029.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0030_jpg.rf.1e24782cbc1e7e247fce7465157e5bb2.jpg,1,1,keep,keep,pass1
+images/train/egy__4095de139191c6a3.jpg,train,Egypt_00022_jpg.rf.975ba2325abe9e6922d8f71b1881850f.jpg,0,0,keep,keep,pass1
+images/test/egy__409da02685332b40.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0063_jpg.rf.e6937df3d4c2b11d80ba114e0256de65.jpg,0,0,keep,keep,pass2 zoom: small pothole at curb
+images/train/egy__40e374abf9519396.jpg,train,Egypt_00256_jpg.rf.65ca490d9bad3c8ad6aca33d26f9fe55.jpg,0,0,keep,keep,pass1
+images/train/egy__419973557028a955.jpg,train,Egypt_00331_jpg.rf.63a2b7fc3de0bc9d3e9d61b994bb7f46.jpg,0,0,remove_not_pothole,remove,pass2 zoom: crack
+images/train/egy__4212f5ffaade4866.jpg,train,IMG_3973-1-_MOV-0668_jpg.rf.6d698a9b121758d86a9694a73c9151af.jpg,0,0,keep,keep,pass1
+images/train/egy__4212f5ffaade4866.jpg,train,IMG_3973-1-_MOV-0668_jpg.rf.6d698a9b121758d86a9694a73c9151af.jpg,1,1,uncertain,keep,pass2 zoom: dark rectangle
+images/test/egy__4240d48f248e9443.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0220_jpg.rf.8cfc56a48334b55d16964f0cae6445e5.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__42ccfc35269e8ace.jpg,train,Egypt_00374_jpg.rf.cf7a026b6dc171152b61bc5f249bc7b3.jpg,0,0,keep,keep,pass2 zoom: shallow broken
+images/train/egy__42ccfc35269e8ace.jpg,train,Egypt_00374_jpg.rf.cf7a026b6dc171152b61bc5f249bc7b3.jpg,1,1,keep,keep,pass1
+images/train/egy__42ccfc35269e8ace.jpg,train,Egypt_00374_jpg.rf.cf7a026b6dc171152b61bc5f249bc7b3.jpg,2,2,keep,keep,pass2 zoom: broken edge
+images/train/egy__42ccfc35269e8ace.jpg,train,Egypt_00374_jpg.rf.cf7a026b6dc171152b61bc5f249bc7b3.jpg,3,3,remove_not_pothole,remove,pass2 zoom: patch outline
+images/test/egy__434953712b18267e.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0061_jpg.rf.5e104e01ccfd9f57e3f8ac1845a19e4a.jpg,0,0,keep,keep,pass1
+images/train/egy__436763cd90fec6e6.jpg,train,Egypt_00296_jpg.rf.9f15274484cd5df93f854e0d1c724d34.jpg,0,0,remove_manhole,remove,pass2 zoom: sunken round cover ring
+images/train/egy__439f0045248dbd6b.jpg,train,Egypt_00228_jpg.rf.8ef9e7739c8e245a0d6b9f82bb12ab59.jpg,1,0,keep,keep,pass2 zoom: shallow depression
+images/train/egy__440085448cc7c0b1.jpg,train,IMG_4012-1-_MOV-0606_jpg.rf.9495bea0852259620e4e0e533c885cac.jpg,0,0,keep,keep,pass2 zoom: dark depression
+images/train/egy__448454601e54e4c9.jpg,train,Egypt_00340_jpg.rf.e6a0c6bd1e70eafe319526dc18285c96.jpg,0,0,remove_not_pothole,remove,pass2 zoom: cracks
+images/train/egy__44bb7169fe2251a5.jpg,train,Egypt_00275_jpg.rf.523e20d2343931f72b57fed0ccb337c0.jpg,0,0,keep,keep,pass1
+images/train/egy__4518d8e653d51e30.jpg,train,IMG_3994-1-_MOV-0026_jpg.rf.5f715d01fb5cab10f7dcfc437a92d6a4.jpg,0,0,keep,keep,pass1
+images/train/egy__4518d8e653d51e30.jpg,train,IMG_3994-1-_MOV-0026_jpg.rf.5f715d01fb5cab10f7dcfc437a92d6a4.jpg,1,1,keep,keep,pass1
+images/train/egy__4518d8e653d51e30.jpg,train,IMG_3994-1-_MOV-0026_jpg.rf.5f715d01fb5cab10f7dcfc437a92d6a4.jpg,2,2,keep,keep,pass1
+images/train/egy__45a60fe2133cfec4.jpg,train,IMG_3973-1-_MOV-0278_jpg.rf.20a51ea98fa7c58f3445ab194f87be9b.jpg,0,0,remove_not_pothole,remove,pass2 zoom: light streak on wet/sanded surface
+images/train/egy__4601217534a456cc.jpg,train,IMG_3973-1-_MOV-0697_jpg.rf.ce2b40a29dc89e5c59c9c395c6ebfc89.jpg,0,0,keep,keep,pass1
+images/train/egy__4601217534a456cc.jpg,train,IMG_3973-1-_MOV-0697_jpg.rf.ce2b40a29dc89e5c59c9c395c6ebfc89.jpg,1,1,keep,keep,pass1
+images/train/egy__460f3846c232279d.jpg,train,IMG_4012-1-_MOV-0157_jpg.rf.6cc4e9a962094cedd7b3a4a67cff309b.jpg,1,0,remove_not_pothole,remove,pass2 zoom: streak
+images/train/egy__46125d82930ae927.jpg,train,Egypt_00355_jpg.rf.95410968df6220e8f31c4b1c629961c6.jpg,0,0,keep,keep,pass1
+images/train/egy__461c768caf3e7efc.jpg,train,IMG_4012-1-_MOV-0696_jpg.rf.c4ea0bb0ae02628e245d0faceb8d4f2b.jpg,0,0,keep,keep,pass1
+images/train/egy__46f1eaaf68ffed78.jpg,train,Egypt_00291_jpg.rf.29fe3ef2b645cde010f619af681c9457.jpg,0,0,keep,keep,pass1
+images/train/egy__4746558b28335eea.jpg,train,IMG_3997-1-_MOV-0144_jpg.rf.158592450ae85eed07201c8e901d6360.jpg,0,0,keep,keep,pass2 zoom: broken
+images/val/egy__4890fb45fea7382c.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0007_jpg.rf.f9705e793f7e50d19ac42df9776971a6.jpg,0,0,remove_manhole,remove,pass1 oval ring
+images/train/egy__495bb171f39ec779.jpg,train,IMG_4012-1-_MOV-0152_jpg.rf.f87b981b006be256c05c595ce0817e4a.jpg,0,0,keep,keep,pass1
+images/train/egy__4994bff713cf6276.jpg,train,IMG_3997-1-_MOV-0106_jpg.rf.f3f803ba9a064c3a1623540b3000eac7.jpg,0,0,keep,keep,pass2 zoom: broken strip
+images/train/egy__4994bff713cf6276.jpg,train,IMG_3997-1-_MOV-0106_jpg.rf.f3f803ba9a064c3a1623540b3000eac7.jpg,1,1,keep,keep,pass2 zoom: pothole at sand edge
+images/train/egy__49a8d63d3aca66d2.jpg,train,IMG_4012-1-_MOV-0295_jpg.rf.db4771710b8173957230a7da04be59e9.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__49becc6c16e5e66e.jpg,train,Egypt_00451_jpg.rf.2cbdb0cb0f552c8a8266a8d676c3b451.jpg,0,0,remove_manhole,remove,pass1 drain grate slots
+images/train/egy__49f3837f80941a4d.jpg,train,IMG_4012-1-_MOV-0395_jpg.rf.9f70ef8b6f5804b15c88b5e83e501fa1.jpg,0,0,keep,keep,pass1
+images/train/egy__49f3837f80941a4d.jpg,train,IMG_4012-1-_MOV-0395_jpg.rf.9f70ef8b6f5804b15c88b5e83e501fa1.jpg,1,1,remove_manhole,remove,pass2 zoom: small round cover
+images/train/egy__49fdc94ab581ecef.jpg,train,IMG_3998-1-_MOV-0310_jpg.rf.f0e51e281723e09f2501970686d9512f.jpg,0,0,keep,keep,pass1
+images/train/egy__4a0980e532bd3b26.jpg,train,Egypt_00133_jpg.rf.365a9d801d005d1d76a727ea634eca86.jpg,0,0,keep,keep,pass2 zoom: shallow pothole
+images/train/egy__4a0b4e08657a5e98.jpg,train,IMG_3973-1-_MOV-0059_jpg.rf.c504dccc0d98c42ecb80e59342caa15c.jpg,0,0,keep,keep,pass1
+images/train/egy__4a25da660be4b8bc.jpg,train,Egypt_00236_jpg.rf.1c2978aafe295ec652cb716f313e5367.jpg,0,0,remove_manhole,remove,pass2 zoom: round grille cover
+images/train/egy__4a433bb45e7e518a.jpg,train,Egypt_00116_jpg.rf.8a5b880fd77f491cb3475bc8cc3b4520.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: dirt/rubble mound, box = whole image"
+images/train/egy__4a682faf383ef61f.jpg,train,IMG_4012-1-_MOV-0199_jpg.rf.62a3ba5aafeaf6ae84dcf7a008c2f9b4.jpg,0,0,remove_manhole,remove,pass2 zoom: faint oval cover
+images/train/egy__4a76e7067c9027c1.jpg,train,Egypt_00137_jpg.rf.811b9b51652ff7591c2f3fad2f031e43.jpg,0,0,keep,keep,pass2 zoom: broken strip
+images/train/egy__4b9678d33161b9aa.jpg,train,Egypt_00038_jpg.rf.ea51ab9071e8875d4737e1a7282511c6.jpg,0,0,remove_manhole,remove,pass2 zoom: rectangular frame
+images/train/egy__4c026f5a13224300.jpg,train,Egypt_00117_jpg.rf.76924ab5d1b3594bb56c05843568c3a9.jpg,0,0,keep,keep,pass1
+images/train/egy__4c026f5a13224300.jpg,train,Egypt_00117_jpg.rf.76924ab5d1b3594bb56c05843568c3a9.jpg,1,1,keep,keep,pass1
+images/train/egy__4c21c70a344035d3.jpg,train,Egypt_00359_jpg.rf.1c6192b8923d5513da44011203c7a7a7.jpg,0,0,keep,keep,pass1
+images/train/egy__4c996bb88ce6b4bd.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0037_jpg.rf.15e116b6705fd4ebb412b22cdcd7a868.jpg,0,0,keep,keep,pass1
+images/train/egy__4cc2a0fdc45354cc.jpg,train,Egypt_00377_jpg.rf.114b364c796f575f4223aecc678ce014.jpg,0,0,keep,keep,pass1
+images/train/egy__4d4eff533a3dec34.jpg,train,IMG_3998-1-_MOV-0146_jpg.rf.b99381d347d6df9240fa7a6a367935ad.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__4d5298d822495c15.jpg,train,Egypt_00251_jpg.rf.1d46748e65d9073da2dc388d36efab77.jpg,2,0,remove_manhole,remove,pass1 round grille cover
+images/train/egy__4d61f3cdc3b660db.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0050_jpg.rf.58feb1f997b3c3bee2751b28e2e341a3.jpg,0,0,remove_not_pothole,remove,pass2 zoom: white streak
+images/train/egy__4da7c46f6243e974.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0004_jpg.rf.506e17306cea8461af0eb4955c259d78.jpg,0,0,keep,keep,pass1
+images/train/egy__4de4c6aca5386da1.jpg,train,Egypt_00324_jpg.rf.253dfbb1fa62d38b7a772891694eb05d.jpg,0,0,remove_not_pothole,remove,pass1 long crack along curb
+images/train/egy__4e0a0aa4b0242794.jpg,train,Egypt_00110_jpg.rf.dcaa2838d2491762bf12d34edcb38453.jpg,0,0,keep,keep,pass1
+images/train/egy__4e3d782549b3c221.jpg,train,Egypt_00037_jpg.rf.1f3394a491cf964f41270fdca6db3e0f.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__4e3d782549b3c221.jpg,train,Egypt_00037_jpg.rf.1f3394a491cf964f41270fdca6db3e0f.jpg,1,1,remove_manhole,remove,pass1 oval cover
+images/train/egy__4e7023b03b4842fc.jpg,train,Egypt_00328_jpg.rf.46201de9fb85c8dd73870896a25b409f.jpg,0,0,keep,keep,pass2 zoom: gravel-filled pothole at curb
+images/train/egy__4e76e46f5cf834ff.jpg,train,IMG_3998-1-_MOV-0294_jpg.rf.87a88ccbb70ef394ac60158fe9ab7430.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__4e76e46f5cf834ff.jpg,train,IMG_3998-1-_MOV-0294_jpg.rf.87a88ccbb70ef394ac60158fe9ab7430.jpg,1,1,remove_not_pothole,remove,pass2 zoom: crack line
+images/train/egy__4e76e46f5cf834ff.jpg,train,IMG_3998-1-_MOV-0294_jpg.rf.87a88ccbb70ef394ac60158fe9ab7430.jpg,2,2,remove_not_pothole,remove,"pass2 zoom: dark slot/object, not a cavity"
+images/train/egy__4ee7209d9f817dd3.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0033_jpg.rf.9a69dfd591cebe8ad1594e80dbdf9023.jpg,3,0,remove_not_pothole,remove,"pass2 zoom: tram rails/strip, no cavity"
+images/test/egy__4ef29136454264e1.jpg,test,IMG_3996-1-_MOV-0007_jpg.rf.0eb037ebaf29bacc5d10cc51b7a4926b.jpg,0,0,keep,keep,pass1
+images/train/egy__4ef858250c762a42.jpg,train,Egypt_00200_jpg.rf.9b018483b6af8d22b026cdf2851b0af5.jpg,0,0,keep,keep,pass1
+images/train/egy__4f2bf7de1e5ccda8.jpg,train,IMG_4002-1-_MOV-0006_jpg.rf.a2fc7c4abae7b7a1901d915ad0c02afd.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__4f3e8a98e9bee8a8.jpg,train,Egypt_00407_jpg.rf.0aa660683ca312f9e1d1a308bed88717.jpg,0,0,keep,keep,pass2 zoom: broken strip
+images/train/egy__4f3e8a98e9bee8a8.jpg,train,Egypt_00407_jpg.rf.0aa660683ca312f9e1d1a308bed88717.jpg,1,1,keep,keep,pass2 zoom: broken depression
+images/train/egy__4f3e8a98e9bee8a8.jpg,train,Egypt_00407_jpg.rf.0aa660683ca312f9e1d1a308bed88717.jpg,2,2,keep,keep,pass1
+images/train/egy__4fb5abef0fdf77a4.jpg,train,Egypt_00024_jpg.rf.6db6b3a8324b4c4ceb38dbc0577e1a71.jpg,0,0,keep,keep,pass1
+images/train/egy__505e15232c46523c.jpg,train,IMG_4012-1-_MOV-0553_jpg.rf.6979945fcf87c126c5f203db5aeb2e65.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__506ccd0f120c5708.jpg,train,Egypt_00047_jpg.rf.89dd6d66fcc0675878c304769f90aac2.jpg,0,0,remove_manhole,remove,pass1 round cover in frame
+images/train/egy__5072191fe5c6cf9f.jpg,train,Egypt_00186_jpg.rf.afa127dc03c8d497499cb86244acb31d.jpg,0,0,remove_manhole,remove,pass1 oval cover with broken surround
+images/train/egy__50764191c6bf91f3.jpg,train,IMG_3997-1-_MOV-0113_jpg.rf.230c0dceeb308789baaa5ac1bdbb8ba8.jpg,0,0,keep,keep,pass2 zoom: broken strip
+images/train/egy__50803a5230b295c7.jpg,train,IMG_4012-1-_MOV-1046_jpg.rf.e2b4cdc5ebd5276af58f858f10551c79.jpg,1,0,keep,keep,pass1
+images/train/egy__50803a5230b295c7.jpg,train,IMG_4012-1-_MOV-1046_jpg.rf.e2b4cdc5ebd5276af58f858f10551c79.jpg,2,1,keep,keep,pass1
+images/train/egy__50803a5230b295c7.jpg,train,IMG_4012-1-_MOV-1046_jpg.rf.e2b4cdc5ebd5276af58f858f10551c79.jpg,3,2,keep,keep,pass1
+images/train/egy__511a0011123232f7.jpg,train,IMG_3973-1-_MOV-0390_jpg.rf.92a5efd9d04e3616f98d3e3de102dbce.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__512ce0f2694a6833.jpg,train,Egypt_00028_jpg.rf.acb9b918976b2e0b9419117db3682700.jpg,0,0,keep,keep,pass1
+images/train/egy__51b15b37a92b9c2d.jpg,train,IMG_4002-1-_MOV-0074_jpg.rf.a33ca4bb69abe3016aeb225b07d4c6d2.jpg,0,0,keep,keep,pass1
+images/train/egy__5236bcf0a0f3f553.jpg,train,IMG_3973-1-_MOV-0567_jpg.rf.69f060a04afb422a87ef104cb60958ba.jpg,0,0,keep,keep,pass1
+images/train/egy__524039a3f15cab9b.jpg,train,Egypt_00382_jpg.rf.a254cce42fe9846554be4f8ee39cd98a.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__524e66ab3c20863e.jpg,train,Egypt_00383_jpg.rf.0d086ad2019a65b204e64f3ce1edd359.jpg,0,0,keep,keep,pass1
+images/train/egy__528c916a225feb0d.jpg,train,IMG_3999-1-_MOV-0002_jpg.rf.d6add9aba97ef243f5d4436d8ea85e36.jpg,1,0,remove_manhole,remove,pass1 oval cover with broken surround
+images/train/egy__5335822d7c7b6202.jpg,train,Egypt_00326_jpg.rf.a6581aec49cdd07a9c819e1378f9acaa.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__536071dc32a2344e.jpg,train,Egypt_00081_jpg.rf.73898dfdf49f90b977a9b392ec0f9778.jpg,0,0,keep,keep,pass1
+images/train/egy__537d8ee0dccdac8f.jpg,train,IMG_4012-1-_MOV-1164_jpg.rf.1f96fb1c4fc8699d2480bf5b100d6a8a.jpg,1,0,keep,keep,pass1
+images/train/egy__537d8ee0dccdac8f.jpg,train,IMG_4012-1-_MOV-1164_jpg.rf.1f96fb1c4fc8699d2480bf5b100d6a8a.jpg,2,1,keep,keep,pass1
+images/train/egy__538408afeca31b16.jpg,train,Egypt_00257_jpg.rf.710579df5c63ddefe4322dcf782e2a4b.jpg,2,0,keep,keep,pass1
+images/train/egy__53ab4ecc8a1daaef.jpg,train,WhatsApp-Video-2024-03-22-at-15_08_52_mp4-0019_jpg.rf.eafbf1d7cb6a3858cb17a48a559954d0.jpg,0,0,remove_manhole,remove,pass1 drain grate at curb
+images/train/egy__5405d67abe853df4.jpg,train,IMG_4012-1-_MOV-0160_jpg.rf.f6fc0ac1c0bf4a491f222cca4136c0a8.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/test/egy__54257dea8172f6b5.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0033_jpg.rf.a73ebc140d930d8ba4efd8ad4a7e0cd6.jpg,0,0,keep,keep,pass1
+images/test/egy__54257dea8172f6b5.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0033_jpg.rf.a73ebc140d930d8ba4efd8ad4a7e0cd6.jpg,1,1,keep,keep,pass1
+images/train/egy__544dffa0a0573ea9.jpg,train,IMG_4012-1-_MOV-0153_jpg.rf.50d246815ebb9ffa44f984695222a6f6.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__545ca2494b444882.jpg,train,Egypt_00329_jpg.rf.68a07eacb5fb2951ed86bc72a21e7e61.jpg,0,0,keep,keep,pass1
+images/val/egy__545ca9bd00d7c8dc.jpg,val,IMG_3975-1-_MOV-0383_jpg.rf.8250bfda4616c9e22b7405c3f76f5364.jpg,0,0,keep,keep,pass1
+images/train/egy__5487f6b018f02951.jpg,train,Egypt_00045_jpg.rf.0728d4641ef5ae5bc7ea90aa37e26eca.jpg,0,0,remove_bad_box,remove,pass2 zoom: blurred pale smear
+images/train/egy__548cc6cab1d6ba9c.jpg,train,Egypt_00389_jpg.rf.cc76254024521e405885e7335cbfe69f.jpg,0,0,remove_manhole,remove,pass2 zoom: square utility cover box + grate
+images/train/egy__554c74a618377c60.jpg,train,Egypt_00017_jpg.rf.cba5d9cff3970e6249d0bfadcf7e3228.jpg,0,0,keep,keep,pass1
+images/test/egy__563ee7bcf5c5ae2c.jpg,test,IMG_3996-1-_MOV-0043_jpg.rf.0323a79ff5fd6e06bb49f3c36f59f02f.jpg,1,0,remove_not_pothole,remove,pass2 zoom: crack line
+images/train/egy__5678ed3181ca2277.jpg,train,IMG_4002-1-_MOV-0134_jpg.rf.fe608816e5b21c11bd47076fe8e5d008.jpg,0,0,keep,keep,pass2 zoom: large broken patch area
+images/train/egy__5678ed3181ca2277.jpg,train,IMG_4002-1-_MOV-0134_jpg.rf.fe608816e5b21c11bd47076fe8e5d008.jpg,1,1,remove_manhole,remove,pass1 oval cover
+images/train/egy__56cefd843f41951e.jpg,train,Egypt_00361_jpg.rf.88837f4297bcccf34b4affce3ac5336e.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/train/egy__56cefd843f41951e.jpg,train,Egypt_00361_jpg.rf.88837f4297bcccf34b4affce3ac5336e.jpg,1,1,remove_bad_box,remove,pass2 zoom: motion blur
+images/train/egy__56eba2b191f403e0.jpg,train,Egypt_00189_jpg.rf.7d1dca9f05fb4f45577d11be3e42f015.jpg,0,0,keep,keep,pass1
+images/test/egy__578119baf159f19a.jpg,test,IMG_3996-1-_MOV-0019_jpg.rf.ac241e3a35ecae6110821ea8ad7cd4d6.jpg,0,0,keep,keep,pass1
+images/test/egy__57c7b7b7a229556c.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0126_jpg.rf.31472d32df7663a4004fe66c29d06d29.jpg,0,0,keep,keep,pass1
+images/train/egy__57fd7d7bc1a3fa5d.jpg,train,Egypt_00395_jpg.rf.981d01550c389f29c25e9a95304bf64c.jpg,0,0,keep,keep,pass1
+images/train/egy__58107ecff1deadd9.jpg,train,Egypt_00452_jpg.rf.511c372f5a1d3259fc2433597a55db2a.jpg,0,0,keep,keep,pass1
+images/test/egy__58596d621ce97a91.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0153_jpg.rf.edec74d5ad4ed994bd185f578985a0f1.jpg,0,0,remove_manhole,remove,pass1 patterned rectangular grate
+images/train/egy__5862f18f830f635f.jpg,train,IMG_4002-1-_MOV-0018_jpg.rf.2600d3c948be4fa7afb459f184d9eb76.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__58f2217a91424016.jpg,train,Egypt_00274_jpg.rf.42c027aef846b04558ef45d2cad1016c.jpg,0,0,keep,keep,pass2 zoom: shallow broken area
+images/train/egy__5929f55bbfe4f906.jpg,train,IMG_4012-1-_MOV-0444_jpg.rf.7a8065462919f10768ae765c6be4e234.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__594016a2ff665414.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0000_jpg.rf.ad4491f645517ceecdac92405468f4fc.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__594016a2ff665414.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0000_jpg.rf.ad4491f645517ceecdac92405468f4fc.jpg,1,1,remove_not_pothole,remove,pass2 zoom: dark streak
+images/train/egy__594c44b49a6f6473.jpg,train,Egypt_00411_jpg.rf.20da89811cc76061cc910af8d9c4b644.jpg,0,0,remove_manhole,remove,pass2 zoom: oval grate/cover
+images/train/egy__59b180c6060fa64a.jpg,train,IMG_4012-1-_MOV-0163_jpg.rf.58065fe7b91ff94f1a7eec216f7250ea.jpg,0,0,keep,keep,pass1
+images/train/egy__5a476d853f36f4d8.jpg,train,IMG_3997-1-_MOV-0098_jpg.rf.1421807948b874f26c644ed026aaef6f.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__5b003367d49f70fd.jpg,train,IMG_4012-1-_MOV-0332_jpg.rf.e1dfa72c0cb6f83c1d31383e229580ee.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__5b0528db51d787b3.jpg,train,IMG_4012-1-_MOV-0081_jpg.rf.3679bf36792b55feb3ba762b0cdd6d54.jpg,0,0,keep,keep,pass1
+images/train/egy__5b0528db51d787b3.jpg,train,IMG_4012-1-_MOV-0081_jpg.rf.3679bf36792b55feb3ba762b0cdd6d54.jpg,1,1,remove_manhole,remove,pass1 oval cover ring
+images/train/egy__5b086e93b8ad8d30.jpg,train,IMG_3973-1-_MOV-0691_jpg.rf.2686af4fae5e87d5323bcdf90f72ddf6.jpg,1,0,keep,keep,pass1
+images/val/egy__5b230a18de9e339c.jpg,val,IMG_3975-1-_MOV-0009_jpg.rf.bd9be55469299c43e4c06a12d31e4e29.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__5c1fab6ef825d70a.jpg,train,IMG_3997-1-_MOV-0066_jpg.rf.b00628112d404ced10322f453ff1868c.jpg,0,0,keep,keep,pass2 zoom: broken patch
+images/train/egy__5c59ee69b3595757.jpg,train,Egypt_00353_jpg.rf.5dd74037739d860bae206d1c24a1a6bb.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: sand-filled patch, flat"
+images/train/egy__5c7848faaf0412bd.jpg,train,IMG_3997-1-_MOV-0206_jpg.rf.8e4ef5a19f03beeb89e21ea734d6adee.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__5cbd4595ba064bf7.jpg,train,IMG_3992-1-_MOV-0021_jpg.rf.4f27201fbb3adee3d2c192a25d78c8d3.jpg,0,0,keep,keep,pass2 zoom: depression edge
+images/train/egy__5d59ebb8a12419f4.jpg,train,Egypt_00034_jpg.rf.010c1bda35f75aa1690859f70ca3fb67.jpg,0,0,remove_manhole,remove,pass1 oval sunken cover
+images/train/egy__5d93884e33f1c792.jpg,train,Egypt_00336_jpg.rf.5f341325869ac3f6eb60417d481d1efe.jpg,0,0,keep,keep,pass1
+images/train/egy__5da310187da5579f.jpg,train,Egypt_00388_jpg.rf.e548c83a085207629bcd410cef4e2747.jpg,0,0,keep,keep,pass2 zoom: shallow broken strip
+images/val/egy__5de4a4de357678a3.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0101_jpg.rf.53498de3e4130852e8017662d136a0b1.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: peeling surface / wet, shallow"
+images/train/egy__5e00e4915ccfbf36.jpg,train,Egypt_00027_jpg.rf.75d51e33574da9af75479c385eeadf3b.jpg,0,0,keep,keep,pass1
+images/train/egy__5e7951cf0c5983ac.jpg,train,Egypt_00229_jpg.rf.284755ceeb8d2b89c02b6d63311ab7ba.jpg,0,0,keep,keep,pass1
+images/train/egy__5e8c8172146efd69.jpg,train,IMG_4012-1-_MOV-0557_jpg.rf.3da8a7b7ba8538fa48467d1fff42971a.jpg,0,0,keep,keep,pass1
+images/train/egy__5ebb1b4450af9a9a.jpg,train,IMG_4002-1-_MOV-0067_jpg.rf.203216fe2e70006e25c99aa39ef4d94c.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__5ee867608d481783.jpg,train,Egypt_00343_jpg.rf.f2f02c69168448b40f1c50787adeb0a5.jpg,0,0,keep,keep,pass1
+images/train/egy__5ee867608d481783.jpg,train,Egypt_00343_jpg.rf.f2f02c69168448b40f1c50787adeb0a5.jpg,1,1,keep,keep,pass2 zoom: broken surface
+images/val/egy__5eec651ca6efc5d9.jpg,val,IMG_3975-1-_MOV-0422_jpg.rf.f0a7dc049a215974f34ed2b025e54125.jpg,0,0,remove_not_pothole,remove,pass2 zoom: dark crack line
+images/train/egy__5f63139ae85956c8.jpg,train,IMG_4012-1-_MOV-0720_jpg.rf.35678be61dade16ae34c8f73fa0a5f12.jpg,0,0,keep,keep,pass1
+images/train/egy__60511adacc50e6d6.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0003_jpg.rf.22b6f8021b0dd714af389b4c5fe7ee64.jpg,0,0,keep,keep,pass1
+images/train/egy__60caf00090f83c5e.jpg,train,Egypt_00139_jpg.rf.b576d01271de670758a60cd0a5018ada.jpg,0,0,keep,keep,pass1
+images/train/egy__60f0c08f7e75e10d.jpg,train,Egypt_00210_jpg.rf.a788c4d5bbc9e44d653cbf876976c31f.jpg,0,0,keep,keep,pass2 zoom: shallow depression outline
+images/train/egy__60f0c08f7e75e10d.jpg,train,Egypt_00210_jpg.rf.a788c4d5bbc9e44d653cbf876976c31f.jpg,1,1,keep,keep,pass2 zoom: shallow depression outline
+images/train/egy__614dbbc474ea7d0a.jpg,train,Egypt_00364_jpg.rf.f94f910d2cc2e0e48d2f5bc4288efb67.jpg,0,0,keep,keep,pass1
+images/train/egy__61f014903e44c808.jpg,train,Egypt_00142_jpg.rf.610e26b1474d1fe9ff765d11c34cddd8.jpg,0,0,keep,keep,pass1
+images/train/egy__627f6b8d8e0f4ecc.jpg,train,Egypt_00218_jpg.rf.91c5d51de74185e527da4137332c2008.jpg,0,0,keep,keep,pass1
+images/train/egy__627fdfc297bba36e.jpg,train,IMG_4012-1-_MOV-0998_jpg.rf.c8ef7419a82a447ad585e5fdcac39b79.jpg,0,0,keep,keep,pass1
+images/train/egy__62eba97bc3e954e8.jpg,train,Egypt_00332_jpg.rf.aabbcd160240221804cd0f40a3ef3f33.jpg,0,0,keep,keep,pass1
+images/val/egy__637a14f2a6a25670.jpg,val,IMG_3975-1-_MOV-0495_jpg.rf.25a156d4e70f2d7b797d8b91e2bad8a7.jpg,0,0,remove_manhole,remove,pass2 zoom: rectangular cover
+images/val/egy__63ca94dfa61116c6.jpg,val,IMG_3975-1-_MOV-0001_jpg.rf.a21e3de8c2de3e79737e6e2af4f26d98.jpg,0,0,keep,keep,pass2 zoom: shallow depression
+images/test/egy__63decd60bac47261.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0203_jpg.rf.222bb9412e82eb01f9f60a64bc0fa33b.jpg,0,0,remove_manhole,remove,pass1 patterned rectangular grate
+images/train/egy__6495a627a3d4010b.jpg,train,IMG_4012-1-_MOV-0285_jpg.rf.c06c021095de9b037b017d62b537fbb0.jpg,2,0,remove_manhole,remove,pass2 zoom: oval cover
+images/train/egy__64a8ead28afd88b6.jpg,train,Egypt_00476_jpg.rf.6043c528701a234893adfec8da48754e.jpg,0,0,keep,keep,pass1
+images/train/egy__65256f71651458c9.jpg,train,Egypt_00173_jpg.rf.4ee3e7db4507f78fc2331e2772ec2aac.jpg,0,0,keep,keep,pass1
+images/val/egy__661450e8af8108e9.jpg,val,IMG_3975-1-_MOV-0423_jpg.rf.8e4ef8e9ad42984a47e0f34b5d664045.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__661a76d255362e99.jpg,train,IMG_3997-1-_MOV-0028_jpg.rf.5f1e84a3df85cdd933bbcbddc1e68aef.jpg,0,0,keep,keep,pass1
+images/train/egy__668b11a140e1cb33.jpg,train,Egypt_00400_jpg.rf.e7bdfed1e38a0ec96bb124de904cfcf5.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__6727829746fcf694.jpg,train,WhatsApp-Video-2024-03-22-at-15_08_52_mp4-0003_jpg.rf.9c957634e78fd7e49718eb8f6c6e202b.jpg,0,0,keep,keep,pass2 zoom: small dark depression
+images/train/egy__675edbf5db5f9fdd.jpg,train,IMG_3997-1-_MOV-0168_jpg.rf.a9df39f9d71e7d10edea65cafa0bd18e.jpg,0,0,remove_bad_box,remove,pass2 zoom: shadow
+images/val/egy__67c78bf2f4298935.jpg,val,IMG_3995-1-_MOV-0064_jpg.rf.6f7136bd436c4e1fe0b4bd73139a01bb.jpg,0,0,keep,keep,pass1
+images/train/egy__67e2026f91a04198.jpg,train,IMG_4012-1-_MOV-1208_jpg.rf.13dbf70ea63196e495eb2570dcc012d7.jpg,0,0,keep,keep,pass1
+images/train/egy__6871df9299e7fdc3.jpg,train,IMG_3973-1-_MOV-0692_jpg.rf.a1dd5330fc7c9bcdfdea3aff3d4710cd.jpg,0,0,keep,keep,pass1
+images/train/egy__689fd22649936824.jpg,train,Egypt_00136_jpg.rf.1c29de0d5f2f9aab9282a4261262f850.jpg,0,0,keep,keep,pass2 zoom: broken surface
+images/train/egy__6977b5f5606c8b9d.jpg,train,IMG_4012-1-_MOV-1075_jpg.rf.e956b2c765e369db03376b58869a8010.jpg,0,0,keep,keep,pass1
+images/train/egy__698edea24b92110d.jpg,train,Egypt_00280_jpg.rf.0c3896627e3904fd6cc1313c70b200a5.jpg,0,0,remove_not_pothole,remove,pass2 zoom: patched surface near cover
+images/train/egy__69ec8d85eae38975.jpg,train,Egypt_00430_jpg.rf.3f20e6d02f114c5c17c1823c1ef27938.jpg,0,0,keep,keep,pass1
+images/train/egy__6a2ba88d90dd533e.jpg,train,Egypt_00065_jpg.rf.363a18941c9d6d1a56c2b3d505c47b64.jpg,0,0,keep,keep,pass1
+images/train/egy__6a2ba88d90dd533e.jpg,train,Egypt_00065_jpg.rf.363a18941c9d6d1a56c2b3d505c47b64.jpg,1,1,keep,keep,pass1
+images/train/egy__6a7257f20de5857f.jpg,train,Egypt_00074_jpg.rf.9f5963e2065ab15c71315c7938df600f.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__6ae229db3b32dc3d.jpg,train,IMG_4012-1-_MOV-0162_jpg.rf.bf80f235afb25f99f5dc9ad887331955.jpg,0,0,keep,keep,pass2 zoom: dark depressions
+images/train/egy__6c517ccab4f253ee.jpg,train,IMG_4012-1-_MOV-0865_jpg.rf.adc9734288beeaa6a79a97d8cff0ebcb.jpg,0,0,remove_manhole,remove,pass2 zoom: rectangular cover outlines
+images/train/egy__6c65e0a821b49aa0.jpg,train,IMG_4012-1-_MOV-0657_jpg.rf.1f79344dd332b32540df7a4bbfad3671.jpg,0,0,remove_bad_box,remove,pass2 zoom: shadow area
+images/train/egy__6c669f948261db89.jpg,train,Egypt_00444_jpg.rf.a40c4cda23c46a64ba60bdf0d21c975e.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/val/egy__6cbc10362203ff01.jpg,val,IMG_3975-1-_MOV-0427_jpg.rf.9c2fdd06b7c171761cb64a13a6fb89e1.jpg,0,0,remove_manhole,remove,pass1 rectangular cover
+images/train/egy__6cc07770d162b141.jpg,train,Egypt_00196_jpg.rf.38fdce3be36d7b09807cee604c5605cf.jpg,0,0,keep,keep,pass2 zoom: broken edge next to a cover (cover outside box)
+images/val/egy__6d1294a2d3de995e.jpg,val,IMG_3975-1-_MOV-0409_jpg.rf.0e0b6265e3e9149cf93d69f378e9e55d.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/val/egy__6d7ce93797c56050.jpg,val,IMG_3975-1-_MOV-0466_jpg.rf.655365a7b78d5763ff4d995356f8ea5d.jpg,0,0,remove_manhole,remove,pass2 zoom: round cover
+images/train/egy__6d9ea2f37e9842b3.jpg,train,IMG_3973-1-_MOV-0513_jpg.rf.7c45d099f2cf128accb819459b6d0e8d.jpg,2,0,keep,keep,pass1
+images/val/egy__6de9cffa7014c2fb.jpg,val,IMG_3975-1-_MOV-0438_jpg.rf.00f90d6ce5b2137ab3eb1273a0aae870.jpg,0,0,remove_manhole,remove,pass2 zoom: rectangular grate/cover
+images/train/egy__6df4fa59bbf52357.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0049_jpg.rf.6641da600a3d06784f2d52bc81890d46.jpg,0,0,remove_not_pothole,remove,pass2 zoom: white debris
+images/train/egy__6eb45c784939961e.jpg,train,Egypt_00432_jpg.rf.4675eab0a304bb5e0898d3600e71c2df.jpg,0,0,remove_manhole,remove,pass1 oval cover with broken surround
+images/train/egy__6ed78c9f4d45eec6.jpg,train,IMG_3997-1-_MOV-0060_jpg.rf.f500c90c61b40a1639fe76406d0ced06.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/train/egy__6efd5df40de59fa4.jpg,train,Egypt_00219_jpg.rf.58b749a07e3bc65ae7c00a6690905679.jpg,0,0,keep,keep,pass1
+images/train/egy__6f496db9f4da047b.jpg,train,Egypt_00245_jpg.rf.35b6210a8b57b7fb119bd1e4fed5a346.jpg,0,0,keep,keep,pass1
+images/train/egy__6f5ee1d8a8a1cfb7.jpg,train,Egypt_00439_jpg.rf.c6b65713eb65316a1a88d7724b9d1db7.jpg,0,0,keep,keep,pass1
+images/train/egy__6ffb69f017dfd8f0.jpg,train,IMG_3973-1-_MOV-0663_jpg.rf.2a7063d053a9ca5fe5fc2bf3bed11e09.jpg,0,0,keep,keep,pass1
+images/test/egy__702c58ec247f87b3.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0044_jpg.rf.c669532c27ee585ef21cdde27b258239.jpg,0,0,remove_manhole,remove,pass1 slotted drain grate
+images/train/egy__709f1bf81ecd0cad.jpg,train,Egypt_00249_jpg.rf.8da713efedefef35774353151979f005.jpg,0,0,keep,keep,pass1
+images/test/egy__70e8417fcc22c2af.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0005_jpg.rf.fb89bb265d87416cafa4481db774bb37.jpg,0,0,remove_manhole,remove,pass2 zoom: oval cover
+images/train/egy__7117c08f492aabcc.jpg,train,IMG_4002-1-_MOV-0120_jpg.rf.9c7b4b2295b8e73119bf4103a2ad5bf1.jpg,0,0,remove_manhole,remove,pass1 round grille cover
+images/train/egy__715e652ca5459f70.jpg,train,Egypt_00029_jpg.rf.c596c55fbdf5814abff815e6e189151c.jpg,0,0,keep,keep,pass1
+images/train/egy__715e652ca5459f70.jpg,train,Egypt_00029_jpg.rf.c596c55fbdf5814abff815e6e189151c.jpg,1,1,keep,keep,pass1
+images/train/egy__715e652ca5459f70.jpg,train,Egypt_00029_jpg.rf.c596c55fbdf5814abff815e6e189151c.jpg,2,2,keep,keep,pass1
+images/train/egy__719c4fc15b045195.jpg,train,Egypt_00182_jpg.rf.8440520fcf11fe8da15dfc029512c6d7.jpg,0,0,keep,keep,pass1
+images/val/egy__71a35fd27a33c9d7.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0102_jpg.rf.b14ebcfbaecf42dcde4aafa14d7d6af6.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: peeling surface / wet, shallow"
+images/train/egy__71f708b0b0cbcb75.jpg,train,Egypt_00265_jpg.rf.b73f22035273c187b8aa2523809cccfc.jpg,2,0,remove_not_pothole,remove,pass1 long crack
+images/train/egy__723b7bc74caff502.jpg,train,IMG_3998-1-_MOV-0293_jpg.rf.c8bd81d54d0c2ae43f19febf2468918f.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__723b7bc74caff502.jpg,train,IMG_3998-1-_MOV-0293_jpg.rf.c8bd81d54d0c2ae43f19febf2468918f.jpg,1,1,remove_manhole,remove,pass1 drain grate
+images/train/egy__72b2fc3c9a5e6e9c.jpg,train,Egypt_00308_jpg.rf.db6dd39e9f175b4140a1b0b848ce2df7.jpg,0,0,keep,keep,pass2 zoom: broken at curb
+images/val/egy__72e25b8a6ac9dbaf.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0100_jpg.rf.2e1ef4c2f12405d4898f3537a9377b57.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: peeling surface / wet, shallow"
+images/train/egy__73e0b05b2a8a36db.jpg,train,Egypt_00309_jpg.rf.babb3c84c1ae7fe874ffa0db9e637128.jpg,0,0,remove_not_pothole,remove,pass1 crack at curb
+images/train/egy__742141fb9d64e640.jpg,train,Egypt_00134_jpg.rf.25b736444bf5c075099c4bfa4bf6d7ae.jpg,0,0,uncertain,keep,pass2 zoom: dark strip along curb
+images/train/egy__747c3fc8c470016b.jpg,train,Egypt_00316_jpg.rf.ab5ace48f5174e1c62414cd8e0ebaeac.jpg,0,0,remove_bad_box,remove,pass2 zoom: motion blur
+images/train/egy__747c3fc8c470016b.jpg,train,Egypt_00316_jpg.rf.ab5ace48f5174e1c62414cd8e0ebaeac.jpg,1,1,remove_manhole,remove,pass1 drain grate
+images/train/egy__74947281bb711f1e.jpg,train,IMG_3997-1-_MOV-0093_jpg.rf.50d9efda887c50dd16cfaf952af0b5d9.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/val/egy__74b5684dbf127165.jpg,val,IMG_3975-1-_MOV-0136_jpg.rf.2543f36f97134938b43759b9ed0ad455.jpg,0,0,remove_manhole,remove,pass2 zoom: oval ring
+images/train/egy__753dc2538089df8b.jpg,train,IMG_4012-1-_MOV-0442_jpg.rf.6f66b50d80331f71ba8105a6dd5d9e05.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__75a51d1ec8651073.jpg,train,IMG_4012-1-_MOV-0668_jpg.rf.ca673d22aef22acbc9d4707431d37cb8.jpg,0,0,keep,keep,pass1
+images/train/egy__75e8d5e702ea10be.jpg,train,Egypt_00279_jpg.rf.17ee2caead286e3a4125abcf64af6b79.jpg,0,0,remove_not_pothole,remove,pass2 zoom: patched surface
+images/train/egy__75e924bdd8530918.jpg,train,Egypt_00341_jpg.rf.667d17e70abdf7aa1ff25939eeda0739.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: pale round patch, flat"
+images/train/egy__75e924bdd8530918.jpg,train,Egypt_00341_jpg.rf.667d17e70abdf7aa1ff25939eeda0739.jpg,3,1,remove_manhole,remove,pass1 round cover
+images/train/egy__76a91a8c5c0652b0.jpg,train,Egypt_00174_jpg.rf.c849fd9e8d5739166e0cf356f96cc00b.jpg,0,0,remove_manhole,remove,pass1 rectangular cover plate
+images/train/egy__76cbfdd7f29fb40a.jpg,train,IMG_4012-1-_MOV-0547_jpg.rf.606ea9b4a0f2fd499d938beaf907537d.jpg,0,0,remove_manhole,remove,pass1 round grille cover
+images/train/egy__76e7cf3fa2a69444.jpg,train,Egypt_00272_jpg.rf.7e5bba51e3edc5fe424b2a9b13b64996.jpg,0,0,keep,keep,pass1
+images/train/egy__7700cd7b2c9cccb8.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0102_jpg.rf.c458d1adfdb6f8a262b6514d8ecb72f3.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__7765876ac0e52521.jpg,train,IMG_4012-1-_MOV-0404_jpg.rf.a354d42d90c54be39de9d120f446a37c.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: pale streak, flat"
+images/train/egy__77701362f09432c9.jpg,train,IMG_3997-1-_MOV-0221_jpg.rf.a4a147fba9c572a36d996de0ce3cc024.jpg,0,0,remove_manhole,remove,pass2 zoom: small rectangular utility cover
+images/train/egy__7816c84a731e0dc7.jpg,train,IMG_3997-1-_MOV-0110_jpg.rf.a60e49e82983fa382036985eddca263c.jpg,0,0,keep,keep,pass1
+images/train/egy__783606403d943067.jpg,train,Egypt_00185_jpg.rf.7c26af2b52c71717e0d9aa102678a733.jpg,0,0,remove_manhole,remove,pass1 patterned oval cover
+images/train/egy__78c4b781472f4072.jpg,train,IMG_3997-1-_MOV-0185_jpg.rf.b20b7859389ac0d80392ee0886622dcc.jpg,0,0,remove_manhole,remove,pass2 zoom: rectangular cover plate
+images/train/egy__790496be37064f5a.jpg,train,Egypt_00333_jpg.rf.64b9f9f45c625e9de9cfaaedd6dc6f90.jpg,0,0,keep,keep,pass1
+images/train/egy__79134139cfd9d9f7.jpg,train,Egypt_00435_jpg.rf.d913249ac9fd8a02ea4c3935221e24e3.jpg,0,0,keep,keep,pass1
+images/train/egy__79303800eaf72c0a.jpg,train,Egypt_00356_jpg.rf.d05c3166439bc87c22031806c9c43a94.jpg,0,0,keep,keep,pass1
+images/train/egy__7946a621e1863a23.jpg,train,IMG_3973-1-_MOV-0637_jpg.rf.7eca172668dcd2bf909a8bf575a19a4d.jpg,0,0,keep,keep,pass1
+images/train/egy__7946a621e1863a23.jpg,train,IMG_3973-1-_MOV-0637_jpg.rf.7eca172668dcd2bf909a8bf575a19a4d.jpg,1,1,keep,keep,pass1
+images/train/egy__7981c45dd30a4530.jpg,train,Egypt_00362_jpg.rf.f4b6fb18af3ad121194c5f283744a477.jpg,0,0,keep,keep,pass1
+images/val/egy__7994513a9ec80186.jpg,val,IMG_3975-1-_MOV-0355_jpg.rf.4a0c748c5094176c1f9f75a002dd1cfd.jpg,0,0,keep,keep,pass1
+images/train/egy__79ec7efa9536b913.jpg,train,Egypt_00040_jpg.rf.beabe416f6b8f43719404742f57935eb.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__79ec7efa9536b913.jpg,train,Egypt_00040_jpg.rf.beabe416f6b8f43719404742f57935eb.jpg,1,1,remove_not_pothole,remove,pass2 zoom: nothing visible
+images/val/egy__7a28a3234c30d4cc.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0140_jpg.rf.2d8542772e504b239af80a1ba1bf5b9b.jpg,0,0,remove_manhole,remove,pass2 zoom: grate pattern
+images/train/egy__7aef9ec5364aa39e.jpg,train,Egypt_00138_jpg.rf.a041cffaad0d12097789943ebffc3532.jpg,0,0,keep,keep,pass2 zoom: broken strip
+images/train/egy__7bc6ee6457060baf.jpg,train,Egypt_00068_jpg.rf.37c4519a0839e715a4c853b60fe48ca3.jpg,0,0,keep,keep,pass1
+images/val/egy__7c1078aaa27e7767.jpg,val,IMG_3975-1-_MOV-0323_jpg.rf.2c12b2eccf623a712c61d3f8af2f4ead.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__7c7182d05eec320b.jpg,train,IMG_4012-1-_MOV-0978_jpg.rf.30de1dcf5f8c656e4e190cbaabc77b1a.jpg,0,0,keep,keep,pass1
+images/train/egy__7c9cbb9fd635208c.jpg,train,IMG_3997-1-_MOV-0100_jpg.rf.cd216b26957c6e8aba214e0a300f6752.jpg,0,0,keep,keep,pass2 zoom: broken strip
+images/train/egy__7cb0c1510fddc060.jpg,train,IMG_4012-1-_MOV-1095_jpg.rf.9abc42054c8c4a53e4e2f4081d941cff.jpg,0,0,keep,keep,pass1
+images/train/egy__7d0454e25fee189d.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0081_jpg.rf.913fead64b8e7921fdc813cec47c37c9.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__7d0a035e48508770.jpg,train,Egypt_00005_jpg.rf.63592969cda99d5a1b628bbe4ae84f8b.jpg,0,0,keep,keep,pass1
+images/train/egy__7d0a035e48508770.jpg,train,Egypt_00005_jpg.rf.63592969cda99d5a1b628bbe4ae84f8b.jpg,1,1,uncertain,keep,pass2 zoom: faint texture
+images/train/egy__7dece78c3212633d.jpg,train,WhatsApp-Video-2024-03-22-at-15_08_52_mp4-0009_jpg.rf.309d8c38192643980463254fa6a419c6.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: dark streak, nothing clear"
+images/train/egy__7f07f284afa98495.jpg,train,Egypt_00392_jpg.rf.d9ad1b9b3730772ca7abff4285daf2aa.jpg,0,0,remove_manhole,remove,pass2 zoom: rectangular grate
+images/train/egy__7f0af69fc12100c5.jpg,train,IMG_3997-1-_MOV-0085_jpg.rf.3ae88ef081b030c1f1f73e24f7c44c9a.jpg,0,0,remove_manhole,remove,pass1 round cover with broken surround
+images/train/egy__7f9968428d0d063d.jpg,train,IMG_4012-1-_MOV-0495_jpg.rf.c6818a1c8471877c2d0b444ba4f3b749.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__7f9968428d0d063d.jpg,train,IMG_4012-1-_MOV-0495_jpg.rf.c6818a1c8471877c2d0b444ba4f3b749.jpg,1,1,remove_manhole,remove,pass1 drain grate
+images/train/egy__7f9968428d0d063d.jpg,train,IMG_4012-1-_MOV-0495_jpg.rf.c6818a1c8471877c2d0b444ba4f3b749.jpg,2,2,keep,keep,pass2 zoom: broken edge (grate outside box)
+images/train/egy__7f9c23ebf6ba07bd.jpg,train,IMG_3997-1-_MOV-0052_jpg.rf.bd949b06ac10ec8d9c5290d7fdab0f26.jpg,0,0,keep,keep,pass2 zoom: broken pothole
+images/train/egy__7fb5f815b1731fc1.jpg,train,IMG_4012-1-_MOV-0055_jpg.rf.254f8cbb1c952d8fd4cbc3ba30806d93.jpg,0,0,remove_bad_box,remove,pass2 zoom: shadow/dark smear
+images/train/egy__7fb5f815b1731fc1.jpg,train,IMG_4012-1-_MOV-0055_jpg.rf.254f8cbb1c952d8fd4cbc3ba30806d93.jpg,1,1,keep,keep,pass1
+images/train/egy__7fd9ae12e9df02bb.jpg,train,IMG_4012-1-_MOV-0672_jpg.rf.c9ba6ca6cc2b43b19609a100e2136f21.jpg,0,0,remove_manhole,remove,pass2 zoom: rectangular cover/patch with edges
+images/train/egy__7fe8e8284448024b.jpg,train,Egypt_00536_jpg.rf.df5eaf7f8575804c095265dc6d8ff8a8.jpg,0,0,remove_not_pothole,remove,pass2 zoom: sand-covered patch
+images/train/egy__7fec03f4aa6c9622.jpg,train,Egypt_00313_jpg.rf.c17527fa4f9a3d13c11510d2abccce75.jpg,0,0,keep,keep,pass1
+images/train/egy__7fec03f4aa6c9622.jpg,train,Egypt_00313_jpg.rf.c17527fa4f9a3d13c11510d2abccce75.jpg,1,1,keep,keep,pass2 zoom: broken strip next to pothole
+images/train/egy__8005b4010bfca56e.jpg,train,IMG_3973-1-_MOV-0287_jpg.rf.6b5397bcf0fd4e32fffd337d1797109d.jpg,0,0,keep,keep,pass1
+images/test/egy__80577e6eb3bcd1f1.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0205_jpg.rf.4fb49b96eb121b4d8a6df0ba670cf87f.jpg,0,0,remove_manhole,remove,pass1 patterned rectangular grate
+images/train/egy__812706cb775c3b41.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0002_jpg.rf.2436f2d83e5da835f092b8d50136e2e4.jpg,0,0,keep,keep,pass2 zoom: dark pothole lip
+images/train/egy__812706cb775c3b41.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0002_jpg.rf.2436f2d83e5da835f092b8d50136e2e4.jpg,1,1,remove_manhole,remove,pass2 zoom: oval cover with broken surround
+images/train/egy__8138ea019fddf3f1.jpg,train,WhatsApp-Video-2024-03-22-at-15_08_52_mp4-0001_jpg.rf.f2712c41921abd911eaa7fb400071527.jpg,0,0,remove_manhole,remove,pass1 slotted grate at curb
+images/train/egy__814472ec8c4dbda0.jpg,train,Egypt_00405_jpg.rf.09c0c3e256d53e286f235da458c3265d.jpg,0,0,keep,keep,pass1
+images/train/egy__81a3704e1a818f2e.jpg,train,Egypt_00321_jpg.rf.7781e3eb2b5c26b7edbba8ed28c99918.jpg,0,0,keep,keep,pass1
+images/train/egy__81a3704e1a818f2e.jpg,train,Egypt_00321_jpg.rf.7781e3eb2b5c26b7edbba8ed28c99918.jpg,1,1,remove_manhole,remove,pass1 drain grate
+images/train/egy__81d4c856e805cdfc.jpg,train,IMG_3997-1-_MOV-0099_jpg.rf.f1a50bd0c472b4fbf5960ccca5062914.jpg,0,0,keep,keep,pass2 zoom: small dark depression
+images/train/egy__81f0f2fa48e8dbae.jpg,train,IMG_4012-1-_MOV-0104_jpg.rf.e0f1293e5a694a3d82f5a36c56215196.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__81f0f2fa48e8dbae.jpg,train,IMG_4012-1-_MOV-0104_jpg.rf.e0f1293e5a694a3d82f5a36c56215196.jpg,1,1,remove_manhole,remove,pass2 zoom: faint oval cover
+images/train/egy__834405b448bae9f8.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0029_jpg.rf.345dfeb9f9e397eb9d7518526f9444ad.jpg,0,0,keep,keep,pass1
+images/train/egy__8353b9aede722dee.jpg,train,IMG_4012-1-_MOV-0663_jpg.rf.abea4fce84deeba4572e7379f07f2ad8.jpg,0,0,remove_bad_box,remove,pass2 zoom: shadow area
+images/train/egy__836c3f295bea1682.jpg,train,IMG_3998-1-_MOV-0081_jpg.rf.bdf82072c1a0eeb4c4473189ba9fa1ae.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__84656aaca6a5baec.jpg,train,Egypt_00201_jpg.rf.4f3e0627ed2c5fca9e4db2ee3dcc1473.jpg,0,0,keep,keep,pass1
+images/train/egy__851847a9feeab830.jpg,train,Egypt_00060_jpg.rf.354142e143a3bf565ac3b485ae5dff3b.jpg,0,0,remove_not_pothole,remove,pass2 zoom: milled/scarified surface
+images/train/egy__851847a9feeab830.jpg,train,Egypt_00060_jpg.rf.354142e143a3bf565ac3b485ae5dff3b.jpg,1,1,remove_not_pothole,remove,pass2 zoom: milled/scarified surface
+images/train/egy__8531c294db391cc0.jpg,train,Egypt_00294_jpg.rf.65f73c0ec0fc00e0f2f857b1efe222bc.jpg,0,0,keep,keep,pass1
+images/train/egy__85c6880d349e45ee.jpg,train,IMG_4012-1-_MOV-1074_jpg.rf.3b3ef3731f4196f3b8e4c105e4bbc55f.jpg,0,0,keep,keep,pass1
+images/train/egy__85de6c286ba93e0b.jpg,train,IMG_3997-1-_MOV-0000_jpg.rf.ec6190aa9681f196d3724a147bb3e303.jpg,0,0,keep,keep,pass1
+images/train/egy__86309457f09dc125.jpg,train,Egypt_00213_jpg.rf.d7c313ce134f2e7a66fd64604e8158c6.jpg,0,0,remove_bad_box,remove,pass2 zoom: blurred
+images/val/egy__86a23ca8ca16a2e2.jpg,val,IMG_3975-1-_MOV-0387_jpg.rf.781c06117d50982df2519c32a53addf4.jpg,0,0,keep,keep,pass1
+images/train/egy__874cc9bb58e56b70.jpg,train,Egypt_00193_jpg.rf.ddbd90c70187592dcf4b4c5a7d820d40.jpg,0,0,keep,keep,pass1
+images/train/egy__87a7edba667c3b60.jpg,train,Egypt_00347_jpg.rf.a1208d060234055c2485fbc13237b2b7.jpg,0,0,keep,keep,pass1
+images/train/egy__87f0695b8f82ad55.jpg,train,WhatsApp-Video-2024-03-22-at-15_08_52_mp4-0002_jpg.rf.fef93b51dfb8ce9caa44153fb739631e.jpg,0,0,remove_manhole,remove,pass1 slotted grate at curb
+images/train/egy__882382009273af65.jpg,train,IMG_3973-1-_MOV-0489_jpg.rf.cf2e1c30baf8ca81b9d7f93e79e6c982.jpg,0,0,remove_manhole,remove,pass1 drain grate with broken surround
+images/train/egy__886542f62f2eb3d2.jpg,train,Egypt_00191_jpg.rf.b4e8137bfff4e43106e4570e624de19a.jpg,0,0,keep,keep,pass1
+images/train/egy__88aa56d8707f32d0.jpg,train,IMG_3994-1-_MOV-0019_jpg.rf.2bb1c028e531d98e5058ae8998f01be7.jpg,1,0,keep,keep,pass2 zoom: pothole lip
+images/train/egy__89008611a38cdc03.jpg,train,IMG_3973-1-_MOV-0514_jpg.rf.8a60c5ba12150cf0e9abf70ccca70084.jpg,0,0,keep,keep,pass1
+images/train/egy__89050358543b4cfe.jpg,train,Egypt_00413_jpg.rf.6ab5190737bda7a2f6a5e4af1ecf11ba.jpg,0,0,remove_manhole,remove,pass1 grate strip
+images/train/egy__892bfffe013c912a.jpg,train,Egypt_00132_jpg.rf.9628342397b00087962a88f24d5b219f.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__8973d10f16375318.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0121_jpg.rf.6622c0ee20e171234fa2baa99b7bc62f.jpg,0,0,keep,keep,pass2 zoom: broken patch
+images/train/egy__8976338fbaf0efad.jpg,train,IMG_3973-1-_MOV-0070_jpg.rf.821b7f277eeba6644f8baef557576f2f.jpg,0,0,keep,keep,pass1
+images/test/egy__8ab2dd86684d0edb.jpg,test,IMG_3996-1-_MOV-0006_jpg.rf.f6723ce2e1bc1b2a0572299d908b9c64.jpg,0,0,keep,keep,pass1
+images/train/egy__8af19953c07d3c1d.jpg,train,IMG_3999-1-_MOV-0031_jpg.rf.0512474c53b7f0716a412ac316f6f593.jpg,0,0,keep,keep,pass1
+images/train/egy__8b1ae829e633ae74.jpg,train,Egypt_00305_jpg.rf.9eeefb82808a4254b5d0e73434495a78.jpg,0,0,remove_manhole,remove,pass2 zoom: round collar / buried cover
+images/train/egy__8b878e291cd754e5.jpg,train,Egypt_00376_jpg.rf.e165c973d371b8513110b0f73ea1c76e.jpg,1,0,keep,keep,pass2 zoom: shallow broken strip
+images/train/egy__8b9e9a31ec92abe7.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0024_jpg.rf.3aa3f5469a7fcabe17c690c865e14f39.jpg,0,0,keep,keep,pass1
+images/train/egy__8bb364c649c2751b.jpg,train,IMG_3997-1-_MOV-0103_jpg.rf.972cb8d1d9325783a4ab9661c8080ba2.jpg,0,0,keep,keep,pass1
+images/train/egy__8c0f9afbcc37516d.jpg,train,Egypt_00162_jpg.rf.08d7fe7d7a1c02f6a564aa09dd33481d.jpg,0,0,uncertain,keep,pass2 zoom: dark patch
+images/train/egy__8c37879a4329a5b0.jpg,train,IMG_3997-1-_MOV-0095_jpg.rf.4dae8af641714742f7a39bbb857b3b95.jpg,0,0,keep,keep,pass2 zoom: broken strip
+images/train/egy__8cf7ad7b7778f7fe.jpg,train,Egypt_00330_jpg.rf.dc02159b0dec44e5294684b848c1763e.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/test/egy__8d054f0d34ff5475.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0028_jpg.rf.db74edf72b1dae2296b7124feb95a0bc.jpg,1,0,keep,keep,pass2 zoom: dark depressions
+images/train/egy__8dceed4dc6cf7bbe.jpg,train,Egypt_00108_jpg.rf.97961d241a42b22dd575468eda530f33.jpg,0,0,keep,keep,pass1
+images/train/egy__8e07f44cfd42a866.jpg,train,IMG_3973-1-_MOV-0712_jpg.rf.744b4a9e5638f776f7933b151a7ea127.jpg,0,0,keep,keep,pass1
+images/train/egy__8e8070ffc0ad6451.jpg,train,Egypt_00478_jpg.rf.2a781b6ec554b763a41b9bee371a271e.jpg,0,0,keep,keep,pass1
+images/train/egy__8feea67c975f7386.jpg,train,Egypt_00385_jpg.rf.071110143f9e809b6cdb55d9a8637847.jpg,0,0,remove_not_pothole,remove,pass2 zoom: cracks
+images/test/egy__8ff3d65514e93f74.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0140_jpg.rf.11164ba0c562066a7b54e23b884b8abc.jpg,0,0,remove_not_pothole,remove,pass2 zoom: pale streak
+images/train/egy__900e93095b009e69.jpg,train,IMG_3973-1-_MOV-0696_jpg.rf.24f0679b241a9a34014938a97c2e6d09.jpg,1,0,keep,keep,pass1
+images/train/egy__911090860be6c38f.jpg,train,Egypt_00373_jpg.rf.a83a5897f9f955e538f066b16a4bc3b8.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: debris/patch, blurred"
+images/train/egy__9133d422e0275354.jpg,train,Egypt_00169_jpg.rf.c09e67386a23cc54786cb6e128b1eb57.jpg,0,0,keep,keep,pass1
+images/train/egy__916612271ce572ff.jpg,train,IMG_3973-1-_MOV-0057_jpg.rf.298e1da0d9e9be700f318f62632c0dc7.jpg,0,0,remove_manhole,remove,pass2 zoom: drain grate
+images/train/egy__91c1387c8903ec47.jpg,train,IMG_3997-1-_MOV-0026_jpg.rf.cb016c5d519d3aa00b34cc050ee206ad.jpg,0,0,keep,keep,pass2 zoom: dark depression
+images/train/egy__92461d0c6feba72f.jpg,train,Egypt_00042_jpg.rf.a80961b7afecf34099a21c74e88e2305.jpg,0,0,remove_manhole,remove,pass1 cover in rectangular frame
+images/train/egy__9286ba97b68626dd.jpg,train,Egypt_00131_jpg.rf.28aedc8a4514ae7c2519eb0962e07aa7.jpg,0,0,remove_not_pothole,remove,pass1 crack line
+images/train/egy__9286ba97b68626dd.jpg,train,Egypt_00131_jpg.rf.28aedc8a4514ae7c2519eb0962e07aa7.jpg,1,1,remove_not_pothole,remove,pass2 zoom: crack outline of a patch
+images/train/egy__928af1bd3cd87429.jpg,train,Egypt_00516_jpg.rf.511088ea5203d5c99a663fdf4a167e63.jpg,1,0,keep,keep,pass1
+images/train/egy__92e0eb925a3d9f2f.jpg,train,Egypt_00061_jpg.rf.d553556535a89105687a2ef3d5bc8e2d.jpg,1,0,remove_not_pothole,remove,pass2 zoom: milled/scarified surface
+images/test/egy__92fd215b2347e7db.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0204_jpg.rf.e084edb5f6885b36d5c0b8374744c2ea.jpg,0,0,remove_manhole,remove,pass1 patterned rectangular grate
+images/train/egy__932eb15a91bb1fd2.jpg,train,Egypt_00094_jpg.rf.65c20b9bf7f4298b5acdd61bc8677fba.jpg,0,0,keep,keep,pass2 zoom: shallow broken
+images/train/egy__933d571f88e38c2c.jpg,train,IMG_4012-1-_MOV-0441_jpg.rf.8261839e925b2d639a48848fadc765ce.jpg,0,0,remove_not_pothole,remove,pass2 zoom: nothing visible
+images/train/egy__933d571f88e38c2c.jpg,train,IMG_4012-1-_MOV-0441_jpg.rf.8261839e925b2d639a48848fadc765ce.jpg,1,1,keep,keep,pass2 zoom: shallow depression
+images/train/egy__936ae776f1e4b6aa.jpg,train,Egypt_00436_jpg.rf.70ae67cd94e404b1f8d62184ece998ee.jpg,0,0,keep,keep,pass1
+images/test/egy__9393f33d70611dd7.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0003_jpg.rf.35096a5257abe79edf282c9689f1d59f.jpg,0,0,remove_manhole,remove,pass2 zoom: drain channel at crossing
+images/train/egy__93a3df5c8c19d696.jpg,train,Egypt_00287_jpg.rf.0104a9035dc8f4def3f2cb6555c84a9a.jpg,0,0,keep,keep,pass2 zoom: broken area with debris
+images/train/egy__93c1b37a8be46ff9.jpg,train,Egypt_00273_jpg.rf.7e8d05d146a86e915e159ce726e0db37.jpg,0,0,keep,keep,pass1
+images/train/egy__943abde7f6459cdb.jpg,train,Egypt_00016_jpg.rf.503f396c22f6aa983431e6600b340ddf.jpg,0,0,keep,keep,pass2 broken area; manhole outside the box
+images/train/egy__943abde7f6459cdb.jpg,train,Egypt_00016_jpg.rf.503f396c22f6aa983431e6600b340ddf.jpg,1,1,remove_manhole,remove,pass1 round cover inside box
+images/train/egy__94530782651fe78e.jpg,train,IMG_4012-1-_MOV-0308_jpg.rf.a0ae81f5ddf7df66d0624fb988bf43d8.jpg,0,0,remove_manhole,remove,pass1 oval cover ring
+images/train/egy__94539a5c41a9e44e.jpg,train,IMG_3998-1-_MOV-0079_jpg.rf.eb407026d1cc29a7cbaaaa0df7b9829f.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__94c53fcdf9ddaa02.jpg,train,Egypt_00434_jpg.rf.9e981b0f2c18de02eed4791171c23e33.jpg,0,0,remove_manhole,remove,pass2 zoom: oval cover with broken surround
+images/train/egy__94d57ff251e07f17.jpg,train,Egypt_00051_jpg.rf.10c1742cce46e358a8b30e5cb5db437b.jpg,0,0,keep,keep,pass1
+images/train/egy__956c1df0c5d9c158.jpg,train,IMG_3973-1-_MOV-0638_jpg.rf.f5f749867453c049be75247de768cf5a.jpg,0,0,keep,keep,pass1
+images/train/egy__956c1df0c5d9c158.jpg,train,IMG_3973-1-_MOV-0638_jpg.rf.f5f749867453c049be75247de768cf5a.jpg,1,1,keep,keep,pass1
+images/train/egy__95e9bb074085cbd5.jpg,train,IMG_4012-1-_MOV-1042_jpg.rf.548d2f3c0c31762c75598ed526bb7477.jpg,0,0,keep,keep,pass1
+images/train/egy__96d592538eb11210.jpg,train,Egypt_00399_jpg.rf.d5ccb25c5e4f9c934fd669c1cffb936c.jpg,0,0,remove_not_pothole,remove,pass2 zoom: pale streak
+images/train/egy__96f10d52f4f34450.jpg,train,Egypt_00283_jpg.rf.1fae4e688d741a459e5ffbeaecfc8f35.jpg,0,0,remove_manhole,remove,pass1 round grille cover
+images/train/egy__97d75b6f20b9fa6f.jpg,train,Egypt_00175_jpg.rf.ea3d8043e41606009d9af61226b5f81e.jpg,0,0,remove_manhole,remove,pass1 rectangular cover plate
+images/train/egy__983cc8a9ccdbb1c5.jpg,train,IMG_3997-1-_MOV-0091_jpg.rf.6e389dafdc06a7fbd0291beaf6a9301b.jpg,0,0,keep,keep,pass1
+images/train/egy__98f93bbc203f72b4.jpg,train,Egypt_00106_jpg.rf.6cb3612e53277055eef6c1baddb2614f.jpg,0,0,uncertain,keep,pass2 zoom: large shaded area
+images/train/egy__9923c23f2dcbc3e2.jpg,train,IMG_3973-1-_MOV-0556_jpg.rf.ff4511b58847d65e731ce59ace3fd82c.jpg,0,0,keep,keep,pass1
+images/train/egy__9955bf320c718a08.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0100_jpg.rf.31e8e6b748511cada76a3bd997b4210e.jpg,0,0,keep,keep,pass1
+images/train/egy__9955bf320c718a08.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0100_jpg.rf.31e8e6b748511cada76a3bd997b4210e.jpg,1,1,keep,keep,pass2 zoom: broken edge with slab
+images/train/egy__999d89b9ec9eaf2e.jpg,train,Egypt_00424_jpg.rf.47459990a9bbf966c2a3ea5c6308ad5d.jpg,0,0,uncertain,keep,pass2 zoom: faint strip
+images/train/egy__999d89b9ec9eaf2e.jpg,train,Egypt_00424_jpg.rf.47459990a9bbf966c2a3ea5c6308ad5d.jpg,1,1,keep,keep,pass1
+images/train/egy__9a16897014ab7404.jpg,train,Egypt_00354_jpg.rf.2aaaada5da763b03ce589c3e0b4be87e.jpg,0,0,keep,keep,pass1
+images/train/egy__9a655d15632aa697.jpg,train,IMG_3998-1-_MOV-0014_jpg.rf.6e0fa16eb38df750a891bd8ddbe3763c.jpg,0,0,keep,keep,pass1
+images/train/egy__9ad0a602d73f7633.jpg,train,Egypt_00416_jpg.rf.d02ea4dce7e06f1ac4cac0bb57b25c33.jpg,0,0,remove_not_pothole,remove,pass2 zoom: patch outlines
+images/train/egy__9ad13d29c36c2fe2.jpg,train,Egypt_00077_jpg.rf.852731682ae958fb6a137f8a797cf5ae.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/train/egy__9ad13d29c36c2fe2.jpg,train,Egypt_00077_jpg.rf.852731682ae958fb6a137f8a797cf5ae.jpg,1,1,remove_manhole,remove,pass1 cover in frame
+images/train/egy__9c0954c77d3dcac1.jpg,train,IMG_3973-1-_MOV-0635_jpg.rf.ff3780e5c1c3279e6f192411b2ad3c6d.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__9c745dd036907e64.jpg,train,IMG_3997-1-_MOV-0234_jpg.rf.1a2517271362303301c100c8d48e49fa.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: flat surface, nothing"
+images/train/egy__9c7d2f731db20047.jpg,train,Egypt_00183_jpg.rf.a1bd7f9da4cf6287d7f144bba7a14b05.jpg,0,0,keep,keep,pass1
+images/train/egy__9c91630d035141c0.jpg,train,IMG_3998-1-_MOV-0338_jpg.rf.4534a2a3f9adb01665d1a7953c5ffca4.jpg,0,0,keep,keep,pass1
+images/train/egy__9d2dce2902dc7485.jpg,train,IMG_4012-1-_MOV-1103_jpg.rf.a91410f5786682ba6eb83fa08d05f5bf.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__9d2dce2902dc7485.jpg,train,IMG_4012-1-_MOV-1103_jpg.rf.a91410f5786682ba6eb83fa08d05f5bf.jpg,1,1,remove_bad_box,remove,"pass2 zoom: box mostly flat road, manhole at edge"
+images/train/egy__9d5897b6bcd1f255.jpg,train,IMG_4012-1-_MOV-1007_jpg.rf.91a7e6b26c3f962e768021e63d4ba3a2.jpg,0,0,keep,keep,pass1
+images/train/egy__9d59f927ea5ed408.jpg,train,Egypt_00084_jpg.rf.98e0368fcfac99557420135480737542.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__9d9888afd159c044.jpg,train,Egypt_00178_jpg.rf.3d0c2e5bfcaf7d9d23768434f913d9fc.jpg,0,0,keep,keep,pass1
+images/train/egy__9dfbe194268af186.jpg,train,IMG_4012-1-_MOV-0159_jpg.rf.05d5f138c316efaf4c673e5af92730c8.jpg,0,0,remove_not_pothole,remove,pass2 zoom: dark crack line
+images/train/egy__9e11aaf7633c6897.jpg,train,IMG_4012-1-_MOV-0556_jpg.rf.a34cdc94cdc38cfc93bd6456043a410f.jpg,0,0,keep,keep,pass1
+images/train/egy__9e11aaf7633c6897.jpg,train,IMG_4012-1-_MOV-0556_jpg.rf.a34cdc94cdc38cfc93bd6456043a410f.jpg,1,1,keep,keep,pass1
+images/train/egy__9e25a0f824ff524d.jpg,train,Egypt_00252_jpg.rf.df98d673c32f0b2a7883abab72a27d07.jpg,0,0,keep,keep,pass1
+images/train/egy__9e50c888bbb75568.jpg,train,IMG_4012-1-_MOV-0719_jpg.rf.3bbc91a8121a49c96c841cd2989e2914.jpg,0,0,keep,keep,pass1
+images/train/egy__9f72c91be783d867.jpg,train,IMG_4012-1-_MOV-0439_jpg.rf.140a701f71976ecca25f080bc29fce51.jpg,0,0,keep,keep,pass2 zoom: small potholes
+images/train/egy__9f72c91be783d867.jpg,train,IMG_4012-1-_MOV-0439_jpg.rf.140a701f71976ecca25f080bc29fce51.jpg,1,1,remove_manhole,remove,pass2 zoom: oval cover
+images/train/egy__9f72c91be783d867.jpg,train,IMG_4012-1-_MOV-0439_jpg.rf.140a701f71976ecca25f080bc29fce51.jpg,2,2,remove_manhole,remove,pass2 zoom: oval cover
+images/train/egy__9fbbfd382693a56e.jpg,train,Egypt_00009_jpg.rf.d66eadb1db33e67e9bd381de106fda4e.jpg,0,0,keep,keep,pass1
+images/train/egy__9ff96bbd2e690c52.jpg,train,IMG_4012-1-_MOV-0023_jpg.rf.bb7f5634350bf42200a323d6424e1470.jpg,0,0,keep,keep,pass1
+images/val/egy__a0049f32f5da0db2.jpg,val,IMG_3975-1-_MOV-0494_jpg.rf.89026672a8890bec100d8b360a63ce22.jpg,0,0,keep,keep,pass1
+images/train/egy__a00bff63452efb5e.jpg,train,Egypt_00076_jpg.rf.0580314cda915a6423dd311e0d834a1d.jpg,0,0,remove_manhole,remove,pass1 cover in frame
+images/train/egy__a00bff63452efb5e.jpg,train,Egypt_00076_jpg.rf.0580314cda915a6423dd311e0d834a1d.jpg,1,1,remove_manhole,remove,pass1 oval cover
+images/train/egy__a00bff63452efb5e.jpg,train,Egypt_00076_jpg.rf.0580314cda915a6423dd311e0d834a1d.jpg,2,2,remove_manhole,remove,pass1 drain grate (utility cover)
+images/val/egy__a0adfecad9d243b5.jpg,val,IMG_3975-1-_MOV-0454_jpg.rf.aa5f20819a2ec7e70e4d971e71583cd6.jpg,0,0,keep,keep,pass1
+images/val/egy__a10453ae8fa706d8.jpg,val,IMG_3975-1-_MOV-0419_jpg.rf.63a57761de829c29fdcab824aec02e2d.jpg,0,0,remove_not_pothole,remove,pass2 zoom: crack line
+images/train/egy__a10b6da64e591bcc.jpg,train,Egypt_00253_jpg.rf.fecc0a4fd67fde0911d3eccab6dbd2fe.jpg,0,0,keep,keep,pass1
+images/train/egy__a129d1225a7e82a1.jpg,train,IMG_3997-1-_MOV-0072_jpg.rf.69de99bc3f9245d8ded427148b589832.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/val/egy__a1a0d14faabc31c2.jpg,val,IMG_3975-1-_MOV-0498_jpg.rf.4bd8802017d9d24cfbf22695ccad51a1.jpg,0,0,remove_manhole,remove,pass2 zoom: grate at curb
+images/train/egy__a1cf42966c358c3b.jpg,train,IMG_4012-1-_MOV-0053_jpg.rf.1d4cda589b33efeb2f29074ae944c5a7.jpg,0,0,keep,keep,pass1
+images/train/egy__a1da59c649a3124a.jpg,train,IMG_3997-1-_MOV-0094_jpg.rf.b75a14e0a6cfa19cd590575b71197716.jpg,1,0,keep,keep,pass2 zoom: small broken
+images/train/egy__a22aa2eaac5fb299.jpg,train,IMG_4012-1-_MOV-0066_jpg.rf.b2077d59d3143f36de5484aa6d9e2619.jpg,0,0,remove_manhole,remove,pass2 zoom: oval cover
+images/val/egy__a2bf7218aa10c0cd.jpg,val,IMG_3975-1-_MOV-0002_jpg.rf.19b828285e91de7f75d79e38a9d76934.jpg,2,0,keep,keep,pass1
+images/train/egy__a3177afdcaf0c27a.jpg,train,Egypt_00268_jpg.rf.cbedda40ef810eb53029b71e88241b80.jpg,2,0,remove_not_pothole,remove,pass2 zoom: patch outlines
+images/val/egy__a371b28d053e4ed5.jpg,val,IMG_3975-1-_MOV-0326_jpg.rf.86e592729abb527ecc5eaf9a1aa9c364.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/val/egy__a3957c1a7e65f972.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0346_jpg.rf.c170e403f5e1ebc2fddf34946dc61a39.jpg,0,0,keep,keep,pass1
+images/train/egy__a39e91917aebc8fa.jpg,train,Egypt_00222_jpg.rf.d26eb6ea67cc3133fcd8f6908320a94c.jpg,0,0,keep,keep,pass1
+images/train/egy__a3e72e9ac77f84da.jpg,train,IMG_3994-1-_MOV-0025_jpg.rf.8cc1769e580f62ce8f9d37d56233ddda.jpg,0,0,keep,keep,pass1
+images/train/egy__a3e72e9ac77f84da.jpg,train,IMG_3994-1-_MOV-0025_jpg.rf.8cc1769e580f62ce8f9d37d56233ddda.jpg,1,1,keep,keep,pass1
+images/train/egy__a3e72e9ac77f84da.jpg,train,IMG_3994-1-_MOV-0025_jpg.rf.8cc1769e580f62ce8f9d37d56233ddda.jpg,3,2,keep,keep,pass1
+images/val/egy__a4018428a6ea97b5.jpg,val,IMG_3975-1-_MOV-0481_jpg.rf.195f2f6e72bfeabaf8e170439ea9e3b6.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__a471654dfcc1cbd3.jpg,train,Egypt_00163_jpg.rf.f4678c6615878eec5a6243a76e5a41aa.jpg,0,0,keep,keep,pass1
+images/train/egy__a4e3300286df7e44.jpg,train,Egypt_00212_jpg.rf.21fee7fb48f3a5f417a0fac5a674ca05.jpg,0,0,keep,keep,pass2 zoom: broken depression
+images/val/egy__a4eb819e6161bd4e.jpg,val,IMG_3975-1-_MOV-0420_jpg.rf.b45170bc1c3d447a58aa1517d2bc2d1c.jpg,0,0,remove_manhole,remove,pass1 cover/grate
+images/train/egy__a592dc64fbb2ee0d.jpg,train,IMG_4012-1-_MOV-0655_jpg.rf.fd0ff7a687c75d0fc2d347f8b845fb56.jpg,0,0,keep,keep,pass1
+images/train/egy__a66a3e01759c0c31.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0040_jpg.rf.5e1821aa495e34e57e3e6232ef281452.jpg,0,0,keep,keep,pass1
+images/train/egy__a6fd9a6d43cb8c5d.jpg,train,Egypt_00303_jpg.rf.39236f9a341935ffe540636d898848e2.jpg,0,0,remove_manhole,remove,pass1 round grille cover
+images/train/egy__a6fddc1ae57934a8.jpg,train,IMG_4002-1-_MOV-0197_jpg.rf.a2734c2550f4dcedc4fa51fbc91f90df.jpg,0,0,remove_manhole,remove,pass1 round grille cover
+images/train/egy__a70e3edc4a9fff82.jpg,train,Egypt_00225_jpg.rf.0491f50c70f87b6befb5d8e754887600.jpg,0,0,keep,keep,pass1
+images/train/egy__a843484ab9fa3ed0.jpg,train,IMG_4012-1-_MOV-0611_jpg.rf.d0ca3ecbb3fdf3feb0861b77efb0fb67.jpg,0,0,remove_manhole,remove,pass2 zoom: small rectangular grate
+images/val/egy__a87b9947ac0fcebc.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0006_jpg.rf.6213ee5b28f434895b540774c1308594.jpg,0,0,remove_manhole,remove,pass1 oval ring
+images/train/egy__a8cea4257811375e.jpg,train,Egypt_00093_jpg.rf.7668e2b3950ec05f8cc8ef1d996c5913.jpg,0,0,keep,keep,pass2 zoom: shallow broken
+images/test/egy__a91e5276b467e82f.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0138_jpg.rf.4159cde89de522dc04c432252e653f51.jpg,0,0,remove_not_pothole,remove,pass2 zoom: crack lines
+images/train/egy__a96e8bfd67ece4af.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0061_jpg.rf.3eba1c12aafefa291d51d6a4d133afd9.jpg,2,0,keep,keep,pass2 zoom: small pothole
+images/train/egy__a9d2ac0c2a59bc66.jpg,train,Egypt_00482_jpg.rf.38e873f3af6b60746bf5b68207da0d4f.jpg,0,0,keep,keep,pass1
+images/train/egy__aa30090ae4fcc431.jpg,train,IMG_3997-1-_MOV-0112_jpg.rf.915c93cfc31cd8c4888be8cfd0f278b5.jpg,0,0,keep,keep,pass1
+images/train/egy__aa4193c4c4408465.jpg,train,Egypt_00247_jpg.rf.850b2c0b92fb8c1feee48813480a73c4.jpg,1,0,remove_manhole,remove,pass1 round manhole cover
+images/test/egy__aa73595a4725396c.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0060_jpg.rf.39e08470d7d265ebb0ef18f67de9166e.jpg,0,0,remove_manhole,remove,pass2 zoom: grate at curb
+images/train/egy__aa96262c31f1dd97.jpg,train,IMG_3973-1-_MOV-0377_jpg.rf.aba65d8a8daa2b8de21b8c35b8f6a0ea.jpg,0,0,remove_not_pothole,remove,pass2 zoom: pale flat stain
+images/train/egy__ab503599e39dd248.jpg,train,IMG_4012-1-_MOV-0778_jpg.rf.b990823240c09b078350698cc7a57007.jpg,0,0,keep,keep,pass1
+images/train/egy__acca036a0eaa24bf.jpg,train,IMG_4002-1-_MOV-0049_jpg.rf.fb4d2295cd77eed3e374ece21c4d43df.jpg,0,0,keep,keep,pass1
+images/train/egy__ad014dcd51f857fe.jpg,train,IMG_3997-1-_MOV-0235_jpg.rf.c08e6501b5eae9ff67104d26505f39e5.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: flat surface, pale patch"
+images/train/egy__ad0d65b3ae556a96.jpg,train,IMG_4012-1-_MOV-0449_jpg.rf.68913c713609c87a90de691ae9528016.jpg,0,0,keep,keep,pass2 zoom: shallow depression
+images/train/egy__ad50cdc28e940b61.jpg,train,Egypt_00246_jpg.rf.7ca641c051a3baeb920a8cda8cb3c5c9.jpg,0,0,remove_manhole,remove,pass1 round manhole cover
+images/train/egy__ad5a0512eb4bfe73.jpg,train,IMG_4012-1-_MOV-0008_jpg.rf.f05e83641b6b2db60430cd6ed665090c.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__ad8a4b6196b6dd5e.jpg,train,Egypt_00351_jpg.rf.9972ce5a3bcb6600e04219064055eb13.jpg,0,0,remove_not_pothole,remove,pass2 zoom: patched surface
+images/train/egy__ad8a4b6196b6dd5e.jpg,train,Egypt_00351_jpg.rf.9972ce5a3bcb6600e04219064055eb13.jpg,1,1,remove_not_pothole,remove,pass2 zoom: metal object on patch
+images/train/egy__adaed1a97ef6c9f9.jpg,train,Egypt_00181_jpg.rf.8d54ed514a484eec5ad66cc9bd11826f.jpg,0,0,keep,keep,pass1
+images/train/egy__adaed1a97ef6c9f9.jpg,train,Egypt_00181_jpg.rf.8d54ed514a484eec5ad66cc9bd11826f.jpg,1,1,keep,keep,pass1
+images/train/egy__adb7757f8412454e.jpg,train,IMG_4012-1-_MOV-0401_jpg.rf.933ab00d41809fedd2d7a25189007ab4.jpg,0,0,keep,keep,pass2 zoom: small pothole
+images/train/egy__adc83dfeff364a6b.jpg,train,Egypt_00412_jpg.rf.dd8ebd67564e51f2a2d4444f4fb6b991.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__ae67dcea856e62c4.jpg,train,Egypt_00121_jpg.rf.a929f9d03cf24e1056692d4d74ae9a9a.jpg,0,0,uncertain,keep,"pass2 zoom: oval outline, pothole or cover"
+images/train/egy__ae7df19f22fa00e8.jpg,train,Egypt_00036_jpg.rf.873ba19dbce645e1d5d6bbddcf28de87.jpg,0,0,remove_manhole,remove,pass2 zoom: ring in rectangular frame
+images/train/egy__ae7df19f22fa00e8.jpg,train,Egypt_00036_jpg.rf.873ba19dbce645e1d5d6bbddcf28de87.jpg,1,1,remove_manhole,remove,pass1 oval cover
+images/train/egy__ae7df19f22fa00e8.jpg,train,Egypt_00036_jpg.rf.873ba19dbce645e1d5d6bbddcf28de87.jpg,2,2,remove_manhole,remove,pass1 oval cover
+images/train/egy__ae87539b354afe51.jpg,train,IMG_4012-1-_MOV-0502_jpg.rf.0ad2a98eadd2df8d9d8483c7c1639cde.jpg,0,0,remove_not_pothole,remove,pass2 zoom: crack
+images/train/egy__aeb9542670d09a0d.jpg,train,IMG_3973-1-_MOV-0364_jpg.rf.c85607a2b073f4da04930e345f12eabd.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__af0c143ee1e40219.jpg,train,Egypt_00475_jpg.rf.9213c5e6b4849cc834c9a19ba480312b.jpg,0,0,remove_manhole,remove,pass1 round grille cover
+images/train/egy__af14f31a61ea03f0.jpg,train,Egypt_00085_jpg.rf.a36ca38fe4cf66bd35e27a8ed3170a26.jpg,0,0,remove_manhole,remove,pass1 oval cover ring
+images/train/egy__af3716c77b29c8ca.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0025_jpg.rf.a24717a873b9b5cf49a89f6628aa16fc.jpg,0,0,keep,keep,pass1
+images/test/egy__afa4ac38cdb78952.jpg,test,IMG_3996-1-_MOV-0113_jpg.rf.9fc7228770181ac0374d42e1100bbfda.jpg,0,0,keep,keep,pass2 zoom: pothole lip
+images/val/egy__afc9d64b78bab817.jpg,val,IMG_3975-1-_MOV-0414_jpg.rf.59824e3d5b4b5df5cf72532f1208e922.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__b0f6fe87f662725e.jpg,train,Egypt_00386_jpg.rf.1bb681a67977bb72caad9cd16518ee43.jpg,0,0,keep,keep,pass1
+images/train/egy__b14e4aa8cd145253.jpg,train,IMG_4002-1-_MOV-0061_jpg.rf.bd9a2d1cd521733966ee335bb6a55e36.jpg,1,0,remove_not_pothole,remove,pass2 zoom: white streak/object
+images/test/egy__b14ecf94650dbeec.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0065_jpg.rf.c809e58b05a033930ee7b2069473de92.jpg,0,0,keep,keep,pass1
+images/test/egy__b14ecf94650dbeec.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0065_jpg.rf.c809e58b05a033930ee7b2069473de92.jpg,1,1,remove_manhole,remove,pass1 drain grate at curb
+images/train/egy__b172e497254edcfd.jpg,train,Egypt_00143_jpg.rf.8663dc9ad111c1a44f4fa521c9ed1e78.jpg,0,0,keep,keep,pass1
+images/train/egy__b1860cd4dfaa7f94.jpg,train,Egypt_00046_jpg.rf.8cdb121905d6203c0c6844a03d2d3c0c.jpg,0,0,remove_not_pothole,remove,pass2 zoom: dark arc is a hood reflection
+images/train/egy__b19581c3e561c9a8.jpg,train,Egypt_00278_jpg.rf.7277f8922af440d8e4fdd8201fd938c9.jpg,0,0,remove_not_pothole,remove,pass2 zoom: patched surface
+images/train/egy__b19581c3e561c9a8.jpg,train,Egypt_00278_jpg.rf.7277f8922af440d8e4fdd8201fd938c9.jpg,1,1,remove_not_pothole,remove,pass2 zoom: patch outline
+images/train/egy__b1ef000abc1c1ce6.jpg,train,Egypt_00050_jpg.rf.71d57a378ff4428729485a90d500467e.jpg,0,0,remove_not_pothole,remove,pass2 zoom: sand pile on road
+images/train/egy__b21807f365f59c14.jpg,train,IMG_4012-1-_MOV-0470_jpg.rf.c8146ef57e4dcee18e237e9704ea71dc.jpg,0,0,remove_manhole,remove,pass2 zoom: oval cover
+images/train/egy__b21807f365f59c14.jpg,train,IMG_4012-1-_MOV-0470_jpg.rf.c8146ef57e4dcee18e237e9704ea71dc.jpg,1,1,keep,keep,pass1
+images/train/egy__b25e44dac9d89445.jpg,train,Egypt_00442_jpg.rf.f7b5593bd15825b0c624a365bf387741.jpg,0,0,keep,keep,pass2 zoom: broken strip
+images/train/egy__b25e44dac9d89445.jpg,train,Egypt_00442_jpg.rf.f7b5593bd15825b0c624a365bf387741.jpg,1,1,keep,keep,pass1
+images/train/egy__b2e1c61ea1422700.jpg,train,Egypt_00254_jpg.rf.d23070126b33eebb66b90fc7c257e7ed.jpg,0,0,remove_manhole,remove,pass1 round grille cover
+images/train/egy__b3900c9271e459df.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0015_jpg.rf.c2f0e56d4fcd9567cad4e552c382ba39.jpg,0,0,remove_not_pothole,remove,pass2 zoom: crack/debris
+images/train/egy__b3b02499499220d9.jpg,train,IMG_3997-1-_MOV-0027_jpg.rf.4aac4274624b7c2c7d1c59d7ebd82a6f.jpg,0,0,keep,keep,pass2 zoom: water-filled pothole
+images/train/egy__b44d37e01cecd845.jpg,train,IMG_3973-1-_MOV-0311_jpg.rf.9c073f1aa97b8d655a113d6aedc2d039.jpg,0,0,keep,keep,pass2 zoom: depression
+images/train/egy__b4558f160ef0018a.jpg,train,Egypt_00415_jpg.rf.1f121b52eb196a524e489b053b1b1353.jpg,0,0,uncertain,keep,"pass2 zoom: long strip, too small to judge"
+images/train/egy__b4dafe9558354fae.jpg,train,Egypt_00105_jpg.rf.d3fc56fa638a8168074abcf1720f26ac.jpg,0,0,keep,keep,pass1
+images/test/egy__b571871f3b1e0e6f.jpg,test,IMG_3996-1-_MOV-0114_jpg.rf.b4dc9f7e07d8fa43682211193f02155d.jpg,0,0,remove_not_pothole,remove,pass2 zoom: crack network
+images/test/egy__b571871f3b1e0e6f.jpg,test,IMG_3996-1-_MOV-0114_jpg.rf.b4dc9f7e07d8fa43682211193f02155d.jpg,1,1,keep,keep,pass1
+images/train/egy__b5c18873c4a852f3.jpg,train,Egypt_00170_jpg.rf.a154c843b126cfe215a7829b8c7d63c7.jpg,1,0,remove_manhole,remove,pass1 round cover
+images/train/egy__b5c18873c4a852f3.jpg,train,Egypt_00170_jpg.rf.a154c843b126cfe215a7829b8c7d63c7.jpg,2,1,keep,keep,pass1
+images/val/egy__b5e61c5e10c97119.jpg,val,IMG_3975-1-_MOV-0433_jpg.rf.23d7a3b12da9695ebcbc6b0f8ae552cf.jpg,0,0,remove_manhole,remove,pass2 zoom: drain grate with broken surround
+images/val/egy__b5e8934eacebf965.jpg,val,IMG_3975-1-_MOV-0003_jpg.rf.c75b1ee0ba1f06b9c2ca0133a5731748.jpg,0,0,keep,keep,pass2 zoom: dark depression
+images/test/egy__b6b1ae9e50b08aae.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0032_jpg.rf.21e17fb887a81dda4fe22bd74c3a7dd9.jpg,0,0,keep,keep,pass1
+images/train/egy__b6b849b9a81ac442.jpg,train,Egypt_00295_jpg.rf.7b6242ba6d558236efdd9ddbd659ef4e.jpg,0,0,keep,keep,pass2 zoom: shallow broken strip
+images/train/egy__b6b849b9a81ac442.jpg,train,Egypt_00295_jpg.rf.7b6242ba6d558236efdd9ddbd659ef4e.jpg,2,1,keep,keep,pass2 zoom: broken depression
+images/train/egy__b7015ee02f62a13b.jpg,train,Egypt_00338_jpg.rf.6019df96bf61ff2240b2c1afa1439065.jpg,0,0,remove_not_pothole,remove,pass2 zoom: raised concrete patch
+images/train/egy__b8bdd4c2a94c8eb4.jpg,train,Egypt_00091_jpg.rf.22123214b554779e34f9157b6ab489db.jpg,0,0,keep,keep,pass1
+images/train/egy__b93e086e2f8143f2.jpg,train,IMG_4012-1-_MOV-0484_jpg.rf.c03802209a527518577cd8331e9c822b.jpg,0,0,remove_manhole,remove,pass2 zoom: oval cover
+images/train/egy__b95547efd0ad248d.jpg,train,IMG_4002-1-_MOV-0068_jpg.rf.f172d9b5c88c3149a5b98917722144ef.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__b95facae2d64e47c.jpg,train,Egypt_00067_jpg.rf.eb3b97d0fa8576a95987bce2f0e57310.jpg,0,0,keep,keep,pass1
+images/train/egy__ba8f9d6033713909.jpg,train,IMG_4002-1-_MOV-0033_jpg.rf.3c2691cbf9cf21d56972820989b4a29b.jpg,1,0,remove_manhole,remove,pass2 zoom: rectangular grate
+images/train/egy__baeef61fe8550582.jpg,train,Egypt_00217_jpg.rf.f626c81b726324c7bccab3b0608666e8.jpg,0,0,keep,keep,pass1
+images/train/egy__baeef61fe8550582.jpg,train,Egypt_00217_jpg.rf.f626c81b726324c7bccab3b0608666e8.jpg,1,1,keep,keep,pass1
+images/train/egy__baeef61fe8550582.jpg,train,Egypt_00217_jpg.rf.f626c81b726324c7bccab3b0608666e8.jpg,2,2,keep,keep,pass1
+images/train/egy__bb55843f53e90b6d.jpg,train,IMG_3973-1-_MOV-0585_jpg.rf.2a83fe713687a71ed776e0eb62a00dff.jpg,0,0,keep,keep,pass1
+images/train/egy__bb55843f53e90b6d.jpg,train,IMG_3973-1-_MOV-0585_jpg.rf.2a83fe713687a71ed776e0eb62a00dff.jpg,1,1,keep,keep,pass2 zoom: broken edge
+images/train/egy__bbea65a350dc7f43.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0030_jpg.rf.7bb566d7b14b360530191dcdcbb2e880.jpg,0,0,keep,keep,pass1
+images/train/egy__bbea65a350dc7f43.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0030_jpg.rf.7bb566d7b14b360530191dcdcbb2e880.jpg,1,1,keep,keep,pass1
+images/train/egy__bc0c1cf4a26e49a2.jpg,train,IMG_4012-1-_MOV-0084_jpg.rf.035931f5d0f0d8da7424cae2693a72de.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__bc161d2764b7464a.jpg,train,IMG_3997-1-_MOV-0169_jpg.rf.33a2cb3bb7cc37daeb3cb8df845da2a6.jpg,0,0,keep,keep,pass1
+images/val/egy__bc230fc636bb6646.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0005_jpg.rf.2eb598a73aa39a3fe074aae4b860a4ea.jpg,0,0,remove_manhole,remove,pass1 oval ring
+images/train/egy__bd098060615084c4.jpg,train,Egypt_00381_jpg.rf.a1d3561c765e395cc1f9ded1bbd88c05.jpg,0,0,keep,keep,pass1
+images/train/egy__bd098060615084c4.jpg,train,Egypt_00381_jpg.rf.a1d3561c765e395cc1f9ded1bbd88c05.jpg,1,1,keep,keep,pass2 zoom: broken strip with gravel
+images/train/egy__bd54f8bad50b2d0a.jpg,train,IMG_3998-1-_MOV-0074_jpg.rf.3fb0727ffd3923c827270ab916424263.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/test/egy__bd58069bcdac7fb4.jpg,test,IMG_3996-1-_MOV-0054_jpg.rf.907d0eeb64b18ec743eadf6e6e18f35e.jpg,0,0,keep,keep,pass2 zoom: small potholes
+images/train/egy__bdd57f8ba46acd2b.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0062_jpg.rf.5457eea48b946880febf5f810cbee4a6.jpg,0,0,remove_not_pothole,remove,pass2 zoom: crack along joint
+images/train/egy__bdd57f8ba46acd2b.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0062_jpg.rf.5457eea48b946880febf5f810cbee4a6.jpg,1,1,keep,keep,pass1
+images/train/egy__be0ea0786a756836.jpg,train,Egypt_00378_jpg.rf.bc22bd2eeb670a2a8b05e19b00f6e9c4.jpg,0,0,keep,keep,pass1
+images/train/egy__be4490a828004a6c.jpg,train,IMG_4002-1-_MOV-0051_jpg.rf.19fa168cfe2668300501e772a51e9557.jpg,0,0,remove_manhole,remove,pass2 zoom: small rectangular cover slot
+images/val/egy__be70af8b9c732ebc.jpg,val,IMG_3975-1-_MOV-0140_jpg.rf.ac6889c150dea8a0dad1c175902b97d1.jpg,0,0,remove_manhole,remove,pass1 oval cover ring
+images/train/egy__bf4adfc7d14345d9.jpg,train,IMG_3973-1-_MOV-0656_jpg.rf.a6f0adf36f43c136d47d715987c3ce48.jpg,0,0,keep,keep,pass2 zoom: broken surface
+images/train/egy__bf612cbf2c7b9942.jpg,train,IMG_3973-1-_MOV-0557_jpg.rf.f3aed66ea8903a4a32de59d2d109b59f.jpg,1,0,keep,keep,pass1
+images/train/egy__c1a03c9a8df0f836.jpg,train,Egypt_00300_jpg.rf.b8760ee29bc8083d78159ca75b84d32b.jpg,0,0,keep,keep,pass2 zoom: wet broken depression
+images/test/egy__c1a6c57028e584f3.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0002_jpg.rf.777fb1f4377fa36e436ce96817d03245.jpg,0,0,remove_manhole,remove,pass2 zoom: drain channel at crossing
+images/train/egy__c1cd82b29b94bc9a.jpg,train,Egypt_00406_jpg.rf.c59d7c27d95015a0f3c29f4f8335d37f.jpg,0,0,keep,keep,pass1
+images/train/egy__c1cdd5fb7f76afa8.jpg,train,IMG_3973-1-_MOV-0276_jpg.rf.8f009c2989ccc18c06073e45182f980e.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: dark wet stain/fresh patch, flat"
+images/train/egy__c1cdd5fb7f76afa8.jpg,train,IMG_3973-1-_MOV-0276_jpg.rf.8f009c2989ccc18c06073e45182f980e.jpg,1,1,keep,keep,pass1
+images/train/egy__c1f8e20a8b697309.jpg,train,Egypt_00114_jpg.rf.275c652b449d1d0c25538e322317695d.jpg,0,0,keep,keep,pass1
+images/test/egy__c2c30a193fe38c6c.jpg,test,IMG_3996-1-_MOV-0167_jpg.rf.4d3c6808aa447a92d4cd4d6ac81db794.jpg,0,0,remove_manhole,remove,pass2 zoom: rectangular cover/frame
+images/train/egy__c328ba82e8d46d57.jpg,train,Egypt_00128_jpg.rf.e95d6c94cc9c2d0eef7b4c8be0351579.jpg,0,0,remove_bad_box,remove,pass2 zoom: blurred square behind windscreen
+images/train/egy__c328ba82e8d46d57.jpg,train,Egypt_00128_jpg.rf.e95d6c94cc9c2d0eef7b4c8be0351579.jpg,1,1,remove_bad_box,remove,pass2 zoom: blurred square behind windscreen
+images/train/egy__c367c15b4d440657.jpg,train,IMG_3973-1-_MOV-0291_jpg.rf.e75774933eeeae72df01489694aae60a.jpg,0,0,keep,keep,pass1
+images/test/egy__c3a4d7891c20c04e.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0206_jpg.rf.35f09d397aeaec9cdc28f2ac0b925f97.jpg,0,0,remove_manhole,remove,pass1 patterned rectangular grate
+images/train/egy__c3ae5262930176d0.jpg,train,Egypt_00342_jpg.rf.9a74cbc703eb066d4be7c47bfdc2efd5.jpg,0,0,keep,keep,pass1
+images/train/egy__c48a73508dd204b4.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0022_jpg.rf.dd431d9b2716249edda73b898c8f282d.jpg,0,0,keep,keep,pass1
+images/train/egy__c4db7d2487ba8ac3.jpg,train,IMG_3997-1-_MOV-0039_jpg.rf.40c0075a59a824c973b59ba3ea3c16db.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__c511bd0d994f7fab.jpg,train,Egypt_00325_jpg.rf.3c0f60db01960ebc97f260caf68a84e5.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__c52757b8b411b926.jpg,train,IMG_4012-1-_MOV-0432_jpg.rf.d213668be543b81102581878036d6612.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__c61b4142b112f26a.jpg,train,Egypt_00052_jpg.rf.fb346f2e7fc06ea132e7e023c13e4c65.jpg,0,0,keep,keep,pass1
+images/train/egy__c643df20d4ae392c.jpg,train,IMG_4012-1-_MOV-0249_jpg.rf.b1b9f624fb4aee65e81d8e9bc780b94b.jpg,0,0,keep,keep,pass1
+images/train/egy__c7384e6a1a2ea3ec.jpg,train,Egypt_00007_jpg.rf.52e7646f9903c96df70eba7ae5db742e.jpg,0,0,keep,keep,pass1
+images/train/egy__c775dab24e0b82e0.jpg,train,Egypt_00194_jpg.rf.98c75eb8744eb28910c4dc2735fa60eb.jpg,0,0,keep,keep,pass1
+images/train/egy__c77d53c595ab1427.jpg,train,Egypt_00025_jpg.rf.4d31aa99ad4de04750c93bfc59a6e36d.jpg,2,0,keep,keep,pass1
+images/val/egy__c7c40fc36dfd16d8.jpg,val,IMG_3975-1-_MOV-0426_jpg.rf.39af5f67655fc55e7f516e7485738eaf.jpg,0,0,remove_manhole,remove,pass1 drain grate with broken surround
+images/val/egy__c7c40fc36dfd16d8.jpg,val,IMG_3975-1-_MOV-0426_jpg.rf.39af5f67655fc55e7f516e7485738eaf.jpg,1,1,remove_not_pothole,remove,pass2 zoom: pale streak
+images/train/egy__c86d8764ab09c785.jpg,train,IMG_4002-1-_MOV-0034_jpg.rf.5d8f20b0ab21829db6ffd82c2f8434a4.jpg,0,0,remove_manhole,remove,pass2 zoom: rectangular grate
+images/train/egy__c8e0257e40c8247f.jpg,train,Egypt_00075_jpg.rf.9583f2446cded5d7617d1cbfc06a9666.jpg,0,0,remove_manhole,remove,pass1 cover in frame
+images/train/egy__c8e0257e40c8247f.jpg,train,Egypt_00075_jpg.rf.9583f2446cded5d7617d1cbfc06a9666.jpg,1,1,remove_manhole,remove,pass1 cover in frame
+images/train/egy__c8e0257e40c8247f.jpg,train,Egypt_00075_jpg.rf.9583f2446cded5d7617d1cbfc06a9666.jpg,2,2,remove_manhole,remove,pass1 drain grate (utility cover)
+images/train/egy__c90d58066360f099.jpg,train,Egypt_00049_jpg.rf.65c973f227c09575ac6c49316fc550b9.jpg,0,0,remove_not_pothole,remove,pass2 zoom: sand pile on road
+images/train/egy__c935c0fa63798320.jpg,train,Egypt_00314_jpg.rf.80b4ab289d7d8a899b12d86f9a918b08.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/val/egy__ca1c8b675d2d594a.jpg,val,IMG_3975-1-_MOV-0434_jpg.rf.e059bfb8d1ab9da13affabf485ac3ea5.jpg,0,0,keep,keep,pass1
+images/train/egy__ca5e72aecb33ef21.jpg,train,Egypt_00158_jpg.rf.b7912947a74245b916f2db8738d8e6ca.jpg,0,0,keep,keep,pass1
+images/train/egy__cc0c4901c40ee951.jpg,train,Egypt_00369_jpg.rf.b93c928b8f88bb6db9a74a3ee27ccb03.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/train/egy__cc4a276fab026eb7.jpg,train,IMG_4012-1-_MOV-0481_jpg.rf.b1a14a13c04eb244ca8e7dcb488eda10.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__ccbbc423f1189ebf.jpg,train,IMG_4012-1-_MOV-1163_jpg.rf.e4f028fd541ad3918d7a69436f85dc7b.jpg,2,0,keep,keep,pass1
+images/train/egy__ccc8f77c89f44767.jpg,train,Egypt_00172_jpg.rf.220493501b799870ab0d7cf7ac89af73.jpg,0,0,keep,keep,pass1
+images/train/egy__cccab561dc59342b.jpg,train,Egypt_00069_jpg.rf.728b39cb8c34c92c2d629058f7d3f769.jpg,0,0,remove_bad_box,remove,"pass2 zoom: motion blur, nothing recognisable"
+images/train/egy__ccf980c75237b09c.jpg,train,IMG_3973-1-_MOV-0600_jpg.rf.4d9cc624279eda0f829cea295238f714.jpg,0,0,keep,keep,pass1
+images/train/egy__cd328abb7848c9a2.jpg,train,IMG_3973-1-_MOV-0399_jpg.rf.ac792950d2ee540f7d9525556999a616.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__ce2a0aeb8ca9294c.jpg,train,Egypt_00090_jpg.rf.04311229575c9dc2332964e53b639c7d.jpg,0,0,remove_manhole,remove,pass1 cover outline
+images/train/egy__ce5a5042279baf75.jpg,train,IMG_4012-1-_MOV-0543_jpg.rf.78d0048ea1bf1ef215099e42db596e98.jpg,0,0,keep,keep,pass1
+images/train/egy__cea5e884838c60ed.jpg,train,Egypt_00119_jpg.rf.ca03b9b850b6a42afb0b8294107d533d.jpg,0,0,keep,keep,pass1
+images/train/egy__ceca166f68d926c1.jpg,train,Egypt_00241_jpg.rf.387b87545fc8fb735f00117051fca1ab.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__cf2a101eb7dbe277.jpg,train,Egypt_00270_jpg.rf.dbc9e070a26c33573bec9e0354a6259b.jpg,0,0,keep,keep,pass1
+images/train/egy__cf2a101eb7dbe277.jpg,train,Egypt_00270_jpg.rf.dbc9e070a26c33573bec9e0354a6259b.jpg,2,1,keep,keep,pass1
+images/train/egy__cfbaf87d4ad8e8c5.jpg,train,Egypt_00216_jpg.rf.63783d86603ca08f994ee76241029529.jpg,0,0,keep,keep,pass1
+images/train/egy__cfbaf87d4ad8e8c5.jpg,train,Egypt_00216_jpg.rf.63783d86603ca08f994ee76241029529.jpg,1,1,keep,keep,pass1
+images/train/egy__cfbaf87d4ad8e8c5.jpg,train,Egypt_00216_jpg.rf.63783d86603ca08f994ee76241029529.jpg,2,2,keep,keep,pass1
+images/train/egy__cfbaf87d4ad8e8c5.jpg,train,Egypt_00216_jpg.rf.63783d86603ca08f994ee76241029529.jpg,3,3,keep,keep,pass1
+images/train/egy__cfbaf87d4ad8e8c5.jpg,train,Egypt_00216_jpg.rf.63783d86603ca08f994ee76241029529.jpg,4,4,keep,keep,pass1
+images/val/egy__cfcb83acbd3f9604.jpg,val,IMG_3995-1-_MOV-0047_jpg.rf.c8e50033cb89ff9af5b78f6d848b14e0.jpg,0,0,keep,keep,pass1
+images/train/egy__cfecb02a0ab2efda.jpg,train,Egypt_00190_jpg.rf.fc7ba1146c17ac15e9e981ddb6dc3cf5.jpg,0,0,keep,keep,pass1
+images/train/egy__cfecb02a0ab2efda.jpg,train,Egypt_00190_jpg.rf.fc7ba1146c17ac15e9e981ddb6dc3cf5.jpg,1,1,keep,keep,pass1
+images/train/egy__d0c510c1f67d6f94.jpg,train,IMG_4012-1-_MOV-0150_jpg.rf.b7ebeb2fc849cda282460c64d0629cf8.jpg,0,0,remove_not_pothole,remove,pass2 zoom: dark crack/joint
+images/train/egy__d17ad9ffd076662a.jpg,train,Egypt_00446_jpg.rf.784f64b712f9bd2b3ed1fb92bf3c71a3.jpg,0,0,keep,keep,pass1
+images/train/egy__d1e9c6b0c7c0534c.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0027_jpg.rf.17cc77ba1e2f20f17e9e6b9d1198c35b.jpg,0,0,keep,keep,pass1
+images/train/egy__d279738f1ff72c8c.jpg,train,IMG_4012-1-_MOV-0542_jpg.rf.b39320085c060eacdaecb61cf73be3c7.jpg,0,0,keep,keep,pass1
+images/test/egy__d29510e1fff09169.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0004_jpg.rf.2c9b74a2672a2956c587967813c704a8.jpg,0,0,remove_manhole,remove,pass2 zoom: oval cover
+images/train/egy__d3c6514a5b6d1335.jpg,train,Egypt_00264_jpg.rf.ec8cc0a1f68a1e8a9145f205dc310bf5.jpg,1,0,remove_not_pothole,remove,"pass2 zoom: sunken patch outline, no cavity"
+images/val/egy__d44fe39674bc6bc8.jpg,val,IMG_3975-1-_MOV-0425_jpg.rf.139a9da7916cb942b627eb0b8062fa34.jpg,0,0,keep,keep,pass1
+images/train/egy__d53e821464010506.jpg,train,Egypt_00115_jpg.rf.406cd81c243829f1b8f3747690b4e204.jpg,0,0,keep,keep,pass1
+images/train/egy__d5dfd16e9d1d0b88.jpg,train,Egypt_00102_jpg.rf.943128518c6ae94a3e4547df2b85734f.jpg,0,0,uncertain,keep,pass2 zoom: faint patch
+images/train/egy__d61735818b276634.jpg,train,Egypt_00259_jpg.rf.64763953fb35f5a17250f393a96d3a8e.jpg,0,0,keep,keep,pass1
+images/train/egy__d61735818b276634.jpg,train,Egypt_00259_jpg.rf.64763953fb35f5a17250f393a96d3a8e.jpg,5,1,keep,keep,pass2 zoom: broken edge at image border
+images/train/egy__d61776e65730383a.jpg,train,IMG_3998-1-_MOV-0295_jpg.rf.17a074a0db0bfd3c709d2bf6fe71455c.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__d6b2f7b905c00f4a.jpg,train,IMG_4012-1-_MOV-1044_jpg.rf.d807e55a9df94b52ccb33de290213bfd.jpg,0,0,keep,keep,pass1
+images/train/egy__d6befe36d389b179.jpg,train,Egypt_00014_jpg.rf.6977a64b32fa45f6eb3da2bd60cc608b.jpg,0,0,keep,keep,pass1
+images/train/egy__d71248963c64faba.jpg,train,IMG_4012-1-_MOV-1104_jpg.rf.5b6e6a6ba309945ea242ebbf6dfb8a8f.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/train/egy__d71248963c64faba.jpg,train,IMG_4012-1-_MOV-1104_jpg.rf.5b6e6a6ba309945ea242ebbf6dfb8a8f.jpg,1,1,remove_bad_box,remove,pass2 zoom: box covers cracks and a manhole
+images/train/egy__d78b844f7e2e8bd0.jpg,train,IMG_4002-1-_MOV-0005_jpg.rf.69214676be39b82f28edc78955b12213.jpg,0,0,remove_manhole,remove,pass1 grate pattern
+images/train/egy__d7a6bf2a373a17c4.jpg,train,IMG_4002-1-_MOV-0136_jpg.rf.f03486add0f51b201484e0cd74d2ee95.jpg,0,0,keep,keep,pass2 zoom: large broken patch area
+images/train/egy__d7ac5720c9addecd.jpg,train,IMG_4012-1-_MOV-0424_jpg.rf.24a1d6ad40e059918d901574b4967a74.jpg,0,0,keep,keep,pass2 zoom: dark depression
+images/train/egy__d7f3b317f43a7fa9.jpg,train,Egypt_00220_jpg.rf.3aa6d80cd416557e6111d6f3282235f4.jpg,0,0,remove_not_pothole,remove,pass2 zoom: cracks
+images/train/egy__d866f6465dd91762.jpg,train,Egypt_00078_jpg.rf.2aaed55695d8d65de815ab057f4e78e5.jpg,0,0,remove_manhole,remove,pass1 cover in frame
+images/train/egy__d8a6ffb9a3352785.jpg,train,IMG_4012-1-_MOV-1067_jpg.rf.e927c91bbcf4e5b15d63eb850b75821b.jpg,0,0,keep,keep,pass1
+images/val/egy__d8b1c2fd88511ff6.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0104_jpg.rf.f139cf701c24fac128d5b6bc5d84a223.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: peeling surface / wet, shallow"
+images/train/egy__d924467cca47a14e.jpg,train,Egypt_00269_jpg.rf.1190698e699f05064ccc4a06e573fc91.jpg,1,0,remove_not_pothole,remove,"pass2 zoom: stained patch, flat"
+images/train/egy__d9ad97c081d45311.jpg,train,IMG_3999-1-_MOV-0014_jpg.rf.facf53390f4eb00f71c4fbc851f59678.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__d9ad97c081d45311.jpg,train,IMG_3999-1-_MOV-0014_jpg.rf.facf53390f4eb00f71c4fbc851f59678.jpg,1,1,keep,keep,pass1
+images/train/egy__d9c494ea043e9c21.jpg,train,IMG_3973-1-_MOV-0080_jpg.rf.6c2880e06f2ac2035adc92c804607bf5.jpg,0,0,keep,keep,pass1
+images/train/egy__da0d429f06c7740f.jpg,train,Egypt_00030_jpg.rf.c222e51e3b73289c938175b107986e6c.jpg,0,0,keep,keep,pass1
+images/train/egy__da75e90df57a2677.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0101_jpg.rf.a0bbafe91bc724618fb9b472dd090bad.jpg,0,0,remove_manhole,remove,pass1 oval cover with broken surround
+images/train/egy__daed4f34fff2550f.jpg,train,Egypt_00302_jpg.rf.8a2204d128319e83a94714e2af97eefa.jpg,0,0,keep,keep,pass2 zoom: broken surface
+images/test/egy__db59f8a4d8728909.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0125_jpg.rf.70b1e273255df9c67db483b7639d8609.jpg,0,0,keep,keep,pass1
+images/train/egy__db73db162f5bef59.jpg,train,IMG_3997-1-_MOV-0067_jpg.rf.6f9a046c9e2c9eede7963f8cd929fce6.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/train/egy__dcca20c1df1a36d5.jpg,train,Egypt_00276_jpg.rf.fd10494630a5d2ea92a22646371d8cc5.jpg,0,0,keep,keep,pass1
+images/train/egy__dd22ac0208b410b8.jpg,train,IMG_3999-1-_MOV-0048_jpg.rf.1cd9aa3621968186e3b9fe0f65d0426c.jpg,0,0,remove_not_pothole,remove,pass2 zoom: faint marks
+images/train/egy__dda8c20e3f665fd9.jpg,train,Egypt_00020_jpg.rf.10ccff60704a74657bc9f96f800e8699.jpg,0,0,uncertain,keep,"pass2 zoom: box mostly flat road, broken area at top"
+images/val/egy__de2364e18c3bdf77.jpg,val,IMG_3975-1-_MOV-0377_jpg.rf.d72577d7a82846772b49b0ba17a85c25.jpg,0,0,remove_manhole,remove,pass1 cover outline
+images/train/egy__de2368c432708528.jpg,train,IMG_3973-1-_MOV-0374_jpg.rf.4bc79bbe93e5e094d44eb078a52ffb3a.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__de3d50089f01cb8f.jpg,train,Egypt_00002_jpg.rf.06f281d9991ab43f5745d938be714d87.jpg,0,0,keep,keep,pass1
+images/train/egy__dec6108d6d52fd72.jpg,train,IMG_4012-1-_MOV-0140_jpg.rf.79264947ccce5613289ba89769f034f1.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__df6a2fdd936fb909.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0122_jpg.rf.b1468c8ed9b4733845dc202d4422f884.jpg,0,0,keep,keep,pass2 zoom: broken patch
+images/train/egy__dfa4ef11f946c1d0.jpg,train,Egypt_00033_jpg.rf.1c8ed4b307125b88d9fae6e89b55ec00.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: dark stains, no cavity"
+images/train/egy__e06dc2aeb4df3c2b.jpg,train,IMG_4012-1-_MOV-0555_jpg.rf.09174f45188966c4d501085e44ecf190.jpg,0,0,keep,keep,pass1
+images/train/egy__e06dc2aeb4df3c2b.jpg,train,IMG_4012-1-_MOV-0555_jpg.rf.09174f45188966c4d501085e44ecf190.jpg,1,1,remove_manhole,remove,pass2 zoom: round cover with broken surround
+images/train/egy__e161d72e116d46d3.jpg,train,WhatsApp-Video-2024-03-22-at-15_08_52_mp4-0004_jpg.rf.7a2b9ddb619898d8bfd6a27f011dba65.jpg,0,0,keep,keep,pass2 zoom: small dark depression
+images/train/egy__e1fd85d355a8d571.jpg,train,Egypt_00390_jpg.rf.834b0e9379a7ca7ff029ca73405b6993.jpg,0,0,keep,keep,pass1
+images/train/egy__e23a2b0918d819f8.jpg,train,Egypt_00066_jpg.rf.8ee47684a7cc694249cee5be7c0cc6ee.jpg,0,0,keep,keep,pass1
+images/train/egy__e23a2b0918d819f8.jpg,train,Egypt_00066_jpg.rf.8ee47684a7cc694249cee5be7c0cc6ee.jpg,1,1,keep,keep,pass2 zoom: broken strip with gravel
+images/train/egy__e240695ed9609c67.jpg,train,IMG_4012-1-_MOV-0456_jpg.rf.86607d579ddeb07c1415c1c9b3d17676.jpg,0,0,remove_manhole,remove,pass2 zoom: oval cover outline
+images/train/egy__e240695ed9609c67.jpg,train,IMG_4012-1-_MOV-0456_jpg.rf.86607d579ddeb07c1415c1c9b3d17676.jpg,1,1,remove_manhole,remove,pass1 oval cover
+images/train/egy__e2a53e12339c0fda.jpg,train,IMG_4002-1-_MOV-0180_jpg.rf.e6dd289eedd73f07a64a3b08e22806d9.jpg,0,0,keep,keep,pass1
+images/val/egy__e336493bda28d757.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0344_jpg.rf.04611861c0e9a4e0b7a2085ed81bece4.jpg,0,0,keep,keep,pass1
+images/train/egy__e34d036970b3d5f2.jpg,train,WhatsApp-Video-2024-03-22-at-15_08_52_mp4-0013_jpg.rf.11af0e3610f91a4ccc80c389d41b6833.jpg,0,0,remove_manhole,remove,pass1 oval ring cover
+images/train/egy__e36592308b8f930a.jpg,train,IMG_4012-1-_MOV-0083_jpg.rf.e4e2601ace54b1246c4fee1a9ae6ddc3.jpg,0,0,remove_bad_box,remove,pass2 zoom: shadow on road
+images/val/egy__e38b9d00f4e3f784.jpg,val,IMG_3975-1-_MOV-0448_jpg.rf.49c5dcfc008d10febfaaa8bf0cef34ae.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__e4b1bafcd32edb25.jpg,train,Egypt_00284_jpg.rf.da49cbf4ee00041d07b2afc10ecd0471.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: patch, debris"
+images/train/egy__e4d7ab9847298f0a.jpg,train,IMG_4012-1-_MOV-0842_jpg.rf.cf26929d71d1493cb106db42848e2e5c.jpg,0,0,remove_not_pothole,remove,pass2 zoom: crack line
+images/train/egy__e4f2892b752ae10c.jpg,train,Egypt_00348_jpg.rf.b1c72ec9280f77c7c7987e3f215028d3.jpg,0,0,keep,keep,pass1
+images/train/egy__e50dc89632b6ff8a.jpg,train,Egypt_00433_jpg.rf.9c0c84930747e3ffb99755c2a187025c.jpg,0,0,keep,keep,pass1
+images/train/egy__e541154f99a14e5c.jpg,train,Egypt_00226_jpg.rf.f86073319ca370eb4312f0c4023c8130.jpg,0,0,keep,keep,pass1
+images/train/egy__e559f2b834d27efd.jpg,train,Egypt_00230_jpg.rf.56b9bc5bae0b22d6bbef9bcbf1a1de86.jpg,0,0,keep,keep,pass1
+images/train/egy__e559f2b834d27efd.jpg,train,Egypt_00230_jpg.rf.56b9bc5bae0b22d6bbef9bcbf1a1de86.jpg,1,1,keep,keep,pass1
+images/val/egy__e5680c9aa6e6be5d.jpg,val,IMG_3975-1-_MOV-0189_jpg.rf.34eaae08c325435da3634f27884c6490.jpg,0,0,keep,keep,pass2 zoom: broken edge along curb
+images/train/egy__e568c079c6943d69.jpg,train,Egypt_00079_jpg.rf.d424289d1f71af76e8c98631022a5918.jpg,0,0,remove_manhole,remove,pass1 cover in frame
+images/test/egy__e5e797eb44009338.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0229_jpg.rf.105c87a2ea49a5fbfceef509b8930207.jpg,1,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__e6330484796c8cd5.jpg,train,Egypt_00312_jpg.rf.647d366633db6b67362413e65a8aa923.jpg,0,0,remove_manhole,remove,pass1 two drain grates
+images/train/egy__e64191e236aee8e9.jpg,train,IMG_4012-1-_MOV-0040_jpg.rf.dc1e7ac2f32daabf68e8640163820928.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__e6c1c04b69f46b15.jpg,train,IMG_4012-1-_MOV-0400_jpg.rf.f5365fd507e5c9149223e09d937e14d2.jpg,1,0,keep,keep,pass2 zoom: small dark depression
+images/train/egy__e7057b123c102936.jpg,train,Egypt_00306_jpg.rf.efc2eac494c86248164263d45da63a61.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__e7f2bf9850f1cd94.jpg,train,Egypt_00398_jpg.rf.2c505d1c71eef0c251630225291b14e1.jpg,0,0,keep,keep,pass1
+images/train/egy__e7f2bf9850f1cd94.jpg,train,Egypt_00398_jpg.rf.2c505d1c71eef0c251630225291b14e1.jpg,1,1,keep,keep,pass1
+images/train/egy__e814b0a8d60ed49f.jpg,train,IMG_4002-1-_MOV-0135_jpg.rf.d3376c476377cad0fd6b9a0a1fb0a6e0.jpg,0,0,keep,keep,pass2 zoom: large broken patch area
+images/val/egy__e81b2d212adaf4cc.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0093_jpg.rf.cd66f2fe9c0625a38981a3f4aa3a1047.jpg,0,0,keep,keep,pass1
+images/val/egy__e81b2d212adaf4cc.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0093_jpg.rf.cd66f2fe9c0625a38981a3f4aa3a1047.jpg,1,1,remove_not_pothole,remove,pass2 zoom: pale sand strip
+images/train/egy__e882fc489819101a.jpg,train,Egypt_00011_jpg.rf.4f7ecc5ad73abc22179b84b643b9b4e5.jpg,0,0,keep,keep,pass1
+images/train/egy__e882fc489819101a.jpg,train,Egypt_00011_jpg.rf.4f7ecc5ad73abc22179b84b643b9b4e5.jpg,1,1,keep,keep,pass1
+images/val/egy__e90a713330698971.jpg,val,IMG_3975-1-_MOV-0142_jpg.rf.0f5a47887ddc3488bb02511e558b85bc.jpg,0,0,keep,keep,pass1
+images/train/egy__e94a08fde1c51715.jpg,train,IMG_3998-1-_MOV-0152_jpg.rf.863c256d61250223d2d64ab5be42824d.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__e98b58842bf5cc42.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0036_jpg.rf.1da1bd9fa4c2195f0e1c87514a498da1.jpg,0,0,keep,keep,pass1
+images/train/egy__e98b58842bf5cc42.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0036_jpg.rf.1da1bd9fa4c2195f0e1c87514a498da1.jpg,4,1,remove_manhole,remove,pass2 zoom: round cover + pale patch
+images/train/egy__e9b78d9ae7d9acb8.jpg,train,IMG_4002-1-_MOV-0035_jpg.rf.7f4b7d9eed3b5bb8ef4a40ff697b36b2.jpg,0,0,remove_manhole,remove,pass2 zoom: rectangular grate
+images/train/egy__e9d3f0ef27cd59ea.jpg,train,Egypt_00417_jpg.rf.0315b166d12d932b60356b7837a970f7.jpg,0,0,uncertain,keep,"pass2 zoom: long strip, too small to judge"
+images/train/egy__ead7c916b54ebf57.jpg,train,IMG_3999-1-_MOV-0025_jpg.rf.f72269e4a7e09611eb8e6b09c89e74ff.jpg,0,0,remove_not_pothole,remove,pass2 zoom: crack network
+images/train/egy__eaf2fd4e048862e2.jpg,train,Egypt_00129_jpg.rf.ccdeb8326e9a82babf2caacb942a7290.jpg,0,0,remove_not_pothole,remove,pass2 zoom: crack outline of a patch
+images/train/egy__eaf2fd4e048862e2.jpg,train,Egypt_00129_jpg.rf.ccdeb8326e9a82babf2caacb942a7290.jpg,1,1,remove_not_pothole,remove,pass2 zoom: crack outline of a patch
+images/train/egy__eb878cabedaddf7f.jpg,train,IMG_3973-1-_MOV-0598_jpg.rf.6e5769f77bcecf3862bc7717fdb19bfe.jpg,0,0,keep,keep,pass1
+images/test/egy__eb8b9bd098f52aba.jpg,test,IMG_3996-1-_MOV-0044_jpg.rf.9584c664325a0c8c92009fb3de437e0a.jpg,0,0,keep,keep,pass1
+images/train/egy__ec0fa3fff8327d7b.jpg,train,Egypt_00187_jpg.rf.ad2aa763d5ec356bc637b58dd05fb020.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__ec2e739875be2245.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0091_jpg.rf.48429703ef05ba42e1b9f5534e087146.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__ec57ae1eddd0e1f4.jpg,train,Egypt_00221_jpg.rf.31e7b51432ec4abcf11decffe750460d.jpg,0,0,keep,keep,pass1
+images/train/egy__ec5fe55c7958ccf6.jpg,train,IMG_3998-1-_MOV-0292_jpg.rf.8e2460642100b4bba418d08caa3286f3.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__ec6c112f8515a2cd.jpg,train,Egypt_00072_jpg.rf.9bf02d5aef1ab82c961d77d7d3d3f0d8.jpg,0,0,remove_manhole,remove,pass1 round cover in frame
+images/train/egy__ec7c9123b368b681.jpg,train,IMG_4012-1-_MOV-1214_jpg.rf.e665921c22108a4201728c9eabc10b8f.jpg,0,0,keep,keep,pass1
+images/train/egy__ecda7b07d89ec83b.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0031_jpg.rf.073cfb802bf0aca7c5d9d78eb3494f3f.jpg,0,0,keep,keep,pass1
+images/train/egy__ed34ab9d9957925a.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0026_jpg.rf.68bcbba7de5ec5928b078645d9c9afc9.jpg,0,0,keep,keep,pass1
+images/train/egy__ed58262b03b544a0.jpg,train,Egypt_00206_jpg.rf.c95330e2391eb08f11caf3226dabe138.jpg,0,0,keep,keep,pass1
+images/train/egy__ee3f40469919f61e.jpg,train,Egypt_00402_jpg.rf.13a17f842ba95ac4a865650d49220541.jpg,0,0,remove_manhole,remove,pass1 rectangular drain grate
+images/train/egy__ee3f40469919f61e.jpg,train,Egypt_00402_jpg.rf.13a17f842ba95ac4a865650d49220541.jpg,1,1,uncertain,keep,pass2 zoom: broken area next to a grate (grate outside box)
+images/train/egy__ee6bc791f022b2ec.jpg,train,IMG_4012-1-_MOV-1045_jpg.rf.178609a0d48eb721d3945160c1233bd4.jpg,0,0,keep,keep,pass1
+images/train/egy__eef6b745d55c9b2a.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0001_jpg.rf.b13210f12d1f5d65e7c6942fa4301d2d.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__eef6b745d55c9b2a.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0001_jpg.rf.b13210f12d1f5d65e7c6942fa4301d2d.jpg,1,1,keep,keep,pass2 zoom: dark pothole lip
+images/test/egy__ef59919844b74fb5.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0083_jpg.rf.ca44a753d09d989a50019e1b6193ac65.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: pale strip, flat"
+images/train/egy__ef90eec64eb61666.jpg,train,IMG_4012-1-_MOV-0794_jpg.rf.5a1e8c6a8cfc1653ea0c6fcbed8a59b6.jpg,1,0,keep,keep,pass2 zoom: dark depression
+images/train/egy__ef90eec64eb61666.jpg,train,IMG_4012-1-_MOV-0794_jpg.rf.5a1e8c6a8cfc1653ea0c6fcbed8a59b6.jpg,2,1,keep,keep,pass1
+images/train/egy__efb965a146e69621.jpg,train,Egypt_00207_jpg.rf.3db5a88ec272d53aab6a7e4c347d3ae1.jpg,0,0,keep,keep,pass1
+images/train/egy__effa7da72bbdfb3f.jpg,train,Egypt_00147_jpg.rf.6ec0e8207bce7258a17d3eab694a9653.jpg,0,0,keep,keep,pass1
+images/train/egy__f06ab89663d4ffdd.jpg,train,IMG_4012-1-_MOV-0328_jpg.rf.16796b201b8fd67fc0f8967494f9f597.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__f0a60f8b9e90b9e1.jpg,train,IMG_4012-1-_MOV-0043_jpg.rf.efbd06455177105a09c6897bf4237c3c.jpg,0,0,keep,keep,pass1
+images/train/egy__f0d04b193b884973.jpg,train,IMG_3994-1-_MOV-0027_jpg.rf.da3bfd63181eb95e368fe6278252292d.jpg,0,0,keep,keep,pass1
+images/train/egy__f0d04b193b884973.jpg,train,IMG_3994-1-_MOV-0027_jpg.rf.da3bfd63181eb95e368fe6278252292d.jpg,1,1,keep,keep,pass1
+images/train/egy__f0d04b193b884973.jpg,train,IMG_3994-1-_MOV-0027_jpg.rf.da3bfd63181eb95e368fe6278252292d.jpg,2,2,keep,keep,pass1
+images/train/egy__f0d04b193b884973.jpg,train,IMG_3994-1-_MOV-0027_jpg.rf.da3bfd63181eb95e368fe6278252292d.jpg,3,3,keep,keep,pass1
+images/train/egy__f1099e09e3170bf8.jpg,train,Egypt_00199_jpg.rf.fec31bdf5bac64eb5cf01ccdfde1522d.jpg,0,0,remove_manhole,remove,pass2 zoom: round cover with debris
+images/train/egy__f167ad26607a014b.jpg,train,IMG_4012-1-_MOV-0335_jpg.rf.59a8b01f3560b794946c1d00c4fbd263.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__f16b98bca878fd03.jpg,train,Egypt_00118_jpg.rf.cee53ac9d470d30602e7b78a69e3460c.jpg,0,0,keep,keep,pass1
+images/train/egy__f17fa3678e18929d.jpg,train,IMG_3973-1-_MOV-0307_jpg.rf.558e2abc4c3d1a54ee7f930573e5ed59.jpg,0,0,keep,keep,pass1
+images/train/egy__f1a39ec4319bebc6.jpg,train,IMG_3973-1-_MOV-0693_jpg.rf.945295e8910131f953c0314e5af105ac.jpg,0,0,keep,keep,pass1
+images/train/egy__f1c3bb5456f9f31b.jpg,train,Egypt_00140_jpg.rf.77378c42ebebe77f1c8a8e975934326c.jpg,0,0,keep,keep,pass1
+images/train/egy__f22428914f1d9a64.jpg,train,IMG_3973-1-_MOV-0081_jpg.rf.1eba204d4d0976d8568be5ee9cf1b41a.jpg,0,0,keep,keep,pass1
+images/train/egy__f235497388324a6a.jpg,train,IMG_3998-1-_MOV-0511_jpg.rf.2d5bf40bd52899942dd0bfe08fb08bef.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__f25087d081310a41.jpg,train,Egypt_00088_jpg.rf.a85dd6c4be9cc5f7b303d8b474e8e261.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__f2af9ffe20fadc5a.jpg,train,Egypt_00519_jpg.rf.5f509d59d2a853b2ca6528a98db440e1.jpg,3,0,keep,keep,pass1
+images/train/egy__f2af9ffe20fadc5a.jpg,train,Egypt_00519_jpg.rf.5f509d59d2a853b2ca6528a98db440e1.jpg,4,1,keep,keep,pass1
+images/train/egy__f2c36415483e0dc3.jpg,train,Egypt_00299_jpg.rf.d8c34098317daa7180cde668a5bce0d5.jpg,0,0,keep,keep,pass1
+images/train/egy__f2e5a9a504263798.jpg,train,IMG_4012-1-_MOV-0843_jpg.rf.a442abfcb513047c4c626475d4237097.jpg,0,0,remove_manhole,remove,pass2 zoom: rectangular cover plate
+images/train/egy__f2f26dbae0ce42c0.jpg,train,IMG_4012-1-_MOV-0089_jpg.rf.b17fd2ffb6bf195e69ca14b1bab6c065.jpg,0,0,remove_manhole,remove,pass1 oval grille cover
+images/train/egy__f3e0e47bd502f0ff.jpg,train,Egypt_00039_jpg.rf.96515995434be55a60b4c99adba772bf.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__f454d10db9b40a9d.jpg,train,IMG_3973-1-_MOV-0612_jpg.rf.53f3ca395771bfdd875c38155b9ddd1a.jpg,1,0,keep,keep,pass1
+images/train/egy__f454d10db9b40a9d.jpg,train,IMG_3973-1-_MOV-0612_jpg.rf.53f3ca395771bfdd875c38155b9ddd1a.jpg,2,1,keep,keep,pass2 zoom: small pothole
+images/train/egy__f454d10db9b40a9d.jpg,train,IMG_3973-1-_MOV-0612_jpg.rf.53f3ca395771bfdd875c38155b9ddd1a.jpg,3,2,keep,keep,pass1
+images/train/egy__f4a22040fc8c7e66.jpg,train,IMG_3998-1-_MOV-0402_jpg.rf.2eff9c103f5fa86e8ab5f2afab0b97dc.jpg,0,0,remove_not_pothole,remove,pass2 zoom: white debris/paper
+images/train/egy__f4b491e1a6f73bbc.jpg,train,IMG_4012-1-_MOV-0118_jpg.rf.c856e05b7b0390938dc7144fa5b5ccfe.jpg,0,0,remove_not_pothole,remove,"pass2 zoom: pale sand-filled patch, flat"
+images/train/egy__f4d12709b1ef2d94.jpg,train,IMG_3997-1-_MOV-0088_jpg.rf.51fa2a8a0b356b6689b8bc7968868d63.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/train/egy__f5202b219c439a6c.jpg,train,Egypt_00166_jpg.rf.c1207d81c81300fed56d9a7501896584.jpg,0,0,remove_not_pothole,remove,pass1 wet stain (D5 wet patch)
+images/test/egy__f571c3cfe1a2432f.jpg,test,WhatsApp-Video-2024-03-22-at-14_38_09_mp4-0046_jpg.rf.577c5bad9120de65cc836008086eedc9.jpg,0,0,keep,keep,pass1
+images/val/egy__f572fb183765e5b4.jpg,val,IMG_3975-1-_MOV-0451_jpg.rf.edc577df32cb2ba1d7e92c2d73bea53e.jpg,0,0,remove_manhole,remove,pass2 zoom: rectangular cover
+images/train/egy__f577f8eddf08ffe9.jpg,train,Egypt_00337_jpg.rf.d1f9ae032bcb756144a711f733be270e.jpg,0,0,remove_not_pothole,remove,pass2 zoom: patch with shadow
+images/train/egy__f577f8eddf08ffe9.jpg,train,Egypt_00337_jpg.rf.d1f9ae032bcb756144a711f733be270e.jpg,1,1,remove_bad_box,remove,pass2 zoom: shadow and crack
+images/train/egy__f58ebb6ada98d610.jpg,train,Egypt_00352_jpg.rf.e961f1dac0ad6e439c5dc23feb6ad565.jpg,1,0,remove_manhole,remove,pass1 small square utility cover
+images/train/egy__f5bfdd29f8b7342c.jpg,train,IMG_3973-1-_MOV-0400_jpg.rf.557cfbe8ed2ddfa15bb8039892fe8947.jpg,0,0,remove_manhole,remove,pass1 drain grate
+images/train/egy__f5d6034f5a94d41b.jpg,train,Egypt_00414_jpg.rf.cce93f36a8a0cc661227c50efdc8d6e7.jpg,0,0,remove_manhole,remove,pass1 patterned oval cover
+images/train/egy__f6096f9fcd85342b.jpg,train,IMG_3973-1-_MOV-0634_jpg.rf.86f4c499fbac9489742f2606d6c4bbd0.jpg,0,0,keep,keep,pass1
+images/train/egy__f62b323ce122deb1.jpg,train,Egypt_00288_jpg.rf.79b2c9594d42a24c3976f8e475a9b389.jpg,0,0,remove_manhole,remove,pass1 round cover
+images/train/egy__f62b323ce122deb1.jpg,train,Egypt_00288_jpg.rf.79b2c9594d42a24c3976f8e475a9b389.jpg,1,1,keep,keep,pass2 zoom: shallow broken depression
+images/train/egy__f6dd2559e67e22d7.jpg,train,Egypt_00447_jpg.rf.0e8e9bd0ff76411c3fb8f81fe4c84de1.jpg,0,0,keep,keep,pass1
+images/train/egy__f71a4174936e22b4.jpg,train,IMG_4012-1-_MOV-0117_jpg.rf.f178819ff543263b4cf95eb1f73c7a4a.jpg,0,0,keep,keep,pass1
+images/train/egy__f71a4174936e22b4.jpg,train,IMG_4012-1-_MOV-0117_jpg.rf.f178819ff543263b4cf95eb1f73c7a4a.jpg,1,1,remove_not_pothole,remove,"pass2 zoom: pale sand-filled patch, flat"
+images/train/egy__f71a4174936e22b4.jpg,train,IMG_4012-1-_MOV-0117_jpg.rf.f178819ff543263b4cf95eb1f73c7a4a.jpg,2,2,remove_manhole,remove,pass1 sunken slotted grate
+images/train/egy__f743969fbddfc71e.jpg,train,IMG_3973-1-_MOV-0069_jpg.rf.68290161d0d767052507ef0510cb2846.jpg,0,0,keep,keep,pass2 zoom: small dark depression
+images/train/egy__f749c02ef4590052.jpg,train,Egypt_00289_jpg.rf.10c241adee6462fe45d9454ab9798d8b.jpg,0,0,keep,keep,pass1
+images/train/egy__f7867e17a59c3932.jpg,train,IMG_3994-1-_MOV-0013_jpg.rf.3540fc86a9fcaebfaad2bfade81f80fc.jpg,0,0,keep,keep,pass2 zoom: dark pothole lip
+images/train/egy__f7db7a15ee14782f.jpg,train,Egypt_00344_jpg.rf.55a8f86ad76206daa199c6da258dd996.jpg,0,0,remove_not_pothole,remove,pass2 zoom: crack/patch outline
+images/train/egy__f7db7a15ee14782f.jpg,train,Egypt_00344_jpg.rf.55a8f86ad76206daa199c6da258dd996.jpg,1,1,remove_not_pothole,remove,pass2 zoom: crack/patch outline
+images/train/egy__f83a280962045d5b.jpg,train,Egypt_00301_jpg.rf.5fece4c1784e8203c228787497278167.jpg,0,0,keep,keep,pass2 zoom: broken surface
+images/train/egy__f8f6da7d7c045a7b.jpg,train,Egypt_00071_jpg.rf.8ef8ba83fdea6193f180dd15817cc022.jpg,0,0,remove_manhole,remove,pass1 round cover in frame
+images/val/egy__f90264d544eb75bf.jpg,val,IMG_3975-1-_MOV-0432_jpg.rf.b424c9b032b2db9dd99fd91b43711990.jpg,0,0,keep,keep,pass1
+images/train/egy__f958e306ac2d68de.jpg,train,Egypt_00184_jpg.rf.9d78ae49c6b04ac477fc4cc91fb4f1c4.jpg,0,0,remove_manhole,remove,pass1 cover in broken frame
+images/train/egy__f9b84a08f38fd047.jpg,train,Egypt_00160_jpg.rf.e89edec845fa9da9b5ad5dd8e85c0c4c.jpg,0,0,keep,keep,pass1
+images/train/egy__f9b84a08f38fd047.jpg,train,Egypt_00160_jpg.rf.e89edec845fa9da9b5ad5dd8e85c0c4c.jpg,1,1,keep,keep,pass1
+images/val/egy__f9f32ad7a652f721.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0141_jpg.rf.cabc216007b3e5d70699dcd8150a0de5.jpg,3,0,keep,keep,pass1
+images/train/egy__fb26753096ac1c19.jpg,train,IMG_4012-1-_MOV-0468_jpg.rf.7817949ef0fd1aecd920e7d3e05f2ec1.jpg,0,0,remove_not_pothole,remove,pass1 crack
+images/train/egy__fb268c17a6ce8039.jpg,train,IMG_4002-1-_MOV-0050_jpg.rf.8ab190830ac63fc7ef8b7940629c410e.jpg,0,0,keep,keep,pass1
+images/train/egy__fb3b310427b68768.jpg,train,IMG_4012-1-_MOV-0558_jpg.rf.6d5947f80d0dd93a7ff039be3486470e.jpg,0,0,keep,keep,pass1
+images/val/egy__fbd8868acbf25dce.jpg,val,IMG_3975-1-_MOV-0000_jpg.rf.49d7f76aac1eb3ea1d83a743f4efa6b7.jpg,0,0,keep,keep,pass1
+images/train/egy__fbe187f27bd3eaa0.jpg,train,IMG_4012-1-_MOV-0695_jpg.rf.527403635096c00b4a6a0c25837f1175.jpg,0,0,keep,keep,pass1
+images/train/egy__fc58f92eb2a786f1.jpg,train,Egypt_00403_jpg.rf.0d05c4b411160db4cd408efc7490a031.jpg,1,0,remove_not_pothole,remove,pass2 zoom: cracks
+images/train/egy__fc6b49a9541bfcfb.jpg,train,Egypt_00271_jpg.rf.34bb9645380f8b0918f6fad2b97d88cd.jpg,0,0,keep,keep,pass1
+images/train/egy__fc7362e280ac4818.jpg,train,IMG_4012-1-_MOV-1184_jpg.rf.1c5cfe186b22a2c2cb0bcdba1be4ae04.jpg,0,0,keep,keep,pass1
+images/train/egy__fcf6c5f38a1d5bb3.jpg,train,Egypt_00267_jpg.rf.20660d16aec6a1275305c667d24472b3.jpg,1,0,remove_not_pothole,remove,pass2 zoom: patch outlines
+images/val/egy__fda79bea5e9a1117.jpg,val,IMG_3975-1-_MOV-0449_jpg.rf.f24dc5e739d654441998261d35785d45.jpg,0,0,keep,keep,pass1
+images/train/egy__feaa59043f762677.jpg,train,IMG_3973-1-_MOV-0568_jpg.rf.a537cfcfc4725fd3b00b7771624b2213.jpg,0,0,keep,keep,pass1
+images/train/egy__feb07b200f6b8e8b.jpg,train,Egypt_00449_jpg.rf.5628aef56f3a649d8a23c2e6ca388721.jpg,0,0,keep,keep,pass1
+images/train/egy__fef5ae4ca33c060e.jpg,train,Egypt_00023_jpg.rf.fbb6fbd1d582c2dd750e8f9f80a83b04.jpg,0,0,keep,keep,pass1
+images/train/egy__ff46bac4318116b5.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0059_jpg.rf.89731ad07e37ab90d92f20f78e6df119.jpg,0,0,remove_manhole,remove,pass1 slotted drain grate
+images/train/egy__ff46bac4318116b5.jpg,train,WhatsApp-Video-2024-03-22-at-14_41_20_mp4-0059_jpg.rf.89731ad07e37ab90d92f20f78e6df119.jpg,1,1,keep,keep,pass1
+images/val/egy__ffaea95199779bcb.jpg,val,WhatsApp-Video-2024-03-22-at-15_01_35_mp4-0170_jpg.rf.31c77b5c0466045a368d6f12e1b054be.jpg,0,0,keep,keep,pass1
+images/train/egy__ffaeee56c5c299f0.jpg,train,WhatsApp-Video-2024-03-22-at-15_08_52_mp4-0023_jpg.rf.02eb3a5e68209c5d3b3e078517651311.jpg,0,0,remove_manhole,remove,pass1 oval cover
+images/train/egy__ffc18f9cd20b693a.jpg,train,Egypt_00397_jpg.rf.da64dd14033be6f6b821fe1897ab0686.jpg,0,0,keep,keep,pass2 zoom: sand-filled pothole
+images/train/egy__ffc18f9cd20b693a.jpg,train,Egypt_00397_jpg.rf.da64dd14033be6f6b821fe1897ab0686.jpg,1,1,remove_manhole,remove,pass2 zoom: grate at curb
+images/train/egy__ffc646c748d74d5d.jpg,train,IMG_3997-1-_MOV-0145_jpg.rf.23eb6dfe6000ed6fe8b55f557a836157.jpg,0,0,keep,keep,pass1
+,,IMG_4003-1-_JPG.rf.0a26def8983e697bdea887c14d8a3b44.jpg,0,,keep,file not in part,pass1

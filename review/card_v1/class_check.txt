@@ -1,0 +1,4 @@
+class id 0: boxes 11239, median w 0.057 h 0.024, median w/h 2.39
+  no images downloaded yet for this id
+class id 1: boxes 9212, median w 0.263 h 0.029, median w/h 10.26
+  no images downloaded yet for this id

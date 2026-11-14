@@ -1,0 +1,4175 @@
+{
+ "weights": "runs\\detect\\v3b_C_11n_960_s0_r2\\weights\\best.pt",
+ "data": "road_hazards_v3a_r2",
+ "split": "val",
+ "args": {
+  "weights": "runs\\detect\\v3b_C_11n_960_s0_r2\\weights\\best.pt",
+  "data": "road_hazards_v3a_r2",
+  "split": "val",
+  "imgsz": 960,
+  "tile": 640,
+  "tile_imgsz": null,
+  "overlap": 0.25,
+  "rows_from": 0.4,
+  "edge": 2.0,
+  "merge": "nms",
+  "iou": 0.5,
+  "conf": 0.001,
+  "out": "runs\\detect\\SLICED_C_VALr2\\predictions.json"
+ },
+ "images": 830,
+ "ms_median": 195.34,
+ "ms_p95": 314.38,
+ "per_image": [
+  {
+   "image": "ghpot__01c56e8a61dbde9d",
+   "ms": 4299.73,
+   "tiles": 12
+  },
+  {
+   "image": "ghpot__0251648985d443f3",
+   "ms": 140.71,
+   "tiles": 1
+  },
+  {
+   "image": "ghpot__02e1146b8a71b4ee",
+   "ms": 235.75,
+   "tiles": 3
+  },
+  {
+   "image": "ghpot__041a26ab2daabdc3",
+   "ms": 351.54,
+   "tiles": 12
+  },
+  {
+   "image": "ghpot__07193fb4c6dd1df9",
+   "ms": 92.49,
+   "tiles": 1
+  },
+  {
+   "image": "ghpot__0933ece917bbf0aa",
+   "ms": 281.26,
+   "tiles": 9
+  },
+  {
+   "image": "ghpot__16efda9d70e8045f",
+   "ms": 151.08,
+   "tiles": 2
+  },
+  {
+   "image": "ghpot__1dc91b64656fe7ff",
+   "ms": 86.13,
+   "tiles": 1
+  },
+  {
+   "image": "ghpot__216beccdf185408d",
+   "ms": 136.87,
+   "tiles": 2
+  },
+  {
+   "image": "ghpot__218fe4479b009ff5",
+   "ms": 97.38,
+   "tiles": 4
+  },
+  {
+   "image": "ghpot__21ab8f19471133c3",
+   "ms": 187.43,
+   "tiles": 8
+  },
+  {
+   "image": "ghpot__29be3f9ddcc6c61e",
+   "ms": 131.76,
+   "tiles": 2
+  },
+  {
+   "image": "ghpot__2ca7a7d2adf8f07d",
+   "ms": 288.04,
+   "tiles": 9
+  },
+  {
+   "image": "ghpot__2d5a23e7df710a2d",
+   "ms": 217.15,
+   "tiles": 8
+  },
+  {
+   "image": "ghpot__33fecfe77a8f1757",
+   "ms": 157.04,
+   "tiles": 3
+  },
+  {
+   "image": "ghpot__37ead40ee02fa081",
+   "ms": 45.75,
+   "tiles": 1
+  },
+  {
+   "image": "ghpot__384f0f32c41eac0b",
+   "ms": 60.59,
+   "tiles": 2
+  },
+  {
+   "image": "ghpot__397aeeb85f8836f4",
+   "ms": 129.39,
+   "tiles": 1
+  },
+  {
+   "image": "ghpot__3c14676911513cd8",
+   "ms": 284.48,
+   "tiles": 12
+  },
+  {
+   "image": "ghpot__41746f00d65d4631",
+   "ms": 207.6,
+   "tiles": 8
+  },
+  {
+   "image": "ghpot__418a997357dcafe5",
+   "ms": 193.84,
+   "tiles": 8
+  },
+  {
+   "image": "ghpot__4250afa6d297c281",
+   "ms": 67.72,
+   "tiles": 2
+  },
+  {
+   "image": "ghpot__53c3cb0dd647bc09",
+   "ms": 308.67,
+   "tiles": 12
+  },
+  {
+   "image": "ghpot__559f3baeb22dc461",
+   "ms": 153.14,
+   "tiles": 4
+  },
+  {
+   "image": "ghpot__57f59f59da47d344",
+   "ms": 37.94,
+   "tiles": 1
+  },
+  {
+   "image": "ghpot__5df370bc75e5fd62",
+   "ms": 101.98,
+   "tiles": 4
+  },
+  {
+   "image": "ghpot__646503a6624e377a",
+   "ms": 191.65,
+   "tiles": 8
+  },
+  {
+   "image": "ghpot__6b85236a2f4cf51d",
+   "ms": 277.43,
+   "tiles": 12
+  },
+  {
+   "image": "ghpot__8b06b307bf4f7e06",
+   "ms": 197.3,
+   "tiles": 2
+  },
+  {
+   "image": "ghpot__8e5b7b0aa78709fb",
+   "ms": 107.29,
+   "tiles": 3
+  },
+  {
+   "image": "ghpot__93c0e037272a6bef",
+   "ms": 313.14,
+   "tiles": 12
+  },
+  {
+   "image": "ghpot__956f4b0bf539ce07",
+   "ms": 139.4,
+   "tiles": 4
+  },
+  {
+   "image": "ghpot__9abc79cfba05a94f",
+   "ms": 236.66,
+   "tiles": 9
+  },
+  {
+   "image": "ghpot__a0c6e5b9dc830499",
+   "ms": 215.13,
+   "tiles": 9
+  },
+  {
+   "image": "ghpot__a3a6cfeabd20460f",
+   "ms": 35.64,
+   "tiles": 1
+  },
+  {
+   "image": "ghpot__a6e3d0eb5cdc3712",
+   "ms": 293.74,
+   "tiles": 12
+  },
+  {
+   "image": "ghpot__a900c8dab3d99ad5",
+   "ms": 64.06,
+   "tiles": 2
+  },
+  {
+   "image": "ghpot__bac7d308e726f062",
+   "ms": 67.69,
+   "tiles": 2
+  },
+  {
+   "image": "ghpot__bad643a4f82af8aa",
+   "ms": 61.13,
+   "tiles": 2
+  },
+  {
+   "image": "ghpot__bc1a01b32173bd91",
+   "ms": 77.5,
+   "tiles": 3
+  },
+  {
+   "image": "ghpot__bc63c6eab6c25f3a",
+   "ms": 165.34,
+   "tiles": 6
+  },
+  {
+   "image": "ghpot__c46a705b3405a331",
+   "ms": 185.48,
+   "tiles": 8
+  },
+  {
+   "image": "ghpot__c656383017b93efe",
+   "ms": 35.11,
+   "tiles": 1
+  },
+  {
+   "image": "ghpot__d6f7d6fb5732c5b3",
+   "ms": 39.1,
+   "tiles": 1
+  },
+  {
+   "image": "ghpot__dc9cb0c36bc7357a",
+   "ms": 43.74,
+   "tiles": 1
+  },
+  {
+   "image": "ghpot__df78595cdb31f6a6",
+   "ms": 210.07,
+   "tiles": 6
+  },
+  {
+   "image": "ghpot__e0a38149c0b16a9a",
+   "ms": 63.25,
+   "tiles": 2
+  },
+  {
+   "image": "ghpot__e561f9afc4aec019",
+   "ms": 216.52,
+   "tiles": 9
+  },
+  {
+   "image": "ghpot__fcca99bd5cd20a98",
+   "ms": 82.08,
+   "tiles": 1
+  },
+  {
+   "image": "rf8__004d5d88a0cdc18b",
+   "ms": 266.66,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__006d10bfc70fb794",
+   "ms": 279.11,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__007e68082288fb31",
+   "ms": 136.95,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__0098467bf8063c5e",
+   "ms": 269.11,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__00dcc2e7e4bfec79",
+   "ms": 280.4,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__00e5a7e900250420",
+   "ms": 177.26,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__0101c837a35efe5d",
+   "ms": 126.01,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__010fe891d92541bb",
+   "ms": 167.96,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__0146ff3eb5ef2550",
+   "ms": 198.08,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__014a6526016f336d",
+   "ms": 132.69,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__016ea5b76aeabff9",
+   "ms": 202.24,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__01a862af82d9e37f",
+   "ms": 242.39,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__01c8355701e18385",
+   "ms": 265.0,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__01ea8273ef901826",
+   "ms": 213.28,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__02963dc2ef3f9caa",
+   "ms": 69.1,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__0373d6ed76e3db5e",
+   "ms": 346.62,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__03eacc2aaed50f0e",
+   "ms": 370.33,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__04fc20a71f638992",
+   "ms": 115.42,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__050539d65a204576",
+   "ms": 232.88,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__05799fb9c2d81501",
+   "ms": 183.05,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__05a01d371e16e41b",
+   "ms": 80.35,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__05fc6648248308e4",
+   "ms": 87.4,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__072feb1c7aa4e10a",
+   "ms": 133.73,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__075766d01463e478",
+   "ms": 402.16,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__07abbcb3c7fbf2bf",
+   "ms": 320.56,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__07b00cfa1d4561c9",
+   "ms": 509.58,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__07f39ca757d85ba5",
+   "ms": 165.05,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__08a70415d2a084d3",
+   "ms": 391.35,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__08a7d6d08d4448dc",
+   "ms": 311.69,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__08b56d7111894a4a",
+   "ms": 420.21,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__08e0a87fa6d5c359",
+   "ms": 290.64,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__095b9d03b6cffa73",
+   "ms": 190.36,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__096f10981496bc74",
+   "ms": 179.0,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__0987893efc801682",
+   "ms": 255.77,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__09dcc278bcf943be",
+   "ms": 269.01,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__09df91e67fcf4ff9",
+   "ms": 251.59,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__09ed80f155fca270",
+   "ms": 151.44,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__0a5bc11b6d789e64",
+   "ms": 274.87,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__0aabbe306f189021",
+   "ms": 150.14,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__0b3a72bb8434795c",
+   "ms": 148.3,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__0b9356721895635d",
+   "ms": 261.63,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__0c1cc4b81968bdfe",
+   "ms": 55.44,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__0c27bc01b153bedc",
+   "ms": 58.24,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__0c36f3bff444eb22",
+   "ms": 114.98,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__0d43a81b9cb298f2",
+   "ms": 265.37,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__0d7dee250b47ec0f",
+   "ms": 141.1,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__0dcbc83f4e0c7f23",
+   "ms": 141.11,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__0e21019568207146",
+   "ms": 294.4,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__0eac5c4182fc8eec",
+   "ms": 165.51,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__0edef32785f191a6",
+   "ms": 62.32,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__0eff5007f49d5957",
+   "ms": 355.55,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__0f3bdcb34d84dcea",
+   "ms": 276.41,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__102c0a54b5566db5",
+   "ms": 215.57,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__1095597a02c9c7f0",
+   "ms": 138.69,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__10a191261082e5fa",
+   "ms": 268.77,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__10e2e8ab0adc74ce",
+   "ms": 255.77,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__111250a78a489e1d",
+   "ms": 104.67,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__113cb9b44b21a381",
+   "ms": 282.92,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__1183bf76dd46ac39",
+   "ms": 265.83,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__11e1ecbd285899b3",
+   "ms": 206.41,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__126ba80fdf58382d",
+   "ms": 311.77,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__12ec400aa8440fb4",
+   "ms": 249.93,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__14a28b6b219d0702",
+   "ms": 261.01,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__1543e85787f56d86",
+   "ms": 276.66,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__15fbbca9fda6d5de",
+   "ms": 257.02,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__1643bd97a486dd75",
+   "ms": 71.11,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__16fa5f9f05adb615",
+   "ms": 260.31,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__172f407188f75ca9",
+   "ms": 147.58,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__178d74db3a27fcef",
+   "ms": 206.01,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__17c0b3d2554c13d6",
+   "ms": 209.63,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__1879952184fbe8b3",
+   "ms": 185.17,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__187e0193a25aa3e4",
+   "ms": 63.51,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__18818f7063d9ee07",
+   "ms": 185.6,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__189329d86e789a19",
+   "ms": 93.85,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__19f8abcf93a4deff",
+   "ms": 186.34,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__1a02ab38ff38ae29",
+   "ms": 187.27,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__1a07c1b6abfdd2b5",
+   "ms": 285.14,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__1a53409304e5306d",
+   "ms": 140.18,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__1bfc030291aa9a65",
+   "ms": 132.28,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__1c4136ce77e5fddd",
+   "ms": 275.81,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__1d3bc0f861ad09d1",
+   "ms": 138.51,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__1de6a09cec54be95",
+   "ms": 72.56,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__1e001cf766fd304c",
+   "ms": 131.28,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__1e0da70ee2246473",
+   "ms": 270.96,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__1e20f1bad9fb1894",
+   "ms": 354.38,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__1e3052d45966674f",
+   "ms": 153.84,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__1e80a3429073e3ad",
+   "ms": 159.09,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__1ebb164798ef5588",
+   "ms": 264.62,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__1eed4d3975266e43",
+   "ms": 309.6,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__1f22c3a5515aa891",
+   "ms": 91.57,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__1f3ad2cee75e08cc",
+   "ms": 139.47,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__206ac3053a5a7ff8",
+   "ms": 291.71,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__2074130f6c6d08b1",
+   "ms": 51.04,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__2127224c514da190",
+   "ms": 109.97,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__213185a2176d40ea",
+   "ms": 187.38,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__2136621c6f4ddc9f",
+   "ms": 191.75,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__213e0d4750b30f74",
+   "ms": 254.51,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__218abe185607dcf9",
+   "ms": 259.01,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__218fb20a998c2c09",
+   "ms": 207.11,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__21edbc03c20feb03",
+   "ms": 122.98,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__21f3e81cc38ece6e",
+   "ms": 273.12,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__22190712f0be4a44",
+   "ms": 290.72,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__221ff007b3b34d58",
+   "ms": 62.24,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__223bf47f40945d24",
+   "ms": 296.54,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__229a37d92cd19ea5",
+   "ms": 189.54,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__22f700f75892735a",
+   "ms": 255.14,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__22fe4ca98c10ca0c",
+   "ms": 276.31,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__23c7fe0f35b21e23",
+   "ms": 252.32,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__24115d008e4bb658",
+   "ms": 250.06,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__2466626e1e1be920",
+   "ms": 104.68,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__24b1a02b8590fa36",
+   "ms": 80.08,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__24d876d35bc62d6a",
+   "ms": 133.82,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__24edffdebbee6bd6",
+   "ms": 255.98,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__2526a8a92b4d7189",
+   "ms": 141.86,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__25cc619903aaa69b",
+   "ms": 48.98,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__260812be962a9ca4",
+   "ms": 141.58,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__26163c9350804c27",
+   "ms": 269.67,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__26824238af672ef7",
+   "ms": 134.79,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__279e5316a043735a",
+   "ms": 288.49,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__2861d55b796cf627",
+   "ms": 155.79,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__28a9a21571f5ad92",
+   "ms": 274.05,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__295db00dc2bc13b6",
+   "ms": 161.7,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__29d997eb17632bc2",
+   "ms": 204.59,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__2a1cd6fda5aef67b",
+   "ms": 249.83,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__2a1d354aa1a66b6a",
+   "ms": 69.91,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__2aae91556847cf4d",
+   "ms": 53.93,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__2ab2b89ec5901611",
+   "ms": 142.39,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__2bccfa7d235c6fb7",
+   "ms": 188.95,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__2be03da9f55fa4f4",
+   "ms": 232.81,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__2bfc269584e714d5",
+   "ms": 145.57,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__2bfdd9136310f22a",
+   "ms": 174.59,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__2c4e6addb1f9afad",
+   "ms": 90.85,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__2c8fa0f85046834b",
+   "ms": 151.55,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__2cc865612bcc243b",
+   "ms": 254.93,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__2cda9a4d1dc8030e",
+   "ms": 124.11,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__2dfa6d5061b72e53",
+   "ms": 143.64,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__2e9bbf7eaf684ada",
+   "ms": 268.61,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__2ea3b31b88dbf000",
+   "ms": 59.98,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__2efa7f513fc8e84c",
+   "ms": 265.08,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__2f80d9c0a2ec8501",
+   "ms": 145.49,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__30406cd4c28c79bd",
+   "ms": 237.52,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__306e15481a0891b8",
+   "ms": 141.47,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__30b9e715dafe56f4",
+   "ms": 289.65,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__30be8106d22b7f01",
+   "ms": 180.46,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__30cb2fdad5ba1ace",
+   "ms": 60.62,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__3103105b1d4fa5c6",
+   "ms": 91.95,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__31355f4759eb8891",
+   "ms": 62.09,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__3166fe1b194a6cc1",
+   "ms": 311.08,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__31e1ff7efbdb466a",
+   "ms": 314.38,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__31fb00b8d40723e3",
+   "ms": 350.58,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__32b11212c897bb01",
+   "ms": 177.29,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__33e679ef6f5bd0a2",
+   "ms": 282.56,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__35262460d08920e6",
+   "ms": 272.15,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__35a88bebf35fba11",
+   "ms": 257.09,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__360b35bba0bd9ac2",
+   "ms": 227.95,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__3627453ae12e348a",
+   "ms": 135.71,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__364cbb7124396194",
+   "ms": 277.41,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__36792bebe6e61806",
+   "ms": 311.23,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__376d500386f74e6f",
+   "ms": 238.17,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__37bd5c3d6c7b2022",
+   "ms": 303.75,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__38459102f28207d6",
+   "ms": 291.59,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__38fe4650a18869c4",
+   "ms": 65.21,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__39a21827413bbef4",
+   "ms": 456.89,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__39a56773a9d0aca4",
+   "ms": 212.1,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__39e3d0faf265aad1",
+   "ms": 104.35,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__3a197ffb99a7780e",
+   "ms": 350.98,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__3a327b17c05e72df",
+   "ms": 346.5,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__3a3befeaf6f92680",
+   "ms": 237.74,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__3a438c96343fd0b0",
+   "ms": 217.76,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__3a5a8350935a5416",
+   "ms": 209.74,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__3aaeefbca8da8460",
+   "ms": 75.4,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__3b9b33ab72292148",
+   "ms": 225.52,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__3ba53b559fb44bc7",
+   "ms": 307.9,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__3ba85a058934dd8b",
+   "ms": 50.51,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__3bcb94ccc4b521df",
+   "ms": 143.09,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__3bef87cdd3a3bbde",
+   "ms": 146.08,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__3c0e7a22b2ddd74f",
+   "ms": 269.39,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__3c5401790575ac61",
+   "ms": 98.79,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__3c8c10e7a1cfab0a",
+   "ms": 257.45,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__3c9a795310e87ccd",
+   "ms": 78.59,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__3cfbb6e095d5ef54",
+   "ms": 198.14,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__3d2b86a129e104af",
+   "ms": 60.71,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__3d821a8e90a6072a",
+   "ms": 258.49,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__3db91998aff7c948",
+   "ms": 55.14,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__3de6b03710e5bed6",
+   "ms": 91.1,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__3e52b6f12c951f8f",
+   "ms": 181.32,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__3edee4bcaec9cc55",
+   "ms": 300.67,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__3eeb62b45c322a0e",
+   "ms": 74.77,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__3f356cc370699bd3",
+   "ms": 95.33,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__3f4a0d63e2c24326",
+   "ms": 266.25,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__3f55fb00b6393f18",
+   "ms": 141.29,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__3fedfdf78607fc6c",
+   "ms": 333.2,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__3ff8b4cb25296aec",
+   "ms": 259.89,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__407a83f8bd7cd805",
+   "ms": 247.44,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__409da4f5feef8f73",
+   "ms": 160.88,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__40fb6b3889da6b7a",
+   "ms": 114.34,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__4138d417ce1cbb8f",
+   "ms": 47.71,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__41a21d8495d4cd62",
+   "ms": 183.17,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__41ac6426cd75b5fc",
+   "ms": 297.15,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__4245dac0b30166ba",
+   "ms": 272.15,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__42fe81ec5a813193",
+   "ms": 153.96,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__4362fb7dfd28306f",
+   "ms": 163.61,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__436fb9406a69e2a5",
+   "ms": 248.1,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__439a042e39f054e6",
+   "ms": 269.88,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__441189a4e484a83c",
+   "ms": 264.76,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__44520b2dd59283be",
+   "ms": 260.38,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__4480f1e17a6c2ce7",
+   "ms": 269.03,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__451bfc9232c8556f",
+   "ms": 290.93,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__4527090122b988fc",
+   "ms": 195.34,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__4555964d6e313d21",
+   "ms": 270.0,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__45698cff05ec2461",
+   "ms": 143.5,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__4595149e629bfe98",
+   "ms": 50.83,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__46549ed95889d82f",
+   "ms": 266.49,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__47730fbc54d1c990",
+   "ms": 250.48,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__482fe34514b624fe",
+   "ms": 181.47,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__488dc0e091599da9",
+   "ms": 147.23,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__48a04922b153e183",
+   "ms": 111.03,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__48a7f94a653efa53",
+   "ms": 149.28,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__48e0242fe93f671e",
+   "ms": 118.49,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__48e1aab1ab65eee7",
+   "ms": 276.92,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__48eac02f5b0319d8",
+   "ms": 279.29,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__495186aa8186be3e",
+   "ms": 280.32,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__498462d96015ee60",
+   "ms": 64.63,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__49ffcb263aaf39a7",
+   "ms": 73.08,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__4a14f34a8812fd7f",
+   "ms": 73.92,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__4a1bcf78649730d1",
+   "ms": 167.68,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__4a76e3fc747c84bc",
+   "ms": 230.02,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__4a7bb4d93dfd8dc6",
+   "ms": 313.71,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__4aa57763ce3d1854",
+   "ms": 256.46,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__4b0e716286cea3aa",
+   "ms": 223.84,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__4be2be4c4dc571aa",
+   "ms": 316.52,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__4c2b0060791cae8d",
+   "ms": 211.42,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__4c378b6db43f84f6",
+   "ms": 260.55,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__4ce1d7c4aadbdd14",
+   "ms": 270.68,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__4d4bc4657c0e5e7b",
+   "ms": 83.31,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__4d5cc9d7f5739de8",
+   "ms": 263.98,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__4d72a3b90a3faa04",
+   "ms": 256.14,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__4d8998209a9fb249",
+   "ms": 283.68,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__4dff3552a98aa23e",
+   "ms": 158.33,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__4e1e4080f9e52db5",
+   "ms": 283.46,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__4e2fe0286e77600f",
+   "ms": 159.93,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__4e7dfac94a00b1ee",
+   "ms": 263.25,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__4f1f57e13457bd29",
+   "ms": 299.58,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__4f6e82ba8cc67af7",
+   "ms": 139.37,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__4fffdb260a38a725",
+   "ms": 137.47,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__5008d0de86c1e2f8",
+   "ms": 264.14,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__500b4f22d94075e4",
+   "ms": 157.3,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__5015e07ba2cbae5d",
+   "ms": 67.32,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__501ca839fa3de7b4",
+   "ms": 147.59,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__501e9d29cb03c679",
+   "ms": 147.35,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__504f2ad107df1d09",
+   "ms": 281.33,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__51044f0854ceb414",
+   "ms": 152.99,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__510ef74dff23f9f4",
+   "ms": 305.67,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__512741627c1b0b21",
+   "ms": 149.76,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__517662b217c5570a",
+   "ms": 154.04,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__5188510d989b4025",
+   "ms": 180.04,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__520495d4b9e81677",
+   "ms": 198.07,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__52ef292155ba5a0e",
+   "ms": 291.95,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__536f523a8ebeed33",
+   "ms": 290.96,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__53abe667ddb2fe6a",
+   "ms": 57.52,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__53fcfd7d518790e4",
+   "ms": 57.92,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__547808de413fc647",
+   "ms": 139.28,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__551a287c1a21b482",
+   "ms": 177.03,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__554aa05deb8a7f08",
+   "ms": 60.79,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__5586fb5535d2cc50",
+   "ms": 179.46,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__560d1ef3631e90f9",
+   "ms": 266.25,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__561421d792b69893",
+   "ms": 50.93,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__566ad4970a2c760e",
+   "ms": 126.16,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__56951890d375dc7b",
+   "ms": 326.56,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__56f99ab0776078cd",
+   "ms": 296.15,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__5793ceaa13cc4942",
+   "ms": 360.38,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__57be80bba71ecb56",
+   "ms": 220.16,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__57efc38fb8eca963",
+   "ms": 315.05,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__5885ce1ef4c46376",
+   "ms": 351.41,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__592feb89fc269f75",
+   "ms": 309.59,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__594eb764c9d7a764",
+   "ms": 143.11,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__59bef08392f705fe",
+   "ms": 272.18,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__59c660dfece29e2e",
+   "ms": 283.05,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__59f7a0717c309a0d",
+   "ms": 84.61,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__5a5ad8782426c1e1",
+   "ms": 271.09,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__5a6bc13cc7317889",
+   "ms": 201.79,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__5ab3c2964fb455b1",
+   "ms": 93.54,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__5b744950b0403f67",
+   "ms": 140.25,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__5b764b0fb60c2f44",
+   "ms": 98.04,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__5b9b04ed049dd27a",
+   "ms": 176.18,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__5b9c25152d515ba0",
+   "ms": 69.48,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__5c98c089121486cb",
+   "ms": 48.78,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__5d0dddc08d7a0769",
+   "ms": 293.53,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__5e0e3ed1f09160c1",
+   "ms": 194.15,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__5e5ccee884653ee6",
+   "ms": 269.74,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__5e86ac7590699774",
+   "ms": 63.67,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__5e8f1f1f6890f9ac",
+   "ms": 152.7,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__5eaf460c9fce9942",
+   "ms": 277.3,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__5eeea7f675aea829",
+   "ms": 237.53,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__5fd6ad8c4a75b111",
+   "ms": 278.14,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__6002f95be9ec253e",
+   "ms": 195.17,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__6087158c1c553a4d",
+   "ms": 54.27,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__60f08fd7c27da567",
+   "ms": 106.64,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__612e3082421eeeb8",
+   "ms": 133.25,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__6180c2a560c4d60f",
+   "ms": 66.29,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__61eff4a749debc1d",
+   "ms": 127.89,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__623f3c734d65a900",
+   "ms": 304.57,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__62442a631a7befe1",
+   "ms": 172.18,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__6291ac3ae8e9b8e9",
+   "ms": 59.19,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__630d34db2989d444",
+   "ms": 201.1,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__63211b98b02d2ac2",
+   "ms": 142.74,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__639079bf3d33deaa",
+   "ms": 157.01,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__639ee697471d66b3",
+   "ms": 126.18,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__647990a73cc097e6",
+   "ms": 276.96,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__64d9868f8314ea96",
+   "ms": 145.66,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__6592133b7496721a",
+   "ms": 129.87,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__6605547901520ea6",
+   "ms": 135.24,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__6632c7b4b5b67bbc",
+   "ms": 295.27,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__663cb554a09ea66d",
+   "ms": 280.46,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__6661ee389d946959",
+   "ms": 185.46,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__66eeeb4821ccb43f",
+   "ms": 269.36,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__673e79e13937db1c",
+   "ms": 89.59,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__675978946f0a5e36",
+   "ms": 249.46,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__678407b141b529e8",
+   "ms": 136.9,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__67a4642be7165a0a",
+   "ms": 64.11,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__67cf5e0c9fe15874",
+   "ms": 137.1,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__68381928ea4ed426",
+   "ms": 129.7,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__6894ddcbe9f5694b",
+   "ms": 232.39,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__68b04c59cf2ed7dd",
+   "ms": 58.9,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__68db69a71c326587",
+   "ms": 261.75,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__68fddf01f2e4f220",
+   "ms": 78.02,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__695c73dc8396303c",
+   "ms": 280.49,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__69fbc7aca42e5e81",
+   "ms": 193.3,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__6a63b726077c1e6f",
+   "ms": 151.74,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__6afcb1a37b53e4fc",
+   "ms": 307.27,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__6c2a6d6f502703f9",
+   "ms": 62.7,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__6d1b92f377421fec",
+   "ms": 331.12,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__6d4730745292ae65",
+   "ms": 81.82,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__6f633844de992e41",
+   "ms": 58.27,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__6fa0c3325762d916",
+   "ms": 136.7,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__6fac8e5806389a19",
+   "ms": 289.91,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__700fae79553a9bc1",
+   "ms": 53.95,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__7016ecabec42a459",
+   "ms": 173.28,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__703a4db5edd05f9c",
+   "ms": 165.58,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__73a6197f35456797",
+   "ms": 46.71,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__73cf2ddaf799c61a",
+   "ms": 179.41,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__73fe69ed10c0360c",
+   "ms": 271.92,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__742571ff559f1f38",
+   "ms": 308.55,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__74574cb473185c24",
+   "ms": 60.37,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__7477ac785edd722d",
+   "ms": 132.68,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__747d2db526f19404",
+   "ms": 135.61,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__7537270e4468ecfd",
+   "ms": 276.36,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__757ab2a7911800a2",
+   "ms": 262.2,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__75afec329e7f5e6d",
+   "ms": 244.41,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__75b10de439bbe2fa",
+   "ms": 245.53,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__76174f3bb6998769",
+   "ms": 62.1,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__767d02fb1cee6148",
+   "ms": 67.35,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__76854770c69fa7e4",
+   "ms": 303.04,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__76b65a5a1892db22",
+   "ms": 232.81,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__76f0e146ee071560",
+   "ms": 103.95,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__77376d02fcea6605",
+   "ms": 137.57,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__7748e5ca45a5b39a",
+   "ms": 268.84,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__7769f8e45f546ea1",
+   "ms": 241.67,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__77d9d18e6fe1a4dd",
+   "ms": 55.54,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__77e07400ef323a2e",
+   "ms": 248.85,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__78088b61977ecfc3",
+   "ms": 143.21,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__784ee96978aec37d",
+   "ms": 259.6,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__791391f5c4864d7b",
+   "ms": 95.22,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__791961aefc2aa604",
+   "ms": 66.55,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__79ba6bcce0ddeb08",
+   "ms": 182.04,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__79eaef4e8edc68ad",
+   "ms": 231.86,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__7a5289b89633cf92",
+   "ms": 149.91,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__7a71e3dc2601f46e",
+   "ms": 146.61,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__7a7560be2c9918dc",
+   "ms": 138.31,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__7a988dbe76f9f8e4",
+   "ms": 96.28,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__7af5dafe8107f105",
+   "ms": 253.78,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__7b1d077e5edf9a10",
+   "ms": 89.78,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__7b2596ca876b74d6",
+   "ms": 282.1,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__7b4389611ba4196a",
+   "ms": 286.54,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__7b68359d4d4cdcd1",
+   "ms": 290.36,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__7b97a5a39c2dbf69",
+   "ms": 77.2,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__7bb163750442188f",
+   "ms": 248.12,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__7c3713353fe9236c",
+   "ms": 216.0,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__7c5dd2861d97b0f0",
+   "ms": 179.63,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__7c6c56557e9d4f67",
+   "ms": 271.73,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__7c92e54d8ca18fd2",
+   "ms": 147.12,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__7cb26d2ad89148aa",
+   "ms": 261.81,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__7cc10cbba527bf25",
+   "ms": 174.38,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__7d16061609a6b23d",
+   "ms": 196.29,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__7db5e98a35984d67",
+   "ms": 255.6,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__7e1b49b25dd6559e",
+   "ms": 152.79,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__7e3567b10fc59125",
+   "ms": 93.13,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__7e6528ec8e00e460",
+   "ms": 138.58,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__7f507b903e8932b0",
+   "ms": 286.66,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__7f7114a5af45fb90",
+   "ms": 186.0,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__7fc5c8e5f6b1b9d7",
+   "ms": 136.72,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__7ff091aa0d5dc24b",
+   "ms": 253.45,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__803984b62cf20bac",
+   "ms": 82.03,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__80e43537fddc6c6f",
+   "ms": 278.3,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__8160a4082fb88f59",
+   "ms": 132.15,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__819d1486509df06e",
+   "ms": 267.71,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__81cf45f32d2c97e6",
+   "ms": 336.83,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__827f798f53a3b9c6",
+   "ms": 276.95,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__82d2fe1eb608124a",
+   "ms": 143.51,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__82d5d2268ba51278",
+   "ms": 274.42,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__835077e5169ab617",
+   "ms": 285.55,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__8356db365c988fd1",
+   "ms": 262.65,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__83ec2f31915d07f8",
+   "ms": 47.93,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__84cdee285d1ec0bd",
+   "ms": 48.71,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__84fdfb16f41e4302",
+   "ms": 51.58,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__85266b673b4aecee",
+   "ms": 286.52,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__852880c8f1178faf",
+   "ms": 216.51,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__85a8e627465cfb47",
+   "ms": 239.94,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__85acdef8f5938624",
+   "ms": 126.1,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__85b276f24f198aea",
+   "ms": 56.51,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__86c85f4f8d9ff5f7",
+   "ms": 287.11,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__86f153ba369e7700",
+   "ms": 93.89,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__87109357d8d9b085",
+   "ms": 136.6,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__8712606781758a67",
+   "ms": 258.46,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__87537abe5d91e7a7",
+   "ms": 266.32,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__87af56aeeff16864",
+   "ms": 193.98,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__87c2d0854e777360",
+   "ms": 69.15,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__884e818edd20bc7e",
+   "ms": 289.37,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__886b30c13047d2c5",
+   "ms": 216.53,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__889a36dc735a730a",
+   "ms": 353.0,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__88bd94ada31017d1",
+   "ms": 172.57,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__890a356548d7491d",
+   "ms": 147.55,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__89706afc87207a62",
+   "ms": 153.01,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__8a10bd27961b7427",
+   "ms": 342.64,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__8a17dfaedba38a5c",
+   "ms": 356.53,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__8a70be350642bb26",
+   "ms": 291.28,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__8a9e406bfb3fc874",
+   "ms": 222.98,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__8aaca03c58e70cbb",
+   "ms": 150.81,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__8ac0141dfd54b668",
+   "ms": 58.78,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__8bd0bba7437ea2c7",
+   "ms": 263.36,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__8c39f76cdb77c183",
+   "ms": 140.8,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__8c59da809f269415",
+   "ms": 280.51,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__8c9bae235b17ff1a",
+   "ms": 66.78,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__8ca13161fe87c021",
+   "ms": 143.59,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__8d0ecfb294090cb6",
+   "ms": 198.96,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__8e14ebd2a7904f9c",
+   "ms": 290.69,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__8e6e3d3e4b1946bd",
+   "ms": 140.11,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__8e6e4ca028880b80",
+   "ms": 263.59,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__8e7a12a31890fa79",
+   "ms": 61.38,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__8ebde9042f6be3d9",
+   "ms": 70.74,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__8f811c0a413f3307",
+   "ms": 220.45,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__8f8d7e976293793c",
+   "ms": 113.13,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__90037d669a85e7ac",
+   "ms": 182.99,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__9230c7e32900eba7",
+   "ms": 195.52,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__9258f468bb0d6b2a",
+   "ms": 106.82,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__92d553f0dd43a326",
+   "ms": 263.37,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__934b49c06342852f",
+   "ms": 261.81,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__936529ddef7891e7",
+   "ms": 334.73,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__940e81b50bb8bafa",
+   "ms": 258.86,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__950866136469fa51",
+   "ms": 265.88,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__950a0dd525e549b5",
+   "ms": 388.84,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__951868b4d979b996",
+   "ms": 88.17,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__954af2def9b4b64f",
+   "ms": 58.21,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__955e95f73fc981be",
+   "ms": 150.59,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__9589d487c095cada",
+   "ms": 129.69,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__96a38facc307a522",
+   "ms": 270.08,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__971c2f68b20965f9",
+   "ms": 76.04,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__972aa1376d22e1f9",
+   "ms": 232.47,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__978710089b70067b",
+   "ms": 199.44,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__98306ada00571c3e",
+   "ms": 257.46,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__9841c8cdaf944d2b",
+   "ms": 315.19,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__986ad46999e041fb",
+   "ms": 56.79,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__98e3b3f5bb8470c1",
+   "ms": 130.14,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__9a3b94a772df6ed6",
+   "ms": 251.1,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__9aa2171437eb32db",
+   "ms": 222.65,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__9b6a9740bfbfae20",
+   "ms": 294.96,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__9c99743c22d15f43",
+   "ms": 259.58,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__9ca5d73275b67fd3",
+   "ms": 79.59,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__9cd6f0ce0c4a1cc5",
+   "ms": 60.14,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__9d2b2d9521dfc7b8",
+   "ms": 266.27,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__9d792c70cd2de76e",
+   "ms": 213.29,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__9da3563396059b15",
+   "ms": 248.86,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__9da72a59210d0658",
+   "ms": 119.02,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__9db60797c7698630",
+   "ms": 202.21,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__9ddff64199ed1d8f",
+   "ms": 266.64,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__9e0163e8ea5c8ec9",
+   "ms": 133.79,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__9e70e3ed91075767",
+   "ms": 141.7,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__9eac3bccb0b94b1d",
+   "ms": 66.13,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__9f213a569ec0a5a2",
+   "ms": 55.42,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__9fb4c9fbc96aa5ee",
+   "ms": 99.3,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__9fe9a8c0d7a05efc",
+   "ms": 186.69,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__a03cd5854132622a",
+   "ms": 287.07,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a076978c62455a82",
+   "ms": 243.47,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a08dbee370865cb1",
+   "ms": 171.49,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__a0bb8afae6955ef2",
+   "ms": 245.96,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a14c4a1e786ff4eb",
+   "ms": 216.34,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__a15d01e3172a82c1",
+   "ms": 268.6,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a18f36b92704e26c",
+   "ms": 174.11,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__a1bba621b3cd0052",
+   "ms": 185.25,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__a1bcdc821c7c0f80",
+   "ms": 275.78,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a22477ab0d975ffc",
+   "ms": 236.37,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a252a0aa66a8c230",
+   "ms": 268.3,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a2b8cbfefbcca8ea",
+   "ms": 56.18,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__a2be389000ff9ef3",
+   "ms": 46.28,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__a2e53c0d94c0d8bc",
+   "ms": 273.9,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a2f8ceb5f5d55cb7",
+   "ms": 225.89,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a366bb43b754aeed",
+   "ms": 231.08,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__a39b065da8c5da93",
+   "ms": 273.66,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a3bf22aee87aeb99",
+   "ms": 59.72,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__a40a7443c4ba44fe",
+   "ms": 182.16,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__a44a1e57b040d5b0",
+   "ms": 187.71,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__a4f96f4d4f98d579",
+   "ms": 138.98,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__a505896e09977db0",
+   "ms": 136.58,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__a510da06b54988d1",
+   "ms": 293.77,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a6215ae9664347d6",
+   "ms": 178.33,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__a64faa4b79b6291a",
+   "ms": 254.25,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a65cbabbf1090b7c",
+   "ms": 275.63,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a69cb6361c6fd93e",
+   "ms": 214.18,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__a6fa5c0c341142b2",
+   "ms": 60.39,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__a74a4d150af41cfe",
+   "ms": 261.02,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a774ad7d711ff06c",
+   "ms": 259.1,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a79d3fcd9c8fc54e",
+   "ms": 389.81,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a88f91dceec753e2",
+   "ms": 169.89,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__a8bd78615cf1484f",
+   "ms": 294.52,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a94ba49f8baf40cf",
+   "ms": 156.91,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__a966c37e2e394fd1",
+   "ms": 132.94,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__a993552b751f5f14",
+   "ms": 166.18,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__a9bb5f2e2608058f",
+   "ms": 242.95,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__a9e8919ef3b6c0b1",
+   "ms": 153.84,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__aa60f1e370508268",
+   "ms": 269.27,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__aa62a2fc48c56edc",
+   "ms": 143.07,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__aa83d2face931fca",
+   "ms": 254.31,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__ab1ec0a42ffe1006",
+   "ms": 64.66,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__ab4046d39fc60694",
+   "ms": 53.39,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__abaeb2546fde7d00",
+   "ms": 58.59,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__abedbe94c3b4fa42",
+   "ms": 257.81,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__ac0d5f7854073430",
+   "ms": 388.89,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__acac6803232be171",
+   "ms": 63.62,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__acd0da8bb7a4d74b",
+   "ms": 132.92,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__acec793286e56b79",
+   "ms": 270.18,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__ad1bf0c766cfba8d",
+   "ms": 283.46,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__ae3d60da82992dcf",
+   "ms": 267.96,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__ae5f9acacce3c89a",
+   "ms": 198.45,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__ae63ca47e09694fd",
+   "ms": 130.1,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__aea91170244eb87b",
+   "ms": 279.05,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__aeb2dee311a6e6a8",
+   "ms": 257.9,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__aec4c3467616684b",
+   "ms": 270.44,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__aefe87e956ed4808",
+   "ms": 52.42,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__b02d48876226d1fb",
+   "ms": 50.22,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__b0ab1d34ef561b78",
+   "ms": 208.63,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__b0b4d697174632fe",
+   "ms": 161.89,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__b1823883342e6ba1",
+   "ms": 189.47,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__b2d8799c796c0cea",
+   "ms": 59.03,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__b3176874af09a306",
+   "ms": 266.02,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b33f1b3c342dca09",
+   "ms": 111.34,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__b3a9066a31ea27e4",
+   "ms": 316.58,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b3c48f65e2b534ab",
+   "ms": 209.88,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__b3e3676415e60a3d",
+   "ms": 257.0,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b4073ae67a605cf5",
+   "ms": 209.8,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__b40c44988ead7a80",
+   "ms": 312.94,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b46a984bea7d26c4",
+   "ms": 273.36,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b478548aaca3b9da",
+   "ms": 59.21,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__b488fc7a9b81aadc",
+   "ms": 270.22,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b4bc402132207b14",
+   "ms": 280.89,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b50a197e53144552",
+   "ms": 60.12,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__b52d3270bca501d6",
+   "ms": 137.17,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__b542af1e3a340b56",
+   "ms": 145.53,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__b546fd9f998404b9",
+   "ms": 279.73,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b59496023dc1e90a",
+   "ms": 215.03,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__b598495cf606f93d",
+   "ms": 276.49,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b5a3d0c17983b0f0",
+   "ms": 275.23,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b5adf6cfc7e8cbd7",
+   "ms": 278.52,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b5ccbcf09b80ad67",
+   "ms": 177.93,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__b5d0e1a3b2ae4c3b",
+   "ms": 218.72,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__b5dbc5b6a400c20d",
+   "ms": 147.47,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__b668aaa41b5bd592",
+   "ms": 290.34,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b691fbc9cfaac154",
+   "ms": 302.07,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b78842fe98af0b09",
+   "ms": 287.75,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b7b6c97a4dea58c5",
+   "ms": 276.34,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b7b99d0c399288ca",
+   "ms": 281.91,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b7d43abbd8003bcb",
+   "ms": 187.45,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__b7daf249202648e3",
+   "ms": 55.72,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__b7ddfc24796b74a7",
+   "ms": 267.52,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__b88cff2289ba4c3d",
+   "ms": 163.15,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__b8a69481f6c7afe8",
+   "ms": 65.31,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__b8c890f0ee28c96a",
+   "ms": 236.37,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__b9512f2de34e56d3",
+   "ms": 147.26,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__ba41e418fdfa9e56",
+   "ms": 254.43,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__bb31908273f7e222",
+   "ms": 137.09,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__bb7d7b4abf2b24f6",
+   "ms": 262.72,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__bb9b88ab58ab631a",
+   "ms": 208.67,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__bc3ed4c35ad720af",
+   "ms": 288.88,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__bc99b3938442bde0",
+   "ms": 138.86,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__bcc38f71a37b4cd7",
+   "ms": 182.12,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__bd249da8ce55a326",
+   "ms": 281.46,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__bd9be0baa7f7924d",
+   "ms": 271.79,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__be12041569c0a358",
+   "ms": 300.08,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__be5efcffb24b765b",
+   "ms": 203.67,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__bf5b943548eac126",
+   "ms": 50.33,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__bf6b242428c695de",
+   "ms": 56.75,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__bf7cfb2d22f406ec",
+   "ms": 139.59,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__bf9bbc80328287ca",
+   "ms": 257.63,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__bfd858b2a112f4a3",
+   "ms": 269.74,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__bfde5fa78ee1c127",
+   "ms": 273.56,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__c0170ed56195a314",
+   "ms": 295.55,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__c0d4d4c43eb142a8",
+   "ms": 277.92,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__c101fd1997d47746",
+   "ms": 189.04,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__c1c4cb87904b515c",
+   "ms": 179.16,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__c1d03ce643b3cdb4",
+   "ms": 48.46,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__c2004a21acb63c0e",
+   "ms": 193.74,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__c20392c45c05fdba",
+   "ms": 141.18,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__c35d656534a11a4e",
+   "ms": 185.26,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__c3af038e8214ebfc",
+   "ms": 249.99,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__c429587c69eb5aa9",
+   "ms": 146.76,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__c44bf18ca3f31320",
+   "ms": 267.22,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__c4b73a77e3a6a2ae",
+   "ms": 287.19,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__c4c65340746fe598",
+   "ms": 286.39,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__c4d12519574f6584",
+   "ms": 133.36,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__c4ef50b8da448e7c",
+   "ms": 47.65,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__c55deb4be06da689",
+   "ms": 210.73,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__c6f868e04539f42e",
+   "ms": 284.11,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__c71414f402013862",
+   "ms": 266.53,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__c720cdb837a670e0",
+   "ms": 262.17,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__c72265bc90b2de97",
+   "ms": 69.16,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__c763cfb65f4ef6b9",
+   "ms": 201.11,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__c7ce363655fa6dae",
+   "ms": 49.64,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__c802906ece950d3e",
+   "ms": 259.44,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__c91a18a00d6829a2",
+   "ms": 58.81,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__c9c91c052e4c8e3c",
+   "ms": 267.51,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__cab2fc2615a6dab4",
+   "ms": 285.37,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__cb3d8fb3e9734b86",
+   "ms": 267.39,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__cb57ea81728ca3bf",
+   "ms": 143.71,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__cb5c01a74e17f077",
+   "ms": 144.23,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__cb725caf4782f176",
+   "ms": 208.98,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__cbc2a6f25da08ac7",
+   "ms": 192.53,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__cbc8b80162d6317c",
+   "ms": 141.87,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__cc3275676679e30d",
+   "ms": 257.73,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__cc88a18f9e369e68",
+   "ms": 182.62,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__cc95fd055fd8fb42",
+   "ms": 136.48,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__cd1683936a79b466",
+   "ms": 192.71,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__cd78a48831838d48",
+   "ms": 51.76,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__cda60a1ae3d63a73",
+   "ms": 249.0,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__cdd8edb32eb31982",
+   "ms": 93.3,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__cde59ee89129942b",
+   "ms": 268.88,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__cdf4440f2f6acf53",
+   "ms": 102.1,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__cec85e0c1bdade45",
+   "ms": 188.52,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__ced0142cf5ee9c5a",
+   "ms": 148.5,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__cf2c061fd4b28c6f",
+   "ms": 260.34,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__cf63d026cedfccd7",
+   "ms": 146.26,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__cfd7f796a5bd845e",
+   "ms": 139.44,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__d0405a330d40043d",
+   "ms": 131.72,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__d076e59183e53822",
+   "ms": 197.2,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__d0786596cc11ab9f",
+   "ms": 153.64,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__d0a67302010cf348",
+   "ms": 138.24,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__d13c47bc080cc8fc",
+   "ms": 254.61,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__d1537fd4e0ca49b7",
+   "ms": 254.41,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__d20285eeb3a582c3",
+   "ms": 142.15,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__d32c7f669dbcc437",
+   "ms": 261.34,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__d3c6c4403050baaa",
+   "ms": 188.34,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__d401b1c8923d88f8",
+   "ms": 274.04,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__d460a63b418be7e0",
+   "ms": 327.28,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__d69b5bbafb2163b4",
+   "ms": 279.21,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__d6c209d2cfc5e316",
+   "ms": 51.53,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__d6ec42b81774304a",
+   "ms": 296.51,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__d700effc56d9cc30",
+   "ms": 312.97,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__d74afb917782a393",
+   "ms": 173.81,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__d7eafa29ddd50c30",
+   "ms": 53.46,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__d801009272a913c8",
+   "ms": 56.55,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__d81d2b238861f849",
+   "ms": 261.81,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__d8709083273beecb",
+   "ms": 273.35,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__d877fb4c248bcc38",
+   "ms": 133.97,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__d87c891b4c5dd715",
+   "ms": 191.33,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__d87e829236a5e231",
+   "ms": 55.34,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__d880373d87f4364b",
+   "ms": 185.7,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__d8c4172fe8e8feaf",
+   "ms": 291.56,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__d96752a7622d4b3d",
+   "ms": 173.68,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__d99a33152f876697",
+   "ms": 163.55,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__d9c06761fcc6111c",
+   "ms": 117.07,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__da7907703ec002e3",
+   "ms": 344.27,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__db227b72a1c57ca6",
+   "ms": 62.5,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__dc1449403b150c9b",
+   "ms": 311.49,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__dcda4384b1aca927",
+   "ms": 250.34,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__dd5387ec4e15160e",
+   "ms": 345.15,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__dda177c3018c0f23",
+   "ms": 159.47,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__ddd059980fee0c89",
+   "ms": 69.36,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__de38bcc3d8171cb0",
+   "ms": 388.21,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__de5b16bbc4b64f19",
+   "ms": 430.11,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__de78f1e5f6b1d864",
+   "ms": 343.61,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__de9dc23ee7b3ff55",
+   "ms": 55.21,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__df4f9bb5a46e184a",
+   "ms": 164.54,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__dfe997f8187c5e81",
+   "ms": 250.19,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__e009fadebcaffc62",
+   "ms": 332.41,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__e038bb8ff74afe06",
+   "ms": 327.2,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__e10f306ff3d242ff",
+   "ms": 277.97,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__e131dc1df8a59613",
+   "ms": 80.12,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__e1f6fd97ddce7751",
+   "ms": 263.47,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__e2087ad2bcead975",
+   "ms": 82.45,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__e3a0813168356eac",
+   "ms": 105.39,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__e3aa608941946877",
+   "ms": 101.73,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__e3f74fbd020b9e75",
+   "ms": 149.64,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__e42cb806ddf035ff",
+   "ms": 56.97,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__e4eecfe8a59e3851",
+   "ms": 64.89,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__e600333b5df6eb98",
+   "ms": 68.95,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__e693e4af7db7ecdf",
+   "ms": 268.28,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__e7c519382c17fd51",
+   "ms": 285.21,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__e7d20047f3be8d23",
+   "ms": 267.64,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__e833aac97fc0531e",
+   "ms": 97.13,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__e84d40dc304b9469",
+   "ms": 276.38,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__e8546d6bd9f04516",
+   "ms": 144.74,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__e88d575cc0e1e35e",
+   "ms": 49.6,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__e8fa8255d1e66900",
+   "ms": 131.85,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__e944ddff8366571e",
+   "ms": 297.32,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__ea0eac4c47f25f53",
+   "ms": 126.95,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__ea52d6f3e4c5d8ab",
+   "ms": 104.26,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__ea8cde59ba2ce34c",
+   "ms": 129.35,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__eabcd3984ca98fab",
+   "ms": 97.98,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__eb8a8a2ad8c3b6d4",
+   "ms": 253.06,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__eb8be8f27d6fdceb",
+   "ms": 61.52,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__ebc150a9517886bd",
+   "ms": 97.44,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__ec71cfe91c844b39",
+   "ms": 255.26,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__ecdbe4204177e33e",
+   "ms": 184.15,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__ecdf79f9e0820d20",
+   "ms": 274.69,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__ecfdda01c6deed49",
+   "ms": 58.57,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__ed349bde27423153",
+   "ms": 156.18,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__ed37b89968641cac",
+   "ms": 211.91,
+   "tiles": 9
+  },
+  {
+   "image": "rf8__ed67fb052340ab11",
+   "ms": 129.11,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__ed69664532d3a4ed",
+   "ms": 233.69,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__ed9bd8fbd572905a",
+   "ms": 49.42,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__edc33fd3dcd501ae",
+   "ms": 285.87,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__eddff90d89d7b011",
+   "ms": 69.07,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__edea1be467799af3",
+   "ms": 251.26,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__ee1c48b1a90675a2",
+   "ms": 244.49,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__ee5c7181da9ef122",
+   "ms": 151.08,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__ee6be628b4556c24",
+   "ms": 260.66,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__eead3c054874acf3",
+   "ms": 103.27,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__eeddd8b913d48737",
+   "ms": 266.44,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__eedfe10e7a34fd1a",
+   "ms": 298.9,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__eee28b632fa165c1",
+   "ms": 303.31,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__ef1fa32226cc6c19",
+   "ms": 102.59,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__f0951be31e871493",
+   "ms": 241.81,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__f0b54dece9709064",
+   "ms": 305.62,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f0c59bd36a48dca8",
+   "ms": 72.46,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__f0c775b724a17df6",
+   "ms": 213.35,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__f14ccc008a5a96c7",
+   "ms": 286.64,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f152f31493a42fc0",
+   "ms": 284.17,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f1ebb1e4686469c2",
+   "ms": 249.34,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f1f62655781f64fa",
+   "ms": 301.66,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f2351054853beb76",
+   "ms": 278.58,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f25bae8e7e12d54a",
+   "ms": 151.66,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__f2941a559633435f",
+   "ms": 144.67,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__f2b9ec7142c8c0f0",
+   "ms": 254.23,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f2cc3e5c030591ed",
+   "ms": 269.02,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f30e26c314dd37a0",
+   "ms": 321.32,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f3449cf8b315a350",
+   "ms": 264.96,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f3b4499ecdccce76",
+   "ms": 263.25,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f3d953f00b2ad848",
+   "ms": 345.05,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f3f3a6c91de7226c",
+   "ms": 162.04,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__f45ad03331fa5f44",
+   "ms": 48.12,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__f49743ea7015f82c",
+   "ms": 247.05,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f4cff8f95275a00f",
+   "ms": 283.29,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f53797ad63f08ef4",
+   "ms": 260.87,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f62c11936b8ab146",
+   "ms": 112.05,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__f6a27d6728295d3c",
+   "ms": 196.99,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__f748094640b43d08",
+   "ms": 261.96,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f75cab5e0120d006",
+   "ms": 58.62,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__f7d807ca55993f6b",
+   "ms": 299.47,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f80db24b189708b0",
+   "ms": 94.73,
+   "tiles": 4
+  },
+  {
+   "image": "rf8__f835a99d4db7118e",
+   "ms": 203.83,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__f86d7a2cb30990c0",
+   "ms": 136.71,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__f8d7b5bb5fab6db5",
+   "ms": 280.72,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__f91f34e48a89a2e3",
+   "ms": 283.02,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__fa1e69d8e47b406d",
+   "ms": 135.31,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__fa49e3ece5143b6d",
+   "ms": 140.15,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__facdd1446e730fa9",
+   "ms": 276.05,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__fad605d3afb98acb",
+   "ms": 201.73,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__fb15fb827a491cff",
+   "ms": 271.55,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__fb71b64c08c5873f",
+   "ms": 294.81,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__fbada274c011f95a",
+   "ms": 55.26,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__fc77fd3682c40a3b",
+   "ms": 256.14,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__fc7bbf677c3dcbf1",
+   "ms": 290.72,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__fcb9894ab04bf796",
+   "ms": 144.63,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__fd3b47a38c92a8b7",
+   "ms": 137.35,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__fd82a75b94168753",
+   "ms": 256.44,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__fdf24bfdd5e02f0c",
+   "ms": 150.52,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__fe045b5c15adafa3",
+   "ms": 49.88,
+   "tiles": 2
+  },
+  {
+   "image": "rf8__fe6d1aee42179113",
+   "ms": 206.74,
+   "tiles": 8
+  },
+  {
+   "image": "rf8__fe7dd1675820c2ff",
+   "ms": 140.1,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__ff3cc530c6e37977",
+   "ms": 279.41,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__ff42f3f6e421909f",
+   "ms": 279.08,
+   "tiles": 12
+  },
+  {
+   "image": "rf8__ff9df4d053ce2a2e",
+   "ms": 156.22,
+   "tiles": 6
+  },
+  {
+   "image": "rf8__ffc8646ba4eb5adb",
+   "ms": 148.03,
+   "tiles": 6
+  }
+ ]
+}

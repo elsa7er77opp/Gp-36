@@ -1,0 +1,542 @@
+image,sheet,cell,decision,reason,reviewer
+images/train/bpo__05ed5262bcac378d.jpg,0001,4,unsure,Both marks are low contrast at dusk; no clear rim in the full-size grid.,codex
+images/train/bpo__078aaa02f2d7c8c5.jpg,0001,6,unsure,Two small pavement marks; full-size grid does not resolve a cavity or a patch boundary.,codex
+images/train/bpo__06f840455f295435.jpg,0001,5,fixed,"Broken gravel rim around foreground water-filled hole. Other boxes cover flat marks, reflections or shoulder.",codex
+images/train/bpo__095468fd990cc4e8.jpg,0002,5,unsure,Two faint dusk marks; their edges cannot be resolved.,codex
+images/train/bpo__09c88212ac57ef25.jpg,0002,6,fixed,"Narrow strips on dirt beside parked rickshaws, outside the travel surface.",codex
+images/train/bpo__0a337f8d1ba7bbc8.jpg,0003,1,fixed,Reflective standing water follows the shoulder beside the asphalt.,codex
+images/train/bpo__0a3d508f70882cb1.jpg,0003,2,fixed,Boxes follow the pale road edge and the dirt shoulder beyond the edge line.,codex
+images/train/bpo__0c0a2379f8629fe4.jpg,0003,5,fixed,Both boxes trace the same continuous roadside water strip.,codex
+images/train/bpo__0c427fed66352b82.jpg,0003,6,unsure,Wet pavement glare obscures the narrow near mark and the distant one is too small.,codex
+images/train/bpo__0f7dcb63b4a05f0d.jpg,0004,3,fixed,Water lies on the dirt shoulder outside the intact asphalt edge.,codex
+images/train/bpo__0fe1249ebc2ecf4b.jpg,0004,4,unsure,Small dark spot on dirt-covered road; boundary unclear.,codex
+images/train/bpo__109d339aab1e4081.jpg,0004,5,unsure,Blur and headlight glare obscure transverse marks.,codex
+images/train/bpo__152ecd609e7d9811.jpg,0005,1,fixed,Standing water and dirt follow both shoulders outside the travel surface.,codex
+images/train/bpo__15771f4c418add40.jpg,0005,2,unsure,Tiny dark patch on the faded centre line has indistinct edges.,codex
+images/train/bpo__15903eba793b7540.jpg,0005,3,fixed,Both marks follow the road edges; left is reflected light on water.,codex
+images/train/bpo__15a2dffc57bb2c3c.jpg,0005,4,unsure,Ripples across a flooded lane obscure the pavement underneath.,codex
+images/train/bpo__15a6ac6c1897c2ea.jpg,0005,5,unsure,Dark mark cut off by the bottom edge; no discernible cavity.,codex
+images/train/bpo__16ea33a6fb8d9d1d.jpg,0006,1,fixed,Boxes land on the wet verges at the side-road junction.,codex
+images/train/bpo__1752499973a56ab0.jpg,0006,4,fixed,Eroded dirt shoulder outside the asphalt.,codex
+images/train/bpo__176c7a2abfdcc930.jpg,0006,5,fixed,Far box lies between vehicles and near box covers the grass verge.,codex
+images/train/bpo__187e791c24307a5b.jpg,0007,1,unsure,Near marks partly reflect light; blurred edges prevent complete relabel.,codex
+images/train/bpo__1ac08c918cca653d.jpg,0007,3,fixed,Puddles are in the dirt median beyond the white edge line.,codex
+images/train/bpo__1c56882f5d5303ef.jpg,0007,4,unsure,Small tonal change is indistinct beside the windshield reflection.,codex
+images/train/bpo__1e6940cf9d868aff.jpg,0007,5,fixed,All four boxes cover roadside drainage and standing water beyond the pavement.,codex
+images/train/bpo__2114aec8d4a5c247.jpg,0007,6,fixed,Box covers muddy roadside gutter along the shop frontage.,codex
+images/train/bpo__22d780a567ec4708.jpg,0008,2,fixed,Smooth faded surface markings at the roundabout; no broken pavement.,codex
+images/train/bpo__2307b1e1b559eb85.jpg,0008,3,unsure,Severe motion blur prevents separating holes from reflections.,codex
+images/train/bpo__24ff25396baa2620.jpg,0008,5,fixed,Box is at the intersection of two continuous narrow pavement seams.,codex
+images/train/bpo__2573c04cce240a2a.jpg,0008,6,unsure,Motion blur obscures dark marks beside the parked car.,codex
+images/train/bpo__258418caea02e7df.jpg,0009,1,unsure,Small mottled region near edge marking; insufficient detail to establish depth.,codex
+images/train/bpo__2721d3f9033fbe3d.jpg,0009,3,fixed,Reflection in standing shoulder water beyond the truck's lane.,codex
+images/train/bpo__27760c3498684b2d.jpg,0009,4,fixed,Three boxes trace the continuous pavement edge beside the verge.,codex
+images/train/bpo__28478c09f19fff7b.jpg,0009,5,unsure,Motion blur obscures the transverse surface marks.,codex
+images/train/bpo__2893231660fa2a7c.jpg,0009,6,unsure,Dark object ahead on curve too small to distinguish debris from hole.,codex
+images/train/bpo__292d804f223f5a3e.jpg,0010,1,fixed,Foreground hole has an irregular broken rim; second box lies on a flat edge marking.,codex
+images/train/bpo__29cea52d4893d02f.jpg,0010,2,fixed,Box covers dirt and litter beside the yellow wall on the shoulder.,codex
+images/train/bpo__2b58aa961a6f3925.jpg,0010,4,unsure,Two boxes are at roadside water but the small mark behind the bike is unresolved.,codex
+images/train/bpo__2b684d95456460bf.jpg,0010,5,unsure,Wet strips along the wheel track obscure boundaries.,codex
+images/train/bpo__2dce5689b5e1bbd2.jpg,0010,6,unsure,Headlight reflections and motion blur obscure the two dark shapes.,codex
+images/train/bpo__315e6edffd90486c.jpg,0011,2,fixed,Boxes cover roadside standing water and highlights around the edge of the road.,codex
+images/train/bpo__3255fdddefb01012.jpg,0012,1,fixed,Four boxes outline reflections and pooled water on the shoulder left of the truck.,codex
+images/train/bpo__33aa0064ad37923f.jpg,0012,2,unchanged,Single irregular depression with a dark broken rear edge fits the existing box.,codex
+images/train/bpo__3449ade884988d40.jpg,0012,3,unsure,Dappled shade blends into the small surface marks.,codex
+images/train/bpo__3652b4efe2ca996f.jpg,0012,4,fixed,Narrow branching cracks continue beyond the box.,codex
+images/train/bpo__365a4155b3381a23.jpg,0012,5,unsure,Wet coarse road and windshield drops obscure individual boundaries.,codex
+images/train/bpo__37011b6941cc969a.jpg,0012,6,unsure,Ravelled wet surface; the small mark is indistinct.,codex
+images/train/bpo__3777b0a31b801070.jpg,0013,2,fixed,Open roadside gutter and broken shoulder outside the paved lane.,codex
+images/train/bpo__380dbda51bb32005.jpg,0013,4,fixed,All three boxes follow muddy verges beside intact pavement.,codex
+images/train/bpo__3882f362d4d31169.jpg,0013,5,fixed,Boxes cover wet dirt or runoff along either verge.,codex
+images/train/bpo__39ddb525c2db10ae.jpg,0013,6,fixed,Right cavity has chipped asphalt and exposed earth; left mark is a thin seam.,codex
+images/train/bpo__3aeb29a862c2b31e.jpg,0014,1,unsure,Marked feature lies by the distant truck and is too small to resolve.,codex
+images/train/bpo__3ddd0be9f0f4fe84.jpg,0014,4,fixed,Boxed loose gravel and litter lie on the unpaved left shoulder.,codex
+images/train/bpo__3fb12465be740e9b.jpg,0014,5,fixed,Water fills roadside channels beyond both asphalt edges.,codex
+images/train/bpo__40d6e23e4436ea71.jpg,0014,6,unsure,Headlight glare and standing water hide boundaries across the heavily boxed area.,codex
+images/train/bpo__4181c6fb479999d2.jpg,0015,1,unchanged,The existing box encloses a distinct broken cavity with exposed pale aggregate.,codex
+images/train/bpo__41cfe137f76cddea.jpg,0015,2,fixed,Small mark joins the dappled tree shadow behind the van.,codex
+images/train/bpo__437428e61658c801.jpg,0015,4,unsure,Dark mottling near the lower right has no resolvable rim.,codex
+images/train/bpo__44e0b003ddcd104f.jpg,0015,5,unsure,Surface marks overlap dashed edge paint and the far box is indistinct.,codex
+images/train/bpo__44e26e9e9b9cc8d2.jpg,0015,6,fixed,"Box covers loose litter, dirt and the rear wheel shadow.",codex
+images/train/bpo__44ee36d62237ac1d.jpg,0016,1,unsure,Water and motion blur obscure the surface through the crossing.,codex
+images/train/bpo__4667f384d77a86c3.jpg,0016,2,fixed,Parallel flat wear marks; lowest box also covers a windshield outline.,codex
+images/train/bpo__4684674324bb39e2.jpg,0016,3,fixed,Box follows the roadside gutter on the right.,codex
+images/train/bpo__4716f101de20ea89.jpg,0016,4,unsure,Faint marks across the lower frame blend into the windshield reflection.,codex
+images/train/bpo__473dbe9d9af32271.jpg,0016,5,fixed,"Shallow gutter and debris beneath storefront, outside travel lane.",codex
+images/train/bpo__474691bf02b865c7.jpg,0016,6,fixed,Straight drainage trench runs along the left pavement edge.,codex
+images/train/bpo__47c6993606af828e.jpg,0017,1,unsure,Small dark feature at median opening is indistinct.,codex
+images/train/bpo__47f2dfbd0271fb82.jpg,0017,2,fixed,Narrow crack crossing otherwise intact road.,codex
+images/train/bpo__480c0c5c593c6a2a.jpg,0017,3,unsure,Small elongated features on dusty surface could be loose debris.,codex
+images/train/bpo__4a35e11fb7ec61fd.jpg,0017,5,fixed,Boxes lie on bridge edge strip and gutter beside guardrails.,codex
+images/train/bpo__4a9abfc54aaafb76.jpg,0017,6,fixed,Both boxes cover water on the grass or dirt shoulders.,codex
+images/train/bpo__4bef317d49936c4f.jpg,0018,1,unsure,Long ravelled wheel track; boundaries of separate cavities are indistinct.,codex
+images/train/bpo__4c1169e5ebde018d.jpg,0018,2,unsure,"Dark edge patch partly obscured by reflection, with indistinct boundary.",codex
+images/train/bpo__4c58688be97bd534.jpg,0018,3,fixed,Faint surface scuff beside lane paint with continuous pavement texture.,codex
+images/train/bpo__4fc19b4b1c372abe.jpg,0018,6,fixed,Large rectangle spans a continuous strip of loose gravel at the pavement edge.,codex
+images/train/bpo__516ed8c92785cd32.jpg,0019,1,fixed,Boxes follow reflections of vertical objects on wet asphalt.,codex
+images/train/bpo__521e9e51f8279a39.jpg,0019,2,fixed,Box falls on the shoulder and windshield border at the lower left.,codex
+images/train/bpo__525ac83cd477a9c8.jpg,0019,4,fixed,Roadside gravel beside the parked motorcycle.,codex
+images/train/bpo__54d06108a4e65bae.jpg,0019,5,unsure,Roadside water is clear but glare hides detail in the three central boxes.,codex
+images/train/bpo__552525effb1ae3b6.jpg,0019,6,fixed,Boxes follow the left painted edge and verge.,codex
+images/train/bpo__55a27bf1aed821d7.jpg,0020,1,fixed,Small item beside a parked motorcycle lies in its shadow; pavement is intact.,codex
+images/train/bpo__566cfa34d4a64cfc.jpg,0020,2,fixed,Continuous puddle along unpaved left shoulder.,codex
+images/train/bpo__57c7c2c17984d428.jpg,0020,5,unsure,Thin pale irregular mark lacks sufficient edge detail to distinguish spalling from debris.,codex
+images/train/bpo__580b3329825cc124.jpg,0020,6,unsure,Red dirt and windshield reflection conceal the lower surface.,codex
+images/train/bpo__580ee9f8cbe43ac9.jpg,0021,1,unsure,Dark area touches the painted edge line but the road surface is indistinct.,codex
+images/train/bpo__587b5a04ff7bbdd5.jpg,0021,2,fixed,Three boxes follow a flush longitudinal surface strip.,codex
+images/train/bpo__599334e111ab37f0.jpg,0021,4,unsure,Multiple small marks near slab joints and the gutter have indistinct edges.,codex
+images/train/bpo__59f8645e7972a2e2.jpg,0021,5,fixed,Loose litter sits on a continuous road surface.,codex
+images/train/bpo__5a2b43be88584acc.jpg,0021,6,unsure,Low contrast pavement marks lack enough detail to resolve depth.,codex
+images/train/bpo__5a8f2c57ed478950.jpg,0022,1,unsure,Truck and dusk obscure the boundary of the reflective strip.,codex
+images/train/bpo__5cb840bd524eaba5.jpg,0022,3,unsure,Pale aggregate patch may be worn or spalled.,codex
+images/train/bpo__6014c50696810b5b.jpg,0022,4,unsure,Wet reflections conceal the surface under both boxes.,codex
+images/train/bpo__6152e69b3dfe63b4.jpg,0022,6,unsure,Small dark spot beside the car has no resolvable rim.,codex
+images/train/bpo__63a8bb6dafb917a6.jpg,0023,2,unsure,Small marks straddle an irregular dirt and asphalt junction.,codex
+images/train/bpo__64449c3f5f52f466.jpg,0023,3,unsure,Glare hides individual boundaries on flooded uneven pavement.,codex
+images/train/bpo__64638cc988ea1a1e.jpg,0023,4,unchanged,Jagged broken asphalt and a dark recessed edge are visible in the box.,codex
+images/train/bpo__65c180c4c545132d.jpg,0023,5,unsure,Red soil obscures the pale mark at the junction.,codex
+images/train/bpo__661b3905cad76d04.jpg,0023,6,unsure,Dark area at the frame edge lacks a clear boundary.,codex
+images/train/bpo__66748f14b3e82fe6.jpg,0024,1,unchanged,Broken asphalt lip surrounds a transverse area of missing wearing course.,codex
+images/train/bpo__67307275f95637d4.jpg,0024,3,unsure,Pooled water obscures the near edge and the far target is indistinct.,codex
+images/train/bpo__676a8d7bc5785c21.jpg,0024,4,unsure,Distant transverse mark behind the scooter lacks surface detail.,codex
+images/train/bpo__682dede34e2c6c52.jpg,0024,5,unsure,Low light and reflections obscure the edge of the pooled water.,codex
+images/train/bpo__68e2eabea4996314.jpg,0024,6,fixed,All boxes follow the excavated dirt verge beside the carriageway.,codex
+images/train/bpo__68e77992299ebf57.jpg,0025,1,unsure,Wet roadside cut may extend into the paved lane.,codex
+images/train/bpo__6a98361d71ec3a77.jpg,0025,2,unsure,Dark roadside object partly obscured by the rider.,codex
+images/train/bpo__6b320ca8b8892773.jpg,0025,3,fixed,Standing water follows the dirt shoulder beside the paved lane.,codex
+images/train/bpo__6c3395f8da37c2b9.jpg,0025,4,unchanged,Broken lip and exposed dark cavity visible beside the dashed line.,codex
+images/train/bpo__6cbd213996dd9fe4.jpg,0025,5,unsure,Faint shadows follow the curve and lack clear rims.,codex
+images/train/bpo__6d791468000bb263.jpg,0025,6,unsure,Rough asphalt and low light obscure individual depressions.,codex
+images/train/bpo__6dc53540c68e7889.jpg,0026,1,unsure,Small irregular dark mark lacks a distinct pavement edge.,codex
+images/train/bpo__6ebba55a100b581e.jpg,0026,2,unsure,Low contrast surface marks are partly obscured by reflection.,codex
+images/train/bpo__6ec90c723b4d3278.jpg,0026,3,unsure,Wet reflections obscure several targets around the truck.,codex
+images/train/bpo__6ed50962c9df6551.jpg,0026,4,fixed,Boxes follow standing water on the unpaved verges.,codex
+images/train/bpo__6fb5bcd1d9592d8c.jpg,0026,5,unsure,Blur prevents judging the faint transverse marks.,codex
+images/train/bpo__702e70566ebea7d8.jpg,0027,1,fixed,Pale loose material sits on the dirt turnout.,codex
+images/train/bpo__725a23bc62c41105.jpg,0027,3,fixed,Pools follow gravel verges outside the paved travel surface.,codex
+images/train/bpo__7273e85a348fafce.jpg,0027,4,fixed,Boxes trace a continuous flush pavement seam and discoloration.,codex
+images/train/bpo__738eb13eeebc6519.jpg,0027,5,fixed,Regular parallel grooves beside the lane stripe have no broken rim.,codex
+images/train/bpo__73e8384d66b051e2.jpg,0027,6,unsure,Glare and shoulder water make individual targets hard to distinguish.,codex
+images/train/bpo__746a252ad0df50f4.jpg,0028,1,unsure,Several marks follow a seam but the rough patch at right is unresolved.,codex
+images/train/bpo__75cc089dfaa97771.jpg,0028,2,unsure,Mud at the bus stop obscures the pavement boundary.,codex
+images/train/bpo__761da17b7d7c562f.jpg,0028,3,unsure,Dark marks follow the pavement edge and may include edge loss.,codex
+images/train/bpo__77abb3992cd9d942.jpg,0028,4,unsure,Wet margins and windshield reflection obscure the right-hand boxes.,codex
+images/train/bpo__78744e01a177dda5.jpg,0028,5,unsure,Distant mark at the edge stripe lacks surface detail.,codex
+images/train/bpo__78f69546cc39d7ef.jpg,0029,1,fixed,Loose stones and debris lie on the vegetated shoulder.,codex
+images/train/bpo__7a2f5ba1d2108487.jpg,0029,2,unsure,Longitudinal cracks are visible but localized material loss is unclear.,codex
+images/train/bpo__7a769f691c537c07.jpg,0029,3,unsure,Pale transverse patch between scooters has indistinct edges.,codex
+images/train/bpo__7ab4696279a58b3e.jpg,0029,4,fixed,Box follows a flush longitudinal change in pavement texture.,codex
+images/train/bpo__7af909bbbffb885b.jpg,0029,5,fixed,White litter is on the dirt median.,codex
+images/train/bpo__7b49d421cf4e4300.jpg,0029,6,fixed,Both boxes lie in the soil channel beside the pavement.,codex
+images/train/bpo__7c35b4925d9052d8.jpg,0030,2,fixed,Box covers soil and debris outside the pavement.,codex
+images/train/bpo__7ce10210e6015b30.jpg,0030,3,fixed,Scattered stones lie along the dusty road margin.,codex
+images/train/bpo__7d386fb36f6b1a21.jpg,0030,4,unsure,Rough resurfaced strip has dark marks of uncertain depth.,codex
+images/train/bpo__7d961bc23ae95239.jpg,0030,5,unsure,Brown patch at the lane edge lacks a distinct rim.,codex
+images/train/bpo__7df9c374ca1d2cdf.jpg,0030,6,fixed,Narrow linear crack has no visible cavity.,codex
+images/train/bpo__7e3cb1686391d9df.jpg,0031,1,unsure,Wet reflections and small distant marks obscure individual edges.,codex
+images/train/bpo__7e615f9d629e90a1.jpg,0031,2,unsure,Windshield reflection obscures the near-frame target.,codex
+images/train/bpo__7f0dae24c0d3f47f.jpg,0031,4,unsure,Faint dark mark lacks a resolvable rim.,codex
+images/train/bpo__7f3a1e7f868d07ed.jpg,0031,5,fixed,Box lies on the dirt strip alongside the bridge rail.,codex
+images/train/bpo__7fd7ce8d9f4480ab.jpg,0031,6,unsure,Heavy water glare hides the surface of multiple targets.,codex
+images/train/bpo__80189ba969a56269.jpg,0032,1,unchanged,A broken asphalt lip bounds the small dark cavity beside the scooter.,codex
+images/train/bpo__804c9e91e2788d35.jpg,0032,2,unsure,Road-edge shadow and rider obscure the target.,codex
+images/train/bpo__814bdd81f2c1ce39.jpg,0032,4,unsure,Low light obscures all three boxed surfaces.,codex
+images/train/bpo__81eb8c737cbb963f.jpg,0032,5,unsure,Glare on flooded pavement hides the rims of individual targets.,codex
+images/train/bpo__81ebbdec404ffbb3.jpg,0032,6,unsure,Standing water and distant broken-looking marks cannot be separated confidently.,codex
+images/train/bpo__82c80428d769d2ac.jpg,0033,1,unsure,Left target at the pavement edge is indistinct and the truck obscures the other.,codex
+images/train/bpo__83839052aa83457c.jpg,0033,2,fixed,Boxes follow water and mud on unpaved verges outside the edge lines.,codex
+images/train/bpo__8453e089d864ce76.jpg,0033,3,unsure,Motion blur prevents judging the faint mark.,codex
+images/train/bpo__85ed485722f3e9e0.jpg,0033,4,fixed,Box follows the open drainage channel between the pavement and raised frontage.,codex
+images/train/bpo__862582226258fb15.jpg,0033,5,unsure,Distant boxes are too small to resolve their surface boundaries.,codex
+images/train/bpo__8673cb983a2134fc.jpg,0033,6,unsure,Severe blur hides the boundary between water and pavement.,codex
+images/train/bpo__86ca0a2886ce2800.jpg,0034,1,unsure,Target beside the truck is too small to judge.,codex
+images/train/bpo__86f883b5b06a4d7c.jpg,0034,2,unsure,Small dark mark lacks a visible broken rim.,codex
+images/train/bpo__88ba945669a9b815.jpg,0034,5,unsure,Transverse line at the driveway may be a joint or pavement break.,codex
+images/train/bpo__899bab436213c435.jpg,0034,6,unsure,Broken-looking wet strip near the median needs clearer surface detail.,codex
+images/train/bpo__8a23e6efbe2a405b.jpg,0035,3,fixed,Box follows a flush longitudinal seam and texture change.,codex
+images/train/bpo__8ada0be895165da3.jpg,0035,5,unsure,Verge pools are visible but central boxes lack enough detail for a complete correction.,codex
+images/train/bpo__8b038a98b91b4c94.jpg,0035,6,unsure,Dark marks beside the median are too distant to resolve.,codex
+images/train/bpo__8bbb1a5e8bcb03df.jpg,0036,1,unsure,Faint small surface mark lacks a distinct rim.,codex
+images/train/bpo__8c1545b52d877344.jpg,0036,2,unsure,Reflective spot in low light has no resolvable boundary.,codex
+images/train/bpo__8c1dd98e75501682.jpg,0036,3,fixed,Regular transverse grooves form a flush textured strip.,codex
+images/train/bpo__8c2c2edf8948a42d.jpg,0036,4,unsure,Foreground surface is partly outside the frame.,codex
+images/train/bpo__8ca84b4d14d00bc9.jpg,0036,6,fixed,Box follows an open roadside drain and accumulated rubble.,codex
+images/train/bpo__8dd33edf548a2e9a.jpg,0037,1,unsure,Water reflection conceals the surface under the boxes.,codex
+images/train/bpo__90fbe34c9b3f7951.jpg,0037,2,unsure,Multiple faint marks and wet patches remain ambiguous at dusk.,codex
+images/train/bpo__93ca5ca0691ab72a.jpg,0037,4,unsure,Pale irregular edge patch may be a repair or localized surface loss.,codex
+images/train/bpo__947ce305c6ddeaa1.jpg,0037,5,unsure,Low light and reflection obscure whether the pool overlaps a depression.,codex
+images/train/bpo__9484c01de49756af.jpg,0037,6,fixed,Box covers the open drain beside the parked scooters.,codex
+images/train/bpo__952c56e02b62ba8c.jpg,0038,1,unsure,Pale surface patch has insufficient edge detail.,codex
+images/train/bpo__965123719a706d7e.jpg,0038,2,unsure,Reflection covers the lower targets and roughness at the seam is unresolved.,codex
+images/train/bpo__96ac337ff2a0e68e.jpg,0038,3,fixed,Both boxes follow the open roadside drainage channel.,codex
+images/train/bpo__96cb51bdbdd13b2a.jpg,0038,4,fixed,Box lies on a broken raised roadside gutter outside the white edge line.,codex
+images/train/bpo__9827a6b6ec9d8807.jpg,0038,5,unsure,Dark transverse mark has insufficient surface detail.,codex
+images/train/bpo__99413af873ce40ca.jpg,0038,6,unsure,Faint central patch lacks a clear broken edge.,codex
+images/train/bpo__9948cd4a617af5b0.jpg,0039,1,unsure,Motion blur obscures the rim of the reflective patch.,codex
+images/train/bpo__9979704f7686d0d4.jpg,0039,2,unsure,Drainage channel is visible but the separate small road box is unresolved.,codex
+images/train/bpo__99953c7d0de401e1.jpg,0039,3,fixed,Box covers standing water within the roadside gutter below the shop frontage.,codex
+images/train/bpo__9d175a7298336c3f.jpg,0039,5,fixed,Boxes follow a flush regularly grooved strip beside the road edge.,codex
+images/train/bpo__9f00ec1693344c49.jpg,0040,1,fixed,Water lies in the dirt verge beside the asphalt.,codex
+images/train/bpo__9f639d1dd0bdec24.jpg,0040,2,fixed,All boxes follow wet soil outside the painted road edge.,codex
+images/train/bpo__a04f212e4d25ddc5.jpg,0040,3,fixed,Box lies on the wet unpaved shoulder outside the edge line.,codex
+images/train/bpo__a066d92a6527f95b.jpg,0040,4,unsure,Blur prevents resolving the rim of the roadside pool.,codex
+images/train/bpo__a272fba9a0f3683f.jpg,0040,6,unsure,Small faint mark lacks a distinct broken boundary.,codex
+images/train/bpo__a2f0850383667940.jpg,0041,1,unsure,Blur prevents judging the faint transverse patch.,codex
+images/train/bpo__a46d7591b134c5d0.jpg,0041,3,unsure,Narrow strip near frame edge has insufficient rim detail.,codex
+images/train/bpo__a55dee15817bb4ef.jpg,0041,4,unsure,Small mark beside the truck remains indistinct at full resolution.,codex
+images/train/bpo__a6706d8485caf872.jpg,0041,5,unsure,Pale road patch lacks a clear depression boundary.,codex
+images/train/bpo__a68a6c9ff188d51b.jpg,0041,6,unsure,Low light obscures whether rough texture includes material loss.,codex
+images/train/bpo__a800fbd88f7caeb7.jpg,0042,1,unsure,Small low-light target lacks surface detail.,codex
+images/train/bpo__a8125960cc25c2a7.jpg,0042,2,unsure,Two small marks near the parked van are indistinct.,codex
+images/train/bpo__abfbb5c34bbb72af.jpg,0042,4,unsure,Multiple boxes follow the lane stripe but their individual surfaces remain unresolved.,codex
+images/train/bpo__ac9b0bd81c24e37d.jpg,0042,5,unsure,Reflection and mud obscure the many small targets.,codex
+images/train/bpo__ad742268be12143a.jpg,0043,1,unsure,Wet reflections obscure both boxed surfaces.,codex
+images/train/bpo__af7c3ffc44969935.jpg,0043,3,fixed,Box covers the water-filled dirt channel outside the asphalt edge.,codex
+images/train/bpo__af917f61e5951041.jpg,0043,4,unsure,Ravelled patch has uncertain depth and boundary.,codex
+images/train/bpo__b00d25f83eb52260.jpg,0043,5,unsure,Small mark at the kerb lacks detail.,codex
+images/train/bpo__b05740f7a7a2487a.jpg,0043,6,unsure,Dusk obscures the rough transverse patch.,codex
+images/train/bpo__b05da74f593bc40f.jpg,0044,1,fixed,Box follows standing water in the narrow roadside gutter beneath the kerb.,codex
+images/train/bpo__b11597ced39dcc2a.jpg,0044,3,unsure,Cracks are visible but individual areas of surface loss remain uncertain.,codex
+images/train/bpo__b19d39772ba6ee22.jpg,0044,4,unsure,Dirt verge target is clear but the separate road patch remains ambiguous.,codex
+images/train/bpo__b1e69575051557f6.jpg,0044,5,unsure,Near-frame target at parked motorcycles has insufficient edge detail.,codex
+images/train/bpo__b1f8aba664666454.jpg,0044,6,unsure,Wet linear mark has no clearly resolved cavity.,codex
+images/train/bpo__b1f95c30e8d5ed69.jpg,0045,1,unsure,Small roadside marks are obscured by windshield droplets.,codex
+images/train/bpo__b351fa0c9f422d92.jpg,0045,2,unsure,Distant mark is too small to resolve its edge.,codex
+images/train/bpo__b3cfdd3727e7ab20.jpg,0045,3,unsure,Distant target near the rider has insufficient surface detail.,codex
+images/train/bpo__b3e6fd4471412f33.jpg,0045,4,unsure,Reflection on the near-frame wet patch obscures its rim.,codex
+images/train/bpo__b3e83d69f954815d.jpg,0045,5,unsure,Thin distant target lacks surface detail.,codex
+images/train/bpo__b4f5c05fe26244a5.jpg,0045,6,unsure,Multiple small targets at the junction remain indistinct.,codex
+images/train/bpo__b5920d5304e37dc3.jpg,0046,1,unsure,Large left pool borders the pavement but right box may overlap pavement loss.,codex
+images/train/bpo__b5b75ecf9a020be0.jpg,0046,2,unsure,Blur and wet glare obscure individual rims.,codex
+images/train/bpo__b697a66675064e88.jpg,0046,3,unsure,Small low contrast central mark lacks resolved depth.,codex
+images/train/bpo__b6e68974e1e1055a.jpg,0046,4,unsure,Distant mark at parked vehicles has insufficient detail.,codex
+images/train/bpo__b74514607f4491cd.jpg,0046,5,fixed,Both boxes follow water in the dirt shoulder outside the asphalt.,codex
+images/train/bpo__b8b01f4bc351b039.jpg,0046,6,unsure,Dusk and windshield reflection obscure the multiple targets.,codex
+images/train/bpo__b8bd078ed890d4d4.jpg,0047,1,unsure,Headlamp glare hides the edges of the transverse rough strip.,codex
+images/train/bpo__b920a06a99b4cbeb.jpg,0047,3,unsure,Near-frame patch is partly cut off and indistinct.,codex
+images/train/bpo__b9395f60ecc2a672.jpg,0047,4,fixed,Boxes trace a continuous flush longitudinal pavement seam.,codex
+images/train/bpo__b991d595d3db9618.jpg,0047,5,unsure,Reflection and frame edge obscure the dark near-side patch.,codex
+images/train/bpo__bac0b561bfee535d.jpg,0047,6,unsure,Small dark marks may include surface loss but rims are indistinct.,codex
+images/train/bpo__bb81ff4b6da384ab.jpg,0048,1,unsure,Mixed seams and surface texture cannot be resolved confidently.,codex
+images/train/bpo__bbb05c322c7e3485.jpg,0048,2,unsure,Blur obscures whether the jagged transverse strip is recessed.,codex
+images/train/bpo__bcee299803f5b2f3.jpg,0048,3,unchanged,Broken asphalt edges enclose a dark transverse cavity beside the lane edge.,codex
+images/train/bpo__bda096d0d8e8e8f2.jpg,0048,5,unsure,Boxes follow damaged margins but depth and extent are ambiguous.,codex
+images/train/bpo__be9dca124ad5a622.jpg,0048,6,unchanged,Jagged missing asphalt forms a transverse depression with visible broken lips.,codex
+images/train/bpo__bea4c35322c4485a.jpg,0049,1,unsure,Windshield reflection obscures the patch boundary.,codex
+images/train/bpo__bebd2b1ad5e5bf1f.jpg,0049,2,unsure,Small irregular dark strips lack enough detail to judge depth.,codex
+images/train/bpo__bec5610ce5319824.jpg,0049,3,fixed,Box covers the roadside drainage channel beside the stall.,codex
+images/train/bpo__c01f9800a74e2f1e.jpg,0049,5,unsure,Two faint central marks lack clear rims.,codex
+images/train/bpo__c1ba069ef0c57e2b.jpg,0049,6,unsure,Water and glare conceal individual depression edges.,codex
+images/train/bpo__c2233af88e26642d.jpg,0050,1,fixed,Both boxes lie on debris on the dirt median outside the edge line.,codex
+images/train/bpo__c3d7c94f771a9d67.jpg,0050,2,unsure,Dark longitudinal mark is too indistinct to judge material loss.,codex
+images/train/bpo__c4a6273602696f98.jpg,0050,5,unsure,Motion blur obscures the transverse pavement break.,codex
+images/train/bpo__c51166aefe70f577.jpg,0050,6,unsure,Lower-frame target is partly cut off and lacks surface detail.,codex
+images/train/bpo__c6437f22ea44dbf5.jpg,0051,1,unsure,Multiple seams and patches have ambiguous surface depth.,codex
+images/train/bpo__c92f1dd427a39419.jpg,0051,3,unsure,Small targets beside the rider are too distant to resolve.,codex
+images/train/bpo__c95fd57562afc16d.jpg,0051,4,unsure,Low light obscures the rough central patch.,codex
+images/train/bpo__cb02f5f597690732.jpg,0051,5,unsure,Verge water is visible but several road targets remain unresolved.,codex
+images/train/bpo__cb9f7b7a5afbc5bd.jpg,0051,6,unsure,Dark edge patch beside the parked car lacks a clear broken rim.,codex
+images/train/bpo__ccfdc5017530f830.jpg,0052,1,unsure,Small wet targets by the median have indistinct edges.,codex
+images/train/bpo__cdd0e38fb7f3dffe.jpg,0052,3,fixed,Box covers pale loose litter on the dirt median.,codex
+images/train/bpo__ceb409a13e4732c8.jpg,0052,4,unsure,Near-frame transverse line is cut off by the image edge.,codex
+images/train/bpo__ceeea2c9bb0b0226.jpg,0052,5,unsure,Small dark object or cavity lacks a sufficiently clear boundary.,codex
+images/train/bpo__d061ec0705be6c0e.jpg,0052,6,unsure,Two faint small marks lack enough surface detail.,codex
+images/train/bpo__d11df0b6ddfe6c22.jpg,0053,1,unsure,Two pale central marks lack defined rims.,codex
+images/train/bpo__d27b9065e0dea446.jpg,0053,2,fixed,Box follows a narrow linear crack without visible missing material.,codex
+images/train/bpo__d2a7751e9a7c8d96.jpg,0053,3,unsure,Low light obscures the roadside patch.,codex
+images/train/bpo__d32bae430ad1b766.jpg,0053,5,unsure,Large rough area is indistinct in low light.,codex
+images/train/bpo__d38ab1539dadf986.jpg,0053,6,fixed,Box follows the open gutter beside raised frontage.,codex
+images/train/bpo__d4c0ba270ccc164a.jpg,0054,1,unsure,Small patches along the curve lack resolved depression boundaries.,codex
+images/train/bpo__d63769aff2419be9.jpg,0054,2,unsure,Windshield reflection obscures the lower patch.,codex
+images/train/bpo__d75aa9607b121e3c.jpg,0054,3,unsure,Glare on flooded pavement hides individual surface boundaries.,codex
+images/train/bpo__d7bd8973b5207d70.jpg,0054,5,fixed,Box follows the roadside drainage channel at the parked vehicles.,codex
+images/train/bpo__d856d4c4dc79bfa9.jpg,0054,6,unsure,Dusk and water reflection obscure individual rims.,codex
+images/train/bpo__d8765cf2b64fb6c6.jpg,0055,1,unsure,Standing water beside the median conceals the road surface.,codex
+images/train/bpo__d8b6029878d4d35a.jpg,0055,2,unsure,Numerous dark wet marks remain ambiguous in low light.,codex
+images/train/bpo__d9e3c473213dc2cd.jpg,0055,3,unsure,Small mark at the junction is too distant to resolve.,codex
+images/train/bpo__d9ef0e444882b6e8.jpg,0055,4,unsure,Visible edge damage and pooled water leave individual cavity boundaries unclear.,codex
+images/train/bpo__db1cc60f5c0ab9b6.jpg,0055,6,unsure,Small mark beside edge paint lacks sufficient detail.,codex
+images/train/bpo__db6c1e7c07fa093b.jpg,0056,1,unsure,Dusk obscures individual cavities within the rough strip.,codex
+images/train/bpo__dc7bed5e5d9c75fd.jpg,0056,2,fixed,Pool follows the dirt verge outside the paved lane.,codex
+images/train/bpo__dd01c979795bdac6.jpg,0056,3,unsure,Edge-line targets are too small to judge surface loss.,codex
+images/train/bpo__ddd130738ae85fc5.jpg,0056,4,unsure,Foreground target is partly cut off.,codex
+images/train/bpo__dea8f5e4e4549565.jpg,0056,5,unsure,Small mark near the truck lacks a distinct boundary.,codex
+images/train/bpo__df7a7ddd5bf1ce4c.jpg,0056,6,fixed,Muddy water follows the dirt verge approaching the bridge.,codex
+images/train/bpo__df7b7b0df9ef5947.jpg,0057,1,unsure,Multiple pale patches at the junction lack clear depth boundaries.,codex
+images/train/bpo__e1261c6c95d50ab4.jpg,0057,2,unsure,Reflection obscures the near box while the other target is distant.,codex
+images/train/bpo__e35ed2034a8103a3.jpg,0057,5,unsure,Dark area among parked motorcycles is partly occluded.,codex
+images/train/bpo__e38cf7962d8bb53a.jpg,0057,6,unsure,Low light obscures the small transverse mark.,codex
+images/train/bpo__e3f59fbb0bcc7db1.jpg,0058,1,unsure,Wet surface conceals the distant box and near patch boundaries.,codex
+images/train/bpo__e5fff6c06f1dacd7.jpg,0058,3,unsure,Mixed wet patches and lane markings obscure individual rims.,codex
+images/train/bpo__e689b2b9163853c5.jpg,0058,4,unsure,Rider and water reflections obscure the two targets.,codex
+images/train/bpo__e701b8ee4d277ba3.jpg,0058,5,unsure,Small pale target beneath the truck lacks clear surface detail.,codex
+images/train/bpo__e747a12274061399.jpg,0058,6,unsure,Multiple small boxes include ambiguous slab and gutter boundaries.,codex
+images/train/bpo__e8871b14c40848b4.jpg,0059,1,unsure,Two small central marks lack resolvable rims.,codex
+images/train/bpo__e9712638b3a48ae0.jpg,0059,2,unsure,Small pale patch behind rider lacks depth cues.,codex
+images/train/bpo__eb290469b1d7a60a.jpg,0059,3,unsure,Occluded target beside parked bicycles lacks clear edges.,codex
+images/train/bpo__eb9a79b58d573198.jpg,0059,5,unsure,Dusk obscures all three small targets.,codex
+images/train/bpo__ee6f021f86812d9b.jpg,0060,1,unsure,Standing water on the ramp hides the boxed surface.,codex
+images/train/bpo__eec609824d5b71a1.jpg,0060,2,unsure,Small pale patch at the junction lacks detail.,codex
+images/train/bpo__f30db1a26bd0976e.jpg,0060,3,fixed,Box follows a flush longitudinal strip of textured pavement.,codex
+images/train/bpo__f3280a8b403dc903.jpg,0060,4,fixed,Water lies on the unpaved verge outside the white edge line.,codex
+images/train/bpo__f456eb10db70e5d4.jpg,0060,5,unsure,Low light and reflections conceal both boxed surfaces.,codex
+images/train/bpo__f50165a31c56441e.jpg,0060,6,unsure,Transverse strip and nearer rough patch have unresolved depth.,codex
+images/train/bpo__f5536e61e5bc904c.jpg,0061,2,unsure,Blur and vehicle occlusion prevent judging both targets.,codex
+images/train/bpo__f5ed7b0e7490284b.jpg,0061,3,unsure,Three distant patches have indistinct edges.,codex
+images/train/bpo__f6ce18b05066f52c.jpg,0061,4,fixed,Box follows regular grooves on a continuous flush pavement strip.,codex
+images/train/bpo__f7387052f92789e7.jpg,0061,5,unsure,Windshield reflection and dusk obscure the water boundaries.,codex
+images/train/bpo__f8a5391ffaaf0d10.jpg,0061,6,fixed,Box covers the end of a regular transverse drainage grate.,codex
+images/train/bpo__f8b7d5f61458081a.jpg,0062,1,unsure,Tree shadow obscures the small central mark.,codex
+images/train/bpo__f934a3735dd4a2bf.jpg,0062,2,unsure,Pale patch beside the dashed edge line has an indistinct rim.,codex
+images/train/bpo__f97fca1ba6f1b2f6.jpg,0062,3,unsure,Pale material at the junction could be debris or exposed road base.,codex
+images/train/bpo__f9e457fb6da94db7.jpg,0062,4,fixed,Box covers scattered pale litter beside the stall.,codex
+images/train/bpo__fb06c50c03f07be1.jpg,0062,5,unsure,Small distant patch near the bend lacks surface detail.,codex
+images/train/bpo__fb4330f36e55faa8.jpg,0062,6,unsure,Rider partially occludes the small low-light target.,codex
+images/train/bpo__fc85b22f5a6dcf7c.jpg,0063,1,unsure,Large reflective wet areas obscure the road surface.,codex
+images/train/bpo__fc8d85bf2785580c.jpg,0063,2,unsure,Strong tree shadows obscure the three boxed surfaces.,codex
+images/train/bpo__fcc8723460d2da8c.jpg,0063,3,unsure,Dusk and headlamp glare obscure numerous small targets.,codex
+images/train/bpo__fcf0e22c9e720039.jpg,0063,4,unsure,Shadows obscure individual patches and their edges.,codex
+images/train/bpo__fcfe2ca7c5d36fb5.jpg,0063,5,fixed,Box lies on dirt and debris outside the solid edge line beside the kerb.,codex
+images/train/bpo__fe4113ef40668aa8.jpg,0063,6,unsure,Large verge pool and distant wet road patches have unresolved boundaries.,codex
+images/train/bpo__fee201228de38fbc.jpg,0064,1,fixed,Box covers the raised roadside kerb and soil beside it.,codex
+images/train/bpo__ff1294fe1df5d9f8.jpg,0064,2,unsure,Wet rough strip has unclear individual depression boundaries.,codex
+images/train/bpo__ff6f9bf90be05203.jpg,0064,3,unsure,Target is cut off at the lower frame edge.,codex
+images/train/bpo__ff951d32624d5698.jpg,0064,4,unsure,Verge pools are visible but the separate road-edge target is unresolved.,codex
+images/train/bpo__02ce19c231283f02.jpg,0064,5,unsure,Motion blur and low light obscure both targets.,codex
+images/train/bpo__19118b2923c228a1.jpg,0066,1,unsure,Numerous water-filled marks have obscured rims and low-light detail.,codex
+images/train/bpo__29a19ba4bca61e50.jpg,0066,3,fixed,All boxes cover pools on dirt shoulders beyond the paved travel strip.,codex
+images/train/bpo__345ebb7d8b0f55d2.jpg,0066,5,unsure,Large flooded area conceals pavement boundaries and cavity edges.,codex
+images/train/bpo__43301b634bba1c40.jpg,0067,1,unsure,Blur and muddy surface obscure whether the shallow mark is recessed.,codex
+images/train/bpo__48133d42a3acffcb.jpg,0067,4,unsure,Cracks and small pale patches have unclear material-loss boundaries.,codex
+images/train/bpo__5621d70f7cfa0ee9.jpg,0067,5,unsure,Numerous wet patches remain ambiguous in dusk and glare.,codex
+images/train/bpo__74be738ce532526d.jpg,0069,3,unsure,Mud and reflection obscure the edge of the small roadside patch.,codex
+images/train/bpo__807e3fe4deb6616c.jpg,0069,6,fixed,Large pool follows the dirt frontage outside the paved travel surface.,codex
+images/train/bpo__a97e2951f683bf66.jpg,0071,3,unsure,Dusk and glare conceal the rims of numerous wet patches.,codex
+images/train/bucko__0239d5bc17859688.jpg,0074,5,unsure,Night glare obscures the small transverse target.,codex
+images/train/bucko__06e19cde2e71dc12.jpg,0074,6,unsure,Headlamp glare and motion blur obscure all four targets.,codex
+images/train/bucko__071a171bc0a34bce.jpg,0075,1,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__13665f14360df70b.jpg,0075,2,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__1a64eb7b6be2ea6b.jpg,0075,3,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__25c43d1216aaa037.jpg,0075,4,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__26095122e29e8563.jpg,0075,5,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__31a84d6ce2760cd5.jpg,0076,1,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__44e137808013c28d.jpg,0076,2,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__46b8676f0488249f.jpg,0076,3,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__53fb09e7ac419f49.jpg,0076,4,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__6a889876149bbaf5.jpg,0076,5,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__779c87168fb6eb15.jpg,0076,6,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__798504c7f53f2986.jpg,0077,1,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__7a750f2a0d0b7c53.jpg,0077,2,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__7e3b896568154c82.jpg,0077,3,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__98d72c8cf017b712.jpg,0077,4,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__9b946c52e55f7257.jpg,0077,5,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__9e94868b637a55e1.jpg,0077,6,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__a282f5e206efe34b.jpg,0078,1,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__b39e7528db327cf4.jpg,0078,2,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__bc054364dad19e31.jpg,0078,3,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__bead074ebf08cf60.jpg,0078,4,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__bf1771bf7bf78ca5.jpg,0078,5,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__c112f5754c607978.jpg,0078,6,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__c7c9feee673184f5.jpg,0079,1,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__d0bf68130a2dd884.jpg,0079,3,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__d4891f66fc39bb57.jpg,0079,4,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__e6789d5d3ba979b1.jpg,0079,5,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__ecc0c7fd002af28d.jpg,0079,6,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__f4441d336c520baf.jpg,0080,2,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__f9cbaba50f9cf73f.jpg,0080,3,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__19ba88ad94c64ecd.jpg,0080,6,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__f1518d3ece9082c9.jpg,0080,1,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__8edca241e9257a52.jpg,0081,5,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__8f7b33ca66473848.jpg,0081,6,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__a019d789d3efafd3.jpg,0082,1,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__af6eb48eaaa73c29.jpg,0082,2,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/bucko__d096963f79a5dfd8.jpg,0082,4,unsure,"Night lighting, headlamp glare and blur prevent reliable assessment of existing and missing boxes.",codex
+images/train/egy__06e375f3a96369c6.jpg,0107,2,unsure,Visual re-review remains ambiguous: shallow patch area; pothole not clear. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__076b321ab21aca87.jpg,0107,4,unchanged,Visible broken asphalt lip and missing wearing course within the box.,codex
+images/train/egy__0c5f2139d014221d.jpg,0108,2,unsure,"Visual re-review remains ambiguous: no box; cracked sunken area, pothole not clear. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__0cace9476b413a79.jpg,0108,3,unsure,Visual re-review remains ambiguous: roadside rubble and a broken area. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__0d3e286c0d772ca0.jpg,0108,6,unsure,Visual re-review remains ambiguous: wide box over a sandy area. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__0d85ee9723872c40.jpg,0109,1,unsure,"Visual re-review remains ambiguous: no box; broken edge under a car shadow, not clear. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__0fd387ab55dec200.jpg,0109,2,unsure,Visual re-review remains ambiguous: blurred sandy area. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__115c3fd559275543.jpg,0109,3,unsure,"Visual re-review remains ambiguous: no box; broken sandy area beside a manhole, not clear. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__117f9bbf8a856458.jpg,0109,5,unchanged,Broken asphalt rim bounds exposed base across the transverse cavity.,codex
+images/train/egy__120951d418062c01.jpg,0110,1,unsure,"Visual re-review remains ambiguous: no box; rough strip at the bottom, not clear. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__13478cf56013622f.jpg,0110,4,unsure,Visual re-review remains ambiguous: close view of a sandy ridge. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__1587ec9c22ef5fa1.jpg,0110,6,unsure,Visual re-review remains ambiguous: faint round shape through windscreen glare. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__16771e1b1eb63b6a.jpg,0111,2,unsure,"Visual re-review remains ambiguous: no box; debris or broken surface, not clear. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__17badab8893ef511.jpg,0111,4,unsure,Visual re-review remains ambiguous: small box at the kerb. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__1ba53877e25d20bf.jpg,0111,5,unsure,Visual re-review remains ambiguous: sunken round shape; manhole or pothole not clear. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__1cc80448e47c3a4a.jpg,0111,6,unsure,Visual re-review remains ambiguous: blurred; no road detail. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__1fdea928d9c9826a.jpg,0112,5,unsure,Visual re-review remains ambiguous: small box in tree shadow. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__209ae5e43a42be3c.jpg,0112,6,unchanged,Distinct recessed sandy cavity has a broken asphalt perimeter.,codex
+images/train/egy__2a2f985e4ebd58ee.jpg,0113,4,unsure,Visual re-review remains ambiguous: faint patch. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__2cd8215f31b5e042.jpg,0113,6,unchanged,Dark missing material is bounded by a jagged asphalt lip.,codex
+images/train/egy__2cf97bca47d763c8.jpg,0114,1,unsure,Visual re-review remains ambiguous: blurred. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__39881a023f113411.jpg,0116,1,fixed,Added missing box around the transverse depression with visible broken far lip.,codex
+images/train/egy__3b542567aba27363.jpg,0116,4,unsure,"Visual re-review remains ambiguous: no box; small rubble spot at the right, not clear. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__3c7bfbb6fc5e51e7.jpg,0116,6,unsure,Visual re-review remains ambiguous: blurred close view of dirt. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__4095de139191c6a3.jpg,0117,1,unsure,Visual re-review remains ambiguous: box lies over the dashboard-vent reflection; road under it not clear. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__439f0045248dbd6b.jpg,0117,4,unsure,Visual re-review remains ambiguous: square hatched patch or cover. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__4a76e7067c9027c1.jpg,0118,3,unsure,Visual re-review remains ambiguous: line or crack near the kerb. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__4b9678d33161b9aa.jpg,0118,5,unsure,Visual re-review remains ambiguous: windscreen glare. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__4e0a0aa4b0242794.jpg,0119,3,unsure,Visual re-review remains ambiguous: windscreen glare and shadow. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__60caf00090f83c5e.jpg,0123,3,unsure,Visual re-review remains ambiguous: shallow cracked depression. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__66c3dbd13d3fb449.jpg,0124,5,unsure,"Visual re-review remains ambiguous: no box; shallow broken strip, not clear. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__6727829746fcf694.jpg,0124,6,unsure,Visual re-review remains ambiguous: tiny far box. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__6cc07770d162b141.jpg,0125,5,unsure,Visual re-review remains ambiguous: small box beside a manhole cover. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__742141fb9d64e640.jpg,0126,3,unsure,Visual re-review remains ambiguous: faint mark at the roadside. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__7aef9ec5364aa39e.jpg,0127,3,unsure,Visual re-review remains ambiguous: line or crack near the kerb. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__7bc6ee6457060baf.jpg,0127,4,unsure,Visual re-review remains ambiguous: dirt and rubble slope. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__86309457f09dc125.jpg,0128,5,unsure,Visual re-review remains ambiguous: blurred; glare. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__8c709f8f55cb6ad0.jpg,0129,6,unsure,"Visual re-review remains ambiguous: no box; cracked sunken area with a small hole, not clear. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__8dceed4dc6cf7bbe.jpg,0130,1,unsure,Visual re-review remains ambiguous: box on a faint mark seen through windscreen glare. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__8f2cad280e2c0ece.jpg,0130,3,unsure,"Visual re-review remains ambiguous: no box; debris on broken surface, not clear. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__9133d422e0275354.jpg,0130,6,unchanged,Broken perimeter surrounds missing asphalt and loose base material.,codex
+images/train/egy__92461d0c6feba72f.jpg,0131,1,unsure,"Visual re-review remains ambiguous: no box; torn surface beside a manhole cover, not clear. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__932eb15a91bb1fd2.jpg,0131,4,unsure,Visual re-review remains ambiguous: dark; shallow depression. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__943abde7f6459cdb.jpg,0131,6,unsure,Visual re-review remains ambiguous: box beside a manhole cover behind a pedestrian. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__94d57ff251e07f17.jpg,0132,2,unsure,Visual re-review remains ambiguous: windscreen glare. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__999d89b9ec9eaf2e.jpg,0132,5,unsure,Visual re-review remains ambiguous: two faint boxes in a letterboxed frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__9ad0a602d73f7633.jpg,0132,6,unsure,"Visual re-review remains ambiguous: no box; rough worn area, not clear. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__9c7d2f731db20047.jpg,0133,3,unchanged,Visible material loss around the utility cover supports the pothole box.,codex
+images/train/egy__a4e3300286df7e44.jpg,0134,4,unsure,Visual re-review remains ambiguous: patch-shaped area in shadow. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__a8cea4257811375e.jpg,0135,2,unsure,Visual re-review remains ambiguous: faint shape at the shadow line. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__ae67dcea856e62c4.jpg,0136,2,unsure,Visual re-review remains ambiguous: shape at the bonnet edge. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__b1ef000abc1c1ce6.jpg,0137,3,unsure,"Visual re-review remains ambiguous: no box; sand patch and a dark spot, not clear. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__b25e44dac9d89445.jpg,0137,4,unsure,Visual re-review remains ambiguous: left box on a sand strip at the kerb; right box on a broken area. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__b4dafe9558354fae.jpg,0137,6,unsure,Visual re-review remains ambiguous: blurred; glare. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__b95facae2d64e47c.jpg,0138,2,unchanged,Deep jagged cavity contains loose rubble and exposed base.,codex
+images/train/egy__c1f8e20a8b697309.jpg,0139,3,unsure,Visual re-review remains ambiguous: wide sandy patch; depth not clear. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__ca5e72aecb33ef21.jpg,0139,5,unsure,Visual re-review remains ambiguous: faint mark at the dashboard edge. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__d61735818b276634.jpg,0141,3,unsure,Visual re-review remains ambiguous: blurred close view; sand-filled worn area. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__dda8c20e3f665fd9.jpg,0142,5,unsure,Visual re-review remains ambiguous: wide box over a sandy broken area. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__e23a2b0918d819f8.jpg,0143,1,unsure,Visual re-review remains ambiguous: sandy rubble areas. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__e559f2b834d27efd.jpg,0143,5,unsure,Visual re-review remains ambiguous: close view of a dirt hole; not a road view. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__ec57ae1eddd0e1f4.jpg,0144,6,unchanged,Distinct broken rim surrounds exposed road base.,codex
+images/train/egy__ee3f40469919f61e.jpg,0145,3,unsure,Visual re-review remains ambiguous: sand and litter at the kerb beside a grate. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__f5d6034f5a94d41b.jpg,0147,3,unsure,"Visual re-review remains ambiguous: no box; sunken sand-filled area beside a manhole cover, not clear. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__f9b84a08f38fd047.jpg,0148,2,unsure,Visual re-review remains ambiguous: close view of a sandy ridge. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__fc58f92eb2a786f1.jpg,0148,3,unsure,"Visual re-review remains ambiguous: no box; rough strip, not clear. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__fef5ae4ca33c060e.jpg,0149,1,unsure,Visual re-review remains ambiguous: tiny far box. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__01bba34d04f1c0d8.jpg,0149,6,unsure,Visual re-review remains ambiguous: blurred through the windscreen edge. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__030fb23c435c942b.jpg,0150,2,unsure,Visual re-review remains ambiguous: blurred. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__059ed423df69661e.jpg,0150,5,unsure,Visual re-review remains ambiguous: small box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__0d48e0f6180e7f29.jpg,0152,1,unsure,Visual re-review remains ambiguous: faint patch in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__0effe0a45e91756a.jpg,0152,2,unchanged,Two adjacent cavities have visible broken asphalt edges.,codex
+images/train/egy__0fbf66d403b7258a.jpg,0152,4,unsure,"Visual re-review remains ambiguous: no box; small spots near a lane line, not clear. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__0fc30852d9db9d6c.jpg,0152,5,unsure,Visual re-review remains ambiguous: tiny box at the bonnet. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__172d5519b93c2aa4.jpg,0153,4,unchanged,Water-filled cavity has a clear broken asphalt perimeter.,codex
+images/train/egy__1a075560d07d4f1b.jpg,0153,6,unchanged,Connected depressions have dark broken rims and exposed base.,codex
+images/train/egy__20ed4d4ea40d0c7a.jpg,0154,5,unsure,Visual re-review remains ambiguous: sand strips seen across the bonnet. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__230128eead91add7.jpg,0155,4,unchanged,Water-filled elongated cavity has a visible broken asphalt rim.,codex
+images/train/egy__25cf85ee8da4c576.jpg,0156,2,unsure,Visual re-review remains ambiguous: shallow dips in tree shadow. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__2ac1d8fc207f3fd1.jpg,0156,6,fixed,Box covers dirt frontage and loose debris beyond the edge of the paved surface.,codex
+images/train/egy__2b230608db325e06.jpg,0157,1,unchanged,Dark elongated cavity is bounded by broken asphalt.,codex
+images/train/egy__2d3b3b36aeb581f2.jpg,0157,2,unsure,Visual re-review remains ambiguous: box on a raised asphalt slab with broken edges. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__302f998b7d154aa6.jpg,0157,6,unsure,"Visual re-review remains ambiguous: no box; dark hole at the kerb, blurred. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__33085ba17ab0bd55.jpg,0158,4,unchanged,Recessed area has a jagged asphalt rim and loose debris.,codex
+images/train/egy__33e8d337b76d545c.jpg,0158,6,unsure,Visual re-review remains ambiguous: box on a sand strip; the broken area around the grate has no box. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__3549ae29386dcf3e.jpg,0159,3,unsure,Visual re-review remains ambiguous: blurred close view of rubble; no box. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__359594c2a51d724b.jpg,0159,4,unsure,Visual re-review remains ambiguous: small box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__378f9506551eefce.jpg,0159,6,unsure,Visual re-review remains ambiguous: blurred; no box. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__3987ab9457d4292e.jpg,0160,2,unsure,Visual re-review remains ambiguous: blurred close view. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__3c1e8e54bafdbe13.jpg,0161,1,unsure,Visual re-review remains ambiguous: tiny box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__3d0f52285bd0f957.jpg,0161,3,unchanged,Elongated missing wearing course has a clear broken perimeter.,codex
+images/train/egy__3d6445a088d90557.jpg,0161,4,unsure,Visual re-review remains ambiguous: blurred; no box; small hole near a grate. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__419973557028a955.jpg,0162,5,unsure,Visual re-review remains ambiguous: dark; no box; worn patches. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__436763cd90fec6e6.jpg,0162,6,unchanged,Utility cover and surrounding repaired ring are present with no clear missing asphalt.,codex
+images/train/egy__448454601e54e4c9.jpg,0163,1,unchanged,Narrow crack with continuous pavement on either side.,codex
+images/train/egy__4c21c70a344035d3.jpg,0164,3,unsure,Visual re-review remains ambiguous: box at the kerb above a grate; dirt or broken area not clear. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__4c996bb88ce6b4bd.jpg,0164,4,unsure,Visual re-review remains ambiguous: tiny box at the frame edge of a portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__4da7c46f6243e974.jpg,0165,1,unsure,Visual re-review remains ambiguous: tiny box at the bonnet in a portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__545ca2494b444882.jpg,0166,1,unsure,Visual re-review remains ambiguous: dark dirt at the kerb. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__56eba2b191f403e0.jpg,0166,4,unchanged,Jagged asphalt lip bounds the elongated cavity.,codex
+images/train/egy__58f2217a91424016.jpg,0166,6,unsure,Visual re-review remains ambiguous: blurred sandy area. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__5c39e922a0d2747e.jpg,0167,2,unsure,Visual re-review remains ambiguous: blurred; no box; dirt lane. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__5c59ee69b3595757.jpg,0167,4,unsure,Visual re-review remains ambiguous: blurred; no box. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__5ee867608d481783.jpg,0167,6,unsure,Visual re-review remains ambiguous: left box on a dark blurred area; right box on a hole with rubble. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__60511adacc50e6d6.jpg,0168,1,unsure,Visual re-review remains ambiguous: tiny box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__60f0c08f7e75e10d.jpg,0168,3,unsure,Visual re-review remains ambiguous: two shallow marks seen at an angle. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__614dbbc474ea7d0a.jpg,0168,4,unsure,Visual re-review remains ambiguous: rubbish and rubble strip at the kerb. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__65256f71651458c9.jpg,0169,4,unsure,Visual re-review remains ambiguous: faint depression behind glare. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__689fd22649936824.jpg,0170,1,unsure,Visual re-review remains ambiguous: faint gravel area. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__6a2ba88d90dd533e.jpg,0170,4,unsure,Visual re-review remains ambiguous: wide sandy worn area. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__6d863dbece07f373.jpg,0170,6,unsure,Visual re-review remains ambiguous: no box; broken strip in a letterboxed frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__709f1bf81ecd0cad.jpg,0171,6,unsure,Visual re-review remains ambiguous: broken area beside a square cover. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__715e652ca5459f70.jpg,0172,2,unsure,Visual re-review remains ambiguous: boxes at the bonnet edge; puddle partly hidden. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__72b2fc3c9a5e6e9c.jpg,0172,4,unsure,Visual re-review remains ambiguous: blurred dark strip at the kerb. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__73e0b05b2a8a36db.jpg,0172,5,unsure,Visual re-review remains ambiguous: blurred; no box; kerb gutter. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__75e924bdd8530918.jpg,0173,3,unsure,Visual re-review remains ambiguous: blurred; no box; round patch. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__79303800eaf72c0a.jpg,0174,2,unchanged,Pooled water sits within a clearly broken asphalt perimeter.,codex
+images/train/egy__7d0a035e48508770.jpg,0174,6,unsure,Visual re-review remains ambiguous: two small boxes in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__7fe8e8284448024b.jpg,0175,2,unsure,Visual re-review remains ambiguous: no box; shallow sandy depression at the kerb. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__7fec03f4aa6c9622.jpg,0175,3,unsure,Visual re-review remains ambiguous: blurred; two overlapping boxes. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__812706cb775c3b41.jpg,0175,5,unsure,Visual re-review remains ambiguous: tiny box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__834405b448bae9f8.jpg,0176,2,unsure,Visual re-review remains ambiguous: tiny box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__874cc9bb58e56b70.jpg,0176,6,unsure,Visual re-review remains ambiguous: blurred through the windscreen edge. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__87a7edba667c3b60.jpg,0177,1,unsure,Visual re-review remains ambiguous: long worn strip; depth not clear. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__886542f62f2eb3d2.jpg,0177,3,unsure,Visual re-review remains ambiguous: blurred through the windscreen edge. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__8973d10f16375318.jpg,0177,4,unsure,Visual re-review remains ambiguous: tiny box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__8b1ae829e633ae74.jpg,0177,5,unsure,Visual re-review remains ambiguous: blurred; no box; sunken cover with a sand ring. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__8b9e9a31ec92abe7.jpg,0177,6,unsure,Visual re-review remains ambiguous: small box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__8c0f9afbcc37516d.jpg,0178,1,unsure,Visual re-review remains ambiguous: windscreen glare; rough area by barriers. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__8cf7ad7b7778f7fe.jpg,0178,2,unsure,Visual re-review remains ambiguous: blurred; no box; grate at the kerb. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__911090860be6c38f.jpg,0179,2,unchanged,Thin linear surface seam on otherwise continuous pavement.,codex
+images/train/egy__93a3df5c8c19d696.jpg,0179,6,unsure,Visual re-review remains ambiguous: blurred; worn strip with litter. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__98f93bbc203f72b4.jpg,0180,5,unsure,Visual re-review remains ambiguous: glare and shadow; rough area. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__9955bf320c718a08.jpg,0180,6,unsure,Visual re-review remains ambiguous: two small boxes in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__9a16897014ab7404.jpg,0181,1,unsure,Visual re-review remains ambiguous: worn concrete beside a kerb gutter. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__9fbbfd382693a56e.jpg,0181,5,unchanged,Large missing asphalt area has distinct broken margins.,codex
+images/train/egy__a10b6da64e591bcc.jpg,0181,6,unsure,Visual re-review remains ambiguous: blurred. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__a3177afdcaf0c27a.jpg,0182,2,unsure,Visual re-review remains ambiguous: blurred; no box; cracked slabs. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__a471654dfcc1cbd3.jpg,0182,6,unsure,Visual re-review remains ambiguous: seen through the windscreen at an angle; rubble at the roadside. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__a66a3e01759c0c31.jpg,0183,1,unsure,Visual re-review remains ambiguous: small box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__a96e8bfd67ece4af.jpg,0183,5,unsure,Visual re-review remains ambiguous: tiny box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__a9ba76c0b1fce578.jpg,0183,6,unsure,Visual re-review remains ambiguous: no box; sandy worn area in a letterboxed frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__a9d2ac0c2a59bc66.jpg,0184,1,unsure,Visual re-review remains ambiguous: round dark shape near the kerb; grate or pothole not clear. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__ad8a4b6196b6dd5e.jpg,0184,5,unsure,Visual re-review remains ambiguous: blurred; no box; shallow sandy spot. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__af3716c77b29c8ca.jpg,0185,3,unsure,Visual re-review remains ambiguous: small box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__b19581c3e561c9a8.jpg,0185,5,unsure,Visual re-review remains ambiguous: blurred; no box. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__b2e1c61ea1422700.jpg,0185,6,unchanged,Grooved pavement and an intact utility cover are visible.,codex
+images/train/egy__b48673cbb6a6641b.jpg,0186,2,unsure,Visual re-review remains ambiguous: blurred; no box. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__b5c18873c4a852f3.jpg,0186,3,unsure,Visual re-review remains ambiguous: box at the left edge; the broken spot by the manhole cover has no box. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__b6b849b9a81ac442.jpg,0186,4,unsure,Visual re-review remains ambiguous: blurred; shallow worn patch. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__b7015ee02f62a13b.jpg,0186,5,unchanged,Rectangular utility repair is flush with continuous surrounding pavement.,codex
+images/train/egy__b94605ab461c75d6.jpg,0187,2,unsure,"Visual re-review remains ambiguous: no box; rough pitted surface, close view. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__baeef61fe8550582.jpg,0187,4,unsure,Visual re-review remains ambiguous: shallow dips in tree shadow. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__bbea65a350dc7f43.jpg,0187,5,unsure,Visual re-review remains ambiguous: two tiny boxes in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__bdd57f8ba46acd2b.jpg,0188,1,unsure,Visual re-review remains ambiguous: small box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__bee68309bfa2b120.jpg,0188,2,unsure,"Visual re-review remains ambiguous: no box; broken edge at a tram rail, portrait frame. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__c1a03c9a8df0f836.jpg,0188,6,unsure,Visual re-review remains ambiguous: blurred; long worn strip at the kerb. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__c378772b7b7006ee.jpg,0189,1,unsure,Visual re-review remains ambiguous: blurred; no box. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__c48a73508dd204b4.jpg,0189,3,unsure,Visual re-review remains ambiguous: tiny box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__c511bd0d994f7fab.jpg,0189,4,unsure,Visual re-review remains ambiguous: blurred; no box. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__c61b4142b112f26a.jpg,0189,5,unsure,Visual re-review remains ambiguous: gravel area; no clear pothole edge. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__c7384e6a1a2ea3ec.jpg,0189,6,unchanged,Exposed road base lies within a clearly broken asphalt outline.,codex
+images/train/egy__c775dab24e0b82e0.jpg,0190,1,unsure,Visual re-review remains ambiguous: blurred through the windscreen edge. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__c92494c2569251b1.jpg,0190,2,unsure,"Visual re-review remains ambiguous: no box; rough pitted surface, close view. Surface boundaries or depth are insufficiently resolved.",codex
+images/train/egy__c935c0fa63798320.jpg,0190,3,unchanged,Intact utility cover surrounded by continuous pavement.,codex
+images/train/egy__ccc8f77c89f44767.jpg,0191,2,unsure,Visual re-review remains ambiguous: box at the dashboard edge; sand strip. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__cfecb02a0ab2efda.jpg,0191,6,unsure,Visual re-review remains ambiguous: blurred through the windscreen edge. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__d1e9c6b0c7c0534c.jpg,0192,1,unsure,Visual re-review remains ambiguous: box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__d3c6514a5b6d1335.jpg,0192,2,unsure,Visual re-review remains ambiguous: blurred; no box; cracked slabs. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__d924467cca47a14e.jpg,0192,6,unsure,Visual re-review remains ambiguous: blurred; no box. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__da75e90df57a2677.jpg,0193,3,fixed,Added missing box around broken asphalt adjacent to and surrounding the utility cover.,codex
+images/train/egy__daed4f34fff2550f.jpg,0193,4,unsure,Visual re-review remains ambiguous: wet debris strip at the kerb in a portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__de3d50089f01cb8f.jpg,0194,2,unsure,Visual re-review remains ambiguous: wide sandy area in a portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__df6a2fdd936fb909.jpg,0194,3,unsure,Visual re-review remains ambiguous: small box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__e6330484796c8cd5.jpg,0196,2,unsure,Visual re-review remains ambiguous: blurred; no box; grate at the kerb. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__e7057b123c102936.jpg,0196,4,unchanged,Drainage grates and small utility cover sit within continuous pavement.,codex
+images/train/egy__e7f2bf9850f1cd94.jpg,0196,5,unsure,Visual re-review remains ambiguous: two faint boxes in a letterboxed frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__e814b0a8d60ed49f.jpg,0196,6,unsure,Visual re-review remains ambiguous: faint rough spot near the bonnet. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__e98b58842bf5cc42.jpg,0197,3,unsure,Visual re-review remains ambiguous: small box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__ecda7b07d89ec83b.jpg,0198,1,unsure,Visual re-review remains ambiguous: small box at the frame edge of a portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__eef6b745d55c9b2a.jpg,0198,4,unsure,Visual re-review remains ambiguous: tiny box in a letterboxed portrait frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__f2c36415483e0dc3.jpg,0198,6,unchanged,Dark cavity with loose rubble has a distinct broken asphalt rim.,codex
+images/train/egy__f577f8eddf08ffe9.jpg,0199,3,unsure,Visual re-review remains ambiguous: blurred; no box. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__f58ebb6ada98d610.jpg,0199,4,unchanged,Small utility cap sits in continuous pavement.,codex
+images/train/egy__f62b323ce122deb1.jpg,0199,5,unsure,Visual re-review remains ambiguous: shallow round mark beside a manhole cover. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__f752d48cef816788.jpg,0200,2,unsure,Visual re-review remains ambiguous: no box; broken strip in a letterboxed frame. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__f7db7a15ee14782f.jpg,0200,3,unsure,Visual re-review remains ambiguous: blurred; no box. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__f83a280962045d5b.jpg,0200,4,unsure,Visual re-review remains ambiguous: blurred; debris strip at the kerb. Surface boundaries or depth are insufficiently resolved.,codex
+images/train/egy__fcf6c5f38a1d5bb3.jpg,0200,6,unsure,Visual re-review remains ambiguous: blurred; no box; cracked slabs. Surface boundaries or depth are insufficiently resolved.,codex

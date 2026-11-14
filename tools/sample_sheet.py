@@ -26,6 +26,9 @@ def read(lbl):
             p = ln.split()
             if len(p) == 5:
                 out.append((int(float(p[0])), *map(float, p[1:])))
+            elif len(p) > 5 and len(p) % 2 == 1:  # YOLO polygon (segmentation export) -> its bounding box
+                xs, ys = list(map(float, p[1::2])), list(map(float, p[2::2]))
+                out.append((int(float(p[0])), (min(xs) + max(xs)) / 2, (min(ys) + max(ys)) / 2, max(xs) - min(xs), max(ys) - min(ys)))
     return out
 
 

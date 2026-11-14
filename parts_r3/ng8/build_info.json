@@ -1,0 +1,34 @@
+{
+ "part": "ng8",
+ "items": "review\\new_data_r3\\items/items_ng8.csv",
+ "n_items": 384,
+ "kept": 384,
+ "drops": {},
+ "far_tiny_boxes_removed": 0,
+ "ignored_boxes_removed": 0,
+ "far_tiny_threshold": 0.02,
+ "leakage_guard": "exact + dHash<=4 & pHash<=10 under the same one of 8 flips/rotations (rule v2, 2026-11-04) vs road_hazards_v3a_r2 (all splits) + ['external_tests/bd_speedbreaker_v2_orig87', 'parts_r3/rsid:val,test', 'parts_r3/bucko:val,test', 'parts_r3/sr:val,test', 'parts_r3/rdd_cz:test']",
+ "splits": {
+  "train": {
+   "images": 278,
+   "negatives": 133,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 145,
+   "groups": 20
+  },
+  "val": {
+   "images": 67,
+   "negatives": 47,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 20,
+   "groups": 5
+  },
+  "test": {
+   "images": 39,
+   "negatives": 27,
+   "pothole_boxes": 0,
+   "speed_bump_boxes": 12,
+   "groups": 4
+  }
+ }
+}

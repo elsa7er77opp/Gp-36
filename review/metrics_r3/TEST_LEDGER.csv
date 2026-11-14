@@ -1,0 +1,12 @@
+use_id,date_time,model,benchmark,stage,status,source,note
+1,2026-10-31 21:47,v3a_r2_11n_960_s0,r2_test,Stage 4,VERIFIED,runs/v3a_r2_11n_960_s0_TEST.txt,"Run A; final r2 candidate chosen on val in Stage 3 (STATUS test-use log row 1)"
+—,2026-10-31 21:48,v3a_r2_11n_960_s0,bd87,Stage 4,NOT_A_USE,runs/EXT_bd87_v3a_r2_11n_960_s0.txt,"YAML check failed ('train' key missing) before any image was read (STATUS log row —)"
+—,2026-10-31 21:48,v3a_r1_11n_960_s0,bd87,Stage 4,NOT_A_USE,runs/EXT_bd87_v3a_r1_11n_960_s0.txt,"same failed attempt (STATUS log row —)"
+2,2026-10-31 21:49,v3a_r2_11n_960_s0,bd87,Stage 4,VERIFIED,runs/EXT_bd87_v3a_r2_11n_960_s0_b.txt,"Run A on external BD87 (STATUS log row 2)"
+3,2026-10-31 21:49,v3a_r1_11n_960_s0,bd87,Stage 4,VERIFIED,runs/EXT_bd87_v3a_r1_11n_960_s0_b.txt,"v1 (deployed baseline) on external BD87 (STATUS log row 3)"
+4,before 2026-10-31 (time UNRESOLVED),v3a_r1_11n_960_s0,r1_test,pre-STATUS (handoff step 7),UNRESOLVED,runs/v3a_r1_RESULTS.csv,"v1 on the r1 test: all 0.507 (STATUS Stage 4 context line; HANDOFF-2026-10-31.md item 7 'tested once each'). r1 test = r2 test + 1 image; NOT the same benchmark, but re-testing v1 on r2 test needs Ahmed's OK (HANDOFF-claude-code)"
+5,before 2026-10-31 (time UNRESOLVED),v3a_v8n_960_s0,r1_test,pre-STATUS (handoff step 7),UNRESOLVED,runs/v3a_r1_RESULTS.csv,"YOLOv8n r1 run 'tested once each' (HANDOFF-2026-10-31.md item 7); exact run name and time not in a file seen by the cloud session"
+6,2026-11-06 14:35,v3b_C_11n_960_s0_r2,r2_test,Stage 32,VERIFIED,review/metrics_r3/test_r2_final/report.md,final candidate 1 (best single on r2 val); thresholds from val_r2_final; log runs/v3b_C_11n_960_s0_r2_TEST_r2_json.txt
+7,2026-11-06 14:35,WBF_v3b_C_11n_960_s0_r2+v3a_r1_11n_960_s0,r2_test,Stage 32,VERIFIED,review/metrics_r3/test_r2_final/report.md,"final candidate 2, WBF of top-two singles on r2 val; v1 test preds used only as WBF input, v1-alone not reported"
+8,2026-11-06 14:35,v3b_C_11n_960_s0_r2,bd87,Stage 32,VERIFIED,review/metrics_r3/test_bd87_final/report.md,final candidate 1; scored via external_tests/bd87_eval_view; log runs/v3b_C_11n_960_s0_r2_EXT_bd87_json.txt
+9,2026-11-06 14:35,WBF_v3b_C_11n_960_s0_r2+v3a_r1_11n_960_s0,bd87,Stage 32,VERIFIED,review/metrics_r3/test_bd87_final/report.md,final candidate 2; v1 BD87 preds used only as WBF input (v1 alone = use 3)

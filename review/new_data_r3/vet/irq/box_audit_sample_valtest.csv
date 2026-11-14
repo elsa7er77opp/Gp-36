@@ -1,0 +1,49 @@
+id,split,file,part_line,side,verdict,note
+A0,val,IRDD_Img_moblile3009.jpg,0,0.1292,keep,
+A1,test,IRDD_Img_moblile6150.jpg,0,0.0996,uncertain,faint
+A2,val,IRDD_Img_moblile0942.jpg,0,0.0661,uncertain,faint discoloration
+A3,test,IRDD_Img_moblile6276.jpg,0,0.0854,keep,
+A4,val,IRDD_Img_moblile5266.jpg,0,0.0903,keep,
+A5,val,IRDD_Img_moblile5334.jpg,0,0.254,keep,
+A6,val,IRDD_Img_moblile2902.jpg,0,0.1525,uncertain,elongated rough patch
+A7,test,IRDD_Img_moblile6142.jpg,0,0.0688,keep,
+A8,val,IRDD_Img_moblile3034.jpg,1,0.1208,keep,
+A9,val,IRDD_Img_moblile5308.jpg,3,0.0648,uncertain,"wet patch, cavity not visible"
+A10,val,IRDD_Img_moblile3016.jpg,0,0.16,keep,
+A11,val,IRDD_Img_moblile3020.jpg,2,0.1135,keep,
+A12,test,IRDD_Img_moblile6139.jpg,0,0.1368,remove_manhole,round cover-like depression
+A13,val,IRDD_Img_moblile5267.jpg,1,0.0719,remove_not_pothole,"alligator-crack texture, close-up"
+A14,val,IRDD_Img_moblile5306.jpg,4,0.0648,keep,
+A15,val,IRDD_Img_moblile5238.jpg,0,0.1639,keep,
+A16,val,IRDD_Img_moblile5331.jpg,0,0.2124,uncertain,"puddle, cavity not visible"
+A17,val,IRDD_Img_moblile5335.jpg,0,0.2148,uncertain,puddle
+A18,val,IRDD_Img_moblile5315.jpg,0,0.1262,uncertain,puddle
+A19,val,IRDD_Img_moblile2836.jpg,0,0.2015,keep,
+A20,val,IRDD_Img_moblile5227.jpg,0,0.1202,remove_not_pothole,"crack network, no cavity"
+A21,test,IRDD_Img_moblile6270.jpg,0,0.0931,uncertain,"oval outline, patch or cover"
+A22,val,IRDD_Img_moblile2899.jpg,0,0.2763,keep,
+A23,val,IRDD_Img_moblile8422.jpg,0,0.1424,keep,
+A24,val,IRDD_Img_moblile5228.jpg,3,0.1164,keep,
+A25,val,IRDD_Img_moblile6540.jpg,0,0.4163,uncertain,large roadside puddle
+A26,test,IRDD_Img_moblile7044.jpg,1,0.1998,keep,
+A27,val,IRDD_Img_moblile3026.jpg,0,0.167,keep,
+A28,val,IRDD_Img_moblile3030.jpg,0,0.1814,keep,
+A29,val,IRDD_Img_moblile5309.jpg,3,0.0648,uncertain,faint
+A30,test,IRDD_Img_moblile6316.jpg,1,0.0821,uncertain,faint
+A31,test,IRDD_Img_moblile7072.jpg,0,0.2525,keep,
+A32,test,IRDD_Img_moblile7072.jpg,1,0.0993,keep,
+A33,test,IRDD_Img_moblile6136.jpg,0,0.124,keep,
+A34,test,IRDD_Img_moblile7051.jpg,0,0.0778,keep,
+A35,test,IRDD_Img_moblile6109.jpg,0,0.103,keep,
+A36,val,IRDD_Img_moblile6404.jpg,1,0.1092,uncertain,"oval ring, possible cover"
+A37,test,IRDD_Img_moblile5987.jpg,1,0.1862,keep,
+A38,test,IRDD_Img_moblile6077.jpg,0,0.0789,keep,
+A39,test,IRDD_Img_moblile7089.jpg,0,0.0605,keep,
+A40,val,IRDD_Img_moblile6542.jpg,0,0.4162,uncertain,large roadside puddle
+A41,val,IRDD_Img_moblile3024.jpg,2,0.1135,keep,
+A42,val,IRDD_Img_moblile2904.jpg,0,0.1525,uncertain,rough patch
+A43,val,IRDD_Img_moblile2890.jpg,0,0.0827,keep,
+A44,val,IRDD_Img_moblile5268.jpg,1,0.0719,remove_not_pothole,"alligator-crack texture, close-up"
+A45,val,IRDD_Img_moblile3031.jpg,1,0.1135,keep,
+A46,val,IRDD_Img_moblile3044.jpg,0,0.2369,keep,
+A47,test,IRDD_Img_moblile6081.jpg,0,0.1106,uncertain,"oval ring, possible cover"

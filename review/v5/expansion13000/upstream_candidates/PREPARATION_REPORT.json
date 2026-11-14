@@ -1,0 +1,18 @@
+{
+  "candidates": 2623,
+  "videos": 131,
+  "resolution": [
+    960,
+    720
+  ],
+  "transform_counts": {
+    "crop": 2614,
+    "pad": 9
+  },
+  "accepted": 0,
+  "source_annotation_geometry_issue_images": 3,
+  "guard_checks_completed": false,
+  "source_family": "BPO upstream; not independent geography",
+  "status": "prepared_proposals_only",
+  "notes": "Source proposals, NOT visually confirmed labels. Video IDs interleaved to review distinct scenes first. Used canonical frame IDs and protected BPO videos excluded by inventory; full guard/current/within-candidate pixel checks remain mandatory. Source subpixel geometry issues make an image ineligible until full visual relabeling. No training started."
+}

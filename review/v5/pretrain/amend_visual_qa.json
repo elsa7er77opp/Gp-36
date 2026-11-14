@@ -1,0 +1,14 @@
+[
+ {"q":15,"keep":[0,1,2,3,4],"confidence":"low","reason":"Before/after QA: small left marks may contain local material loss. Restore best-available boxes; native pixels do not settle every small defect."},
+ {"q":105,"keep":[0,1],"confidence":"low","reason":"Full original shows a deep left cavity separated by raised asphalt from a long right spalled strip. A single union box is inappropriate; restore two provisional boxes pending exact right-strip boundary adjudication."},
+ {"q":129,"confidence":"low","reason":"Foreground intact alligator cracking excluded, but all distant small cavity boundaries remain uncertain at native resolution."},
+ {"q":135,"keep":[0,1,2],"confidence":"medium","reason":"QA retains foreground prop-filled cavity and two smaller localized asphalt-loss openings, whose dark interior and broken edges are visible. Earlier removal of distant defects reversed."},
+ {"q":333,"keep":[1,2,3,4,5,6,7,8],"confidence":"low","reason":"Remove identifiable utility fitting only. Pale foreground region may be exposed lower road layer rather than a closed repair; retain best-available cavity box pending surface/boundary adjudication."},
+ {"q":344,"keep":[],"confidence":"medium","reason":"Cross-view QA against Q355/Q372/Q377: both transverse and curved features are narrow road cracks, including the right-hand bend; no separate localized cavity."},
+ {"q":355,"keep":[],"confidence":"medium","reason":"Same road as Q344/Q372/Q377: transverse crack and right curved crack do not form a separate pothole."},
+ {"q":359,"keep":[0,2,3,4,5,6,7,8],"confidence":"low","reason":"Remove identifiable utility fitting. Foreground pale material-loss region retained provisionally; repair-versus-cavity interpretation is not independently settled."},
+ {"q":363,"keep":[0,2,3,4,5,6,7,8],"confidence":"low","reason":"Remove utility fitting only. Other exposed-material regions retained provisionally, including foreground; overlapping central boundaries and filled-versus-open status need adjudication."},
+ {"q":364,"confidence":"low","reason":"Foreground coarse aggregate has a broken asphalt boundary and is added as best-available missing cavity; fresh fill versus exposed lower road layer cannot be independently settled."},
+ {"q":369,"keep":[0,1,3,4,5,6,7,8,9],"confidence":"low","reason":"Remove utility cap only. Two foreground boxes on pale material retained provisionally; exact continuity and repair-versus-cavity status remain uncertain."},
+ {"q":370,"keep":[0,1,2,3,4,5,7,8,9],"confidence":"low","reason":"Remove utility cap only; retain foreground pale material-loss boxes provisionally, consistently with Q333/Q359/Q363/Q369."}
+]

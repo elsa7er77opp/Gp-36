@@ -1,0 +1,328 @@
+cand_id,verdict,note
+u00063,uncertain,dark patch on dirt
+u00245,remove_not_hazard,lane marking on smooth asphalt
+u00054,uncertain,roadside puddle edge
+u00194,remove_not_hazard,wet smooth road
+u00233,remove_not_hazard,smooth road near hood reflection
+u00243,uncertain,curb debris
+u00009,uncertain,blurred dirt with glare
+u00171,uncertain,rough patch
+u00087,remove_not_hazard,windshield reflection on smooth road
+u00164,uncertain,puddle and reflection
+u00094,remove_not_hazard,windshield reflection streak
+u00107,remove_not_hazard,smooth road near hood
+u00337,uncertain,wet broken surface
+u00235,remove_not_hazard,smooth asphalt
+u00268,uncertain,puddle
+u00275,remove_not_hazard,hood edge
+u00109,uncertain,puddle at broken edge
+u00144,remove_not_hazard,wet road over hood reflection
+u00247,remove_not_hazard,road near cracks only
+u00005,remove_not_hazard,smooth road
+u00072,remove_not_hazard,flat dirt ground far
+u00143,remove_not_hazard,wet smooth road
+u00174,uncertain,dark patch near hood
+u00237,uncertain,small dark spot
+u00124,uncertain,blurred sand
+u00006,remove_not_hazard,road edge smooth
+u00008,uncertain,blurred dirt
+u00103,remove_not_hazard,hood reflection area
+u00315,remove_not_hazard,smooth road
+u00170,uncertain,dirt shoulder stones
+u00327,remove_not_hazard,smooth road
+u00084,remove_not_hazard,hood reflection area
+u00125,uncertain,blurred sand
+u00261,remove_not_hazard,smooth road near crossing
+u00269,uncertain,puddle
+u00010,uncertain,dirt with reflection
+u00000,uncertain,far roadside object
+u00126,uncertain,blurred surface
+u00212,uncertain,blurred marks
+u00319,uncertain,wet sheen
+u00329,uncertain,sandy road faint
+u00098,remove_not_hazard,wet smooth road
+u00314,uncertain,muddy puddle edge
+u00059,uncertain,rubble edge
+u00029,remove_not_hazard,wet road reflection spot
+u00040,remove_not_hazard,road edge near car
+u00116,remove_not_hazard,smooth road with crack line
+u00253,remove_not_hazard,smooth road
+u00102,remove_not_hazard,faint marks near hood
+u00202,remove_not_hazard,hood edge
+u00051,remove_not_hazard,road edge with windshield smear
+u00131,uncertain,small dark spot
+u00234,uncertain,rough patch
+u00267,uncertain,shoulder dark patch
+u00321,remove_not_hazard,tree shadows
+u00049,uncertain,dark spot in shadow
+u00085,remove_not_hazard,road near hood
+u00149,uncertain,puddles on dirt
+u00157,remove_not_hazard,gutter and grass
+u00236,remove_not_hazard,smooth asphalt near hood
+u00240,remove_not_hazard,reflection area
+u00081,uncertain,blurred water
+u00086,uncertain,faint dark marks
+u00056,uncertain,wet patch
+u00137,remove_not_hazard,hood edge
+u00228,uncertain,small dark spot
+u00047,remove_not_hazard,shadow blur
+u00091,drop_image,real pothole but box covers only its lower half
+u00003,uncertain,blurred patches
+u00052,uncertain,rough edge far
+u00088,remove_not_hazard,road near hood reflection
+u00037,remove_not_hazard,blurred reflection
+u00039,keep,patchy road with pothole
+u00188,uncertain,small roadside object
+u00249,uncertain,dirt ruts
+u00260,uncertain,debris near bumper
+u00255,keep,broken road potholes
+u00303,keep,clear pothole
+u00106,remove_not_hazard,hood area
+u00297,uncertain,small dark spot
+u00002,remove_not_hazard,wet smooth road
+u00185,uncertain,far broken area
+u00205,remove_not_hazard,curb and grass
+u00310,uncertain,broken road near bike
+u00179,uncertain,puddle on broken road
+u00024,uncertain,roadside puddle edge
+u00127,uncertain,blurred
+u00270,uncertain,puddle across road
+u00262,uncertain,rough patch near hood
+u00186,uncertain,puddle with reflection
+u00148,uncertain,puddle on dirt
+u00175,keep,water-filled pothole
+u00279,uncertain,far small spot
+u00016,uncertain,blurred broken surface
+u00053,uncertain,broken road ahead
+u00133,uncertain,dark patch near hood
+u00211,uncertain,far dirt road
+u00099,remove_not_hazard,mirror and handlebar region
+u00324,uncertain,dark wet road
+u00130,uncertain,broken wet surface
+u00153,keep,potholes in wet road
+u00305,remove_not_hazard,shoulder with pole shadow
+u00301,uncertain,road texture
+u00114,keep,small pothole
+u00111,keep,water-filled pothole on dirt
+u00142,remove_not_hazard,wet road splash
+u00338,uncertain,puddle at edge
+u00096,uncertain,debris patches
+u00105,remove_not_hazard,hood area faint marks
+u00307,remove_not_hazard,smooth road with crack
+u00152,uncertain,small mark
+u00101,uncertain,night wet far
+u00330,uncertain,blurred surface
+u00036,uncertain,roadside drain edge
+u00147,keep,broken edge with puddle
+u00309,uncertain,small dark mark
+u00110,uncertain,small patches
+u00083,remove_not_hazard,smooth road at hood edge
+u00300,keep,small broken patch
+u00333,uncertain,blurred broken surface
+u00244,remove_not_hazard,road near curb
+u00316,uncertain,blurred near hood
+u00089,uncertain,small dark spot
+u00276,uncertain,roadside dirt
+u00061,uncertain,roadside rubble
+u00138,remove_not_hazard,hood area
+u00012,uncertain,dark spot tinted
+u00258,uncertain,glare
+u00207,keep,broken wet road
+u00014,uncertain,far patch
+u00129,uncertain,sandy blur
+u00280,keep,pothole patch
+u00277,uncertain,small mark
+u00299,uncertain,rough patch
+u00336,keep,broken strip
+u00184,uncertain,far dirt
+u00141,uncertain,wet patch
+u00038,remove_not_hazard,night headlight blur
+u00042,keep,puddle pothole area
+u00312,uncertain,small spot between cars
+u00066,uncertain,wet glare
+u00208,keep,broken surface
+u00162,keep,far broken road
+u00271,uncertain,puddle
+u00259,remove_not_hazard,smooth strip near hood
+u00192,keep,broken muddy road
+u00113,keep,broken road potholes
+u00176,uncertain,puddle
+u00232,uncertain,dark blur
+u00104,remove_not_hazard,hood area
+u00224,uncertain,blurred sand
+u00326,remove_not_hazard,smooth road
+u00335,uncertain,rough sandy road
+u00254,uncertain,broken surface
+u00308,uncertain,puddle on hatched road
+u00076,uncertain,sandy
+u00206,uncertain,far broken road
+u00193,keep,clear pothole
+u00283,uncertain,wet blur
+u00044,uncertain,far strip
+u00031,uncertain,dark blur
+u00190,uncertain,small spot near grate
+u00077,uncertain,flooded road
+u00238,uncertain,small spot near hood
+u00069,uncertain,wet glare
+u00323,uncertain,dark wet
+u00033,uncertain,wet blur
+u00121,uncertain,sandy
+u00060,uncertain,roadside rubble
+u00217,uncertain,wet broken road
+u00328,remove_not_hazard,hose on shoulder by curb
+u00004,keep,far potholes
+u00035,uncertain,roadside dirt puddle
+u00222,uncertain,blur
+u00223,uncertain,blur
+u00200,keep,dark puddle pothole
+u00221,uncertain,blurred sand
+u00108,remove_not_hazard,hood area
+u00019,uncertain,blurred broken road
+u00156,uncertain,small mark
+u00248,remove_not_hazard,crack only
+u00011,uncertain,patched spot
+u00015,uncertain,far crack strip
+u00229,uncertain,small spot
+u00112,remove_not_hazard,smooth strip
+u00191,uncertain,broken edge
+u00273,keep,broken roadside
+u00180,uncertain,puddle
+u00263,uncertain,wet broken
+u00265,uncertain,patch with crack
+u00055,uncertain,broken roadside
+u00057,remove_not_hazard,crack line only
+u00274,keep,broken edge
+u00227,uncertain,sandy
+u00064,uncertain,water near hand
+u00135,uncertain,roadside dirt edge
+u00294,uncertain,broken wet
+u00293,uncertain,broken wet
+u00021,keep,small hole
+u00168,keep,broken patch
+u00067,remove_not_hazard,glare and helmet edge
+u00123,uncertain,blur
+u00163,uncertain,far broken
+u00246,uncertain,crack strip next to patched area
+u00041,uncertain,night
+u00317,remove_not_hazard,drain strip by curb
+u00118,keep,potholes
+u00026,keep,muddy pothole
+u00169,remove_not_hazard,curb and grass edge
+u00198,remove_not_hazard,glare spot wet road
+u00230,uncertain,wet broken
+u00282,uncertain,wet
+u00020,keep,broken patches
+u00070,uncertain,wet glare
+u00196,uncertain,off-road plaza
+u00183,uncertain,wet near handle
+m00653,drop_image,painted bump visible at bottom unlabelled
+m00915,no_hazard,smooth road
+m00651,no_hazard,far painted bump at top edge (far range left as built)
+m00936,no_hazard,smooth road with hood shadow
+m00912,no_hazard,smooth road
+m00436,no_hazard,manhole (not pothole by D-rules)
+m00799,no_hazard,zebra crossing
+m00774,uncertain,grainy dark shape
+m00766,drop_image,clear pothole unlabelled
+m00743,uncertain,dark band across lane
+m00578,no_hazard,manhole
+m00787,no_hazard,zebra crossing
+m00754,no_hazard,manhole patch at night
+m00868,uncertain,grainy dark shape
+m00673,no_hazard,zebra crossing
+m00417,no_hazard,manhole with broken surround
+m01014,uncertain,dark patch
+m00752,no_hazard,zebra crossing
+m00476,uncertain,small patch in closeup
+m00652,drop_image,painted bump visible at bottom unlabelled
+m00984,uncertain,rectangular patch
+m00932,no_hazard,smooth road
+m00947,uncertain,dark strip on path
+m00942,uncertain,dark strip
+m00941,uncertain,dark strip
+m00398,no_hazard,manhole
+m00658,uncertain,grainy puddles
+m01087,no_hazard,drain grate
+m00437,no_hazard,plastic bag on road
+m00948,uncertain,dark strip
+m01082,no_hazard,drain grate
+m00523,no_hazard,manhole
+m00412,uncertain,wet broken patch
+m00946,uncertain,dark strip
+m00961,no_hazard,drain grate
+m00979,no_hazard,drain grate
+m00394,no_hazard,manhole in patch
+m00764,drop_image,unlabelled pothole patches
+m00943,no_hazard,road near scooter
+m00981,drop_image,unlabelled pothole
+m00873,drop_image,unlabelled pothole
+m00828,drop_image,unlabelled pothole
+m01086,no_hazard,drain grate
+m00908,uncertain,painted lines across lane at night
+m00025,uncertain,puddle
+m00690,uncertain,thin line far
+m00996,no_hazard,drain grate
+m00880,drop_image,unlabelled pothole
+m00883,uncertain,grainy dark hole
+m00825,drop_image,unlabelled shallow pothole
+m00429,uncertain,broken area next to manhole
+m00351,drop_image,unlabelled water-filled pothole
+m00765,uncertain,elongated crack or pothole
+m00423,drop_image,unlabelled pothole edge
+m00698,drop_image,unlabelled pothole
+m00663,uncertain,small rough patch
+m00678,drop_image,unlabelled pothole
+m00792,drop_image,unlabelled shallow pothole
+m01010,no_hazard,drain grate
+m00933,no_hazard,smooth road
+m00425,no_hazard,drain grate
+m00560,no_hazard,building wall
+m00689,drop_image,unlabelled pothole
+m00886,uncertain,small dark mark
+m00407,no_hazard,manhole grate
+m00430,no_hazard,small crack mark
+m01042,no_hazard,road between cars
+m00533,uncertain,small patch
+m00626,uncertain,small edge patch
+m00369,uncertain,dark wet strip
+m01064,no_hazard,drain grate
+m00405,drop_image,unlabelled pothole
+m01056,no_hazard,drain grate
+m00851,no_hazard,zebra crossing
+m00166,uncertain,blur
+m01097,uncertain,patched spot
+m01093,no_hazard,asphalt patches
+m00468,drop_image,unlabelled pothole
+m00401,no_hazard,manhole
+m00747,uncertain,oval patch
+m00353,uncertain,rough patch
+m00444,drop_image,unlabelled water pothole
+m01045,no_hazard,road between cars
+m00418,no_hazard,crack
+m01105,uncertain,patch on lane marking
+m00677,uncertain,alligator cracks
+m00844,uncertain,rough patch near wiper
+m00440,uncertain,hatched marking far
+m00630,uncertain,faint
+m01033,drop_image,unlabelled pothole
+m00264,uncertain,blur
+m00931,uncertain,crack line at night
+m00375,uncertain,possible pothole at night
+m00616,uncertain,faint
+m00966,no_hazard,manhole
+m00577,uncertain,cracks
+m00034,no_hazard,glare
+m00951,no_hazard,drain grate
+m00945,uncertain,far strip
+m00894,drop_image,unlabelled pothole
+m00944,uncertain,strip
+m00610,drop_image,unlabelled pothole
+m01051,uncertain,wet patch
+m00167,uncertain,blur
+m00622,drop_image,unlabelled pothole
+m01026,uncertain,broken crack patch
+m00050,uncertain,wet road
+m00416,drop_image,unlabelled small pothole
+m00434,uncertain,broken patch
+m00755,uncertain,possible raised strip far
+m01096,uncertain,small far spot

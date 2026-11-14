@@ -1,0 +1,50 @@
+{
+ "name": "ens",
+ "root": "<rf_ensam export root>",
+ "images": 884,
+ "labelled": 884,
+ "class_id_counts": {
+  "0": 941,
+  "1": 51
+ },
+ "data_yaml_names": {
+  "data.yaml": [
+   "0",
+   "1"
+  ]
+ },
+ "licence_lines": [],
+ "roboflow_bases": 801,
+ "images_per_base": {
+  "1": 774,
+  "4": 4,
+  "6": 4,
+  "5": 3,
+  "3": 8,
+  "2": 5,
+  "7": 3
+ },
+ "near_dup_clusters": 772,
+ "images_per_cluster": {
+  "1": 700,
+  "3": 20,
+  "7": 1,
+  "4": 6,
+  "2": 44,
+  "5": 1
+ },
+ "known_families": {
+  "Image000xx / Image-N- (rf8 / sb15 family)": 246,
+  "newonetrwww (sub5 family)": 15,
+  "speedbreakerrefinedone (rejected family)": 81
+ },
+ "leak_hits_eval": 89,
+ "leak_hits_r2_train": 26,
+ "leak_eval_by_protected_set": {
+  "val:rf8": 89
+ },
+ "leak_eval_by_family": {
+  "Image000xx / Image-N- (rf8 / sb15 family)": 89
+ },
+ "hint": "REJECT or exclude the hit families (eval leak)"
+}

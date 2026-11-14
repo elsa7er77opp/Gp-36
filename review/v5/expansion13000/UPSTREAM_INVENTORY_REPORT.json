@@ -1,0 +1,22 @@
+{
+  "catalog_unique_frames": 4251,
+  "high_resolution_unused_candidate_frames": 2623,
+  "candidate_video_ids": 131,
+  "frames_from_new_video_ids": 1350,
+  "protected_bpo_video_ids": 26,
+  "current_bpo_train_video_ids": 53,
+  "current_and_protected_video_overlap": [],
+  "rejected": {
+    "already_used_frame_identity": 442,
+    "protected_bpo_video": 961,
+    "no_explicit_video_id": 7,
+    "no_higher_resolution_copy": 218
+  },
+  "accepted_images": 0,
+  "limitations": "Inventory only. BPO upstream is the same dataset family, not independent geography. Do not include same canonical frame twice. Every candidate still needs source/standardized eight-transform checks against current and protected data, within-candidate dedup, visual relabeling and final 960x720 geometry. Original export splits are image-level and not adopted. Keep these videos train-only, outside all protected BPO videos.",
+  "source_label_counts": {
+    "empty_source": 2193,
+    "positive_source": 430
+  },
+  "source_empty_labels_are_not_verified_negatives": true
+}
